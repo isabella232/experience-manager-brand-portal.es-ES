@@ -10,7 +10,7 @@ content-type: referencia
 topic-tags: descarga de descarga
 discoiquuid: e 18 d 992 a-a 3 b 5-45 f 2-9696-8161993213 ee
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
 
 ---
 
@@ -115,13 +115,10 @@ Para configurar las configuraciones de Dynamic Media en inquilinos de Brand Port
 
 1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas desde la barra de herramientas de la parte superior, en Brand Portal.
 
-2. En el panel de herramientas administrativas, seleccione el mosaico **[!UICONTROL Vídeo]** .
-
-![Configuración híbrida de Dynamic Media en Brand Portal](assets/DMHybrid-Video.png)
-
-**[!UICONTROL Se abre la página Editar configuración]** de Dynamic Media.
-
-![Configuración híbrida de Dynamic Media en Brand Portal](assets/edit-dynamic-media-config.png)
+2. En el panel de herramientas administrativas, seleccione el mosaico **[!UICONTROL Vídeo]** .<br />
+   ![Configuración híbrida de Dynamic Media en Brand Portal](assets/DMHybrid-Video.png)
+   **[!UICONTROL Se abre la página Editar configuración]** de Dynamic Media.<br />
+   ![Configuración híbrida de Dynamic Media en Brand Portal](assets/edit-dynamic-media-config.png)
 
 3. Especifique **[!UICONTROL la ID de registro]** y la URL del servicio **[!UICONTROL de vídeo]** (URL de puerta de enlace DM-Gateway). Asegúrese de que estos detalles son los mismos que los de **[!UICONTROL Herramientas &gt; Cloud Services]** en su instancia de AEM Author.
 
@@ -135,12 +132,10 @@ Para configurar las configuraciones [!UICONTROL de Scene 7] Scene 7 en inquilino
 
 1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas desde la barra de herramientas de la parte superior, en Brand Portal.
 
-2. En el panel de herramientas administrativas, seleccione **[!UICONTROL el mosaico Configuración]** de Dynamic Media.
+2. En el panel de herramientas administrativas, seleccione **[!UICONTROL el mosaico Configuración]** de Dynamic Media.<br />
    ![Configuración de Scene [!UICONTROL 7] en Brand Portal](assets/DMS7-Tile.png)
-
-[!UICONTROL Se abre la página Editar configuración] de Dynamic Media.
-
-![Configuración de Scene 7 en Brand Portal](assets/S7Config.png)
+   [!UICONTROL Se abre la página Editar configuración] de Dynamic Media.<br />
+   ![Configuración de Scene 7 en Brand Portal](assets/S7Config.png)
 
 3. Proporcionar:
    * [!UICONTROL Título]
