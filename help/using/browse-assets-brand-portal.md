@@ -9,16 +9,16 @@ content-type: referencia
 topic-tags: introducción
 discoiquuid: a 70 ce 694-81 d 1-4829-9 e 61-b 6412 e 013 e 5 c
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Navegación por recursos en Brand Portal {#browsing-assets-on-brand-portal}
 
-[!DNL AEM] Recursos [! DNL Brand Portal proporciona varias funciones y elementos de interfaz de usuario que facilitan la navegación a través de recursos, las jerarquías de recursos de recorrido y la búsqueda de recursos al utilizar distintas opciones de visualización.
+AEM Assets Brand Portal proporciona varias funciones y elementos de interfaz de usuario que facilitan la navegación a través de recursos, las jerarquías de recursos de recorrido y la búsqueda de recursos mientras utilizan distintas opciones de visualización.
 
-[!DNL AEM] en la [!DNL AEM] barra de herramientas en la parte superior, facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
+El logotipo de AEM en la barra de herramientas de AEM en la parte superior facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
 
 ![](assets/aemlogo.png)
 
@@ -26,17 +26,17 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 
 ![](assets/bp_subheader.png)
 
-Selector de raíl en la esquina superior izquierda de [!DNL Brand Portal] las listas desplegables para exponer las jerarquías de recursos, optimizar la búsqueda y mostrar recursos.
+El selector de raíl situado en la esquina superior izquierda de Brand Portal despliega opciones para explorar las jerarquías de recursos, optimizar la búsqueda y mostrar recursos.
 
 ![](assets/siderail-1.png)
 
-Puede ver, navegar y seleccionar recursos utilizando cualquiera de las vistas disponibles (Tarjeta, Columna y Lista) en el selector de vista de la esquina superior derecha de [!DNL Brand Portal]la.
+Puede ver, navegar y seleccionar recursos utilizando cualquiera de las vistas disponibles (Tarjeta, Columna y Lista) en el selector de vista de la esquina superior derecha de Brand Portal.
 
 ![](assets/viewselector.png)
 
 ## Visualización y selección de los recursos {#viewing-and-selecting-resources}
 
-Conceptualmente, la visualización, navegación y selección son lo mismo en todas las vistas, pero tienen pequeñas variaciones en el manejo, dependiendo de la vista que utilice.
+Conceptualmente, la visualización, navegación y selección son iguales en todas las vistas, pero tienen pequeñas variaciones en el manejo, dependiendo de la vista que utilice.
 
 Puede ver, navegar y seleccionar (para efectuar una acción posterior) sus recursos con cualquiera de las vistas disponibles:
 
@@ -54,7 +54,7 @@ La vista de tarjeta muestra tarjetas de información para cada elemento del nive
 * Tipo
 * Título
 * Nombre
-* Fecha y hora en la que se publicó [!DNL Brand Portal] el recurso [!DNL AEM]
+* Fecha y hora en la que el recurso se publicó en Brand Portal desde AEM
 * Tamaño
 * Dimensiones
 
@@ -67,7 +67,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 Las tarjetas de carpetas, en Vista de tarjeta, muestran la información de jerarquía de carpetas a usuarios no administradores (Editor, Visor y Usuario invitado). Esta funcionalidad permite que los usuarios conozcan la ubicación de las carpetas, en relación con la jerarquía principal.
 La información de jerarquía de carpetas es especialmente útil para diferenciar las carpetas con nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios no administradores no conocen la estructura de carpetas de los recursos compartidos, los recursos /folders con nombres similares parecen confusos.
 
-* Las rutas mostradas en las tarjetas respectivas se truncan para ajustarse a los tamaños de la tarjeta. Sin embargo, los usuarios pueden ver la ruta completa como un título de herramienta sobre la ruta truncada.
+* Las rutas mostradas en las tarjetas respectivas se truncan para ajustarse a los tamaños de la tarjeta. Sin embargo, los usuarios pueden ver la ruta completa como una sugerencia al pasar el ratón por encima de la ruta truncada.
 
 ![](assets/folder-hierarchy1.png)
 
@@ -75,10 +75,10 @@ La información de jerarquía de carpetas es especialmente útil para diferencia
 
 La opción Información general está disponible para usuarios no administradores (editores, usuarios invitados, usuarios invitados) para ver propiedades de recursos de carpetas o recursos seleccionados. La opción Información general está visible:
 
-1. En la barra de herramientas situada en la parte superior de la selección de un recurso o carpeta.
-2. En la lista desplegable de selección del Selector de raíl.
+* en la barra de herramientas situada en la parte superior de la selección de un recurso o carpeta.
+* en la lista desplegable de selección del Selector de carril.
 
-Al seleccionar la opción Información general mientras se selecciona un recurso o carpeta, los usuarios pueden ver el título, la ruta y la hora de creación de recursos. En cambio, en la página de detalles del recurso, la opción Información general permite que los usuarios vean metadatos del recurso.
+Al seleccionar [!UICONTROL la] opción Información general mientras se selecciona un recurso o carpeta, los usuarios pueden ver el título, la ruta y la hora de creación de recursos. En cambio, en la página de detalles del recurso, la opción Información general permite que los usuarios vean metadatos del recurso.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ Al seleccionar la opción Información general mientras se selecciona un recurso
 
 #### Ver los ajustes en la vista de tarjeta
 
-El cuadro de diálogo Configuración de visualización se abre en la selección de Configuración de ver en el selector de vista. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjeta. De esta forma, puede personalizar la vista y controlar el número de miniaturas que se muestran.
+[!UICONTROL El cuadro de] diálogo Configuración de visualización se abre en la selección **[!UICONTROL de Configuración]** de ver en el selector de vista. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjeta. De esta forma, puede personalizar la vista y controlar el número de miniaturas que se muestran.
 
 ![](assets/cardviewsettings.png)
 
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Ver los ajustes en la vista de lista
 
-La vista de lista muestra **el nombre del recurso** como la primera columna de forma predeterminada. También se muestran información adicional como Título del recurso, Configuración regional, Tipo, Dimensiones, Tamaño, Clasificación, Estado de publicación. Sin embargo, puede seleccionar las columnas que se mostrarán mediante Configuración de visualización.
+La vista de lista muestra [!UICONTROL el nombre del recurso] como la primera columna de forma predeterminada. También se muestran información adicional como [!UICONTROL Título del recurso], [!UICONTROL Configuración regional], [!UICONTROL Tipo], [!UICONTROL Dimensiones], [!UICONTROL Tamaño], [!UICONTROL Clasificación], estado de publicación. However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -139,7 +139,7 @@ Cuando se selecciona un recurso en la vista de columna, la representación visua
 * Título
 * Nombre
 * Dimensiones
-* Fecha y hora en la que se publicó [!DNL Brand Portal] el recurso [!DNL AEM]
+* Fecha y hora en la que el recurso se publicó en Brand Portal desde AEM
 * Tamaño
 * Tipo
 * Más detalles, para ir a la página de detalles del recurso
@@ -232,7 +232,7 @@ Comment Type: draft
 
 Además de estas vistas, utilice la vista de árbol para desplazarse por la jerarquía de recursos mientras ve y selecciona los recursos o carpetas deseados.
 
-Para abrir la vista de árbol, toque o haga clic en el selector de raíl en la esquina superior izquierda y seleccione el árbol **de contenido** en el menú.
+Para abrir la vista de árbol, toque o haga clic en el selector de raíl en la esquina superior izquierda y seleccione el árbol **[!UICONTROL de contenido]** en el menú.
 
 ![](assets/contenttree.png)
 
@@ -246,7 +246,7 @@ La página de detalles del recurso le permite ver un recurso, descargar, compart
 
 ![](assets/asset-detail.png)
 
-Para obtener información general de los metadatos del recurso o ver sus representaciones, utilice el selector de carril en la página de detalles del recurso.
+Para ver los metadatos del recurso o ver sus representaciones, utilice el selector de carril en la página de detalles del recurso.
 
 ![](assets/asset-overview.png)
 
@@ -254,8 +254,8 @@ Puede ver todas las representaciones disponibles del recurso en la página de de
 
 ![](assets/renditions.png)
 
-Para abrir la página Propiedades del recurso, utilice *la opción Propiedades (p)* en la barra superior.
+Para abrir la página Propiedades del recurso, utilice **[!UICONTROL la opción Propiedades (p)]** de la barra superior.
 
 ![](assets/asset-properties.png)
 
-También puede ver una lista de todos sus recursos relacionados (origen o recursos derivados en AEM) en la página de propiedades de un recurso, ya que también se publica la relación [!DNL AEM][!DNL Brand Portal]de recursos.
+También puede ver una lista de todos sus recursos relacionados (origen o recursos derivados en AEM) en la página de propiedades de un recurso, ya que la relación de recursos también se publica desde AEM a Brand Portal.
