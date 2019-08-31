@@ -9,7 +9,7 @@ topic-tags: administración
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: a 512 dfa 0-fef 3-4 c 3 f-a 389-a 0 a 3 a 7415 bac
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -42,8 +42,6 @@ El modo Híbrido de Dynamic Media debe estar activado en AEM (autor) para crear 
 
 1. En la barra de herramientas de AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
 
-   ![](assets/AEMlogo.png)
-
 2. En el panel de herramientas administrativas, haga clic en Ajustes preestablecidos **[!UICONTROL de imagen]**.
 
    ![](assets/admin-tools-panel-4.png)
@@ -63,7 +61,7 @@ El modo Híbrido de Dynamic Media debe estar activado en AEM (autor) para crear 
 5. Haga clic en **[!UICONTROL Guardar]**. El ajuste preestablecido de imagen se crea y muestra en la página de ajustes preestablecidos de imagen.
 6. Para eliminar un ajuste preestablecido de imagen, selecciónelo en la página de ajustes preestablecidos de imagen y haga clic **[!UICONTROL en Eliminar]**. En la página de confirmación, haga clic **[!UICONTROL en Eliminar]** para confirmar la eliminación. El ajuste preestablecido de imagen se quita de la página de ajustes preestablecidos de imagen.
 
-## Aplicación de ajustes preestablecidos de imagen al previsualizar imágenes {#apply-image-presets-when-previewing-images}
+## Aplicación de ajustes preestablecidos de imagen al previsualizar imágenes  {#apply-image-presets-when-previewing-images}
 
 Al obtener una vista previa de las imágenes y sus representaciones, elija entre los ajustes preestablecidos existentes para dar formato a las imágenes según las especificaciones establecidas por el administrador.
 
