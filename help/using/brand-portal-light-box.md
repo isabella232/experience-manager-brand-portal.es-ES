@@ -9,20 +9,20 @@ products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 topic-tags: descarga de descarga
 discoiquuid: ed 79 b 120-a 1 c 1-479 c-a 843-6546 dcc 660 d 7
 translation-type: tm+mt
-source-git-commit: 32c3cdb8e3fafd74cfb36e6bcfe0811e7152b2d0
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Administrar la colección Lightbox {#manage-the-lightbox-collection}
 
-[!DNL lightbox] es un tipo especial de colección que facilita el acceso a los recursos. Cada usuario tiene una exclusiva [!DNL lightbox] que se crea automáticamente cuando inician sesión por [!DNL Brand Portal] primera vez. La [!DNL lightbox] colección no se puede eliminar.
+[!UICONTROL Lightbox] es un tipo especial de colección que facilita el acceso a los recursos. Cada usuario tiene una [!UICONTROL Lightbox] exclusiva que se crea automáticamente cuando inician sesión en Brand Portal por primera vez. La colección [!UICONTROL Lightbox] no se puede eliminar.
 
 ## Agregar recursos a Lightbox {#add-assets-to-lightbox}
 
-Para agregar recursos, [!DNL lightbox]haga lo siguiente:
+Para agregar recursos a [!UICONTROL Lightbox], haga lo siguiente:
 
-1. Navegue a la ubicación de los recursos a los que desee agregar [!DNL lightbox]y seleccione los recursos.
+1. Navegue a la ubicación de los recursos que desee agregar a [!UICONTROL Lightbox]y seleccione los recursos.
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -30,30 +30,30 @@ Para agregar recursos, [!DNL lightbox]haga lo siguiente:
 
    ![](assets/add_to_collection.png)
 
-3. En la página **Agregar a la colección** , [!DNL lightbox] la colección está seleccionada de forma predeterminada.
+3. En la página **[!UICONTROL Agregar a la colección]** , la colección [!UICONTROL Lightbox] está seleccionada de forma predeterminada.
 
-   Haga clic en **Agregar**. Se agregan los recursos seleccionados [!DNL lightbox].
+   Haga clic en **[!UICONTROL Agregar]**. Los recursos seleccionados se agregan a [!UICONTROL Lightbox].
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. Para revisar los recursos añadidos, [!DNL lightbox]haga clic **en Colecciones** en la barra de la izquierda y, a continuación, haga clic en [!DNL lightbox] la colección.
+4. Para revisar los recursos añadidos a [!UICONTROL Lightbox], haga clic **[!UICONTROL en Colecciones]** en la barra de la izquierda y, a continuación, haga clic en la colección **[!UICONTROL Lightbox]** .
 
    ![](assets/collections_lightbox.png)
 
-   Los recursos agregados [!DNL lightbox] aparecerán en [!DNL lightbox] la página.
+   Los recursos añadidos a [!UICONTROL Lightbox] aparecen en la página [!UICONTROL Lightbox] .
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Eliminación de recursos de Lightbox {#remove-assets-from-lightbox}
 
-1. Para revisar los recursos, [!DNL lightbox]haga clic **en Colecciones** en el carril izquierdo y, a continuación, haga clic en [!DNL lightbox] la colección.
+1. Para revisar los recursos en [!UICONTROL Lightbox], haga clic **[!UICONTROL en Colecciones]** en el carril izquierdo y, a continuación, haga clic en la colección [!UICONTROL Lightbox] .
 
    ![](assets/collections_lightbox-1.png)
 
-2. Seleccione la carpeta que desee eliminar de la colección y, a continuación, haga clic **en Eliminar** de la barra de herramientas situada en la parte superior.
+2. Seleccione la carpeta que desee eliminar de la colección y, a continuación, haga clic **[!UICONTROL en Eliminar]** de la barra de herramientas situada en la parte superior.
 
    ![](assets/collections_lightboxdelete.png)
 
-3. En el cuadro de mensaje de advertencia, haga clic **en Quitar** para confirmar la eliminación.
+3. En el cuadro de mensaje de advertencia, haga clic **[!UICONTROL en Quitar]** para confirmar la eliminación.
 
-La carpeta se elimina de [!DNL lightbox] la colección.
+La carpeta se elimina de la colección [!UICONTROL Lightbox] .
