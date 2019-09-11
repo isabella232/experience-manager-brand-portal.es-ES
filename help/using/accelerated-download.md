@@ -10,7 +10,7 @@ content-type: referencia
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: 301 f 7 a 0 b -5527-4 aac-b 731-bfc 145 alimentado 0 c 0
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
