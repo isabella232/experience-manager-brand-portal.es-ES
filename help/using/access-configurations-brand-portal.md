@@ -1,37 +1,37 @@
 ---
-title: Administrar el acceso de usuario en Brand Portal
-seo-title: Administrar el acceso de usuario en Brand Portal
-description: Configure el acceso de invitados y los nuevos usuarios en el portal de marca.
-seo-description: Configure el acceso de invitados y los nuevos usuarios en el portal de marca.
-uuid: 522 b 499 d -33 a 0-455 f-ac 7 e -719 face 48009
+title: Administrar el acceso de los usuarios en Brand Portal
+seo-title: Administrar el acceso de los usuarios en Brand Portal
+description: Configure el acceso de los invitados y el acceso de los usuarios nuevos en el portal de marca.
+seo-description: Configure el acceso de los invitados y el acceso de los usuarios nuevos en el portal de marca.
+uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
 topic-tags: administración
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
-discoiquuid: 393025 b 4-722 d -4 e 81-8 a 47-f 83415 d 0 b 9 b 6
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# Administrar el acceso de usuario en Brand Portal {#administer-user-access-on-brand-portal}
+# Administrar el acceso de los usuarios en Brand Portal {#administer-user-access-on-brand-portal}
 
-AEM Assets Brand Portal 6.4.2, adelante, autoriza a los administradores a configurar el acceso de invitados y permitir a los usuarios solicitar acceso en Brand Portal de su organización. Estas configuraciones se han proporcionado como [!UICONTROL configuraciones de Ajustes] de acceso en el panel administrativo. Ambas opciones están deshabilitadas de forma predeterminada.
+A partir de la versión 6.4.2, AEM Assets Brand Portal autoriza a los administradores a configurar el acceso de los invitados y permitir que los usuarios soliciten acceso a Brand Portal de su organización. Estas configuraciones se han proporcionado como configuraciones de [!UICONTROL Access Settings] en el panel administrativo. Ambas configuraciones están deshabilitadas de forma predeterminada.
 
 ![](assets/access-configs.png)
 
-**Una** configuración para permitir acceso invitado a Brand Portal mediante [!UICONTROL el acceso invitado?] en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está deshabilitado)
+**¿Una** configuración que permita el acceso de los invitados a Brand Portal mediante el acceso de [!UICONTROL invitados?] en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está desactivado)
 
-**Configuración B** para permitir a los usuarios solicitar acceso a Brand Portal utilizando [!UICONTROL ¿Necesita acceso?] en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está deshabilitado)
+**B** Configuración que permite a los usuarios solicitar acceso a Brand Portal mediante [!UICONTROL Necesita acceso?] en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está desactivado)
 
 ## Permitir el acceso de invitados {#allow-guest-access}
 
-Para permitir el acceso de los invitados en Brand Portal, de modo que los usuarios no deban iniciar sesión para acceder a los recursos públicos, los administradores deben:
+Para permitir el acceso de los invitados a Brand Portal, de modo que los usuarios no tengan que iniciar sesión para acceder a los recursos públicos, los administradores deben:
 
-1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, desde la barra de herramientas situada en la parte superior.
-2. En el panel de herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir **[!UICONTROL la página Configuración]** de acceso.
-3. Habilite la configuración **[!UICONTROL Permitir acceso]** de invitados.
+1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
+2. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página Configuración **[!UICONTROL de]** acceso.
+3. Active la configuración **[!UICONTROL Permitir acceso]** de invitado.
 4. **[!UICONTROL Guarde los cambios.]**
 5. Cierre la sesión para que los cambios surtan efecto.
 
@@ -39,12 +39,12 @@ Para permitir el acceso de los invitados en Brand Portal, de modo que los usuari
 
 ## Permitir a los usuarios que soliciten acceso {#allow-users-to-request-access}
 
-Los administradores pueden permitir que los usuarios de la organización soliciten acceso a Brand Portal desde la pantalla de bienvenida. Sin embargo, los administradores deben habilitar **[!UICONTROL la configuración Permitir acceso]** a los usuarios para que el vínculo de acceso a la solicitud aparezca en la pantalla de bienvenida.
+Los administradores pueden permitir que los usuarios de la organización soliciten acceso a Brand Portal desde la pantalla de bienvenida. Sin embargo, los administradores deben habilitar la configuración **[!UICONTROL Permitir que los usuarios soliciten acceso]** para que el vínculo de acceso de la solicitud aparezca en la pantalla de bienvenida.
 
-Para permitir a los usuarios de la organización solicitar el acceso en Brand Portal, los administradores deben:
+Para permitir que los usuarios de la organización soliciten acceso a Brand Portal, los administradores deben:
 
-1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, desde la barra de herramientas situada en la parte superior.
-2. En el panel de herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir **[!UICONTROL la página Configuración]** de acceso.
-3. Active **[!UICONTROL la configuración Permitir acceso]** de usuarios.
+1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
+2. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página Configuración **[!UICONTROL de]** acceso.
+3. Active la configuración **[!UICONTROL Permitir que los usuarios soliciten acceso]** .
 4. **[!UICONTROL Guarde los cambios.]**
 5. Cierre la sesión para que los cambios surtan efecto.
