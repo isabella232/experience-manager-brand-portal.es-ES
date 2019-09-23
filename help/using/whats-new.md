@@ -1,14 +1,14 @@
 ---
 title: Novedades de AEM Assets Brand Portal
 seo-title: Novedades de AEM Assets Brand Portal
-description: Eche un vistazo a las nuevas funciones y mejoras de 6.4.4.
-seo-description: Eche un vistazo a las nuevas funciones y mejoras de 6.4.4.
-uuid: 2 c 59 d 738-9 b 53-4 f 25-a 205-13 bf 75 c 80 b 77
+description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.4.
+seo-description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.4.
+uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: referencia
 topic-tags: introducción
-discoiquuid: fec 32 ca 3-142 b -4 a 11-9 b 92-5113 fc 27277 a
+discoiquuid: ect32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
 source-git-commit: cbb64eb8a79480a1ccedbe5131a38ddf6eaec88d
 
@@ -17,69 +17,68 @@ source-git-commit: cbb64eb8a79480a1ccedbe5131a38ddf6eaec88d
 
 # Novedades de AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
-Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir fácilmente recursos creativos aprobados a usuarios externos y a usuarios internos de la empresa entre dispositivos. Ayuda a mejorar la eficacia del uso compartido de recursos, acelera el tiempo de comercialización de los recursos y reduce el riesgo de acceso no autorizado y no autorizado. Adobe está trabajando para mejorar la experiencia general de Brand Portal. Este es un paso nuevo en las nuevas funciones y mejoras.
+Recursos Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Adobe está trabajando para mejorar la experiencia general de Brand Portal. A continuación, podrá echar un vistazo a las nuevas funciones y mejoras.
 
-## ¿Qué ha cambiado en 6.4.4? {#what-is-changing-in}
+## Qué cambió en 6.4.4 {#what-is-changing-in}
 
-Brand Portal 6.4.4 se centra en las mejoras de la búsqueda de texto y las solicitudes principales de los clientes. Consulte las últimas [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
+La versión 6.4.4 de Brand Portal se centra en las mejoras en la búsqueda de texto y en las principales solicitudes de los clientes. Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
 
 ### Mejoras de búsqueda {#search-enhancements}
 
-Brand Portal 6.4.4 y posteriores admite la búsqueda parcial de texto en predicado de propiedad en el panel de filtrado. Para permitir la búsqueda parcial de texto necesita habilitar **la búsqueda parcial** en Predicado de propiedad en el formulario de búsqueda.
+A partir de la versión 6.4.4, Brand Portal admite la búsqueda de texto parcial en el predicado de propiedades en el panel de filtrado. Para permitir la búsqueda de texto parcial, debe habilitar la búsqueda **parcial** en el predicado de propiedades en el formulario de búsqueda.
 
-Continúe leyendo para obtener más información sobre la búsqueda de texto parcial y la búsqueda comodín.
+Continúe leyendo para obtener más información sobre la búsqueda de texto parcial y la búsqueda con comodines.
 
-#### Búsqueda parcial de frases {#partial-phrase-search}
+#### Búsqueda de frase parcial {#partial-phrase-search}
 
-Ahora puede buscar recursos especificando solamente una parte (una palabra o dos) de la frase buscada en el panel de filtrado.
+Ahora puede buscar recursos especificando solo una parte (es decir, una palabra o dos) de la frase buscada en el panel de filtrado.
 
-**La búsqueda**de frases parciales es
-útil cuando no está seguro de la combinación exacta de palabras que se producen en la frase de búsqueda.
+**Caso** de uso La búsqueda parcial de frases resulta útil cuando no está seguro de la combinación exacta de palabras que se producen en la frase buscada.
 
-Por ejemplo, si el formulario de búsqueda en Brand Portal utiliza Predicado de propiedad para buscar parcialmente el título de recursos, especificando el término **camp** devuelve todos los recursos con la palabra camp en la frase de título.
+Por ejemplo, si el formulario de búsqueda en Brand Portal utiliza Property Predicate para la búsqueda parcial del título de los recursos, al especificar el término **camp** se devuelven todos los recursos con la palabra camp en su frase de título.
 
 ![](assets/partialphrasesearch.png)
 
-#### Búsqueda comodín {#wildcard-search}
+#### Búsqueda de comodines {#wildcard-search}
 
-Brand Portal permite utilizar el asterisco (*) en la consulta de búsqueda junto con una parte de la palabra en la frase de búsqueda.
+El portal de marca permite utilizar el asterisco (*) en la consulta de búsqueda junto con una parte de la palabra de la frase buscada.
 
-**Caso
-de uso** Si no está seguro de las palabras exactas que se producen en la frase de búsqueda, puede utilizar una búsqueda comodín para rellenar los huecos en la consulta de búsqueda.
+**Caso** de uso Si no está seguro de las palabras exactas que se producen en la frase buscada, puede utilizar una búsqueda comodín para llenar los huecos en la consulta de búsqueda.
 
-Por ejemplo, si se especifica **una escalada *** , se devuelven todos los recursos que tengan palabras que comienzan con los caracteres **en** la frase de título si el formulario de búsqueda en Brand Portal utiliza Predicado de propiedad para la búsqueda parcial del título de recursos.
+Por ejemplo, si se especifica **escalar*** , se devuelven todos los recursos con palabras que comienzan con los caracteres **escalar** en la frase de título si el formulario de búsqueda en Brand Portal utiliza Predicado de propiedades para la búsqueda parcial del título de los recursos.
 
 ![](assets/wildcard-prop.png)
 
-De manera similar, especifique:
+Del mismo modo, especificando:
 
-* *** sube** devuelve todos los recursos que tienen palabras que terminan con caracteres **escalada** en la frase del título.
+* ***escalar** devuelve todos los recursos que tienen palabras que finalizan con caracteres **escalados** en la frase de título.
 
-* *** escalada *** devuelve todos los recursos que tienen palabras que comprenden los caracteres **en** la frase de título.
+* ***escalar*** devuelve todos los recursos que tienen palabras que comprenden los caracteres que **suben** en la frase de título.
 
 >[!NOTE]
 >
->Al seleccionar **la casilla de verificación Búsqueda** parcial **, Ignorar caso** está seleccionado de forma predeterminada.
+>Al seleccionar la casilla de verificación Búsqueda **** parcial, se selecciona **Omitir caso** de forma predeterminada.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
-## ¿Qué ha cambiado en 6.4.3? {#what-changed-in}
+## Qué cambió en 6.4.3 {#what-changed-in}
 
-Brand Portal 6.4.3 se centra en— proporcionar a organizaciones un alias alternativo además de su ID de inquilino en la URL de acceso de Brand Portal, la nueva configuración de jerarquía de carpetas, mejoras en la compatibilidad con vídeo, publicación programada desde la instancia de AEM Author a Brand Portal, mejoras operativas— y atiende a solicitudes de clientes.
+La versión de Brand Portal 6.4.3 se centra en: proporcionar a las organizaciones un alias alternativo además de su ID de inquilino en la URL de acceso a Brand Portal, nueva configuración de jerarquía de carpetas, mejoras en la compatibilidad con vídeo, publicación programada de la instancia de AEM Author en Brand Portal, mejoras operativas — y atiende las solicitudes de los clientes.
 
-### Navegación por jerarquía de carpetas para usuarios que no son administradores
+### Navegación de jerarquía de carpetas para usuarios que no son administradores
 
-Ahora los administradores pueden configurar cómo se muestran las carpetas a usuarios no administradores (editores, usuarios invitados y usuarios invitados) al iniciar sesión. [Habilite la configuración de jerarquía](../using/brand-portal-general-configuration.md) de carpetas en Configuración **general**, en el panel de herramientas de administración. Si la configuración es:
+Los administradores ahora pueden configurar cómo se muestran las carpetas a los usuarios no administradores (editores, visores y usuarios invitados) al iniciar sesión. [Habilitar la configuración de jerarquía](../using/brand-portal-general-configuration.md) de carpetas se agrega en Configuración **** general, en el panel Herramientas de administración. Si la configuración es:
 
-* **habilitada**, el árbol de carpetas que empieza desde la carpeta raíz es visible para usuarios no administradores. De este modo, se les otorga una experiencia de navegación similar a la de los administradores.
-* **desactivadas**, solo se muestran las carpetas compartidas en la página de aterrizaje.
+* **activado**, el árbol de carpetas que comienza desde la carpeta raíz es visible para los usuarios no administradores. Por lo tanto, concederles una experiencia de navegación similar a la de los administradores.
+* **está desactivada**, solo se muestran las carpetas compartidas en la página de aterrizaje.
 
-![](assets/enable-folder-hierarchy.png)**El caso de uso**
+![](assets/enable-folder-hierarchy.png)
+**El caso de uso**
 
-La funcionalidad [Habilitar jerarquía](../using/brand-portal-general-configuration.md) de carpetas (cuando está habilitada) le ayuda a diferenciar las carpetas con los mismos nombres compartidos de jerarquías diferentes. Al iniciar sesión, los usuarios no administradores ven las carpetas principales (y antecesoras) virtuales de las carpetas compartidas.![](assets/disabled-folder-hierarchy1-2.png)![](assets/enabled-hierarchy1-2.png)
- 
+La funcionalidad [Habilitar jerarquía](../using/brand-portal-general-configuration.md) de carpetas (cuando está habilitada) ayuda a diferenciar las carpetas con los mismos nombres compartidos de jerarquías diferentes. Al iniciar sesión, los usuarios que no son administradores ahora ven las carpetas principales virtuales (y antecesoras) de las carpetas compartidas.
+![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
 
-Las carpetas compartidas se organizan dentro de los directorios respectivos de carpetas virtuales. Puede reconocer estas carpetas virtuales con un icono de candado.
+Las carpetas compartidas están organizadas dentro de los directorios respectivos en carpetas virtuales. Puede reconocer estas carpetas virtuales con un icono de candado.
 
 Tenga en cuenta que la miniatura predeterminada de las carpetas virtuales es la imagen en miniatura de la primera carpeta compartida.
 
@@ -87,21 +86,21 @@ Tenga en cuenta que la miniatura predeterminada de las carpetas virtuales es la 
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
-### Buscar en una ruta o una ruta de carpeta específica
+### Buscar en una ruta o jerarquía de carpetas específica
 
-**Predicado de explorador** de rutas se introduce en el formulario de búsqueda para permitir la búsqueda de recursos en un directorio específico. La ruta de búsqueda predeterminada de predicado de búsqueda para el navegador de rutas es */content/dam/mac/ &lt; id-id &gt;/*, que se puede configurar editando el formulario de búsqueda predeterminado.
+**El predicado del explorador** de rutas se introduce en el formulario de búsqueda para permitir la búsqueda de recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado de búsqueda para el Explorador de rutas es */content/dam/mac/&lt;identificación del inquilino&gt;/*, que se puede configurar editando el formulario de búsqueda predeterminado.
 
-* Los usuarios administradores pueden utilizar el navegador de rutas para navegar a cualquier directorio de carpetas en Brand Portal.
-* Los usuarios no administradores pueden utilizar el navegador de rutas para navegar únicamente a las carpetas (y volver a las carpetas principales) compartidas con ellos.
-Por ejemplo, */content/dam/mac/ &lt; tenant-id &gt;/foldera/folderb/folderc* se comparte con un usuario no administrador. El usuario puede buscar recursos dentro de folderc mediante el navegador de rutas. Este usuario también puede navegar a folderb y a foldera (ya que son antecesores de folderc que se comparten con el usuario).
+* Los usuarios administradores pueden utilizar el navegador de rutas para desplazarse a cualquier directorio de carpetas de Brand Portal.
+* Los usuarios que no son administradores pueden utilizar el navegador de rutas para desplazarse únicamente a las carpetas (y volver a las carpetas principales) compartidas con ellos.
+Por ejemplo, */content/dam/mac/&lt;inquilino-id&gt;/folderA/folderB/folderC* se comparte con un usuario no administrador. El usuario puede buscar recursos dentro de folderC mediante el navegador de rutas. Este usuario también puede desplazarse a la carpeta B y a la carpeta A (ya que son antecesores de la carpeta C que se comparte con el usuario).
 
 ![](assets/edit-search-form.png)
 
-**El caso de uso**
+**Caso de uso**
 
 Ahora puede restringir la búsqueda de recursos dentro de una carpeta específica a la que ha navegado, en lugar de comenzar en la carpeta raíz.
 
-Tenga en cuenta que la búsqueda bajo estas carpetas devuelve resultados únicamente de los recursos que se han compartido con el usuario.
+Tenga en cuenta que la búsqueda en estas carpetas solo se obtiene a partir de los recursos que se han compartido con el usuario.
 
 ![](assets/filter-panel.png)
 
@@ -109,18 +108,17 @@ Tenga en cuenta que la búsqueda bajo estas carpetas devuelve resultados únicam
 
 ### Compatibilidad con representaciones de vídeo de Dynamic Media
 
-Los usuarios cuya instancia de AEM Author se encuentra en el modo híbrido Dynamic Media pueden obtener una vista previa y descargar las representaciones de Dynamic Media, además de los archivos de vídeo originales.
+Los usuarios cuya instancia de AEM Author se encuentra en el modo híbrido Dynamic Media pueden obtener una vista previa y descargar las representaciones de medios dinámicos, además de los archivos de vídeo originales.
 
-Para permitir la vista previa y la descarga de representaciones de medios dinámicos en cuentas de usuario específicas, los administradores deben especificar **la Configuración de Dynamic Media** (URL de servicio de vídeo (URL-Gateway) y el ID de registro para recuperar el vídeo dinámico) en la configuración **de vídeo** desde el panel de herramientas de administración.
+Para permitir la vista previa y descarga de representaciones de medios dinámicos en cuentas de inquilino específicas, los administradores deben especificar la configuración de **Dynamic Media** (URL del servicio de vídeo (URL de DM-Gateway) y el ID de registro para recuperar el vídeo dinámico) en la configuración de **vídeo** desde el panel Herramientas de administración.
 
-**El caso**
-de uso de los vídeos de Dynamic Media se puede previsualizar en:
+**Caso** de uso Los vídeos de Dynamic Media se pueden previsualizar en:
 
 * Página de detalles del recurso
 * Vista de tarjeta del recurso
-* Página de vista previa del vínculo compartido
+* Página de vista previa de uso compartido de vínculos
 
-Las codificaciones de vídeo de Dynamic Media se pueden descargar de:
+Los códigos de vídeo de Dynamic Media se pueden descargar de:
 
 * Portal de marca
 * Vínculo compartido
@@ -131,9 +129,9 @@ Las codificaciones de vídeo de Dynamic Media se pueden descargar de:
 
 ### Publicación programada en Brand Portal
 
-Los recursos (y carpetas) de publicación de [AEM (6.4.2.0) de](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) creación de instancias a Brand Portal se pueden programar para una fecha y hora posteriores.
+Recursos (y carpetas): el flujo de trabajo de publicación de [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) La instancia de creación en Brand Portal se puede programar para una fecha y hora posteriores.
 
-Del mismo modo, los recursos publicados pueden eliminarse del portal más adelante (hora), mediante la programación del flujo de trabajo Cancelar publicación del portal de marca.
+Del mismo modo, los recursos publicados se pueden eliminar del portal en una fecha (hora) posterior, programando el flujo de trabajo Cancelar publicación desde Brand Portal.
 
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
@@ -142,89 +140,88 @@ Del mismo modo, los recursos publicados pueden eliminarse del portal más adelan
 
 ### Alias de inquilino configurable en URL
 
-Las organizaciones pueden obtener su URL de portal personalizada, con un prefijo alternativo en la URL. Para obtener un alias para el nombre del inquilino en su URL de portal existente, las organizaciones deben ponerse en contacto con la asistencia de Adobe.
+Las organizaciones pueden personalizar la dirección URL del portal si tienen un prefijo alternativo en la dirección URL. Para obtener un alias para el nombre del inquilino en la URL del portal existente, las organizaciones deben ponerse en contacto con el servicio de asistencia de Adobe.
 
-Tenga en cuenta que solo se puede personalizar el prefijo de la URL de Brand Portal y no toda la dirección URL.\
-Por ejemplo, una organización con dominio existente **geomettrix.brand-portal.adobe.com** puede obtener **geomettrixinc.brand-portal.adobe.com** creado on request.
+Tenga en cuenta que solo se puede personalizar el prefijo de la dirección URL de Brand Portal y no toda la dirección URL.\
+Por ejemplo, una organización con un dominio existente **geometSymmetrix.brand-portal.adobe.com** puede obtener **geomettrixinc.brand-portal.adobe.com** creada a petición.
 
-Sin embargo, la instancia de AEM Author solo se puede [configurar](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) con la URL de ID de inquilino y no con la URL (alternativa) del alias del inquilino.
+Sin embargo, la instancia de AEM Author solo se puede [configurar](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) con la dirección URL de identificación del inquilino y no con la URL de alias del inquilino (alternativa).
 
-**El caso
-de uso** Organizaciones puede satisfacer sus necesidades de marca mediante la personalización de la dirección URL del portal, en lugar de mantenerse atascada a la dirección URL proporcionada por Adobe.
+**Caso** de uso Las organizaciones pueden satisfacer sus necesidades de marca personalizando la dirección URL del portal, en lugar de atenerse a la dirección URL proporcionada por Adobe.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
-### Descargar mejoras de experiencia
+### Mejoras de la experiencia de descarga
 
 La versión ofrece una experiencia de descarga simplificada con un número reducido de clics y advertencias, en:
 
-* para descargar solo las representaciones (y no los recursos originales).
+* optar por descargar solo las representaciones (y no los recursos originales).
 * descargar los recursos cuando se restringe el acceso a las representaciones originales.
 
-## ¿Qué ha cambiado en 6.4.2? {#what-changed-in-1}
+## Qué cambió en 6.4.2 {#what-changed-in-1}
 
-Brand Portal 6.4.2 incorpora una serie de capacidades para tratar las necesidades de distribución de recursos de las organizaciones y ayudarle a llegar a un gran número de usuarios distribuidos globalmente mediante el acceso de invitado y la óptima experiencia con descargas aceleradas. Brand Portal también proporciona un mayor control a las organizaciones mediante nuevas configuraciones para administradores, informes recién añadidos y catálogos a solicitudes de clientes.
+La versión 6.4.2 de Brand Portal ofrece una amplia gama de funciones para satisfacer las necesidades de distribución de recursos de las organizaciones y ayudarles a llegar a un gran número de usuarios distribuidos globalmente mediante el acceso de los invitados y una experiencia óptima con las descargas aceleradas. Brand Portal también proporciona un mayor control a las organizaciones a través de nuevas configuraciones para administradores, informes recién agregados y atendiendo las solicitudes de los clientes.
 
 ### Acceso de invitados
 
 ![](assets/bp-login-screen-1.png)
 
-Portal de marca AEM permite el acceso de los invitados al portal. Un usuario invitado no necesita credenciales para ingresar al portal y puede acceder y descargar todas las carpetas y colecciones públicas. Los usuarios invitados pueden agregar recursos a su lightbox (colección privada) y descargarlos. También pueden ver la búsqueda de etiquetas inteligentes y los predicados de búsqueda establecidos por los administradores. La sesión de invitado no permite a los usuarios crear colecciones ni guardarlas ni compartirlas, acceder a la configuración de carpetas y colecciones ni compartir recursos como vínculos.
+El portal de AEM Brand permite a los invitados acceder al portal. Un usuario invitado no necesita credenciales para entrar en el portal y puede acceder y descargar todas las carpetas y colecciones públicas. Los usuarios invitados pueden añadir recursos a su caja de iluminación (colección privada) y descargar los mismos recursos. También pueden ver los predicados de búsqueda y búsqueda de etiquetas inteligentes establecidos por los administradores. La sesión de invitado no permite a los usuarios crear colecciones y búsquedas guardadas ni compartirlas más, acceder a la configuración de carpetas y colecciones y compartir recursos como vínculos.
 
-En una organización, se permiten varias sesiones de invitados simultáneas, que se limitan al 10% de la cuota total de usuarios por organización.
+En una organización, se permiten varias sesiones de invitados simultáneas, lo que se limita al 10 % de la cuota total de usuarios por organización.
 
-Una sesión de invitado permanece activa durante dos horas. Por lo tanto, el estado de la caja de luz también se conserva hasta dos horas desde la hora de inicio de la sesión. Después de dos horas, la sesión del invitado tiene que reiniciarse, por lo que se pierde el estado de la caja de iluminación.
+Una sesión de invitado permanece activa durante dos horas. Por lo tanto, el estado de la caja de luz también se conserva hasta dos horas después de la hora de inicio de la sesión. Después de dos horas, la sesión de invitado debe reiniciarse, por lo que se pierde el estado de la caja de luz.
 
 ### Descargas aceleradas
 
-Los usuarios de Brand Portal pueden aprovechar las descargas rápidas de IBM Aspera Connect para obtener velocidades de hasta 25 veces más rápido y disfrutar de una experiencia de descarga perfecta independientemente de su ubicación en todo el mundo. Para descargar los recursos más rápidamente desde Brand Portal o el vínculo compartido, los usuarios deben seleccionar **la opción Activar aceleración** de descarga en el cuadro de diálogo de descarga, siempre que la aceleración de descarga esté habilitada en su organización.
+Los usuarios de Brand Portal pueden aprovechar las rápidas descargas basadas en IBM Aspera Connect para obtener velocidades hasta 25 veces más rápidas y disfrutar de una experiencia de descarga sin problemas, independientemente de su ubicación en todo el mundo. Para descargar los recursos más rápidamente desde Brand Portal o el vínculo compartido, los usuarios deben seleccionar la opción **Activar aceleración** de descarga en el cuadro de diálogo de descarga, siempre que la aceleración de la descarga esté habilitada en su organización.
 
 ![](assets/donload-assets-dialog-2.png)
 
-Para habilitar la descarga acelerada basada en IBM Aspera para la organización, los administradores **habilitan** la opción Activar aceleración de descarga (que está deshabilitada de forma predeterminada) desde [Configuración general](brand-portal-general-configuration.md#allow-download-acceleration) en el panel de herramientas administrativas. Para obtener más información sobre los requisitos previos y los pasos para la resolución de problemas de descarga más rápida de Brand Portal y los vínculos compartidos, consulte [Guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md#main-pars-header).
+Para habilitar la descarga acelerada basada en IBM Aspera para la organización, los administradores pueden activar la opción **Activar aceleración** de descarga (que está deshabilitada de forma predeterminada) desde Configuración [](brand-portal-general-configuration.md#allow-download-acceleration) general en el panel Herramientas administrativas. Para obtener más información sobre los requisitos previos y los pasos de solución de problemas para descargar archivos de recursos más rápidamente desde Brand Portal y vínculos compartidos, consulte [Guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md#main-pars-header).
 
-### Informe Inicios de sesión de usuarios
+### Informe de inicios de sesión de usuario
 
-Se ha introducido un nuevo informe para rastrear inicios de sesión de usuario. El informe Inicios **de sesión** de usuario puede ser de utilidad para permitir a las organizaciones auditar y llevar una comprobación a los administradores delegados y a otros usuarios de Brand Portal.
+Se ha introducido un nuevo informe para rastrear los inicios de sesión de los usuarios. El informe **de inicios de sesión** de usuario puede ser fundamental para permitir que las organizaciones auditen y verifiquen a los administradores delegados y otros usuarios de Brand Portal.
 
-Los registros de informes muestran nombres, ID de correo electrónico, personas (administrador, visor, editor, invitado), grupos, último inicio de sesión, estado de actividad e inicio de sesión de cada usuario desde la implementación de Brand Portal 6.4.2 hasta el momento de generación de informes. Los administradores pueden exportar el informe como. csv. Junto con otros informes, los informes Inicios de sesión de usuario permiten a las organizaciones monitorear más estrechamente las interacciones de los usuarios con los recursos de marca aprobados, garantizando así la conformidad con las oficinas de cumplimiento corporativas.
+Los registros de informes muestran los nombres, los ID de correo electrónico, las personas (administrador, visor, editor, invitado), los grupos, el último inicio de sesión, el estado de la actividad y el recuento de inicio de sesión de cada usuario desde la implementación de Brand Portal 6.4.2 hasta el momento de la generación de informes. Los administradores pueden exportar el informe como .csv. Junto con otros informes, el informe de inicios de sesión de usuario permite a las organizaciones monitorear más de cerca las interacciones de los usuarios con los recursos de marca aprobados, asegurando así el cumplimiento de las normas por parte de las oficinas de cumplimiento corporativo.
 
 ![](assets/user-logins-1.png)
 
-### Acceso a representaciones originales
+### Acceso a las representaciones originales
 
-Los administradores pueden restringir el acceso de los usuarios a los archivos de imagen originales (.jpeg. tiff. png. bmp. gif. pjpeg, x-portable-anymap, x-portable-anymap, x-portable-de-mapmap, x-portátil, x-xbitmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-xpixmap, x-x@-@ icono, image/photoshop, image/x-photoshop. psd, image/vnd. adobe. photoshop) y proporcionan acceso a las representaciones de baja resolución que descargan de Brand Portal o del vínculo compartido. Este acceso se puede controlar en el nivel de grupo de usuarios desde la ficha Grupos de la página Funciones de usuario en el panel Herramientas de administración.
+Los administradores pueden restringir el acceso del usuario a los archivos de imagen originales (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xxmap, x-icon, image/photoshop, image/x-photoshop, .x-photoshop psd, image/vnd.adobe.photoshop) y dar acceso a representaciones de baja resolución que descargan desde Brand Portal o vínculo compartido. Este acceso se puede controlar a nivel de grupo de usuarios desde la ficha Grupos de la página Funciones de usuario del panel Herramientas de administración.
 
 ![](assets/access-original-rend-1.png)
 
-* De forma predeterminada, todos los usuarios pueden descargar representaciones originales, ya que el acceso al original está habilitado para todos.
-* Los administradores deben anular la selección de las casillas correspondientes para evitar que un grupo de usuarios acceda a representaciones originales.
-* Si un usuario es miembro de varios grupos, pero sólo uno de los grupos tiene restricciones, las restricciones se aplican a ese usuario.
+* De forma predeterminada, todos los usuarios pueden descargar las representaciones originales, ya que el acceso al original está habilitado para todos.
+* Los administradores deben anular la selección de las casillas de verificación correspondientes para evitar que un grupo de usuarios acceda a las representaciones originales.
+* Si un usuario es miembro de varios grupos pero sólo uno de ellos tiene restricciones, las restricciones se aplican a ese usuario.
 * Las restricciones no se aplican a los administradores, aunque sean miembros de grupos restringidos.
 * Los permisos del usuario que comparte recursos como vínculo se aplican a los usuarios que descargan recursos mediante vínculos compartidos.
 
 ### Ruta de jerarquía de carpetas en las vistas de tarjeta y lista
 
-Las tarjetas de carpetas, en Vista de tarjeta, ahora muestran información de jerarquía de carpetas para usuarios no administradores (Editor, Visor y Usuario invitado). Esta funcionalidad permite que los usuarios conozcan la ubicación de las carpetas, en relación con la jerarquía principal.
+Las tarjetas de carpetas, en la vista de tarjeta, ahora muestran información sobre la jerarquía de carpetas a usuarios no administradores (Editor, Visor y Usuario invitado). Esta funcionalidad permite a los usuarios conocer la ubicación de las carpetas a las que acceden, con respecto a la jerarquía principal.
 
-La información de jerarquía de carpetas es especialmente útil para diferenciar las carpetas con nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios no administradores no conocen la estructura de carpetas de los recursos compartidos, los recursos /folders con nombres similares parecen confusos.
+La información sobre la jerarquía de carpetas resulta especialmente útil para diferenciar las carpetas que tienen nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios no administradores no conocen la estructura de carpetas de los recursos compartidos con ellos, los recursos o carpetas con nombres similares parecen confusos.
 
-* Las rutas mostradas en las tarjetas respectivas se truncan para ajustarse a los tamaños de la tarjeta. Sin embargo, los usuarios pueden ver la ruta completa como información sobre herramientas al pasar el ratón por encima de la ruta truncada.
+* Las rutas que se muestran en las tarjetas respectivas se truncan para adaptarse a los tamaños de las tarjetas. Sin embargo, los usuarios pueden ver la ruta completa como información del objeto al pasar el ratón sobre la ruta truncada.
 
 ![](assets/folder-hierarchy1-1.png)
 
-Vista de lista muestra la ruta de carpeta de los recursos de una columna a todos los usuarios de Brand Portal.
+La vista de lista muestra la ruta de carpeta de los recursos en una columna para todos los usuarios de Brand Portal.
 
 ![](assets/list-view-1.png)
 
-### Opción de información general para ver propiedades de recursos
+### Opción Información general para ver las propiedades de los recursos
 
-Brand Portal proporciona la opción Información general a usuarios no administradores (editores, usuarios invitados, usuarios invitados) para ver propiedades de recursos de carpetas o recursos seleccionados. La opción Información general está visible:
+Brand Portal proporciona la opción Información general a los usuarios no administradores (editores, visores, usuarios invitados) para ver las propiedades de los recursos de los recursos o carpetas seleccionados. La opción Información general está visible:
 
-1. En la barra de herramientas situada en la parte superior de la selección de un recurso o carpeta.
-2. En la lista desplegable de selección del Selector de raíl.
+1. En la barra de herramientas de la parte superior, seleccione un recurso o una carpeta.
+2. En la lista desplegable al seleccionar el Selector de raíl.
 
-Al seleccionar la opción Información general mientras se selecciona un recurso o carpeta, los usuarios pueden ver el título, la ruta y la hora de creación de recursos. En cambio, en la página de detalles del recurso, la opción Información general permite que los usuarios vean metadatos del recurso.
+Al seleccionar la opción Información general mientras se selecciona un recurso o carpeta, los usuarios pueden ver el título, la ruta y la hora de creación de recursos. Mientras que, en la página de detalles del recurso, si selecciona la opción Información general, los usuarios podrán ver los metadatos del recurso.
 
 ![](assets/overview-option-2.png)
 
@@ -232,7 +229,7 @@ Al seleccionar la opción Información general mientras se selecciona un recurso
 
 ## Nuevas configuraciones
 
-Se agregan seis nuevas configuraciones para que los administradores habiliten/deshabiliten las siguientes funcionalidades en inquilinos específicos:
+Se añaden seis nuevas configuraciones para que los administradores habiliten o deshabiliten las siguientes funcionalidades en inquilinos específicos:
 
 * Permitir el acceso de invitados
 * Permitir que los usuarios soliciten acceso a Brand Portal
@@ -247,136 +244,133 @@ Las configuraciones anteriores están disponibles en Acceso y Configuración gen
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Interfaz de usuario de Adobe. io para configurar integraciones oauth
+### La interfaz de usuario de los hosts de Adobe.io permite configurar integraciones de autenticación
 
-A partir de Brand Portal 6.4.2, se utiliza la interfaz Adobe. io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) para crear aplicaciones JWT, lo que permite configurar integraciones oauth para permitir la integración de AEM Assets con Brand Portal. Anteriormente, la interfaz de usuario para configurar las integraciones de oauth se alojaba en [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Para obtener más información sobre la integración de Recursos AEM con Brand Portal para publicar recursos y colecciones en Brand Portal, consulte [Configurar la integración de AEM Assets con Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
+A partir de la versión 6.4.2 de Brand Portal, se utiliza la [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) de Adobe.io para crear una aplicación JWT, que permite configurar integraciones de autenticación para permitir la integración de AEM Assets con Brand Portal. Anteriormente, la interfaz de usuario para configurar integraciones de OAuth estaba alojada en [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Para obtener más información sobre la integración de Recursos AEM con Brand Portal para la publicación de recursos y colecciones en Brand Portal, consulte [Configuración de la integración de Recursos AEM con Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
 
 ## Mejoras de búsqueda
 
-Los administradores pueden hacer que la propiedad predica sin distinción de mayúsculas y minúsculas mediante el predicado de propiedad actualizado, que tiene una comprobación de Ignorar caso. Esta opción está disponible para predicado de propiedad de predicado de propiedad y de varios valores.\
-Sin embargo, la búsqueda sin distinción de mayúsculas y minúsculas es comparativamente más lenta que la búsqueda predeterminada de predicado de propiedad. Si hay demasiados predicados que no distinguen mayúsculas y minúsculas en el filtro de búsqueda, la búsqueda puede ralentizarse. Por lo tanto, es aconsejable utilizar la búsqueda sin distinción de mayúsculas y minúsculas.
+Los administradores pueden hacer que los predicados de propiedades no distingan entre mayúsculas y minúsculas mediante el predicado de propiedades actualizado, que tiene una comprobación para ignorar mayúsculas y minúsculas. Esta opción está disponible para predicado de propiedades y predicado de propiedades de varios valores.\
+Sin embargo, la búsqueda que no distingue entre mayúsculas y minúsculas es comparativamente más lenta que la búsqueda predeterminada del predicado de propiedades. Si hay demasiados predicados que no distinguen entre mayúsculas y minúsculas en el filtro de búsqueda, la búsqueda puede ralentizarse. Por lo tanto, se recomienda utilizar la búsqueda sin distinción entre mayúsculas y minúsculas con prudencia.
 
 ## Qué cambió en 6.4.1 {#what-changed-in-2}
 
-Brand Portal 6.4.1 es una versión de actualización de plataforma que incorpora varias funciones nuevas y mejoras esenciales como las mejoras de navegación, búsqueda y rendimiento para ofrecer experiencias de cliente que cumplen con los requisitos.
+Brand Portal 6.4.1 es una versión de actualización de plataforma que incorpora varias funciones nuevas y mejoras fundamentales, como la exploración, la búsqueda y el rendimiento, para ofrecer una experiencia satisfactoria al cliente.
 
 ### Mejoras de exploración
 
-* Nuevo carril de árbol de contenido para navegar rápidamente por una jerarquía de recursos.
+* Nuevo carril del árbol de contenido para navegar rápidamente por una jerarquía de recursos.
 
 ![](assets/contenttree-2.png)
 
-* Se han introducido nuevos métodos abreviados de teclado, por ejemplo _(p)_ para la navegación a páginas de propiedades, _(e)_ para Editar y _(ctrl + c)_ para operaciones de copia.
-* Se ha mejorado el desplazamiento y la experiencia de carga diferida en la vista de tarjeta y de lista para examinar un gran número de recursos.
-* Vista de tarjeta mejorada con compatibilidad con tarjetas de distintos tamaños según la configuración de la vista.
+* Se han introducido nuevos métodos abreviados de teclado, por ejemplo _(p)_ para la navegación a la página de propiedades, _(e)_ para Editar y _(ctrl+c)_ para las operaciones de copia.
+* Se ha mejorado el desplazamiento y la experiencia de carga diferida en la vista de tarjeta y lista para explorar un gran número de recursos.
+* Vista de tarjeta mejorada compatible con tarjetas de distintos tamaños según la configuración de visualización.
 
 ![](assets/cardviewsettings-1.png)
 
 * La vista de tarjeta ahora muestra la marca de fecha y hora al pasar el ratón por encima de la etiqueta de fecha.
 
-* Vista de columna mejorada con **Más detalles** en la instantánea de recursos, que le permite desplazarse a la página de detalles de un recurso.
+* Se mejoró la vista de columnas con **Más detalles** en la instantánea de recursos, lo que le permite desplazarse a la página de detalles de un recurso.
 
 ![](assets/columnmoredetail.png)
 
-* La vista de lista muestra ahora los nombres de archivo de los recursos en la primera columna de forma predeterminada, además de la configuración regional, el tipo de recurso, las dimensiones, el tamaño, la clasificación y la información de publicación. La nueva **configuración** de vista se puede utilizar para configurar la cantidad de detalle que se mostrará en la vista de lista.
+* La vista de lista ahora muestra los nombres de archivo de los recursos en la primera columna de forma predeterminada, además de la configuración regional, el tipo de recurso, las dimensiones, el tamaño, la clasificación y la información de publicación. Se puede utilizar la nueva configuración **de** vista para configurar la cantidad de detalles que se mostrarán en la vista de lista.
 
-* Se ha mejorado la experiencia de detalles del recurso con capacidad para desplazarse hacia delante y hacia atrás entre los recursos utilizando nuevos botones de navegación y ver el recuento de recursos.
+* Se ha mejorado la experiencia de detalle de recursos con la capacidad de desplazarse hacia atrás y adelante entre recursos mediante los nuevos botones de navegación y ver el recuento de recursos.
 
 ![](assets/navbtn.png)
 
-* Nueva capacidad para obtener una vista previa de los archivos de audio, cargados desde AEM, en la página de detalles del recurso.
-* Nueva funcionalidad Recursos relacionados proporcionada en las propiedades de Recursos. Los recursos relacionados con otros recursos fuente/derivados en AEM y publicados en Brand Portal ahora tienen su relación intacta en Brand Portal, con vínculos a los activos relacionados en la página de propiedades.
-* Se ha introducido una nueva configuración para restringir la creación de colecciones públicas a los usuarios no administradores. Las organizaciones pueden trabajar con el equipo de asistencia de Adobe para configurar esta capacidad en cuentas específicas.
+* Nueva capacidad para previsualizar archivos de audio, cargados desde AEM, en la página de detalles del recurso.
+* Nueva capacidad Recursos relacionados proporcionada en las propiedades de los recursos. Los recursos relacionados con otros recursos de origen o derivados en AEM y publicados en Brand Portal ahora tienen su relación intacta en Brand Portal, con vínculos a los recursos relacionados en la página de propiedades.
+* Se ha introducido una nueva configuración para restringir la creación de colecciones públicas a los usuarios que no son administradores. Las organizaciones pueden trabajar con el equipo de asistencia de Adobe para configurar esta capacidad en cuentas específicas.
 
 ### Mejoras de búsqueda
 
 * Capacidad introducida para volver a la misma posición en los resultados de búsqueda, después de navegar a un elemento de búsqueda, sin volver a ejecutar la consulta de búsqueda.
 * Se ha proporcionado un nuevo recuento de resultados de búsqueda para mostrar el número de resultados de búsqueda.
-* Se ha mejorado el filtro de búsqueda de tipo de archivo con la capacidad de filtrar los resultados de búsqueda según tipos MIME detallados como.jpg. png y. psd comparados con las versiones anteriores, Documentos y Multimedia.
+* Se mejoró el filtro de búsqueda de tipo de archivo con la capacidad de filtrar los resultados de búsqueda en función de tipos MIME detallados, como .jpg, .png y .psd, en comparación con las opciones anteriores de Imágenes, Documentos y Multimedia.
 * Filtros de búsqueda mejorados para colecciones, con marcas de hora precisas en lugar de la funcionalidad del deslizador de tiempo anterior.
-* Se han introducido nuevos filtros de tipo de acceso para buscar las colecciones públicas o no públicas.
+* Se han introducido nuevos filtros de tipo Acceso para buscar las colecciones que son públicas o no.
 
 ![](assets/accesstypefilter.png)
 
 ### Optimizaciones de descarga
 
-* Un solo archivo grande se descarga directamente, sin la creación del archivo zip, mejorando así la velocidad y el rendimiento.
-* El límite de descarga Zip para la función de compartir vínculos ha aumentado a 5 GB, desde 1 GB.
+* Se descarga directamente un solo archivo grande, sin necesidad de crear un archivo zip, lo que mejora la velocidad y el rendimiento.
+* El límite de descargas postales para la función de uso compartido de vínculos ha aumentado a 5 GB, desde 1 GB.
 
-* Ahora los usuarios pueden descargar solo los archivos originales y los originales, así como evitar las representaciones integradas, al descargar recursos de Brand Portal o a través de la función de vínculos compartidos.
+* Ahora los usuarios pueden optar por descargar únicamente los archivos personalizados y originales, y evitar las representaciones integradas, mientras descargan recursos desde Brand Portal o a través de la función de vínculos compartidos.
 
 ![](assets/excludeautorendition.png)
 
 ### Mejoras de rendimiento
 
-* Mejora hasta el 100% en la velocidad de descarga de recursos.
-* Mejora hasta un 40% en la respuesta de búsqueda de recursos.
-* Mejora hasta un 40% en el rendimiento de navegación.
+* Mejora de hasta un 100% en la velocidad de descarga de recursos.
+* Mejora de hasta un 40% en la respuesta de búsqueda de recursos.
+* Mejora de hasta un 40 % en el rendimiento de navegación.
 
-**Nota**: Las mejoras mencionadas son según las pruebas realizadas en el laboratorio.
+**Nota**: Las mejoras citadas son las pruebas realizadas en el laboratorio.
 
-### Capacidades mejoradas de generación de informes
+### Capacidades de informes mejoradas
 
-**Se ha introducido un informe**
-de uso compartido de vínculos nuevo para proporcionar información sobre los vínculos compartidos. El informe Compartir vínculos enumera todas las URL, a los recursos, compartidas con usuarios internos y externos en toda la organización en el intervalo de tiempo especificado. También informa cuándo se compartió el vínculo, quién y cuándo caduca.
+**Informe** de uso compartido de vínculos introducido Se ha introducido un nuevo informe para proporcionar información sobre los vínculos compartidos. El informe Uso compartido de vínculos enumera todas las direcciones URL, a los recursos, compartidas con usuarios internos y externos de la organización en el intervalo de tiempo especificado. También indica cuándo se compartió el vínculo, quién lo compartió y cuándo caduca.
 
 ![](assets/navigatereport.png)
 
-**Se modificó el punto de entrada para acceder al informe**Uso del informe
-Uso ahora se consolidan con otros informes y ahora se pueden ver desde la consola Informes de recursos. Para acceder a la consola Informes de recursos, vaya a **Crear/Administrar informes** desde el panel Herramientas administrativas.
+**Se modificó el punto de entrada para acceder Informe** de uso El informe de uso ahora se consolida con otros informes y ahora se puede ver desde la consola Informes de recursos. Para acceder a la consola Informes de recursos, vaya al panel **Crear/Administrar informes** desde el panel Herramientas administrativas.
 
 ![](assets/accessassetreport.png)
 
-**Una experiencia de usuario mejorada con la**interfaz de informes de informes
-en Brand Portal es más intuitiva e incluye mayor control para las organizaciones. Además de crear varios informes, los administradores ahora pueden volver a visitar los informes generados y descargarlos o eliminarlos, ya que estos informes se guardan en Brand Portal.
+**La experiencia mejorada del usuario con la interfaz de creación de informes** en Brand Portal se ha vuelto más intuitiva y le ofrece un mayor control. Además de crear varios informes, los administradores ahora pueden volver a examinar los informes generados y descargarlos o eliminarlos, ya que estos informes se guardan en Brand Portal.
 
-Cada uno de los informes que se crean puede personalizarse añadiendo o quitando columnas predeterminadas. Además, se pueden agregar columnas personalizadas a los informes de descarga, caducidad y publicación para controlar su grado de granularidad.
+Cada uno de los informes que se crean se puede personalizar agregando o eliminando columnas predeterminadas. Además, se pueden agregar columnas personalizadas a los informes Descargar, Caducidad y Publicar para controlar su grado de granularidad.
 
 ### Herramientas de administración mejoradas
 
-Se ha mejorado el selector de propiedades en las herramientas de administración para metadatos, búsquedas e informes con Tipo-ahead y capacidad de exploración para simplificar la experiencia de administración.
+Se mejoró el selector de propiedades en las herramientas de administración para metadatos, búsqueda e informes con la capacidad de exploración y escritura anticipada para simplificar la experiencia de administración.
 
 ### Otras mejoras
 
-* Los recursos publicados en Brand Portal desde AEM 6.3.2.1 y 6.4 ahora pueden estar disponibles públicamente para usuarios generales de Brand Portal, marcando la casilla de verificación Publicación pública en el cuadro de diálogo de replicación de AEM Assets Brand Portal.
+* Los recursos publicados en Brand Portal desde AEM 6.3.2.1 y 6.4 ahora pueden ponerse a disposición del público para los usuarios generales de Brand Portal marcando la casilla de verificación Publicación de carpetas públicas en el cuadro de diálogo Replicación de Brand Portal de AEM Assets.
 
 ![](assets/public-folder-publish.png)
 
-* Los administradores reciben notificaciones a través de los correos electrónicos de solicitud de acceso, aparte de las notificaciones en el área de notificación de Brand Portal, si alguien ha solicitado acceso al portal de marca.
+* Los administradores reciben notificaciones por correo electrónico de solicitud de acceso, aparte de las notificaciones del área de notificación de Brand Portal, si alguien ha solicitado acceso a Brand Portal.
 
-## ¿Qué ha cambiado en 6.3.2? {#what-changed-in-3}
+## Qué cambió en 6.3.2 {#what-changed-in-3}
 
-Brand Portal 6.3.2 incluye funcionalidad nueva y mejorada orientada a las principales solicitudes de los clientes y mejoras generales de rendimiento.
+Brand Portal 6.3.2 incluye una funcionalidad nueva y mejorada orientada a las principales solicitudes de los clientes y mejoras generales de rendimiento.
 
 ### Solicitar acceso a Brand Portal {#request-access-to-brand-portal}
 
-Ahora los usuarios pueden solicitar acceso a Brand Portal con la nueva función**** need access available on the login screen of Brand Portal.
+Ahora los usuarios pueden solicitar acceso a Brand Portal mediante la nueva función de acceso****** disponible en la pantalla de inicio de sesión de Brand Portal.
 
 ![](assets/bplogin_request_access.png)
 
-Según si los usuarios tienen un Adobe ID o necesitan crear un Adobe ID, los usuarios pueden seguir el flujo de trabajo adecuado para enviar una solicitud. Los administradores de productos de Brand Portal reciben estas solicitudes en su área de notificación y otorgan acceso a través de Admin Console de Adobe.
+Según si los usuarios tienen un Adobe ID o necesitan crearlo, pueden seguir el flujo de trabajo adecuado para enviar una solicitud. Los administradores de productos de Brand Portal reciben dichas solicitudes en el área de notificación y conceden acceso a través de Adobe Admin Console.
 
-Para obtener más información, consulte [Solicitar acceso a Brand Portal](../using/brand-portal.md#requestaccesstobrandportal).
+Para obtener más información, consulte [Solicitud de acceso a Brand Portal](../using/brand-portal.md#requestaccesstobrandportal).
 
-### Mejora en el informe descargado de recursos {#enhancement-in-the-assets-downloaded-report}
+### Mejora en el informe de recursos descargados {#enhancement-in-the-assets-downloaded-report}
 
-El informe descargado de recursos ahora incluye el recuento de descargas de recursos por usuario dentro de la fecha y el intervalo de tiempo especificados. Los usuarios pueden descargar este informe en formato. csv y compilar datos como el recuento total de descargas de un recurso con licencia.
+El informe de recursos descargados ahora incluye el recuento de descargas de recursos por usuario dentro del intervalo de fecha y hora especificado. Los usuarios pueden descargar este informe en formato .csv y compilar datos como el recuento total de descargas de un recurso con licencia.
 
 ![](assets/reports_download_downloaded_by.png)
 
-Para obtener más información, consulte los pasos 3 y 6 en [Crear y administrar informes adicionales](../using/brand-portal-reports.md#createandmanageadditionalreports).
+Para obtener más información, consulte los pasos 3 y 6 en [Crear y administrar informes](../using/brand-portal-reports.md#createandmanageadditionalreports)adicionales.
 
 ### Notificación de mantenimiento de Brand Portal {#brand-portal-maintenance-notification}
 
-Brand Portal ahora muestra una pancarta de notificación unos días antes de la próxima actividad de mantenimiento. Una notificación de muestra:
+Brand Portal ahora muestra una pancarta de notificación unos días antes de una próxima actividad de mantenimiento. Una notificación de muestra:
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Para obtener más información, consulte [Notificación de mantenimiento de Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
+Para obtener más información, consulte la notificación [](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification)de mantenimiento de Brand Portal.
 
 ### Mejora de los recursos con licencia compartidos mediante la función de compartir vínculos {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
-Al descargar recursos con licencia mediante la función de compartir vínculos, ahora se le solicita que acepte el acuerdo de licencia de esos recursos.
+Al descargar recursos con licencia mediante la función de uso compartido de vínculos, ahora se le solicita que acepte el contrato de licencia para dichos recursos.
 
 ![](assets/copyright_management.png)
 
@@ -384,11 +378,11 @@ Para obtener más información, consulte el paso 12 en [Compartir recursos como 
 
 ### Mejora del selector de usuarios {#user-picker-enhancement}
 
-El rendimiento del selector de usuarios ahora se ha mejorado para adaptarse a las necesidades de los clientes con una gran base de usuarios.
+El rendimiento del selector de usuarios ahora se mejora para satisfacer las necesidades de los clientes con una gran base de usuarios.
 
 ### Cambios en la marca de Experience Cloud {#experience-cloud-branding-changes}
 
-Brand Portal ahora sigue la nueva marca de Adobe Experience Cloud.
+Brand Portal ahora se ajusta a la nueva marca de Adobe Experience Cloud.
 
 ![](assets/bp_solution_switcher.png)
 
@@ -398,15 +392,15 @@ Brand Portal 6.3.1 incluye funciones nuevas y mejoradas orientadas a alinear Bra
 
 ### Interfaz de usuario actualizada {#upgraded-user-interface}
 
-Para alinear la experiencia del usuario de Brand Portal con AEM, Adobe está migrando a la interfaz de usuario de Coral 3. Este cambio mejora el uso general, incluso la navegación y la apariencia.
+Para alinear la experiencia de usuario de Brand Portal con AEM, Adobe está realizando la transición a la interfaz de usuario de Coral 3. Este cambio mejora el uso general, incluida la navegación, y el aspecto.
 
 #### Experiencia de navegación mejorada {#enhanced-navigational-experience}
 
-* Acceso rápido a herramientas administrativas a través del nuevo logotipo de Adobe:
+* Acceso rápido a las herramientas administrativas a través del nuevo logotipo de Adobe:
 
 ![](assets/aemlogo-3.png)
 
-* Navegación del producto mediante una superposición:
+* Navegación del producto a través de una superposición:
 
 ![](assets/overlay_navigation.png)
 
@@ -414,80 +408,80 @@ Para alinear la experiencia del usuario de Brand Portal con AEM, Adobe está mig
 
 ![](assets/navigationparentfolders.png)
 
-* Búsqueda rápida y navegación al contenido y las herramientas necesarios:
+* Búsqueda y navegación rápidas al contenido y las herramientas necesarios:
 
 ![](assets/omnisearchicon.png)
 
 ### Experiencia de navegación mejorada {#enhanced-browsing-experience}
 
-* Nueva vista de columna para navegar por carpetas anidadas:
+* Nueva vista de columna para explorar las carpetas anidadas:
 
 ![](assets/millercolumnnavigation.png) ![](assets/multi-columnview.png)
 
-* En la lista de recursos de una carpeta, el recurso más reciente se carga en la parte superior.
+* En la lista de recursos de una carpeta, el último recurso cargado aparece en la parte superior.
 
 ### Experiencia de búsqueda mejorada {#enhanced-search-experience}
 
-* La nueva función de búsqueda Omni facilita el acceso rápido a contenido, capacidad o etiquetas relevantes mediante sugerencias automáticas a medida que escribe palabras clave de búsqueda. La búsqueda Omni está disponible en todas las funciones de búsqueda.
+* La nueva función de búsqueda Omni facilita el acceso rápido al contenido, la capacidad o las etiquetas relevantes a través de sugerencias automáticas a medida que escribe las palabras clave de búsqueda. La búsqueda Omni está disponible en todas las funciones de búsqueda.
 
 ![](assets/omnisearch_whatsnew.png)
 
-* También puede agregar filtros de búsqueda a la búsqueda Omni para reducir y acelerar la búsqueda.
+* También puede agregar filtros de búsqueda a la búsqueda de Omni para reducir aún más la búsqueda y agilizarla.
 
 ![](assets/omnisearch_withfilters.png)
 
-* La nueva búsqueda basada en clasificaciones de recursos permite buscar recursos con clasificaciones, si se publican desde Recursos AEM.
-* La nueva función de búsqueda multivalor acepta varias palabras clave con el operador Y para descubrir recursos más rápidamente.
-* La nueva función de ampliación de búsqueda permite mejorar la relevancia de búsqueda para que los recursos específicos aparezcan en la parte superior de los resultados de búsqueda.
+* La nueva búsqueda basada en la clasificación de recursos le permite buscar recursos con clasificaciones, si se publican desde Recursos AEM.
+* La nueva función de búsqueda de varios valores acepta varias palabras clave con el operador Y para descubrir los recursos más rápido.
+* La nueva capacidad de ampliación de búsqueda le permite mejorar la relevancia de la búsqueda para que los recursos específicos aparezcan en la parte superior de los resultados de búsqueda.
 * La nueva función de búsqueda basada en rutas le permite proporcionar la ruta a una carpeta anidada para poder buscar recursos en esa carpeta.
 
-#### Nueva búsqueda inteligente basada en etiquetas {#new-smart-tags-based-search}
+#### Nueva búsqueda basada en etiquetas inteligentes {#new-smart-tags-based-search}
 
-Si las imágenes con etiquetas inteligentes se publican desde AEM Assets a Brand Portal, puede buscar estas imágenes en Brand Portal utilizando los nombres de etiquetas inteligentes como palabras clave de búsqueda. Esta función solo está disponible para archivos.
+Si las imágenes con etiquetas inteligentes se publican desde Recursos AEM a Brand Portal, puede buscar estas imágenes en Brand Portal utilizando los nombres de etiquetas inteligentes como palabras clave de búsqueda. Esta función solo está disponible para archivos.
 
 ### Experiencia de descarga mejorada {#enhanced-downloading-experience}
 
-Después de descargar una carpeta anidada, puede conservar la jerarquía original de carpetas. Los recursos dentro de una carpeta anidada se pueden descargar en una sola carpeta en oposición a carpetas independientes.
+Después de descargar una carpeta anidada, puede conservar la jerarquía de carpetas original. Los recursos dentro de una carpeta anidada se pueden descargar en una sola carpeta, en lugar de carpetas independientes.
 
 ### Rendimiento mejorado {#improved-performance}
 
 Las mejoras en las funciones de exploración, búsqueda y descarga mejoran significativamente el rendimiento de Brand Portal.
 
-### Nueva administración de derechos digitales para recursos {#new-digital-rights-management-for-assets}
+### Nueva administración de derechos digitales para activos {#new-digital-rights-management-for-assets}
 
-Los administradores pueden establecer la fecha y hora de caducidad de los recursos antes de compartirlos. Una vez que el recurso caduca, es visible para los editores y editores, pero no se puede descargar. Cuando caduca un recurso, los administradores reciben una notificación.
+Los administradores pueden definir la fecha y hora de caducidad de los recursos antes de compartirlos. Una vez que un recurso caduca, es visible para los visores y editores, pero no se puede descargar. Cuando un recurso caduca, los administradores reciben una notificación.
 
 ### Clasificación de recursos mejorada {#enhanced-asset-sorting}
 
-La ordenación de recursos en una carpeta de la vista de lista ya no está restringida al número de recursos que se muestran en la primera página. Se ordenan todos los recursos de una carpeta, independientemente de si se enumeran o no en la primera página.
+La ordenación de recursos en una carpeta en la vista de lista ya no está restringida al número de recursos que se muestran en la primera página. Todos los recursos de una carpeta se ordenan, independientemente de si todos aparecen en la primera página.
 
 ### Informes mejorados {#reporting-capabilities}
 
-Los administradores pueden crear y administrar tres tipos de informes: recursos descargados, caducados y publicados. También hay disponible la capacidad para configurar las columnas en un informe y exportar los informes al formato CSV.
+Los administradores pueden crear y administrar tres tipos de informes: recursos descargados, caducados y publicados. También está disponible la posibilidad de configurar las columnas de un informe y exportar los informes a formato CSV.
 
 ![](assets/newreport.png)
 
 ### Metadatos adicionales {#additional-metadata}
 
-Brand Portal 6.3.1 presenta metadatos adicionales, que se encuentran a la par con AEM Assets 6.3. Puede utilizar el formulario Editor de esquemas para controlar los metadatos que deberían estar visibles en la página Propiedades de recursos. Los metadatos de los recursos no son visibles para los usuarios externos que comparten el vínculo, que solo pueden previsualizar y descargar recursos con la URL compartida del vínculo.
+Brand Portal 6.3.1 introduce metadatos adicionales, que están a la par con AEM Assets 6.3. Puede utilizar el formulario Editor de esquemas para controlar los metadatos que deben estar visibles en la página Propiedades de recursos. Los metadatos del recurso no son visibles para los usuarios de recursos compartidos de vínculos externos, que solo pueden obtener una vista previa y descargar recursos mediante la URL de uso compartido de vínculos.
 
 ![](assets/additionsinmetadata.png)
 
-### Capacidades adicionales para administradores {#additional-capabilities-for-administrators}
+### Funciones adicionales para administradores {#additional-capabilities-for-administrators}
 
-* Antes de finalizar las personalizaciones al papel tapiz de pantalla de inicio de sesión, los administradores pueden obtener una vista previa de los cambios.
+* Antes de finalizar las personalizaciones del fondo de pantalla de inicio de sesión, los administradores pueden obtener una vista previa de los cambios.
 
 ![](assets/wallpaperpreview.png)
 
-* Cuando un administrador agrega usuarios nuevos, no es necesario que acepte invitaciones para añadirlos a Brand Portal, sino que se agregan automáticamente.
+* Una vez que un administrador agrega nuevos usuarios, no necesita aceptar invitaciones para agregarlos a Brand Portal, se agregan automáticamente.
 
 ### Nuevas funciones de publicación en AEM Assets 6.3 {#new-publishing-capabilities-in-aem-assets}
 
-* Los administradores de AEM pueden publicar un esquema de metadatos de AEM Assets a Brand Portal con AEM 6.3 SP 1-CFP 1 (6.3.1.1), que estará disponible en el 4 de septiembre de 2017.
+* Los administradores de AEM pueden publicar esquemas de metadatos de Recursos AEM en Brand Portal con AEM 6.3 SP 1-CFP 1 (6.3.1.1), que estará disponible en el cuarto trimestre de 2017.
 
 ![](assets/publish_metadataschemaaemassets.png)
 
-* Los administradores de AEM pueden publicar todas las etiquetas de AEM Assets en Brand Portal con AEM 6.2 SP 1-CFP 7 y AEM 6.3 SP 1-CFP 1 (6.3.1.1).
+* Los administradores de AEM pueden publicar todas las etiquetas de Recursos AEM en Brand Portal con AEM 6.2 SP1-CFP7 y AEM 6.3 SP 1-CFP 1 (6.3.1.1).
 
 ![](assets/publish_tags_aemassets.png)
 
@@ -495,16 +489,21 @@ Brand Portal 6.3.1 presenta metadatos adicionales, que se encuentran a la par co
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**Qus. ¿Perderé acceso a cualquier recurso, característica o configuraciones que haya creado?****Ans.** Todas las características y configuraciones existentes permanecen intactas. Los usuarios finales no se ven afectados y su contenido permanece intacto.
+**Qus. ¿Perderé el acceso a los recursos, funciones o configuraciones existentes que haya creado?**
+**Ans.** Todas las funciones y configuraciones existentes permanecen intactas. Los usuarios finales no se ven afectados y el contenido permanece intacto.
 
-**Noches. ¿Cuándo se desplaza a la nueva versión de Brand Portal?****Ans.** Brand Portal 6.4.4 se publicó en febrero de 2019. Se espera que la versión de Next Brand Portal se publique en el tercer trimestre de 2019.
+**Ques. ¿Cuándo me muevo a la nueva versión de Brand Portal?**
+**Ans.** Brand Portal 6.4.4 se puso en marcha en febrero de 2019. Se espera que la próxima versión de Brand Portal se publique en el tercer trimestre de 2019.
 
 >[!NOTE]
 >
->La programación de versiones es tentativa y sujeta a cambios. Póngase en contacto con su administrador de cuentas de Adobe o con Asistencia al cliente para obtener el programa actualizado de lanzamiento.
+>La programación de versiones es provisional y está sujeta a cambios. Póngase en contacto con el administrador de cuentas de Adobe o con el servicio de asistencia al cliente para obtener la programación de versiones actualizada.
 
-**Noches. ¿Se verán afectados mis usuarios?****Ans.** Este cambio es exclusivamente dentro de Brand Portal, por lo que no afecta a los usuarios finales.
+**Ques. ¿Se verán afectados mis usuarios?**
+**Ans.** Este cambio se realiza exclusivamente en Brand Portal, por lo que no afecta a los usuarios finales.
 
-**Noches. ¿Se requiere alguna acción por mi parte?****Ans.** El administrador no requiere ninguna acción. Cuando obtenga acceso al nuevo portal de marca, consulte la documentación para ver todas las campanas y los silbidos.
+**Ques. ¿Se requiere alguna acción por mi parte?**
+**Ans.** El administrador no requiere ninguna acción. Una vez que tenga acceso al nuevo portal de marca, consulte la documentación para ver todas las señales y señales.
 
-**Noches. ¿Con quién puedo ponerme en contacto con preguntas?****Ans.** Póngase en contacto con su administrador de cuentas de Adobe o con Asistencia al cliente.
+**Ques. ¿Con quién puedo contactar?**
+**Ans.** Póngase en contacto con el administrador de cuentas de Adobe o con la asistencia al cliente.
