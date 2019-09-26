@@ -9,7 +9,7 @@ topic-tags: administración
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -95,7 +95,7 @@ Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar 
 
    ![](assets/aemlogo.png)
 
-2. En el panel Herramientas administrativas, toque o haga clic en **[!UICONTROL Crear/Administrar informes]** para abrir la página **Informes de recursos **Página.
+2. En el panel Herramientas administrativas, toque o haga clic en **[!UICONTROL Crear/Administrar informes]** para abrir la página Informes **[!UICONTROL de]** recursos.
 
    ![](assets/asset-reports.png)
 
