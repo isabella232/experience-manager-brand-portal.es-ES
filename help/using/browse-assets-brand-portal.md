@@ -1,22 +1,22 @@
 ---
-title: Exploración de recursos en Brand Portal
-seo-title: Examinar recursos en Brand Portal
-description: Navegue por los recursos, las jerarquías de recursos y los recursos de búsqueda con diferentes opciones de visualización y elementos de la interfaz de usuario en Brand Portal.
-seo-description: Navegue por los recursos, las jerarquías de recursos y los recursos de búsqueda con diferentes opciones de visualización y elementos de la interfaz de usuario en Brand Portal.
+title: Browse assets on Brand Portal
+seo-title: Browse assets on Brand Portal
+description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
+seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: referencia
 topic-tags: introducción
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
 
-# Exploración de recursos en Brand Portal {#browsing-assets-on-brand-portal}
+# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal ofrece varias funciones y elementos de la interfaz de usuario que facilitan la navegación a través de los recursos, las jerarquías de recursos y la búsqueda de recursos mientras se utilizan diferentes opciones de visualización.
+AEM Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
 
 El logotipo de AEM en la barra de herramientas de AEM en la parte superior facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
 
@@ -24,13 +24,13 @@ El logotipo de AEM en la barra de herramientas de AEM en la parte superior facil
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)
+![](assets/bp_subheader.png)<br />
 
-El selector de raíles situado en la esquina superior izquierda de Brand Portal se despliega para mostrar las opciones de exploración en jerarquías de recursos, optimizar la búsqueda y mostrar los recursos.
+Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
 
 ![](assets/siderail-1.png)
 
-Puede ver, navegar y seleccionar recursos con cualquiera de las vistas disponibles (Tarjeta, Columna y Lista) en el selector de vistas situado en la esquina superior derecha de Brand Portal.
+You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector at the upper right in Brand Portal.
 
 ![](assets/viewselector.png)
 
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Ver la configuración en la vista de lista
 
-La vista de lista muestra [!UICONTROL Nombre] del recurso como la primera columna de forma predeterminada. También se muestra información adicional, como [!UICONTROL Título]del recurso, [!UICONTROL Configuración regional], [!UICONTROL Tipo], [!UICONTROL Dimensiones], [!UICONTROL Tamaño],Clasificación, estado de publicación. However, you can select the columns to be shown using [!UICONTROL View Settings].
+La vista de lista muestra [!UICONTROL Nombre] del recurso como la primera columna de forma predeterminada. Additional information, such as asset Title, Locale, Type, Dimensions, Size, Rating, publish status are also shown.  However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -123,26 +123,26 @@ La vista de lista muestra [!UICONTROL Nombre] del recurso como la primera column
 
 ![](assets/column-view.png)
 
-Utilice la vista de columna para navegar por un árbol de contenido a través de una serie de columnas en cascada. Esta vista le ayuda a visualizar y recorrer la jerarquía de recursos.
+Use the column view to navigate a content tree through a series of cascading columns. This view helps you visualize and traverse the asset hierarchy.
 
-Al seleccionar un recurso en la primera columna (situada más a la izquierda), se muestran los recursos secundarios en la segunda columna a la derecha. Al seleccionar un recurso en la segunda columna, se muestran los recursos secundarios en la tercera columna a la derecha, etc.
+Selecting a resource in the first (leftmost) column displays child resources in the second column to the right. Selecting a resource in the second column displays child resources in the third column to the right, and so on.
 
 Puede desplazarse hacia arriba y hacia abajo en el árbol tocando o haciendo clic en el nombre del recurso o en el elemento adicional a la derecha del nombre del recurso.
 
 * El nombre del recurso y el elemento secundario se resaltan al tocar o hacer clic en ellos.
 * Al tocar o hacer clic en la miniatura se selecciona el recurso.
-* Cuando se selecciona, se superpone una marca de verificación en la miniatura y se resalta el nombre del recurso.
+* When selected, a check mark is overlaid on the thumbnail and the resource name is highlighted.
 * Los detalles del recurso seleccionado se muestran en la última columna.
 
-Cuando se selecciona un recurso en la vista de columna, la representación visual del recurso se muestra en la última columna junto con los siguientes detalles:
+When an asset is selected in column view, visual representation of the asset is displayed in the final column along with the following details:
 
 * Título
 * Nombre
 * Dimensiones
-* Fecha y hora en que se publicó el recurso en Brand Portal desde AEM
+* Date and time when asset was published to Brand Portal from AEM
 * Tamaño
 * Tipo
-* Más detalles, para ir a la página de detalles del recurso
+* More Details option, to go on the details page of the asset
 
 <!--
 Comment Type: draft
@@ -230,19 +230,19 @@ Comment Type: draft
 
 ## Árbol de contenido {#content-tree}
 
-Además de estas vistas, utilice la vista de árbol para explorar en profundidad la jerarquía de recursos mientras ve y selecciona los recursos o carpetas que desee.
+In addition to these views, use the tree view to drill down the asset hierarchy while you view and select desired assets or folders.
 
-Para abrir la vista de árbol, toque o haga clic en el selector de carril en la esquina superior izquierda y seleccione el árbol **[!UICONTROL de]** contenido en el menú.
+To open the tree view, tap/click the rail selector at upper left and select the Content tree from the menu.****
 
 ![](assets/contenttree.png)
 
-Desde la jerarquía de contenido, desplácese hasta el recurso deseado.
+From the content hierarchy, navigate to the desired asset.
 
 ![](assets/content-tree.png)
 
 ## Detalles del recurso {#asset-details}
 
-La página de detalles del recurso le permite ver un recurso, descargar, compartir el vínculo del recurso, moverlo a una colección o ver su página de propiedades. También le permite navegar por la página de detalles de otros recursos de la misma carpeta sucesivamente.
+Asset detail page lets you view an asset, download, share asset's link, move it to a collection, or view its properties page. It also allows you to navigate through the details page of other assets of the same folder in succession.
 
 ![](assets/asset-detail.png)
 
@@ -250,7 +250,7 @@ Para ver los metadatos del recurso o ver sus distintas representaciones, utilice
 
 ![](assets/asset-overview.png)
 
-Puede ver todas las representaciones disponibles del recurso en la página de detalles del recurso y seleccionar una representación para previsualizarla.
+You can view all the available renditions of the asset on asset details page, and select a rendition to preview it.
 
 ![](assets/renditions.png)
 
