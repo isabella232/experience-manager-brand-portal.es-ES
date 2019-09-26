@@ -10,7 +10,7 @@ content-type: referencia
 topic-tags: introducción
 discoiquuid: ect32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: cbb64eb8a79480a1ccedbe5131a38ddf6eaec88d
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -59,7 +59,7 @@ Del mismo modo, especificando:
 >
 >Al seleccionar la casilla de verificación Búsqueda **** parcial, se selecciona **Omitir caso** de forma predeterminada.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Qué cambió en 6.4.3 {#what-changed-in}
 
@@ -84,7 +84,7 @@ Tenga en cuenta que la miniatura predeterminada de las carpetas virtuales es la 
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Buscar en una ruta o jerarquía de carpetas específica
 
@@ -104,7 +104,7 @@ Tenga en cuenta que la búsqueda en estas carpetas solo se obtiene a partir de l
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Compatibilidad con representaciones de vídeo de Dynamic Media
 
@@ -125,7 +125,7 @@ Los códigos de vídeo de Dynamic Media se pueden descargar de:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Publicación programada en Brand Portal
 
@@ -136,7 +136,7 @@ Del mismo modo, los recursos publicados se pueden eliminar del portal en una fec
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Alias de inquilino configurable en URL
 
@@ -149,7 +149,7 @@ Sin embargo, la instancia de AEM Author solo se puede [configurar](https://helpx
 
 **Caso** de uso Las organizaciones pueden satisfacer sus necesidades de marca personalizando la dirección URL del portal, en lugar de atenerse a la dirección URL proporcionada por Adobe.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Mejoras de la experiencia de descarga
 
