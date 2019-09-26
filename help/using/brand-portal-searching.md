@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -47,31 +47,30 @@ Para obtener información sobre el comportamiento de búsqueda con recursos con 
 
 Las facetas de búsqueda del panel Filtros agregan granularidad a la experiencia de búsqueda y hacen que la funcionalidad de búsqueda sea eficiente. Las facetas de búsqueda utilizan varias dimensiones (predicados) que le permiten realizar búsquedas intrincadas. Puede desplazarse fácilmente hasta el nivel de detalle deseado para una búsqueda más enfocada.
 
-Por ejemplo, si busca una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el alcance de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo. Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, PDF o MS Word.
+For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. Puede reducir aún más el alcance de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.<br />
 
-![Panel Filtros en el](assets/file-type-search.png "portal de marcaPanel Filtros en el portal de marca")
+![Filters panel in Brand PortalFilters panel in Brand Portal](assets/file-type-search.png "")
 
-The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONTROL Path Browser], [!UICONTROL File Type], [!UICONTROL File Size], [!UICONTROL Status], and [!UICONTROL Orientation]. However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the [!UICONTROL Filters] panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable search predicates on Brand Portal.[](../using/brand-portal-search-facets.md#list-of-search-predicates)
+The Filters panel includes a few standard facets, such as- Path Browser, File Type, File Size, Status, and Orientation.  However, you can add custom search facets or remove specific search facets from the Filters panel by adding or removing predicates in the underlying Search Form. [](../using/brand-portal-search-facets.md) Consulte la lista de los predicados de [búsqueda disponibles y utilizables en Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-To apply filters to your search, using the available search facets:[](../using/brand-portal-search-facets.md)
+Para aplicar filtros a la búsqueda, utilice las facetas [de](../using/brand-portal-search-facets.md)búsqueda disponibles:
 
-1. Click the overlay icon and select Filter.****
+1. Haga clic en el icono de superposición y seleccione **[!UICONTROL Filtro]**.
 
    ![](assets/selectorrail.png)
 
-2. From the Filters panel on the left, select the appropriate options to apply the relevant filters.
-****
-For example, use the following standard filters:
+2. En el panel **[!UICONTROL Filtros]** de la izquierda, seleccione las opciones adecuadas para aplicar los filtros relevantes.
+Por ejemplo, utilice los siguientes filtros estándar:
 
-   * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is /content/dam/mac/&lt;tenant-id&gt;/, which can be configured by editing the default search form.****
+   * **[!UICONTROL Navegador]** de rutas para buscar recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado para el Explorador de rutas es **[!UICONTROL /content/dam/mac/&lt;identificación del inquilino&gt;/]**, que se puede configurar editando el formulario de búsqueda predeterminado.
    >[!NOTE]
    >
-   >To non-admin users, Path Browser in Filter panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
+   >Para los usuarios que no son administradores, el [!UICONTROL navegador] de rutas del panel [!UICONTROL Filtro] muestra únicamente la estructura de contenido de las carpetas (y sus carpetas antecesoras) compartidas con ellos.\
+   >Para administrar usuarios, el navegador de rutas permite desplazarse a cualquier carpeta de Brand Portal.
 
-   * **[!UICONTROL File Type to specify the type (image, document, multimedia, archive) of asset file you are looking for.]** Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS Word) for the documents.
-   * **[!UICONTROL File Size]** to search for assets based on their size. Puede especificar los límites inferior y superior del intervalo de tamaño para reducir la búsqueda y especificar la unidad de medida que desea buscar.
-   * **[!UICONTROL Status to search for assets based on asset statuses, such as Approval (Approved, Changes Requested, Rejected, Pending) and Expiration.]**
+   * **[!UICONTROL Tipo]** de archivo para especificar el tipo (imagen, documento, multimedia, archivo) del archivo de recurso que está buscando. Además, puede reducir el alcance de la búsqueda, por ejemplo, especificar el tipo MIME (Tiff, Bitmap, GIMP Images) para la imagen o el formato (PDF o MS Word) de los documentos.
+   * **[!UICONTROL Tamaño]** de archivo para buscar recursos según su tamaño. Puede especificar los límites inferior y superior del intervalo de tamaño para reducir la búsqueda y especificar la unidad de medida que desea buscar.
+   * **[!UICONTROL Estado]** para buscar recursos en función de estados de recursos, como Aprobación (Aprobado, Cambios Solicitados, Rechazado, Pendiente) y Caducidad.
    * **[!UICONTROL Clasificación]** promedio para buscar recursos según la clasificación de los recursos.
    * **[!UICONTROL Orientación]** para buscar recursos en función de la orientación (horizontal, vertical, cuadrada) de los recursos.
    * **[!UICONTROL Estilo]** para buscar recursos en función del estilo (coloreado, monocromo) de los recursos.
