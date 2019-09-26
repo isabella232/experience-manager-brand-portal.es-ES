@@ -10,7 +10,7 @@ topic-tags: compartir
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -92,7 +92,7 @@ Para descargar los recursos compartidos:
 
    ![](assets/licensed-asset-download.png)
 
-   Aparecerá el cuadro de diálogo [!UICONTROL Descargar] .
+   Aparecerá el cuadro de diálogo [!UICONTROL Descargar] .<br />
    ![](assets/download-linkshare.png)
 
    * Para acelerar la descarga de archivos de recursos compartidos como vínculo, seleccione la opción **[!UICONTROL Activar aceleración]** de descarga y [siga las instrucciones del asistente](../using/accelerated-download.md#download-workflow-using-file-accelerator). Para obtener más información sobre la rápida descarga de recursos en Brand Portal, consulte la [Guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
