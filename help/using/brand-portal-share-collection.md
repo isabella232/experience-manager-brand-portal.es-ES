@@ -10,7 +10,7 @@ topic-tags: compartir
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,11 +31,11 @@ Para compartir una colección, siga estos pasos:
 
    ![](assets/contenttree-1.png)
 
-2. Desde el lateral de la izquierda, haga clic en **[!UICONTROL Colecciones]**.
+1. Desde el lateral de la izquierda, haga clic en **[!UICONTROL Colecciones]**.
 
    ![](assets/access_collections.png)
 
-3. Desde la consola **[!UICONTROL Colecciones]** , realice una de las siguientes acciones:
+1. Desde la consola **[!UICONTROL Colecciones]** , realice una de las siguientes acciones:
 
    * Pase el puntero sobre la colección que desee compartir. En las miniaturas de acción rápida disponibles para la colección, haga clic en el icono **[!UICONTROL Configuración]** .
    ![](assets/settings_thumbnail.png)
@@ -43,7 +43,7 @@ Para compartir una colección, siga estos pasos:
    * Seleccione la colección que desee compartir. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Configuración]**.
    ![](assets/collection-sharing.png)
 
-4. En el cuadro de diálogo Configuración [!UICONTROL de] colección, seleccione los usuarios o grupos con los que desea compartir la colección y seleccione la función de un usuario o grupo para que coincida con su función global. Por ejemplo, asigne la función Editor a un editor global y la función Visor a un visor global.
+1. En el cuadro de diálogo Configuración [!UICONTROL de] colección, seleccione los usuarios o grupos con los que desea compartir la colección y seleccione la función de un usuario o grupo para que coincida con su función global. Por ejemplo, asigne la función Editor a un editor global y la función Visor a un visor global.
 
    Como alternativa, para que la colección esté disponible para todos los usuarios, independientemente de la pertenencia y función de su grupo, haga que se haga pública activando la casilla de verificación Colección **** pública.
 
@@ -57,7 +57,7 @@ Para compartir una colección, siga estos pasos:
 
    ![](assets/collection-setting-editor.png)
 
-5. Seleccione **[!UICONTROL Agregar]** y, a continuación, **[!UICONTROL Guardar]**. La colección se comparte con los usuarios seleccionados.
+1. Seleccione **[!UICONTROL Agregar]** y, a continuación, **[!UICONTROL Guardar]**. La colección se comparte con los usuarios seleccionados.
 
    >[!NOTE]
    >
@@ -73,12 +73,12 @@ Para dejar de compartir una colección compartida anteriormente, haga lo siguien
 
    ![](assets/collection_settings.png)
 
-2. En el cuadro de diálogo Configuración [!UICONTROL de] colección, en [!UICONTROL Miembros], haga clic en el símbolo **[!UICONTROL x]** junto a usuarios o grupos para eliminarlos de la lista de usuarios con los que ha compartido la colección.
+1. En el cuadro de diálogo Configuración [!UICONTROL de] colección, en [!UICONTROL Miembros], haga clic en el símbolo **[!UICONTROL x]** junto a usuarios o grupos para eliminarlos de la lista de usuarios con los que ha compartido la colección.
 
    ![](assets/unshare_collection.png)
 
-3. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Confirmar]** para confirmar que no se comparte.
+1. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Confirmar]** para confirmar que no se comparte.
 
    Haga clic en **[!UICONTROL Guardar]**.
 
-4. Inicie sesión en Brand Portal con las credenciales del usuario que ha eliminado de la lista compartida. La colección se elimina de la consola **[!UICONTROL Colecciones]** .
+1. Inicie sesión en Brand Portal con las credenciales del usuario que ha eliminado de la lista compartida. La colección se elimina de la consola **[!UICONTROL Colecciones]** .
