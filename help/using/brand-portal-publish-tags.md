@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: referencia
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -36,12 +36,12 @@ Para crear etiquetas en AEM, publique las etiquetas en Brand Portal y asócielas
 
    1. Seleccionar **[!UICONTROL herramientas]**
 
-   2. Seleccionar **[!UICONTROL general]**
+   1. Seleccionar **[!UICONTROL general]**
 
-   3. Seleccionar **[!UICONTROL etiquetado]**
+   1. Seleccionar **[!UICONTROL etiquetado]**
 
-2. Seleccione **[!UICONTROL Crear]** y, a continuación, seleccione la opción **[!UICONTROL Crear etiqueta]** .
-3. Especifique:
+1. Seleccione **[!UICONTROL Crear]** y, a continuación, seleccione la opción **[!UICONTROL Crear etiqueta]** .
+1. Especifique:
 
    * **[!UICONTROL Título]**
       *(obligatorio)* Un título de visualización para la etiqueta.
@@ -51,19 +51,19 @@ Para crear etiquetas en AEM, publique las etiquetas en Brand Portal y asócielas
       *(opcional)* Descripción de la etiqueta.
    * **Ruta** de etiqueta JCR de la etiqueta.
 
-4. Seleccione **[!UICONTROL Enviar]** para crear la etiqueta.
+1. Seleccione **[!UICONTROL Enviar]** para crear la etiqueta.
 
    Una vez que haya creado una etiqueta en una instancia de AEM, la etiqueta estará disponible para adjuntarse a un recurso (mediante la sección Propiedades o la sección Administrar etiquetas de ese recurso).
 
-5. **Publique la etiqueta en Brand Portal**.
+1. **Publique la etiqueta en Brand Portal**.
 
    Vaya a la consola Etiquetas **** AEM ([!UICONTROL Herramientas)| Etiquetado| Etiquetas]AEM), seleccione la etiqueta que desee y Publicar en Brand Portal.
 
-6. **Adjunte la etiqueta a un recurso (o colección)**.
+1. **Adjunte la etiqueta a un recurso (o colección)**.
 
    Seleccione un recurso (o colección) y adjunte la etiqueta deseada mediante la sección Propiedades o la sección Administrar etiquetas de ese recurso. Para obtener más información sobre cómo asignar etiquetas a recursos en Recursos AEM, consulte [Uso de etiquetas para organizar recursos](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-7. **Publique recursos (o colecciones) en Brand Portal**.\
+1. **Publique recursos (o colecciones) en Brand Portal**.\
    Cuando publica un recurso (o colección) en Brand Portal, la etiqueta adjunta también está disponible en Brand Portal.
 
    Para ver la etiqueta adjunta en el recurso (o colección) correspondiente en Brand Portal, inicie sesión en Brand Portal y seleccione el recurso. En la sección Propiedades verá la etiqueta adjunta.
@@ -75,12 +75,12 @@ AEM Assets Brand Portal le permite incluir recursos específicos como los princi
 Para elevar un recurso para una palabra clave de búsqueda, siga estos pasos:
 
 1. Abra la página **[!UICONTROL Propiedades]** de un recurso en una instancia de autor de AEM.
-2. Vaya a la ficha **[!UICONTROL Avanzado]** .
-3. En la sección **[!UICONTROL Buscar promociones]** dentro de **[!UICONTROL Elevar para palabras clave]** de búsqueda, seleccione **[!UICONTROL Agregar]** para agregar las palabras clave o etiquetas de búsqueda.
+1. Vaya a la ficha **[!UICONTROL Avanzado]** .
+1. En la sección **[!UICONTROL Buscar promociones]** dentro de **[!UICONTROL Elevar para palabras clave]** de búsqueda, seleccione **[!UICONTROL Agregar]** para agregar las palabras clave o etiquetas de búsqueda.
 
    ![](assets/search-promote.png)
 
-4. Guarde los cambios.
-5. Publicar el recurso en el portal de marca.
-6. Inicie sesión en Brand Portal. Consulte la ficha **[!UICONTROL Avanzadas]** en la sección **[!UICONTROL Propiedades]** del recurso.
+1. Guarde los cambios.
+1. Publicar el recurso en el portal de marca.
+1. Inicie sesión en Brand Portal. Consulte la ficha **[!UICONTROL Avanzadas]** en la sección **[!UICONTROL Propiedades]** del recurso.
 Tenga en cuenta que la palabra clave **[!UICONTROL Search Promote]** también está visible en las Propiedades de ese recurso.
