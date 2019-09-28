@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,17 +26,17 @@ Para agregar recursos a [!UICONTROL Lightbox], haga lo siguiente:
 
    ![](assets/link_sharing_assetselection.png)
 
-2. En la barra de herramientas de la parte superior, haga clic en el icono Agregar a la colección.
+1. En la barra de herramientas de la parte superior, haga clic en el icono Agregar a la colección.
 
    ![](assets/add_to_collection.png)
 
-3. En la página **[!UICONTROL Agregar a colección]** , la colección [!UICONTROL Lightbox] está seleccionada de forma predeterminada.
+1. En la página **[!UICONTROL Agregar a colección]** , la colección [!UICONTROL Lightbox] está seleccionada de forma predeterminada.
 
    Haga clic en **[!UICONTROL Agregar]**. Los recursos seleccionados se agregan al [!UICONTROL Lightbox].
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. Para revisar los recursos agregados a [!UICONTROL Lightbox], haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo y, a continuación, haga clic en la colección **[!UICONTROL Lightbox]** .
+1. Para revisar los recursos agregados a [!UICONTROL Lightbox], haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo y, a continuación, haga clic en la colección **[!UICONTROL Lightbox]** .
 
    ![](assets/collections_lightbox.png)
 
@@ -50,10 +50,10 @@ Para agregar recursos a [!UICONTROL Lightbox], haga lo siguiente:
 
    ![](assets/collections_lightbox-1.png)
 
-2. Seleccione la carpeta que desee quitar de la colección y, a continuación, haga clic en **[!UICONTROL Quitar]** en la barra de herramientas de la parte superior.
+1. Seleccione la carpeta que desee quitar de la colección y, a continuación, haga clic en **[!UICONTROL Quitar]** en la barra de herramientas de la parte superior.
 
    ![](assets/collections_lightboxdelete.png)
 
-3. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Eliminar]** para confirmar la eliminación.
+1. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Eliminar]** para confirmar la eliminación.
 
 La carpeta se elimina de la colección [!UICONTROL Lightbox] .
