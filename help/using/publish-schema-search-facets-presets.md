@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: referencia
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,7 +34,7 @@ Una vez creado el ajuste preestablecido, se muestra como representación dinámi
 Para publicar ajustes preestablecidos de imagen en Brand Portal:
 
 1. En la instancia de AEM Author, toque o haga clic en el logotipo de AEM para acceder a la consola de navegación global y toque o haga clic en el icono Herramientas y vaya a **[!UICONTROL Recursos]** &gt; Ajustes preestablecidos **[!UICONTROL de imagen]**.
-2. Seleccione el ajuste preestablecido de imagen o varios ajustes preestablecidos de imagen en la lista de ajustes preestablecidos de imagen y toque o haga clic en **[!UICONTROL Publicar en Brand Portal]**.
+1. Seleccione el ajuste preestablecido de imagen o varios ajustes preestablecidos de imagen en la lista de ajustes preestablecidos de imagen y toque o haga clic en **[!UICONTROL Publicar en Brand Portal]**.
 
 ![](assets/publishpreset.png)
 
@@ -45,7 +45,7 @@ Para publicar ajustes preestablecidos de imagen en Brand Portal:
 Para cancelar la publicación de un ajuste preestablecido de imagen desde Brand Portal:
 
 1. En la instancia de AEM Author, toque o haga clic en el logotipo de AEM para acceder a la consola de navegación global y toque o haga clic en el icono **[!UICONTROL Herramientas]** y vaya a **[!UICONTROL Recursos &gt; Ajustes preestablecidos]** de imagen.
-2. Seleccione un ajuste preestablecido de imagen y seleccione **[!UICONTROL Quitar de Brand Portal]** en las opciones disponibles en la parte superior.
+1. Seleccione un ajuste preestablecido de imagen y seleccione **[!UICONTROL Quitar de Brand Portal]** en las opciones disponibles en la parte superior.
 
 ## Publicar esquema de metadatos en Brand Portal {#publish-metadata-schema-to-brand-portal}
 
@@ -70,7 +70,7 @@ Si los usuarios han creado un esquema personalizado en la instancia de AEM Autho
 Para publicar un esquema de metadatos de la instancia de AEM Author en Brand Portal:
 
 1. En la instancia de AEM Author, toque o haga clic en el logotipo de AEM para acceder a la consola de navegación global y toque o haga clic en el icono Herramientas y vaya a **[!UICONTROL Recursos &gt; Esquemas]** de metadatos.
-2. Seleccione un esquema de metadatos y seleccione **[!UICONTROL Publicar en Brand Portal]** en las opciones disponibles en la parte superior.
+1. Seleccione un esquema de metadatos y seleccione **[!UICONTROL Publicar en Brand Portal]** en las opciones disponibles en la parte superior.
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Para publicar un esquema de metadatos de la instancia de AEM Author en Brand Por
 Para cancelar la publicación de un esquema de metadatos desde Brand Portal:
 
 1. En la instancia de AEM Author, toque o haga clic en el logotipo de AEM para acceder a la consola de navegación global y toque o haga clic en el icono Herramientas y vaya a **[!UICONTROL Recursos &gt; Esquemas]** de metadatos.
-2. Seleccione un esquema de metadatos y seleccione **[!UICONTROL Quitar de Brand Portal]** de las opciones disponibles en la parte superior.
+1. Seleccione un esquema de metadatos y seleccione **[!UICONTROL Quitar de Brand Portal]** de las opciones disponibles en la parte superior.
 
 ## Publicación de facetas de búsqueda en Brand Portal {#publish-search-facets-to-brand-portal}
 
@@ -97,7 +97,7 @@ Si desea utilizar el formulario de búsqueda personalizado **[!UICONTROL Recurso
 Para publicar la faceta de búsqueda editada de la instancia de AEM Author en Brand Portal:
 
 1. Toque o haga clic en el logotipo de AEM y, a continuación, vaya a **[!UICONTROL Herramientas]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Buscar formularios]**.
-2. Seleccione el formulario de búsqueda editado y seleccione **[!UICONTROL Publicar en Brand Portal]**.
+1. Seleccione el formulario de búsqueda editado y seleccione **[!UICONTROL Publicar en Brand Portal]**.
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ Para publicar la faceta de búsqueda editada de la instancia de AEM Author en Br
 Para cancelar la publicación de formularios de búsqueda desde Brand Portal:
 
 1. En la instancia de AEM Author, toque o haga clic en el logotipo de AEM para acceder a la consola de navegación global y toque o haga clic en el icono Herramientas y vaya a **[!UICONTROL General &gt; Buscar formularios]**.
-2. Seleccione el formulario de búsqueda y seleccione **[!UICONTROL Quitar de Brand Portal]** en las opciones disponibles en la parte superior.
+1. Seleccione el formulario de búsqueda y seleccione **[!UICONTROL Quitar de Brand Portal]** en las opciones disponibles en la parte superior.
 
 >[!NOTE]
 >
@@ -116,6 +116,6 @@ Para cancelar la publicación de formularios de búsqueda desde Brand Portal:
 
 1. Pocos predicados de búsqueda no son aplicables a los filtros de búsqueda en Brand Portal. Cuando estos predicados de búsqueda se publican como parte del formulario de búsqueda desde la instancia de AEM Author hasta Brand Portal, se filtran. Por lo tanto, los usuarios ven menos predicados en el formulario publicado en Brand Portal. Consulte los predicados [de búsqueda aplicables a los filtros en Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-2. En Predicado [!UICONTROL de]opciones, si un usuario está utilizando una ruta personalizada para leer opciones en la instancia de AEM Author, no funcionará en el portal de marcas. Estas rutas y opciones adicionales no se publican en Brand Portal con el formulario de búsqueda. En este caso, los usuarios pueden seleccionar la opción **[!UICONTROL Manual]** en **[!UICONTROL Agregar opciones]** en Predicado **[!UICONTROL de]** opciones para agregar estas opciones manualmente en Brand Portal.
+1. En Predicado [!UICONTROL de]opciones, si un usuario está utilizando una ruta personalizada para leer opciones en la instancia de AEM Author, no funcionará en el portal de marcas. Estas rutas y opciones adicionales no se publican en Brand Portal con el formulario de búsqueda. En este caso, los usuarios pueden seleccionar la opción **[!UICONTROL Manual]** en **[!UICONTROL Agregar opciones]** en Predicado **[!UICONTROL de]** opciones para agregar estas opciones manualmente en Brand Portal.
 
 ![](assets/options-predicate-manual.png)
