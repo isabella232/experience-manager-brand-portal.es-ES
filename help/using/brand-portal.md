@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introducción
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,9 +31,7 @@ Brand Portal admite las siguientes funciones de usuario:
 * Usuario invitado
 * Visor
 * Editor
-* Administrador
-
-En la tabla siguiente se enumeran las tareas que pueden realizar los usuarios con estas funciones:
+* AdministradorEn la tabla siguiente se enumeran las tareas que pueden realizar los usuarios con estas funciones:
 
 |  | **Examinar** | **Buscar** | **Descargar** | **Compartir carpetas** | **Compartir una colección** | **Compartir recursos como vínculo** | **Acceso a las Herramientas de administración** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -131,7 +129,7 @@ Para solicitar acceso, haga lo siguiente:
 
    Se abre la página [!UICONTROL Solicitar acceso] .
 
-2. Para solicitar acceso al portal de marca de una organización, debe tener un ID [!UICONTROL de]Adobe válido, un ID [!UICONTROL de]empresa o un ID [!UICONTROL federado].
+1. Para solicitar acceso al portal de marca de una organización, debe tener un ID [!UICONTROL de]Adobe válido, un ID [!UICONTROL de]empresa o un ID [!UICONTROL federado].
 
    En la página [!UICONTROL Solicitar acceso] , inicie sesión con su ID (escenario 1) o cree un ID de [!UICONTROL Adobe] (escenario 2):<br />
    ![[!UICONTROL Solicitar acceso]](assets/bplogin_request_access_2.png)
@@ -139,22 +137,22 @@ Para solicitar acceso, haga lo siguiente:
    **Escenario 1**
    1. Si tiene un [!UICONTROL Adobe ID], un [!UICONTROL Enterprise ID]o un [!UICONTROL Federated ID], haga clic en **[!UICONTROL Iniciar sesión]**.
 Se abre la página [!UICONTROL Iniciar sesión] .
-   2. Proporcione sus credenciales de [!UICONTROL Adobe ID] y haga clic en **[!UICONTROL Iniciar sesión]**.<br />
+   1. Proporcione sus credenciales de [!UICONTROL Adobe ID] y haga clic en **[!UICONTROL Iniciar sesión]**.<br />
    ![Inicio de sesión de Adobe](assets/bplogin_request_access_3.png)
 
    Se le redirige a la página [!UICONTROL Solicitar acceso] .<br />
    **Escenario 2**
    1. Si no dispone de un ID [!UICONTROL de]Adobe, para crear uno, haga clic en **[!UICONTROL Obtener un ID]** de Adobe en la página [!UICONTROL Solicitar acceso] .
 Se abre la página [!UICONTROL Iniciar sesión] .
-   2. Click **[!UICONTROL Get an Adobe ID]**.
+   1. Click **[!UICONTROL Get an Adobe ID]**.
 Se abre la página [!UICONTROL Registro] .
-   3. Escriba su nombre y apellidos, ID de correo electrónico y contraseña.
-   4. Seleccione **[!UICONTROL Registrarse]**.<br />
+   1. Escriba su nombre y apellidos, ID de correo electrónico y contraseña.
+   1. Seleccione **[!UICONTROL Registrarse]**.<br />
    ![](assets/bplogin_request_access_5.png)
 
    Se le redirige a la página [!UICONTROL Solicitar acceso] .
 
-3. La página siguiente muestra su nombre e ID de correo electrónico utilizados para solicitar acceso. Deje un comentario para el administrador y haga clic en **[!UICONTROL Enviar]**.<br />
+1. La página siguiente muestra su nombre e ID de correo electrónico utilizados para solicitar acceso. Deje un comentario para el administrador y haga clic en **[!UICONTROL Enviar]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -164,7 +162,7 @@ Los administradores de productos de Brand Portal reciben solicitudes de acceso e
 
 ![Notificación de acceso solicitada](assets/bplogin_request_access_7.png)
 
-Para conceder acceso, los administradores de productos deben hacer clic en la notificación correspondiente en el área de notificación de Brand Portal y, a continuación, hacer clic en **[!UICONTROL Otorgar acceso]**.
+Para otorgar acceso, los administradores de productos deben hacer clic en la notificación correspondiente en el área de notificación de Brand Portal y luego hacer clic en **[!UICONTROL Otorgar acceso]**.
 Como alternativa, los administradores de productos pueden seguir el vínculo proporcionado en el correo electrónico de solicitud de acceso para visitar Adobe [!UICONTROL Admin Console] y agregar el usuario a la configuración de producto relevante.
 
 Se le redirige a la página principal de [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Utilice Adobe [!UICONTROL Admin Console] para crear usuarios y asignarlos a perfiles de producto (anteriormente conocidos como configuraciones de producto), que se muestran como grupos en Brand Portal. Para obtener más información sobre cómo agregar usuarios en [!UICONTROL Admin Console], consulte [Agregar un usuario](brand-portal-adding-users.md#add-a-user) (siga los pasos 4 a 7 del procedimiento para agregar un usuario).
@@ -180,7 +178,7 @@ Para cambiar el idioma:
 1. Seleccione [!UICONTROL Usuario] &gt; [!UICONTROL Editar perfil] en el menú superior.<br />
    ![Editar el perfil](assets/EditBPProfile.png)
 
-2. En la página Configuración [!UICONTROL de] Experience Cloud, seleccione un idioma en el menú desplegable [!UICONTROL Idioma] .
+1. En la página Configuración [!UICONTROL de] Experience Cloud, seleccione un idioma en el menú desplegable [!UICONTROL Idioma] .
 
 ## Notificación de mantenimiento de Brand Portal {#brand-portal-maintenance-notification}
 
