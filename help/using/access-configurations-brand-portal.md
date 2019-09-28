@@ -10,7 +10,7 @@ content-type: referencia
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -30,10 +30,10 @@ A partir de la versión 6.4.2, AEM Assets Brand Portal autoriza a los administra
 Para permitir el acceso de los invitados a Brand Portal, de modo que los usuarios no tengan que iniciar sesión para acceder a los recursos públicos, los administradores deben:
 
 1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
-2. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página Configuración **[!UICONTROL de]** acceso.
-3. Active la configuración **[!UICONTROL Permitir acceso]** de invitado.
-4. **[!UICONTROL Guarde los cambios.]**
-5. Cierre la sesión para que los cambios surtan efecto.
+1. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página Configuración **[!UICONTROL de]** acceso.
+1. Active la configuración **[!UICONTROL Permitir acceso]** de invitado.
+1. **[!UICONTROL Guarde los cambios.]**
+1. Cierre la sesión para que los cambios surtan efecto.
 
 ![](assets/bp-welcome-screen.png)
 
@@ -44,7 +44,7 @@ Los administradores pueden permitir que los usuarios de la organización solicit
 Para permitir que los usuarios de la organización soliciten acceso a Brand Portal, los administradores deben:
 
 1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
-2. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página Configuración **[!UICONTROL de]** acceso.
-3. Active la configuración **[!UICONTROL Permitir que los usuarios soliciten acceso]** .
-4. **[!UICONTROL Guarde los cambios.]**
-5. Cierre la sesión para que los cambios surtan efecto.
+1. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página Configuración **[!UICONTROL de]** acceso.
+1. Active la configuración **[!UICONTROL Permitir que los usuarios soliciten acceso]** .
+1. **[!UICONTROL Guarde los cambios.]**
+1. Cierre la sesión para que los cambios surtan efecto.
