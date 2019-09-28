@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -47,11 +47,11 @@ Para obtener información sobre el comportamiento de búsqueda con recursos con 
 
 Las facetas de búsqueda del panel Filtros agregan granularidad a la experiencia de búsqueda y hacen que la funcionalidad de búsqueda sea eficiente. Las facetas de búsqueda utilizan varias dimensiones (predicados) que le permiten realizar búsquedas intrincadas. Puede desplazarse fácilmente hasta el nivel de detalle deseado para una búsqueda más enfocada.
 
-For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. Puede reducir aún más el alcance de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.<br />
+Por ejemplo, si busca una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el alcance de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo. Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, PDF o MS Word.<br />
 
-![Filters panel in Brand PortalFilters panel in Brand Portal](assets/file-type-search.png "")
+![Panel Filtros en el](assets/file-type-search.png "portal de marcaPanel Filtros en el portal de marca")
 
-The Filters panel includes a few standard facets, such as- Path Browser, File Type, File Size, Status, and Orientation.  However, you can add custom search facets or remove specific search facets from the Filters panel by adding or removing predicates in the underlying Search Form. [](../using/brand-portal-search-facets.md) Consulte la lista de los predicados de [búsqueda disponibles y utilizables en Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+El panel [!UICONTROL Filtros] incluye algunas facetas estándar como: Navegador [!UICONTROL de]rutas, Tipo [!UICONTROL de]archivo, Tamaño de archivo, [!UICONTROL Estado]y Orientación. Sin embargo, puede [agregar facetas](../using/brand-portal-search-facets.md) de búsqueda personalizadas o quitar facetas de búsqueda específicas del panel [!UICONTROL Filtros] agregando o eliminando predicados en el formulario de búsqueda subyacente. Consulte la lista de los predicados de [búsqueda disponibles y utilizables en Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 Para aplicar filtros a la búsqueda, utilice las facetas [de](../using/brand-portal-search-facets.md)búsqueda disponibles:
 
@@ -59,7 +59,7 @@ Para aplicar filtros a la búsqueda, utilice las facetas [de](../using/brand-por
 
    ![](assets/selectorrail.png)
 
-2. En el panel **[!UICONTROL Filtros]** de la izquierda, seleccione las opciones adecuadas para aplicar los filtros relevantes.
+1. En el panel **[!UICONTROL Filtros]** de la izquierda, seleccione las opciones adecuadas para aplicar los filtros relevantes.
 Por ejemplo, utilice los siguientes filtros estándar:
 
    * **[!UICONTROL Navegador]** de rutas para buscar recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado para el Explorador de rutas es **[!UICONTROL /content/dam/mac/&lt;identificación del inquilino&gt;/]**, que se puede configurar editando el formulario de búsqueda predeterminado.
@@ -103,7 +103,7 @@ Por ejemplo, buscar:
 
    Resultado de búsqueda de recursos con recuento de resultados de búsqueda
 
-3. Puede desplazarse fácilmente a un elemento desde el resultado de la búsqueda y volver al mismo resultado de búsqueda utilizando el botón Atrás en el explorador sin tener que volver a ejecutar la consulta de búsqueda.
+1. Puede desplazarse fácilmente a un elemento desde el resultado de la búsqueda y volver al mismo resultado de búsqueda utilizando el botón Atrás en el explorador sin tener que volver a ejecutar la consulta de búsqueda.
 
 ## Guardar las búsquedas como colección inteligente {#save-your-searches-as-smart-collection}
 
@@ -121,10 +121,10 @@ Para guardar la configuración de búsqueda como una colección inteligente:
 
    ![](assets/save_smartcollectionui.png)
 
-2. Para guardar la colección inteligente con un nombre diferente y seleccionar o borrar la casilla **[!UICONTROL Público]** , haga clic en **[!UICONTROL Editar colección]** inteligente.
+1. Para guardar la colección inteligente con un nombre diferente y seleccionar o borrar la casilla **[!UICONTROL Público]** , haga clic en **[!UICONTROL Editar colección]** inteligente.
 
    ![](assets/edit_smartcollection.png)
 
-3. En el cuadro de diálogo **[!UICONTROL Editar colección]** inteligente, seleccione **[!UICONTROL Guardar como]** e introduzca un nombre para la colección inteligente. Haga clic en **[!UICONTROL Guardar]**.
+1. En el cuadro de diálogo **[!UICONTROL Editar colección]** inteligente, seleccione **[!UICONTROL Guardar como]** e introduzca un nombre para la colección inteligente. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/saveas_smartsearch.png)
