@@ -9,7 +9,7 @@ topic-tags: administración
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,11 +28,11 @@ Para ver un informe, siga estos pasos:
 
    ![](assets/aemlogo.png)
 
-2. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Crear/administrar informes]** para abrir la página Informes **[!UICONTROL de]** recursos.
+1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Crear/administrar informes]** para abrir la página Informes **[!UICONTROL de]** recursos.
 
    ![](assets/access-asset-reports.png)
 
-3. Acceda al informe **[!UICONTROL Uso]** y a otros informes generados desde la página Informes de recursos.
+1. Acceda al informe **[!UICONTROL Uso]** y a otros informes generados desde la página Informes de recursos.
 
    >[!NOTE]
    >
@@ -95,16 +95,16 @@ Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar 
 
    ![](assets/aemlogo.png)
 
-2. En el panel Herramientas administrativas, toque o haga clic en **[!UICONTROL Crear/Administrar informes]** para abrir la página Informes **[!UICONTROL de]** recursos.
+1. En el panel Herramientas administrativas, toque o haga clic en **[!UICONTROL Crear/Administrar informes]** para abrir la página Informes **[!UICONTROL de]** recursos.
 
    ![](assets/asset-reports.png)
 
-3. En la página Informes de recursos, toque o haga clic en **[!UICONTROL Crear]**.
-4. En la página **[!UICONTROL Crear informe]** , seleccione un informe para crear y toque o haga clic en **[!UICONTROL Siguiente]**.
+1. En la página Informes de recursos, toque o haga clic en **[!UICONTROL Crear]**.
+1. En la página **[!UICONTROL Crear informe]** , seleccione un informe para crear y toque o haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/crete-report.png)
 
-5. Configure los detalles del informe. Especifique el título, la descripción, la estructura de carpetas (donde el informe debe ejecutar y generar estadísticas) y el intervalo de fechas para los informes de [!UICONTROL descarga], [!UICONTROL caducidad]y [!UICONTROL publicación] .
+1. Configure los detalles del informe. Especifique el título, la descripción, la estructura de carpetas (donde el informe debe ejecutar y generar estadísticas) y el intervalo de fechas para los informes de [!UICONTROL descarga], [!UICONTROL caducidad]y [!UICONTROL publicación] .
 
    ![](assets/create-report-page.png)
 
@@ -116,8 +116,8 @@ Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar 
    >
    >Los caracteres especiales # y % en el título del informe se sustituyen por un guión (-) en la generación del informe.
 
-6. Toque o haga clic en **[!UICONTROL Siguiente]** para configurar las columnas de los informes Descargar, Caducidad y Publicar.
-7. Seleccione o anule la selección de las casillas de verificación correspondientes según sea necesario. Por ejemplo: para ver los nombres de los usuarios (que descargaron recursos) en el informe [!UICONTROL Descargar] , seleccione **[!UICONTROL Descargado por]**. La siguiente imagen ilustra la selección de columnas predeterminadas en el informe Descargar.
+1. Toque o haga clic en **[!UICONTROL Siguiente]** para configurar las columnas de los informes Descargar, Caducidad y Publicar.
+1. Seleccione o anule la selección de las casillas de verificación correspondientes según sea necesario. Por ejemplo: para ver los nombres de los usuarios (que descargaron recursos) en el informe [!UICONTROL Descargar] , seleccione **[!UICONTROL Descargado por]**. La siguiente imagen ilustra la selección de columnas predeterminadas en el informe Descargar.
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar 
    Para agregar columnas personalizadas al informe Descargar, Publicar o Caducidad, siga estos pasos:
 
    1. Para mostrar una columna personalizada, toque o haga clic en **[!UICONTROL Agregar]** dentro de Columnas personalizadas.
-   2. Especifique el nombre de la columna en el campo Nombre **[!UICONTROL de]** columna.
-   3. Seleccione la propiedad a la que debe asignarse la columna mediante el selector de propiedades.
+   1. Especifique el nombre de la columna en el campo Nombre **[!UICONTROL de]** columna.
+   1. Seleccione la propiedad a la que debe asignarse la columna mediante el selector de propiedades.
 
       ![](assets/property-picker.png)
 También puede escribir la ruta en el campo de ruta de la propiedad.
@@ -136,7 +136,7 @@ También puede escribir la ruta en el campo de ruta de la propiedad.
 
       Para agregar más columnas personalizadas, toque o haga clic en **Agregar** y repita los pasos 2 y 3.
 
-8. Toque o haga clic en **[!UICONTROL Crear]**. Un mensaje notifica que se ha iniciado la generación de informes.
+1. Toque o haga clic en **[!UICONTROL Crear]**. Un mensaje notifica que se ha iniciado la generación de informes.
 
 ## Descargar informes {#download-reports}
 
