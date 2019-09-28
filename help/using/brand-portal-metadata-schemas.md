@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administración
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,15 +28,15 @@ Para crear un nuevo formulario de esquema de metadatos, haga lo siguiente:
 
    ![](assets/aemlogo.png)
 
-2. En el panel Herramientas administrativas, haga clic en Esquemas **[!UICONTROL de metadatos]**.
+1. En el panel Herramientas administrativas, haga clic en Esquemas **[!UICONTROL de metadatos]**.
 
    ![](assets/navigation-panel.png)
 
-3. En la página Formularios **[!UICONTROL de esquema de]** metadatos, haga clic en **[!UICONTROL Crear]**.
+1. En la página Formularios **[!UICONTROL de esquema de]** metadatos, haga clic en **[!UICONTROL Crear]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. En el cuadro de diálogo **[!UICONTROL Crear formulario]** de esquema, especifique el título del formulario de esquema y, a continuación, haga clic en **[!UICONTROL Crear]** para completar el proceso de creación del formulario.
+1. En el cuadro de diálogo **[!UICONTROL Crear formulario]** de esquema, especifique el título del formulario de esquema y, a continuación, haga clic en **[!UICONTROL Crear]** para completar el proceso de creación del formulario.
 
    ![](assets/create-schema-form.png)
 
@@ -52,8 +52,8 @@ Para editar un formulario de esquema de metadatos, haga lo siguiente:
 
    ![](assets/aemlogo.png)
 
-2. En el panel Herramientas administrativas, haga clic en Esquemas **[!UICONTROL de metadatos]**.
-3. En la página Formularios **[!UICONTROL de esquema de]** metadatos, seleccione un formulario de esquema para editar sus propiedades, por ejemplo, **[!UICONTROL colección]**.
+1. En el panel Herramientas administrativas, haga clic en Esquemas **[!UICONTROL de metadatos]**.
+1. En la página Formularios **[!UICONTROL de esquema de]** metadatos, seleccione un formulario de esquema para editar sus propiedades, por ejemplo, la **[!UICONTROL colección]**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -61,15 +61,15 @@ Para editar un formulario de esquema de metadatos, haga lo siguiente:
    >
    >Las plantillas sin editar muestran un símbolo de bloqueo antes de ellas. Si personaliza cualquiera de las plantillas, desaparece el símbolo de bloqueo antes de la plantilla.
 
-4. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Editar]**.
+1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Editar]**.
 
    Se abre la página Editor **[!UICONTROL de esquemas de]** metadatos con la ficha **[!UICONTROL Básico]** abierta a la izquierda y la ficha **[!UICONTROL Generar formulario]** abierta a la derecha.
 
-5. En la página Editor **[!UICONTROL de esquemas de]** metadatos, personalice la página **[!UICONTROL Propiedades]** del recurso arrastrando uno o varios componentes de una lista de tipos de componentes de la ficha **[!UICONTROL Generar formulario]** a la ficha **[!UICONTROL Básico]** .
+1. En la página Editor **[!UICONTROL de esquemas de]** metadatos, personalice la página **[!UICONTROL Propiedades]** del recurso arrastrando uno o varios componentes de una lista de tipos de componentes de la ficha **[!UICONTROL Generar formulario]** a la ficha **[!UICONTROL Básico]** .
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. Para configurar un componente, selecciónelo y modifique sus propiedades en la ficha **[!UICONTROL Configuración]** .
+1. Para configurar un componente, selecciónelo y modifique sus propiedades en la ficha **[!UICONTROL Configuración]** .
 
 ### Componentes de la ficha Formulario de compilación {#components-in-the-build-form-tab}
 
@@ -144,19 +144,19 @@ Para aplicar un formulario de esquema de metadatos a una carpeta, haga lo siguie
 
    ![](assets/aemlogo.png)
 
-2. En el panel Herramientas administrativas, haga clic en Esquemas **[!UICONTROL de metadatos]**.
+1. En el panel Herramientas administrativas, haga clic en Esquemas **[!UICONTROL de metadatos]**.
 
-3. En la página Formularios **[!UICONTROL de esquema de]** metadatos, seleccione el formulario de esquema que desea aplicar a un recurso, por ejemplo, [!UICONTROL ropa].
+1. En la página Formularios **[!UICONTROL de esquema de]** metadatos, seleccione el formulario de esquema que desea aplicar a un recurso, por ejemplo, [!UICONTROL ropa].
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Aplicar a carpetas]**.
+1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Aplicar a carpetas]**.
 
-5. En la página **[!UICONTROL Seleccionar carpetas]** , navegue a la carpeta en la que desea aplicar el esquema de metadatos de **[!UICONTROL ropa]** , por ejemplo, **[!UICONTROL Guantes]**.
+1. En la página **[!UICONTROL Seleccionar carpetas]** , navegue a la carpeta en la que desea aplicar el esquema de metadatos de **[!UICONTROL ropa]** , por ejemplo, **[!UICONTROL Guantes]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. Haga clic en **[!UICONTROL Aplicar]** para aplicar el formulario de esquema de metadatos a la carpeta.
+1. Haga clic en **[!UICONTROL Aplicar]** para aplicar el formulario de esquema de metadatos a la carpeta.
 
    Los metadatos disponibles en el formulario de esquema de metadatos de **[!UICONTROL ropa]** se aplican a la carpeta **[!UICONTROL Guantes]** y están visibles en la página **[!UICONTROL Propiedades]** de la carpeta.
 
