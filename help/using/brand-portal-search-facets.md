@@ -9,7 +9,7 @@ topic-tags: administración
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,19 +34,19 @@ Para agregar un predicado de búsqueda al panel **[!UICONTROL Filtros]** :
 
    ![](assets/aemlogo.png)
 
-2. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Buscar formularios]**.
+1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Buscar formularios]**.
 
    ![](assets/navigation-panel-1.png)
 
-3. En la página **[!UICONTROL Buscar formularios]** , seleccione **[!UICONTROL Recursos Administración Barra]** de búsqueda.
+1. En la página **[!UICONTROL Buscar formularios]** , seleccione **[!UICONTROL Recursos Administración Barra]** de búsqueda.
 
    ![](assets/search-forms-page.png)
 
-4. En la barra de herramientas que aparece en la parte superior, haga clic en **[!UICONTROL Editar]** para abrir el formulario de edición de búsqueda.
+1. En la barra de herramientas que aparece en la parte superior, haga clic en **[!UICONTROL Editar]** para abrir el formulario de edición de búsqueda.
 
    ![](assets/edit-search-form-1.png)
 
-5. En la página [!UICONTROL Editar formulario] de búsqueda, arrastre un predicado desde la ficha [!UICONTROL Seleccionar predicado] al panel principal. Por ejemplo, arrastre Predicado **[!UICONTROL de propiedades]**.
+1. En la página [!UICONTROL Editar formulario] de búsqueda, arrastre un predicado desde la ficha [!UICONTROL Seleccionar predicado] al panel principal. Por ejemplo, arrastre Predicado **[!UICONTROL de propiedades]**.
 
    El campo **[!UICONTROL Propiedad]** aparece en el panel principal y la ficha **[!UICONTROL Configuración]** de la derecha muestra los predicados de propiedades.
 
@@ -56,7 +56,7 @@ Para agregar un predicado de búsqueda al panel **[!UICONTROL Filtros]** :
    >
    >La etiqueta de encabezado de la ficha **[!UICONTROL Configuración]** identifica el tipo de predicado que se selecciona.
 
-6. En la ficha **[!UICONTROL Configuración]** , introduzca una etiqueta, un texto de marcador de posición y una descripción para el predicado de propiedades.
+1. En la ficha **[!UICONTROL Configuración]** , introduzca una etiqueta, un texto de marcador de posición y una descripción para el predicado de propiedades.
 
    * Seleccione Búsqueda **** parcial si desea permitir la búsqueda de frases parciales (y la búsqueda con comodines) de recursos en función del valor de propiedad especificado. De forma predeterminada, el predicado admite la búsqueda de texto completo.
    * Seleccione **[!UICONTROL Ignorar mayúsculas y minúsculas]** si desea que la búsqueda de recursos basada en el valor de la propiedad distinga entre mayúsculas y minúsculas. De forma predeterminada, la búsqueda de valores de propiedad en el filtro de búsqueda distingue entre mayúsculas y minúsculas.
@@ -64,16 +64,16 @@ Para agregar un predicado de búsqueda al panel **[!UICONTROL Filtros]** :
    >
    >Al seleccionar la casilla de verificación Búsqueda **** parcial, se selecciona [!UICONTROL Omitir caso] de forma predeterminada.
 
-7. En el campo Nombre [!UICONTROL de propiedad] , abra el selector de propiedades y seleccione la propiedad en función de la cual se realiza la búsqueda. También puede introducir un nombre para la propiedad. Por ejemplo, introduzca [!UICONTROL `  jcr :content/metadata/dc:title`] o [!UICONTROL `./jcr:content/metadata/dc:title`].
+1. En el campo Nombre [!UICONTROL de propiedad] , abra el selector de propiedades y seleccione la propiedad en función de la cual se realiza la búsqueda. También puede introducir un nombre para la propiedad. Por ejemplo, introduzca [!UICONTROL `  jcr :content/metadata/dc:title`] o [!UICONTROL `./jcr:content/metadata/dc:title`].
 
    ![](assets/title-prop.png)
 
-8. Haga clic en **[!UICONTROL Listo]** para guardar la configuración.
-9. En la interfaz de usuario de [!UICONTROL Recursos] , haga clic en el icono de superposición y elija **[!UICONTROL Filtro]** para desplazarse al panel **[!UICONTROL Filtros]** . El predicado **[!UICONTROL Propiedad]** se agrega al panel.
+1. Haga clic en **[!UICONTROL Listo]** para guardar la configuración.
+1. En la interfaz de usuario de [!UICONTROL Recursos] , haga clic en el icono de superposición y elija **[!UICONTROL Filtro]** para desplazarse al panel **[!UICONTROL Filtros]** . El predicado **[!UICONTROL Propiedad]** se agrega al panel.
 
    ![](assets/property-filter-panel.png)
 
-10. Introduzca un título para el recurso que desea buscar en el cuadro de texto **[!UICONTROL Propiedad]** . Por ejemplo, "Adobe". Cuando realiza una búsqueda, los recursos con el título que coincide con "Adobe" se muestran en los resultados de la búsqueda.
+1. Introduzca un título para el recurso que desea buscar en el cuadro de texto **[!UICONTROL Propiedad]** . Por ejemplo, "Adobe". Cuando realiza una búsqueda, los recursos con el título que coincide con "Adobe" se muestran en los resultados de la búsqueda.
 
 ## Lista de predicados de búsqueda {#list-of-search-predicates}
 
@@ -111,29 +111,29 @@ Para eliminar un predicado de búsqueda, siga estos pasos:
 
    ![](assets/aemlogo.png)
 
-2. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Buscar formularios]**.
+1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Buscar formularios]**.
 
    ![](assets/navigation-panel-2.png)
 
-3. En la página **[!UICONTROL Buscar formularios]** , seleccione **[!UICONTROL Recursos Administración Barra]** de búsqueda.
+1. En la página **[!UICONTROL Buscar formularios]** , seleccione **[!UICONTROL Recursos Administración Barra]** de búsqueda.
 
    ![](assets/search-forms-page.png)
 
-4. En la barra de herramientas que aparece en la parte superior, haga clic en **[!UICONTROL Editar]** para abrir el formulario de edición de búsqueda.
+1. En la barra de herramientas que aparece en la parte superior, haga clic en **[!UICONTROL Editar]** para abrir el formulario de edición de búsqueda.
 
    ![](assets/edit-search-form-2.png)
 
-5. En la página [!UICONTROL Editar formulario] de búsqueda, en el panel principal, seleccione el predicado que desee eliminar. Por ejemplo, seleccione Predicado **[!UICONTROL de propiedades]**.
+1. En la página [!UICONTROL Editar formulario] de búsqueda, en el panel principal, seleccione el predicado que desee eliminar. Por ejemplo, seleccione Predicado **[!UICONTROL de propiedades]**.
 
    La ficha **[!UICONTROL Configuración]** de la derecha muestra los campos de predicado de propiedades.
 
-6. Para eliminar el predicado de propiedades, haga clic en el icono bin. En el cuadro de diálogo **[!UICONTROL Eliminar campo]** , haga clic en **[!UICONTROL Eliminar]** para confirmar la acción de eliminar.
+1. Para eliminar el predicado de propiedades, haga clic en el icono bin. En el cuadro de diálogo **[!UICONTROL Eliminar campo]** , haga clic en **[!UICONTROL Eliminar]** para confirmar la acción de eliminar.
 
    El campo Predicado **[!UICONTROL de]** propiedades se elimina del panel principal y la ficha **[!UICONTROL Configuración]** se queda vacía.
 
    ![](assets/search-form-delete-predicate.png)
 
-7. Para guardar los cambios, haga clic en **[!UICONTROL Hecho]** en la barra de herramientas.
-8. En la interfaz de usuario de **[!UICONTROL Recursos]** , haga clic en el icono de superposición y elija **[!UICONTROL Filtro]** para desplazarse al panel **[!UICONTROL Filtros]** . El predicado **[!UICONTROL Propiedad]** se elimina del panel.
+1. Para guardar los cambios, haga clic en **[!UICONTROL Hecho]** en la barra de herramientas.
+1. En la interfaz de usuario de **[!UICONTROL Recursos]** , haga clic en el icono de superposición y elija **[!UICONTROL Filtro]** para desplazarse al panel **[!UICONTROL Filtros]** . El predicado **[!UICONTROL Propiedad]** se elimina del panel.
 
    ![](assets/property-predicate-removed.png)
