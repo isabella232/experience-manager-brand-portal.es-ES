@@ -10,7 +10,7 @@ content-type: referencia
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -77,7 +77,7 @@ Para asegurarse de que los recursos de vídeo dinámicos se previsualizan, repro
 
 ### Inquilinos independientes para los modos Dynamic Media híbrido y Dynamic Media Scene7 {#separate-tenants}
 
-Si utiliza funciones tanto de Dynamic Media [!DNL Scene 7] como de Dynamic Media Hybrid, se aconseja utilizar distintos inquilinos de Brand Portal para instancias de AEM Author configuradas con los modos Dynamic Media Hybrid y Dynamic Media [!DNL Scene 7] .
+Si utiliza funciones tanto de Dynamic Media [!DNL Scene 7] como de Dynamic Media Hybrid, se aconseja utilizar distintos inquilinos de Brand Portal para instancias de AEM Author configuradas con los modos Dynamic Media Hybrid y Dynamic Media [!DNL Scene 7] .<br />
 
 ![Asignación de uno a uno de Autor y BP](assets/BPDynamicMedia.png)
 
