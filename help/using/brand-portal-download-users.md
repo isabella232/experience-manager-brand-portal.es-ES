@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -51,7 +51,7 @@ Para descargar recursos o carpetas que contengan recursos para Brand Portal, sig
 
    ![](assets/restrictaccess-note.png)
 
-2. Para descargar las representaciones de recursos además de los recursos, seleccione **[!UICONTROL Representaciones]**. Sin embargo, para permitir la descarga de representaciones generadas automáticamente junto con representaciones personalizadas, anule la selección de **[!UICONTROL Excluir representaciones]** generadas automáticamente, que está seleccionada de forma predeterminada.
+1. Para descargar las representaciones de recursos además de los recursos, seleccione **[!UICONTROL Representaciones]**. Sin embargo, para permitir la descarga de representaciones generadas automáticamente junto con representaciones personalizadas, anule la selección de **[!UICONTROL Excluir representaciones]** generadas automáticamente, que está seleccionada de forma predeterminada.
 
    ![](assets/exclude-auto-renditions.png)
 
@@ -81,7 +81,7 @@ Para descargar recursos o carpetas que contengan recursos para Brand Portal, sig
    >
    >Los administradores pueden personalizar los mensajes de correo electrónico, es decir, el logotipo, la descripción y el pie de página, mediante la función [Marcas](../using/brand-portal-branding.md) .
 
-3. Haga clic en **[!UICONTROL Descargar]**.
+1. Haga clic en **[!UICONTROL Descargar]**.
 
    Los recursos (y las representaciones si se seleccionan) se descargan como un archivo ZIP en la carpeta local. Sin embargo, no se crea ningún archivo zip si se descarga un único recurso sin ninguna representación, lo que garantiza una descarga rápida.
 
