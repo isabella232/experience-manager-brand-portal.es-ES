@@ -10,7 +10,7 @@ content-type: referencia
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -78,7 +78,6 @@ Brand Portal ofrece a los usuarios invitados la opción [!UICONTROL Información
 
 * En la barra de herramientas de la parte superior, seleccione un recurso o una carpeta.
 * En la lista desplegable al seleccionar el Selector de raíl.
-
 Al seleccionar la opción [!UICONTROL Información general] mientras se selecciona un recurso o carpeta, los usuarios pueden ver el título, la ruta y la hora de creación de recursos. Mientras que, en la página de detalles de recursos, si selecciona la opción [!UICONTROL Información general] , los usuarios podrán ver los metadatos del recurso.
 
 ![](assets/overview-option-1.png)
