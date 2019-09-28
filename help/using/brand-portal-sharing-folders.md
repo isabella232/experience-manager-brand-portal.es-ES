@@ -1,15 +1,15 @@
 ---
 title: Compartir carpetas
 seo-title: Compartir carpetas
-description: Brand Portal no admite la ingestión de recursos, por lo que los recursos deben publicarse en Brand Portal desde una instancia de AEM Author preconfigurada. Los usuarios que no son administradores de Brand Portal no pueden acceder a los recursos publicados, a menos que se configuren durante la configuración de la replicación con la instancia de AEM y necesiten compartirse con ellos.
-seo-description: Brand Portal no admite la ingestión de recursos, por lo que los recursos deben publicarse en Brand Portal desde una instancia de AEM Author preconfigurada. Los usuarios que no son administradores de Brand Portal no pueden acceder a los recursos publicados, a menos que se configuren durante la configuración de la replicación con la instancia de AEM y necesiten compartirse con ellos.
+description: Brand Portal no admite la ingestión de recursos, por lo que los recursos deben publicarse en Brand Portal desde una instancia de AEM Author preconfigurada. Los recursos publicados no son accesibles para los usuarios no administradores de Brand Portal, a menos que estén configurados durante la configuración de la replicación con la instancia de AEM, y deben compartirse con ellos.
+seo-description: Brand Portal no admite la ingestión de recursos, por lo que los recursos deben publicarse en Brand Portal desde una instancia de AEM Author preconfigurada. Los recursos publicados no son accesibles para los usuarios no administradores de Brand Portal, a menos que estén configurados durante la configuración de la replicación con la instancia de AEM, y deben compartirse con ellos.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: referencia
 topic-tags: compartir
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -91,15 +91,15 @@ Para compartir una carpeta con los usuarios de Brand Portal, siga estos pasos:
 
    ![](assets/selectorrail.png)
 
-2. En el lateral de la izquierda, seleccione **[!UICONTROL Archivos]**.
+1. En el lateral de la izquierda, seleccione **[!UICONTROL Archivos]**.
 
    ![](assets/access_files.png)
 
-3. En la interfaz de Brand Portal, seleccione la carpeta que desee compartir.
+1. En la interfaz de Brand Portal, seleccione la carpeta que desee compartir.
 
    ![](assets/share-folders.png)
 
-4. En la barra de herramientas de la parte superior, seleccione **[!UICONTROL Compartir]**.
+1. En la barra de herramientas de la parte superior, seleccione **[!UICONTROL Compartir]**.
 
    ![](assets/share_icon.png)
 
@@ -107,8 +107,8 @@ Para compartir una carpeta con los usuarios de Brand Portal, siga estos pasos:
 
    ![](assets/folder_properties.png)
 
-5. En la consola Propiedades [!UICONTROL de la] carpeta, especifique el título de la carpeta en el campo Título [!UICONTROL de la] carpeta si no desea que los usuarios vean el nombre predeterminado.
-6. En la lista [!UICONTROL Agregar usuario] , seleccione los usuarios o grupos con los que desee compartir la carpeta y haga clic en **[!UICONTROL Agregar]**.
+1. En la consola Propiedades [!UICONTROL de la] carpeta, especifique el título de la carpeta en el campo Título [!UICONTROL de la] carpeta si no desea que los usuarios vean el nombre predeterminado.
+1. En la lista [!UICONTROL Agregar usuario] , seleccione los usuarios o grupos con los que desee compartir la carpeta y haga clic en **[!UICONTROL Agregar]**.
 Para compartir la carpeta solo con usuarios invitados y ningún otro usuario, seleccione Usuarios **** anónimos en el menú desplegable [!UICONTROL Miembros] .
 
    ![](assets/only-anonymous.png)
@@ -117,9 +117,9 @@ Para compartir la carpeta solo con usuarios invitados y ningún otro usuario, se
    >
    >Para que la carpeta esté disponible para todos los usuarios, independientemente de la pertenencia y función del grupo, haga que se haga pública activando la casilla de verificación Carpeta **** pública.
 
-7. Si es necesario, haga clic en **[!UICONTROL Cambiar miniatura]** para modificar la imagen en miniatura de la carpeta.
-8. Haga clic en **[!UICONTROL Guardar]**.
-9. Para acceder a la carpeta compartida, inicie sesión en Brand Portal con las credenciales del usuario con el que ha compartido la carpeta. Revise la carpeta compartida en la interfaz.
+1. Si es necesario, haga clic en **[!UICONTROL Cambiar miniatura]** para modificar la imagen en miniatura de la carpeta.
+1. Haga clic en **[!UICONTROL Guardar]**.
+1. Para acceder a la carpeta compartida, inicie sesión en Brand Portal con las credenciales del usuario con el que ha compartido la carpeta. Revise la carpeta compartida en la interfaz.
 
 ## Dejar de compartir carpetas {#unshare-the-folders}
 
@@ -129,12 +129,12 @@ Para dejar de compartir una carpeta compartida anteriormente, siga estos pasos:
 
    ![](assets/share-folders-1.png)
 
-2. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Compartir]**.
-3. En la consola Propiedades [!UICONTROL de la] carpeta, en [!UICONTROL Miembros], haga clic en el símbolo **[!UICONTROL x]** situado junto a un usuario para quitarlos de la lista de usuarios con los que ha compartido la carpeta.
+1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Compartir]**.
+1. En la consola Propiedades [!UICONTROL de la] carpeta, en [!UICONTROL Miembros], haga clic en el símbolo **[!UICONTROL x]** situado junto a un usuario para quitarlos de la lista de usuarios con los que ha compartido la carpeta.
 
    ![](assets/folder_propertiesunshare.png)
 
-4. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Confirmar]** para confirmar que no se comparte.
+1. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Confirmar]** para confirmar que no se comparte.
 Haga clic en **[!UICONTROL Guardar]**.
 
-5. Inicie sesión en Brand Portal con las credenciales del usuario que ha eliminado de la lista compartida. La carpeta ya no está disponible en la interfaz de Brand Portal para el usuario.
+1. Inicie sesión en Brand Portal con las credenciales del usuario que ha eliminado de la lista compartida. La carpeta ya no está disponible en la interfaz de Brand Portal para el usuario.
