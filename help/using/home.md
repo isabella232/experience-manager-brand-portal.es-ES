@@ -3,8 +3,8 @@ title: Guía del usuario de AEM Brand Portal
 seo-title: Guía del usuario de AEM Brand Portal
 description: Guía del usuario de AEM Brand Portal
 seo-description: Describe cómo utilizar Brand Portal
-translation-type: ht
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+translation-type: tm+mt
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
@@ -39,11 +39,12 @@ En esta guía se muestran los detalles de las ofertas y los flujos de trabajo cl
 |--- |---|
 | [Novedades](whats-new.md) | Qué ha cambiado y cuáles son las últimas ofertas que se pueden encontrar en las versiones anteriores de Brand Portal. |
 | [Notas de la versión](brand-portal-release-notes.md) | En la versión actual encontrará mejoras y soluciones a problemas graves y conocidos. |
-| [Configurar la integración de AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Cómo duplicar Brand Portal con AEM Assets para publicar recursos. |
+| [Configuración de la integración de AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Cómo duplicar Brand Portal con AEM Assets para publicar recursos. |
 | [Solucionar problemas en una publicación paralela](troubleshoot-parallel-publishing.md) | Solucionar la replicación entre Brand Portal y AEM Assets. |
 | [Formatos de archivo admitidos](brand-portal-supported-formats.md) | Formatos de archivo admitidos en Brand Portal para su previsualización y descarga. |
-| [Publicar recursos en Brand Portal](../TOC.md#publish) | Cómo publicar carpetas, colecciones, vínculos, ajustes preestablecidos, esquemas, facetas y etiquetas en Brand Portal. |
+| [Publicar recursos en Brand Portal](brand-portal-sharing-folders.md) | Cómo publicar carpetas, colecciones, vínculos, ajustes preestablecidos, esquemas, facetas y etiquetas en Brand Portal. |
+| [Origen de recursos en Brand Portal](brand-portal-asset-sourcing.md) | Cómo configurar la fuente de recursos en Recursos AEM, cargar recursos en Brand Portal y publicar la carpeta de contribución en Recursos AEM. |
 
 ### Recursos útiles
 
-* [Información sobre Brand Portal con AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Explicación de Brand Portal con AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
