@@ -1,49 +1,49 @@
 ---
-title: Notas de versión
-seo-title: Notas de versión
-description: Obtenga una visión detallada de las mejoras, los problemas críticos solucionados y los problemas conocidos en las versiones 6.4.4.6 y 6.4.7 de Adobe Experience Manager Assets Brand Portal.
-seo-description: Obtenga una visión detallada de las mejoras, los problemas críticos solucionados y los problemas conocidos en las versiones 6.4.4.6 y 6.4.7 de Adobe Experience Manager Assets Brand Portal.
+title: Notas de la versión
+seo-title: Notas de la versión
+description: Obtenga una visión detallada de las funciones, las mejoras, los problemas críticos solucionados y los problemas conocidos en la versión 6.4.5 de Adobe Experience Manager Assets Brand Portal.
+seo-description: Obtenga una visión detallada de las mejoras, los problemas críticos solucionados y los problemas conocidos en la versión 6.4.5 de Adobe Experience Manager Assets Brand Portal.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: referencia
 topic-tags: portal de marca
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
 
-# Notas de versión {#release-notes}
+# Notas de la versión {#release-notes}
 
-Obtenga una visión detallada de las mejoras, los problemas críticos solucionados y los problemas conocidos en las versiones 6.4.4.6 y 6.4.7 de Adobe Experience Manager Assets Brand Portal.
+Obtenga una visión detallada de las nuevas funciones, mejoras, problemas importantes solucionados y problemas conocidos de la versión 6.4.5 de Adobe Experience Manager Assets Brand Portal.
 
 ## Información de versión {#release-information}
 
 | Producto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versión | 6.4.4.6 y 6.4.4.7 |
-| Fecha | Agosto de 2019 |
+| Versión | 6.4.5 |
+| Fecha | Septiembre de 2019 |
 
 ## Información general {#overview}
 
 Recursos Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios explorar, buscar, obtener una vista previa, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
 
-## Novedades de 6.4.4.7 {#what-s-new-in-6447}
+## Novedades de 6.4.5 {#what-s-new-in-645}
 
-### Problemas críticos solucionados {#critical-issues-fixed-6447}
+### Nuevas funciones {#new-features-645}
 
-Esta versión incluye una solución al siguiente problema crítico:
+Brand Portal 6.4.5 es un lanzamiento de funciones que se centra en proporcionar a los usuarios de Brand Portal (agencias/equipos externos) la capacidad de cargar contenido en Brand Portal y publicar en Recursos AEM, sin necesidad de acceder al entorno de creación. Esta función se denomina **[Asset Sourcing en Brand Portal](brand-portal-overiew-using-asset-sourcing.md)** y mejorará las experiencias de los clientes al proporcionar un mecanismo bidireccional para que los usuarios contribuyan y compartan recursos con otros usuarios de Brand Portal distribuidos globalmente.
 
-* Optimizar el proceso de sincronización de usuarios para evitar la ejecución simultánea.
+**Origen de recursos en Brand Portal**
 
-## Novedades de 6.4.4.6 {#what-s-new-in-6446}
+La fuente de recursos permite a los usuarios de AEM (administradores/usuarios no administradores) crear nuevas carpetas con una propiedad de contribución **de** recursos adicional, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal. Esto desencadena automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas NUEVO y COMPARTIDO, dentro de la carpeta **Contribution** recién creada.
 
-### Problemas críticos solucionados {#critical-issues-fixed-6446}
+A continuación, el usuario de AEM define los requisitos de los recursos cargando un resumen sobre los tipos de recursos que deben agregarse a la carpeta de contribución, así como un conjunto de recursos de línea de base, en la carpeta **COMPARTIDO** para garantizar que los usuarios de BP tengan la información de referencia que necesitan. A continuación, el administrador puede otorgar a los usuarios activos de Brand Portal acceso a la carpeta de contribución antes de publicar la carpeta de **contribución** recién creada en Brand Portal.
 
-Esta versión incluye una solución al siguiente problema crítico:
+Una vez que el usuario haya terminado de añadir contenido en la carpeta **NEW** , podrá volver a publicar la carpeta de contribución en el entorno de creación de AEM.
 
-* Optimizaciones de rendimiento para la generación de informes de descarga.
+Para obtener más información, consulte [Asset Sourcing en Brand Portal](brand-portal-asset-sourcing.md).
 
 ## Idiomas {#languages}
 
