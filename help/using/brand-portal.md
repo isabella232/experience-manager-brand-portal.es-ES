@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introducción
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ Como especialista en mercadotecnia, a veces necesita colaborar con los socios de
 
 Sin embargo, es un desafío desarrollar soluciones que permitan un uso compartido eficiente y seguro de logotipos de marca, directrices, recursos de campaña o tomas de productos aprobados con equipos internos, socios y distribuidores extendidos.
 
-**Recursos Adobe Experience Manager (AEM) Assets Brand Portal** puede ayudarle a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos en distintos dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado.
+**Recursos Adobe Experience Manager (AEM) Assets Brand Portal** se centra en la necesidad del comerciante de colaborar de forma eficaz con los usuarios de Brand Portal distribuidos globalmente proporcionando funciones de distribución de recursos y contribución de recursos.
+
+La distribución de recursos le permite adquirir, controlar y distribuir de forma segura recursos creativos aprobados a partes externas y usuarios empresariales internos entre dispositivos. Mientras que la contribución de recursos permite a los usuarios de Brand Portal cargar recursos en Brand Portal y publicarlos en Recursos AEM sin necesidad de acceder al entorno de creación. La función de contribución se denomina **Recursos de origen en Brand Portal**. Y, en conjunto, mejora la experiencia general del portal de marca de distribución de recursos y contribución de los usuarios del portal de marca (agencias/equipos externos), acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado.
+Consulte [Origen de recursos en Brand Portal](brand-portal-asset-sourcing.md).
 
 El entorno de portal basado en explorador le permite cargar, examinar, buscar, previsualizar y exportar recursos fácilmente en formatos aprobados.
 
@@ -33,7 +36,7 @@ Brand Portal admite las siguientes funciones de usuario:
 * Editor
 * AdministradorEn la tabla siguiente se enumeran las tareas que pueden realizar los usuarios con estas funciones:
 
-|  | **Examinar** | **Buscar** | **Descargar** | **Compartir carpetas** | **Compartir una colección** | **Compartir recursos como vínculo** | **Acceso a las Herramientas de administración** |
+|  | **Examinar** | **Buscar** | **Descargar** | **Compartir carpetas** | **Compartir una colección** | **Compartir recursos como un vínculo** | **Acceso a las Herramientas de administración** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Usuario invitado** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Visor** | ✓ | ✓ | ✓ | x | x | x | x |
@@ -54,7 +57,7 @@ Sin embargo, la sesión de invitado le impide crear colecciones y guardar búsqu
 
 [Descargar recursos públicos](brand-portal-download-users.md)
 
-[Agregar recursos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Adición de recursos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visor {#viewer}
 
@@ -76,7 +79,7 @@ Aparte de las tareas que puede realizar un visor, un editor puede realizar las s
 
 [Compartir una colección](brand-portal-share-collection.md)
 
-[Compartir recursos como vínculo](brand-portal-link-share.md)
+[Compartir recursos como un vínculo](brand-portal-link-share.md)
 
 ### Administrador {#administrator}
 
@@ -92,7 +95,7 @@ Un administrador puede realizar todas las tareas que un editor puede realizar co
 
 [Utilizar el formulario de esquema de metadatos](brand-portal-metadata-schemas.md)
 
-[Aplicación de ajustes preestablecidos de imagen o representaciones dinámicas](brand-portal-image-presets.md)
+[Aplicar ajustes preestablecidos de imagen o representaciones dinámicas](brand-portal-image-presets.md)
 
 [Trabajar con informes](brand-portal-reports.md)
 
@@ -117,7 +120,7 @@ Sin embargo, la instancia de AEM Author solo se puede [configurar](https://helpx
 >
 >Para reemplazar el alias antiguo o eliminarlo, debe seguirse el mismo proceso.
 
-## Solicitar acceso a Brand Portal {#request-access-to-brand-portal}
+## Request access to Brand Portal {#request-access-to-brand-portal}
 
 Los usuarios pueden solicitar acceso a Brand Portal desde la pantalla de inicio de sesión. Estas solicitudes se envían a los administradores de Brand Portal, quienes otorgan acceso a los usuarios a través de Adobe [!UICONTROL Admin Console]. Una vez concedido el acceso, los usuarios reciben un correo electrónico de notificación.
 
@@ -162,7 +165,7 @@ Los administradores de productos de Brand Portal reciben solicitudes de acceso e
 
 ![Notificación de acceso solicitada](assets/bplogin_request_access_7.png)
 
-Para otorgar acceso, los administradores de productos deben hacer clic en la notificación correspondiente en el área de notificación de Brand Portal y luego hacer clic en **[!UICONTROL Otorgar acceso]**.
+Para conceder acceso, los administradores de productos deben hacer clic en la notificación correspondiente en el área de notificación de Brand Portal y, a continuación, hacer clic en **[!UICONTROL Otorgar acceso]**.
 Como alternativa, los administradores de productos pueden seguir el vínculo proporcionado en el correo electrónico de solicitud de acceso para visitar Adobe [!UICONTROL Admin Console] y agregar el usuario a la configuración de producto relevante.
 
 Se le redirige a la página principal de [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Utilice Adobe [!UICONTROL Admin Console] para crear usuarios y asignarlos a perfiles de producto (anteriormente conocidos como configuraciones de producto), que se muestran como grupos en Brand Portal. Para obtener más información sobre cómo agregar usuarios en [!UICONTROL Admin Console], consulte [Agregar un usuario](brand-portal-adding-users.md#add-a-user) (siga los pasos 4 a 7 del procedimiento para agregar un usuario).
@@ -191,7 +194,7 @@ Puede rechazar esta notificación y continuar usando Brand Portal. Esta notifica
 ## Información de la versión y del sistema {#release-and-system-information}
 
 * [Novedades](whats-new.md)
-* [Notas de versión](brand-portal-release-notes.md)
+* [Notas de la versión](brand-portal-release-notes.md)
 * [Formatos de archivo admitidos](brand-portal-supported-formats.md)
 
 ## Related resources {#related-resources}
