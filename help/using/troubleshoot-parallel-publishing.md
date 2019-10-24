@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de publicación paralela en Brand Portal
-seo-title: Solucionar problemas de publicación paralela en Brand Portal
+title: Solución de problemas en la publicación paralela de Brand Portal
+seo-title: Solución de problemas en la publicación paralela de Brand Portal
 description: Solucionar problemas de publicación paralela.
 seo-description: Solucionar problemas de publicación paralela.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
@@ -9,22 +9,22 @@ content-type: referencia
 topic-tags: portal de marca
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Solucionar problemas de publicación paralela en Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# Solución de problemas en la publicación paralela de Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
 Brand Portal admite la integración con Recursos AEM para que los recursos de marca aprobados se transfieran (o publiquen) sin problemas desde la instancia de creación de Recursos AEM. Una vez [integrado](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author utiliza un agente de replicación para replicar los recursos seleccionados en el servicio en la nube de Brand Portal para que los usuarios de Brand Portal los utilicen de forma aprobada. Los agentes de replicación múltiples se utilizan en AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 y versiones posteriores para permitir la publicación en paralelo de alta velocidad.
 
 >[!NOTE]
 >
->Adobe recomienda actualizar a AEM 6.4.1.0 para garantizar que AEM Assets Brand Portal se integre correctamente con Recursos AEM. Una limitación en AEM 6.4 produce un error al configurar la integración con Brand Portal y falla la replicación.
+>Adobe recomienda actualizar a AEM 6.4.1.0 para garantizar que AEM Assets Brand Portal se integre correctamente con Recursos AEM. Una limitación en AEM 6.4 produce un error al configurar la integración con Brand Portal y la replicación falla.
 
-Al configurar el servicio en la nube para el portal de marca en [!UICONTROL /etc/cloudservice], todos los usuarios y tokens necesarios se generan automáticamente y se guardan en el repositorio. Se crea la configuración del servicio en la nube, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Esto crea cuatro agentes de replicación. Así, cuando publica numerosos recursos de AEM en Brand Portal, estos se ponen en cola y se distribuyen entre estos agentes de replicación a través de Round Robin.
+Al configurar el servicio en la nube para el portal de marca en **[!UICONTROL /etc/cloudservice]**, todos los usuarios y tokens necesarios se generan automáticamente y se guardan en el repositorio. Se crea la configuración del servicio en la nube, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Esto crea cuatro agentes de replicación. Así, cuando publica numerosos recursos de AEM en Brand Portal, estos se ponen en cola y se distribuyen entre estos agentes de replicación a través de Round Robin.
 
-Sin embargo, la publicación puede fallar de forma intermitente debido a los grandes trabajos de sling, el aumento de la E/S [!UICONTROL de red y] disco en la instancia de AEM Author o el rendimiento más lento de la instancia de AEM Author. Por lo tanto, se recomienda probar la conexión con los agentes de replicación antes de comenzar a publicar.
+Sin embargo, la publicación puede fallar de forma intermitente debido a los grandes trabajos de sling, el aumento de la E/S **[!UICONTROL de red y]** disco en la instancia de AEM Author o el rendimiento más lento de la instancia de AEM Author. Por lo tanto, se recomienda probar la conexión con los agentes de replicación antes de comenzar a publicar.
 
 ![](assets/test-connection.png)
 
@@ -60,14 +60,13 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Limpiar las configuraciones de publicación existentes de Brand Portal {#clean-up-existing-config}
 
-La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que la publica (por ejemplo: [!UICONTROL mac-&lt;tenantid&gt;-Replication]) no tiene la clave privada más reciente y, por lo tanto, la publicación falla con el error "401 no autorizado" y no se notifica ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una nueva configuración. Para que la nueva configuración funcione correctamente, limpie lo siguiente de la configuración del autor de AEM:
+La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que la publica (por ejemplo: `mac-<tenantid>-replication` no tiene la clave privada más reciente y, por lo tanto, la publicación falla con el error "401 no autorizado" y no se notifica ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una nueva configuración. Para que la nueva configuración funcione correctamente, limpie lo siguiente de la configuración del autor de AEM:
 
-1. vaya a [!UICONTROL localhost:4502/crx/de] (teniendo en cuenta que está ejecutando la instancia de autor en [!UICONTROL localhost:4502]):\
-   i. delete /etc/replication/agents.author/mp_Replication*\
-   ii. delete /etc/cloudservices/mediaportal/&lt;nombre_de_configuración&gt;
+1. Vaya a `localhost:4502/crx/de/` (teniendo en cuenta que está ejecutando la instancia de autor en localhost:4502:\
+   i. eliminar `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
 
-1. vaya a [!UICONTROL localhost:4502/useradmin]:\
-   busco el usuario [!UICONTROL mac-&lt;tenantid&gt;-replicationii eliminar este usuario
+1. Vaya a localhost:4502/useradmin:\
+   i. buscar usuario `mac-<tenantid>replication`ii. eliminar este usuario
 
 Ahora todo el sistema está limpio. Ahora puede intentar crear una nueva configuración de cloudservice y seguir usando la aplicación JWT ya existente en [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). No es necesario crear una nueva aplicación, sino que solo es necesario actualizar la clave pública desde la configuración de nube recién creada.
 
@@ -106,7 +105,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Si un agente de replicación (que se estaba publicando en el portal de marca correctamente) detiene el procesamiento de los trabajos de publicación, compruebe los registros de replicación. AEM ha incorporado reintentos automáticos, por lo que si falla una publicación de un recurso en particular, se volverá a intentar automáticamente. Si hay algún problema intermitente, como un error de red, podría suceder durante el reintento.
+Si un agente de replicación (que estaba publicando en el portal de marca correctamente) detiene el procesamiento de los trabajos de publicación, compruebe los registros de replicación. AEM ha incorporado reintentos automáticos, por lo que si falla una publicación de un recurso en particular, se volverá a intentar automáticamente. Si hay algún problema intermitente, como un error de red, podría suceder durante el reintento.
 
 Si hay errores de publicación continuos y la cola está bloqueada, debe comprobar la conexión **[!UICONTROL de]** prueba e intentar resolver los errores que se notifican.
 
