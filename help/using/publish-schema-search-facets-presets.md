@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: referencia
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -33,7 +33,7 @@ Una vez creado el ajuste preestablecido, se muestra como representación dinámi
 
 Para publicar ajustes preestablecidos de imagen en Brand Portal:
 
-1. En la instancia de AEM Author, toque o haga clic en el logotipo de AEM para acceder a la consola de navegación global y toque o haga clic en el icono Herramientas y vaya a **[!UICONTROL Recursos]** &gt; Ajustes preestablecidos **[!UICONTROL de imagen]**.
+1. En la instancia de AEM Author, toque o haga clic en el logotipo de AEM para acceder a la consola de navegación global y toque o haga clic en el icono Herramientas y vaya a **[!UICONTROL Recursos &gt; Ajustes preestablecidos]** de imagen.
 1. Seleccione el ajuste preestablecido de imagen o varios ajustes preestablecidos de imagen en la lista de ajustes preestablecidos de imagen y toque o haga clic en **[!UICONTROL Publicar en Brand Portal]**.
 
 ![](assets/publishpreset.png)
@@ -96,7 +96,7 @@ Si desea utilizar el formulario de búsqueda personalizado **[!UICONTROL Recurso
 
 Para publicar la faceta de búsqueda editada de la instancia de AEM Author en Brand Portal:
 
-1. Toque o haga clic en el logotipo de AEM y, a continuación, vaya a **[!UICONTROL Herramientas]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Buscar formularios]**.
+1. Toque o haga clic en el logotipo de AEM y, a continuación, vaya a **[!UICONTROL Herramientas &gt; General &gt; Buscar formularios]**.
 1. Seleccione el formulario de búsqueda editado y seleccione **[!UICONTROL Publicar en Brand Portal]**.
 
    >[!NOTE]
