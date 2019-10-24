@@ -9,12 +9,12 @@ topic-tags: portal de marca
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6437146bafbedf85a34fbc92ee15fd5e247da0c
+source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# Carga de recursos nuevos en la carpeta de contribución {#uplad-new-assets-to-contribution-folder}
+# Carga de recursos en la carpeta de contribución {#uplad-new-assets-to-contribution-folder}
 
 Los usuarios de Brand Portal [descargan los requisitos](brand-portal-download-asset-requirements.md) de los recursos: documento breve adjunto a la carpeta de contribución y descargue los recursos de línea de base de la carpeta **COMPARTIDA** para comprender la necesidad de la contribución.
 Los usuarios de Brand Portal pueden crear nuevos recursos para la contribución y cargarlos en la carpeta **NEW** de la carpeta de contribución.
