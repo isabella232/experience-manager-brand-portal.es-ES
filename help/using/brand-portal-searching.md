@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -62,7 +62,7 @@ Para aplicar filtros a la búsqueda, utilice las facetas [de](../using/brand-por
 1. En el panel **[!UICONTROL Filtros]** de la izquierda, seleccione las opciones adecuadas para aplicar los filtros relevantes.
 Por ejemplo, utilice los siguientes filtros estándar:
 
-   * **[!UICONTROL Navegador]** de rutas para buscar recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado para el Explorador de rutas es **[!UICONTROL /content/dam/mac/&lt;identificación del inquilino&gt;/]**, que se puede configurar editando el formulario de búsqueda predeterminado.
+   * **[!UICONTROL Navegador]** de rutas para buscar recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado para el Explorador de rutas es `/content/dam/mac/<tenant-id>/`, que se puede configurar editando el formulario de búsqueda predeterminado.
    >[!NOTE]
    >
    >Para los usuarios que no son administradores, el [!UICONTROL navegador] de rutas del panel [!UICONTROL Filtro] muestra únicamente la estructura de contenido de las carpetas (y sus carpetas antecesoras) compartidas con ellos.\
