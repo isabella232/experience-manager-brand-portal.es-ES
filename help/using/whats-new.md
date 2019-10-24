@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: ect32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -127,11 +127,11 @@ Tenga en cuenta que la miniatura predeterminada de las carpetas virtuales es la 
 
 ### Buscar en una ruta o jerarquía de carpetas específica
 
-**El predicado del explorador** de rutas se introduce en el formulario de búsqueda para permitir la búsqueda de recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado de búsqueda para el Explorador de rutas es */content/dam/mac/&lt;identificación del inquilino&gt;/*, que se puede configurar editando el formulario de búsqueda predeterminado.
+**El predicado del explorador** de rutas se introduce en el formulario de búsqueda para permitir la búsqueda de recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado de búsqueda para el Explorador de rutas es `/content/dam/mac/<tenant-id>/`, que se puede configurar editando el formulario de búsqueda predeterminado.
 
 * Los usuarios administradores pueden utilizar el navegador de rutas para desplazarse a cualquier directorio de carpetas de Brand Portal.
 * Los usuarios que no son administradores pueden utilizar el navegador de rutas para desplazarse únicamente a las carpetas (y volver a las carpetas principales) compartidas con ellos.
-Por ejemplo, */content/dam/mac/&lt;inquilino-id&gt;/folderA/folderB/folderC* se comparte con un usuario no administrador. El usuario puede buscar recursos dentro de folderC mediante el navegador de rutas. Este usuario también puede desplazarse a la carpeta B y a la carpeta A (ya que son antecesores de la carpeta C que se comparte con el usuario).
+Por ejemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` se comparte con un usuario no administrador. El usuario puede buscar recursos dentro de folderC mediante el navegador de rutas. Este usuario también puede desplazarse a la carpeta B y a la carpeta A (ya que son antecesores de la carpeta C que se comparte con el usuario).
 
 ![](assets/edit-search-form.png)
 
@@ -383,7 +383,7 @@ Brand Portal 6.3.2 incluye una funcionalidad nueva y mejorada orientada a las pr
 
 ### Request access to Brand Portal {#request-access-to-brand-portal}
 
-Ahora los usuarios pueden solicitar acceso a Brand Portal mediante la nueva función de acceso****** disponible en la pantalla de inicio de sesión de Brand Portal.
+Ahora los usuarios pueden solicitar acceso a Brand Portal mediante la nueva función de acceso **** necesaria disponible en la pantalla de inicio de sesión de Brand Portal.
 
 ![](assets/bplogin_request_access.png)
 
