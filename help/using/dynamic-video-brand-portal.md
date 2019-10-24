@@ -1,8 +1,8 @@
 ---
-title: Compatibilidad con vídeo dinámico en Brand Portal
-seo-title: Compatibilidad con vídeo dinámico en Brand Portal
-description: Compatibilidad con vídeo dinámico en Brand Portal
-seo-description: Compatibilidad con vídeo dinámico en Brand Portal
+title: Compatibilidad con vídeos dinámicos en Brand Portal
+seo-title: Compatibilidad con vídeos dinámicos en Brand Portal
+description: Compatibilidad con vídeos dinámicos en Brand Portal
+seo-description: Compatibilidad con vídeos dinámicos en Brand Portal
 uuid: a3502a4d-3971-4ea4-953c-44ba0446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,12 +10,12 @@ content-type: referencia
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Compatibilidad con vídeo dinámico en Brand Portal {#dynamic-video-support-on-brand-portal}
+# Compatibilidad con vídeos dinámicos en Brand Portal {#dynamic-video-support-on-brand-portal}
 
 Obtenga una vista previa y reproduzca vídeos de forma adaptable en Brand Portal con compatibilidad con Dynamic Media. Descargue también las representaciones dinámicas desde el portal y los vínculos compartidos.
 Los usuarios de Brand Portal pueden:
@@ -103,7 +103,7 @@ Las direcciones IP de salida son las siguientes:
 Si la instancia de AEM Author se está ejecutando en modo híbrido de Dynamic Media, utilice el mosaico [!UICONTROL Vídeo] del panel Herramientas administrativas para configurar la puerta de enlace de Dynamic Media.
 >[!NOTE]
 >
->Los perfiles [de codificación de](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) vídeo no se publican en Brand Portal, sino que se recuperan del servidor de [!UICONTROL Scene 7] . Por lo tanto, para que las codificaciones de vídeo se reproduzcan correctamente en Brand Portal, asegúrese de que los detalles de configuración son los mismos que los de la configuración de nube de [[!UICONTROL Scene7]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) en la instancia de AEM Author.
+>Los perfiles [de codificación de](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) vídeo no se publican en Brand Portal, sino que se recuperan del servidor de [!UICONTROL Scene 7] . Por lo tanto, para que las codificaciones de vídeo se reproduzcan correctamente en Brand Portal, asegúrese de que los detalles de configuración son los mismos que los de la configuración [[!UICONTROL de nube de]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) Scene7 en la instancia de AEM Author.
 Para configurar las opciones de Dynamic Media en los inquilinos de Brand Portal:
 
 1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas desde la barra de herramientas situada en la parte superior, en Brand Portal.
