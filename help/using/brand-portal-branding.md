@@ -1,6 +1,6 @@
 ---
-title: Personalización de papel tapiz, encabezado y mensaje de correo electrónico
-seo-title: Personalización de papel tapiz, encabezado y mensaje de correo electrónico
+title: Personalización del papel tapiz, el encabezado y los mensajes de correo electrónico
+seo-title: Personalización del papel tapiz, el encabezado y los mensajes de correo electrónico
 description: Los administradores de Brand Portal pueden realizar personalizaciones limitadas de la interfaz que se muestra a los usuarios. Puede elegir una imagen de fondo específica (fondo de pantalla) para la página de inicio de sesión de Brand Portal. También puede añadir una imagen de encabezado y personalizar los correos electrónicos de uso compartido de recursos para que coincidan con la marca del cliente.
 seo-description: Los administradores de Brand Portal pueden realizar personalizaciones limitadas de la interfaz que se muestra a los usuarios. Puede elegir una imagen de fondo específica (fondo de pantalla) para la página de inicio de sesión de Brand Portal. También puede añadir una imagen de encabezado y personalizar los correos electrónicos de uso compartido de recursos para que coincidan con la marca del cliente.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
@@ -9,12 +9,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administración
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Personalización de papel tapiz, encabezado y mensaje de correo electrónico {#customize-wallpaper-header-and-email-message}
+# Personalización del papel tapiz, el encabezado y los mensajes de correo electrónico {#customize-wallpaper-header-and-email-message}
 
 Los administradores de Brand Portal pueden realizar personalizaciones limitadas de la interfaz que se muestra a los usuarios. Puede elegir una imagen de fondo específica (fondo de pantalla) para la página de inicio de sesión de Brand Portal. También puede añadir una imagen de encabezado y personalizar los correos electrónicos de uso compartido de recursos para que coincidan con la marca del cliente.
 
