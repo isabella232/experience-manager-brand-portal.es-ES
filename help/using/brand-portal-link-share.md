@@ -1,6 +1,6 @@
 ---
-title: Compartir recursos como vínculo
-seo-title: Compartir recursos como vínculo
+title: Compartir recursos como un vínculo
+seo-title: Compartir recursos como un vínculo
 description: Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos compartidos con ellos.
 seo-description: Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos compartidos con ellos.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
@@ -10,12 +10,12 @@ topic-tags: compartir
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Compartir recursos como vínculo {#share-assets-as-a-link}
+# Compartir recursos como un vínculo {#share-assets-as-a-link}
 
 Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos compartidos con ellos.
 
@@ -92,12 +92,13 @@ Para descargar los recursos compartidos:
 
    ![](assets/licensed-asset-download.png)
 
-   Aparecerá el cuadro de diálogo [!UICONTROL Descargar] .<br />
+   Aparecerá el cuadro de diálogo **[!UICONTROL Descargar]** .
+
    ![](assets/download-linkshare.png)
 
    * Para acelerar la descarga de archivos de recursos compartidos como vínculo, seleccione la opción **[!UICONTROL Activar aceleración]** de descarga y [siga las instrucciones del asistente](../using/accelerated-download.md#download-workflow-using-file-accelerator). Para obtener más información sobre la rápida descarga de recursos en Brand Portal, consulte la [Guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
-[!UICONTROL
-1. Para descargar las representaciones de recursos además de los recursos desde el vínculo compartido, seleccione la opción **[!UICONTROL Representaciones]** . Al hacerlo, aparece la opción **Excluir representaciones del sistema]** que está seleccionada de forma predeterminada. Esto evita la descarga de representaciones integradas junto con los recursos aprobados o sus representaciones personalizadas.
+
+1. Para descargar las representaciones de recursos además de los recursos desde el vínculo compartido, seleccione la opción **[!UICONTROL Representaciones]** . Al hacerlo, aparece la opción **[!UICONTROL Excluir representaciones]** del sistema que está seleccionada de forma predeterminada. Esto evita la descarga de representaciones integradas junto con los recursos aprobados o sus representaciones personalizadas.
 
    Sin embargo, para permitir la descarga de representaciones generadas automáticamente junto con representaciones personalizadas, anule la selección de la opción **[!UICONTROL Excluir representaciones]** del sistema.
 
