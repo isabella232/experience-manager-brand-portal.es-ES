@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
+product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
+source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [Información general](using/brand-portal.md)
    + [Novedades de AEM Assets Brand Portal](using/whats-new.md)
    + [Notas de la versión](using/brand-portal-release-notes.md)
+   + [Preguntas frecuentes](using/brand-portal-faqs.md)
    + [Formatos de archivo admitidos](using/brand-portal-supported-formats.md)
    + [Acceso de invitado a Brand Portal](using/guest-access.md)
    + [Explicación de Brand Portal con AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
@@ -30,9 +31,7 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [Publicar ajustes preestablecidos, esquemas y facetas en Brand Portal](using/publish-schema-search-facets-presets.md)
 + Origen de recursos en Brand Portal {#asset-sourcing-in-brand-portal}
    + [Información general](using/brand-portal-asset-sourcing.md)
-   + Configuración de fuentes de recursos en AEM {#configure-asset-sourcing-in-aem}
-      + [Habilitar el origen de recursos](using/brand-portal-enable-asset-sourcing.md)
-      + [Cargar lista de usuarios de Brand Portal](using/brand-portal-upload-user-list.md)
+   + [Configuración de fuentes de recursos en AEM](using/brand-portal-configure-asset-sourcing.md)
    + Configuración de la carpeta Contribution en Recursos AEM {#configure-contribution-folder}
       + [Información general](using/brand-portal-contribution-folder.md)
       + [Crear carpeta de contribución](using/brand-portal-create-contribution-folder.md)
