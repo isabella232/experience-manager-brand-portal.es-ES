@@ -1,16 +1,16 @@
 ---
 title: Novedades de AEM Assets Brand Portal
 seo-title: Novedades de AEM Assets Brand Portal
-description: Eche un vistazo a las nuevas funciones y mejoras de 6.4.5.
-seo-description: Eche un vistazo a las nuevas funciones y mejoras de 6.4.5.
+description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.5.
+seo-description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.5.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
-discoiquuid: ect32ca3-142b-4a11-9b92-5113fc27277a
+discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 
 ---
 
@@ -33,14 +33,18 @@ A continuación, el usuario de AEM define el requisito [cargando un resumen](bra
 
 Una vez que el usuario haya terminado de añadir contenido en la carpeta **NEW** , podrá volver a publicar la carpeta de contribución en el entorno de creación de AEM. Tenga en cuenta que la importación puede tardar unos minutos en completarse y reflejar el contenido recién publicado en Recursos AEM.
 
-Además, todas las funcionalidades existentes permanecen sin cambios. Los usuarios de Brand Portal pueden ver, buscar y descargar recursos de la carpeta de contribución, así como de otras carpetas permitidas. Además, los administradores pueden compartir la carpeta de contribución, modificar las propiedades y añadir recursos a las colecciones. Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
+Además, todas las funcionalidades existentes permanecen sin cambios. Los usuarios de Brand Portal pueden ver, buscar y descargar recursos de la carpeta de contribución, así como de las demás carpetas permitidas. Además, los administradores pueden compartir la carpeta de contribución, modificar las propiedades y añadir recursos a las colecciones.
+
+Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
+
+Consulte las preguntas más frecuentes sobre [Brand Portal](brand-portal-faqs.md)
 
 >[!NOTE]
-
-
+>
 >La fuente de recursos en Brand Portal es compatible con AEM 6.5.2.0 y versiones posteriores.
 >
 >La función no es compatible con las versiones anteriores: AEM 6.3 y AEM 6.4.
+
 
 ### Carga de recursos en la carpeta de contribución {#upload-assets-in-bp}
 
@@ -64,7 +68,7 @@ La versión 6.4.4 de Brand Portal se centra en las mejoras en la búsqueda de te
 
 ### Mejoras de búsqueda {#search-enhancements}
 
-A partir de la versión 6.4.4, Brand Portal admite la búsqueda de texto parcial en el predicado de propiedades en el panel de filtrado. Para permitir la búsqueda de texto parcial, debe habilitar la búsqueda **parcial** en el predicado de propiedades en el formulario de búsqueda.
+A partir de la versión 6.4.4 de Brand Portal, se admite la búsqueda de texto parcial en el predicado de propiedades en el panel de filtrado. Para permitir la búsqueda de texto parcial, debe habilitar la búsqueda **parcial** en el predicado de propiedades en el formulario de búsqueda.
 
 Continúe leyendo para obtener más información sobre la búsqueda de texto parcial y la búsqueda con comodines.
 
@@ -235,7 +239,7 @@ Los administradores pueden restringir el acceso del usuario a los archivos de im
 
 * De forma predeterminada, todos los usuarios pueden descargar las representaciones originales, ya que el acceso al original está habilitado para todos.
 * Los administradores deben anular la selección de las casillas de verificación correspondientes para evitar que un grupo de usuarios acceda a las representaciones originales.
-* Si un usuario es miembro de varios grupos pero sólo uno de ellos tiene restricciones, las restricciones se aplican a ese usuario.
+* Si un usuario es miembro de varios grupos, pero sólo uno de ellos tiene restricciones, las restricciones se aplican a ese usuario.
 * Las restricciones no se aplican a los administradores, aunque sean miembros de grupos restringidos.
 * Los permisos del usuario que comparte recursos como vínculo se aplican a los usuarios que descargan recursos mediante vínculos compartidos.
 
@@ -243,9 +247,9 @@ Los administradores pueden restringir el acceso del usuario a los archivos de im
 
 Las tarjetas de carpetas, en la vista de tarjeta, ahora muestran información sobre la jerarquía de carpetas a usuarios no administradores (Editor, Visor y Usuario invitado). Esta funcionalidad permite a los usuarios conocer la ubicación de las carpetas a las que acceden, con respecto a la jerarquía principal.
 
-La información sobre la jerarquía de carpetas resulta especialmente útil para diferenciar las carpetas que tienen nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios no administradores no conocen la estructura de carpetas de los recursos compartidos con ellos, los recursos o carpetas con nombres similares parecen confusos.
+La información sobre la jerarquía de carpetas resulta especialmente útil para diferenciar las carpetas que tienen nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios que no son administradores no conocen la estructura de carpetas de los recursos compartidos con ellos, los recursos o carpetas con nombres similares parecen confusos.
 
-* Las rutas que se muestran en las tarjetas respectivas se truncan para adaptarse a los tamaños de las tarjetas. Sin embargo, los usuarios pueden ver la ruta completa como información del objeto al pasar el ratón sobre la ruta truncada.
+* Las rutas que se muestran en las tarjetas respectivas se truncan para adaptarse a los tamaños de las tarjetas. Sin embargo, los usuarios pueden ver la ruta completa como información del objeto al pasar el ratón por encima de la ruta truncada.
 
 ![](assets/folder-hierarchy1-1.png)
 
@@ -277,7 +281,7 @@ Se añaden seis nuevas configuraciones para que los administradores habiliten o 
 * Permitir la creación de colecciones inteligentes públicas
 * Permitir aceleración de descarga
 
-Las configuraciones anteriores están disponibles en Acceso y Configuración general en el panel Herramientas administrativas.
+Las configuraciones anteriores están disponibles en Ajustes generales y de acceso en el panel Herramientas administrativas.
 
 ![](assets/access-configs-1.png)
 ![](assets/general-configs-1.png)
@@ -290,7 +294,7 @@ A partir de la versión 6.4.2 de Brand Portal, se utiliza la [https://legacy-oau
 ## Mejoras de búsqueda
 
 Los administradores pueden hacer que los predicados de propiedades no distingan entre mayúsculas y minúsculas mediante el predicado de propiedades actualizado, que tiene una comprobación para ignorar mayúsculas y minúsculas. Esta opción está disponible para predicado de propiedades y predicado de propiedades de varios valores.\
-Sin embargo, la búsqueda que no distingue entre mayúsculas y minúsculas es comparativamente más lenta que la búsqueda predeterminada del predicado de propiedades. Si hay demasiados predicados que no distinguen entre mayúsculas y minúsculas en el filtro de búsqueda, la búsqueda puede ralentizarse. Por lo tanto, se recomienda utilizar la búsqueda sin distinción entre mayúsculas y minúsculas con prudencia.
+Sin embargo, la búsqueda que no distingue entre mayúsculas y minúsculas es comparativamente más lenta que la búsqueda predeterminada del predicado de propiedades. Si hay demasiados predicados que no distinguen entre mayúsculas y minúsculas en el filtro de búsqueda, la búsqueda puede ralentizarse. Por lo tanto, es aconsejable utilizar la búsqueda sin distinción entre mayúsculas y minúsculas con prudencia.
 
 ## Qué cambió en 6.4.1 {#what-changed-in-2}
 
@@ -320,7 +324,7 @@ Brand Portal 6.4.1 es una versión de actualización de plataforma que incorpora
 
 ![](assets/navbtn.png)
 
-* Nueva capacidad para previsualizar archivos de audio, cargados desde AEM, en la página de detalles del recurso.
+* Nueva capacidad para obtener una vista previa de los archivos de audio, cargados desde AEM, en la página de detalles del recurso.
 * Nueva capacidad Recursos relacionados proporcionada en las propiedades de los recursos. Los recursos relacionados con otros recursos de origen o derivados en AEM y publicados en Brand Portal ahora tienen su relación intacta en Brand Portal, con vínculos a los recursos relacionados en la página de propiedades.
 * Se ha introducido una nueva configuración para restringir la creación de colecciones públicas a los usuarios que no son administradores. Las organizaciones pueden trabajar con el equipo de asistencia de Adobe para configurar esta capacidad en cuentas específicas.
 
@@ -330,7 +334,7 @@ Brand Portal 6.4.1 es una versión de actualización de plataforma que incorpora
 * Se ha proporcionado un nuevo recuento de resultados de búsqueda para mostrar el número de resultados de búsqueda.
 * Se mejoró el filtro de búsqueda de tipo de archivo con la capacidad de filtrar los resultados de búsqueda en función de tipos MIME detallados, como .jpg, .png y .psd, en comparación con las opciones anteriores de Imágenes, Documentos y Multimedia.
 * Filtros de búsqueda mejorados para colecciones, con marcas de hora precisas en lugar de la funcionalidad del deslizador de tiempo anterior.
-* Se han introducido nuevos filtros de tipo Acceso para buscar las colecciones que son públicas o no.
+* Se han introducido nuevos filtros de tipo de acceso para buscar las colecciones que son públicas o no.
 
 ![](assets/accesstypefilter.png)
 
@@ -345,7 +349,7 @@ Brand Portal 6.4.1 es una versión de actualización de plataforma que incorpora
 
 ### Mejoras de rendimiento
 
-* Mejora de hasta un 100% en la velocidad de descarga de recursos.
+* Mejora de hasta un 100% en la velocidad de descarga de los recursos.
 * Mejora de hasta un 40% en la respuesta de búsqueda de recursos.
 * Mejora de hasta un 40 % en el rendimiento de navegación.
 
@@ -353,7 +357,7 @@ Brand Portal 6.4.1 es una versión de actualización de plataforma que incorpora
 
 ### Capacidades de informes mejoradas
 
-**Informe** de uso compartido de vínculos introducido Se ha introducido un nuevo informe para proporcionar información sobre los vínculos compartidos. El informe Uso compartido de vínculos enumera todas las direcciones URL, a los recursos, compartidas con usuarios internos y externos de la organización en el intervalo de tiempo especificado. También indica cuándo se compartió el vínculo, quién lo compartió y cuándo caduca.
+**Informe** de uso compartido de vínculos introducido Se ha introducido un nuevo informe para proporcionar información sobre los vínculos compartidos. El informe Uso compartido de vínculos enumera todas las direcciones URL, a los recursos, compartidas con usuarios internos y externos de toda la organización en el intervalo de tiempo especificado. También indica cuándo se compartió el vínculo, quién lo compartió y cuándo caduca.
 
 ![](assets/navigatereport.png)
 
@@ -407,7 +411,7 @@ Brand Portal ahora muestra una pancarta de notificación unos días antes de una
 
 Para obtener más información, consulte la notificación [](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification)de mantenimiento de Brand Portal.
 
-### Mejora de los recursos con licencia compartidos mediante la función de compartir vínculos {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
+### Mejora de los recursos con licencia compartidos mediante la función de uso compartido de vínculos {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
 Al descargar recursos con licencia mediante la función de uso compartido de vínculos, ahora se le solicita que acepte el contrato de licencia para dichos recursos.
 
@@ -417,7 +421,7 @@ Para obtener más información, consulte el paso 12 en [Compartir recursos como 
 
 ### Mejora del selector de usuarios {#user-picker-enhancement}
 
-El rendimiento del selector de usuarios ahora se mejora para satisfacer las necesidades de los clientes con una gran base de usuarios.
+El rendimiento del selector de usuarios ahora se ha mejorado para satisfacer las necesidades de los clientes con una gran base de usuarios.
 
 ### Cambios en la marca de Experience Cloud {#experience-cloud-branding-changes}
 
@@ -461,7 +465,7 @@ Para alinear la experiencia de usuario de Brand Portal con AEM, Adobe está real
 
 ### Experiencia de búsqueda mejorada {#enhanced-search-experience}
 
-* La nueva función de búsqueda Omni facilita el acceso rápido al contenido, la capacidad o las etiquetas relevantes a través de sugerencias automáticas a medida que escribe las palabras clave de búsqueda. La búsqueda Omni está disponible en todas las funciones de búsqueda.
+* La nueva función de búsqueda Omni facilita el acceso rápido al contenido, la capacidad o las etiquetas relevantes a través de sugerencias automáticas a medida que escribe las palabras clave de búsqueda. La búsqueda de Omni está disponible en todas las funciones de búsqueda.
 
 ![](assets/omnisearch_whatsnew.png)
 
@@ -525,24 +529,3 @@ Brand Portal 6.3.1 introduce metadatos adicionales, que están a la par con AEM 
 ![](assets/publish_tags_aemassets.png)
 
 * Desde Recursos AEM, puede publicar recursos y colecciones que tengan etiquetas, incluidas etiquetas inteligentes. A continuación, puede buscar estos recursos o colecciones utilizando estas etiquetas como palabras clave de búsqueda en Brand Portal.
-
-## Frequently asked questions {#frequently-asked-questions}
-
-**Ques. ¿Perderé el acceso a los recursos, funciones o configuraciones existentes que haya creado?**
-**Ans.** Todas las funciones y configuraciones existentes permanecen intactas. Los usuarios finales no se ven afectados y el contenido permanece intacto.
-
-**Ques. ¿Cuándo me muevo a la nueva versión de Brand Portal?**
-**Ans.** Brand Portal 6.4.4 se puso en marcha en febrero de 2019. Se espera que la próxima versión de Brand Portal se publique en el tercer trimestre de 2019.
-
->[!NOTE]
->
->La programación de versiones es provisional y está sujeta a cambios. Póngase en contacto con el administrador de cuentas de Adobe o con el servicio de asistencia al cliente para obtener la programación de versiones actualizada.
-
-**Ques. ¿Se verán afectados mis usuarios?**
-**Ans.** Este cambio se realiza exclusivamente en Brand Portal, por lo que no afecta a los usuarios finales.
-
-**Ques. ¿Se requiere alguna acción por mi parte?**
-**Ans.** El administrador no requiere ninguna acción. Una vez que tenga acceso al nuevo portal de marca, consulte la documentación para ver todas las señales y señales.
-
-**Ques. ¿Con quién puedo contactar?**
-**Ans.** Póngase en contacto con el administrador de cuentas de Adobe o con la asistencia al cliente.
