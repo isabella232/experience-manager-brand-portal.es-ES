@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
+source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
 
 ---
 
@@ -25,7 +25,7 @@ Los administradores de AEM pueden configurar **Asset Sourcing** desde la instanc
 
 En el siguiente vídeo se muestra cómo configurar la fuente de recursos en la instancia de creación de AEM:
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## Habilitar el origen de recursos {#enable-asset-sourcing}
 
@@ -34,7 +34,7 @@ Los administradores de AEM pueden activar la fuente de recursos desde la configu
 **Para habilitar la fuente de recursos:**
 1. Inicie sesión en la instancia de creación de AEM y abra Configuration ManagerURL predeterminada: http:// localhost:4502/system/console/configMgr
 1. Buscar con la palabra clave **Recurso de origen** para localizar la configuración de la marca de la característica **[!UICONTROL de origen de recursos]**
-1. Haga clic en Configuración **[!UICONTROL del indicador de característica de origen de]** recursos para abrir la ventana de configuración
+1. Haga clic en Configuración **[!UICONTROL del indicador de característica de origen de]**recursos para abrir la ventana de configuración
 1. Activar la casilla de verificación **[!UICONTROL feature.flag.active.status]**
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -44,16 +44,18 @@ Los administradores de AEM pueden activar la fuente de recursos desde la configu
 
 Los administradores de AEM pueden cargar el archivo de configuración de usuario de Brand Portal (.csv) que contiene la lista de usuarios activa de Brand Portal en Recursos AEM. Una carpeta de contribución solo se puede compartir con los usuarios activos de Brand Portal definidos en la lista de usuarios. El administrador también puede agregar usuarios nuevos en el archivo de configuración y cargar la lista de usuarios modificada.
 
+>[!NOTE]
+>
+>El formato del archivo CSV es el mismo que el que admite la Consola de administración para la importación masiva de usuarios. El correo electrónico, el nombre y los apellidos son obligatorios.
+
 El administrador puede agregar usuarios nuevos en la Consola de administración de AEM. Consulte [Administrar usuarios](brand-portal-adding-users.md) para obtener información detallada. Después de agregar usuarios en Admin Console, estos usuarios se pueden agregar al archivo de configuración de usuario de Brand Portal y, a continuación, se les puede asignar permiso para acceder a la carpeta de contribución.
 
 **Para cargar la lista de usuarios de Brand Portal:**
 1. Inicie sesión en la instancia de creación de AEMURL predeterminada: http:// localhost:4502/aem/start.html
-1. En el panel **Herramientas** ![](assets/tools.png) , vaya a **[!UICONTROL Recursos &gt; Usuarios de Brand Portal]**
-   ![](assets/upload-user-list1.png)
+1. En el panel **Herramientas** ![](assets/tools.png) , vaya a **[!UICONTROL Recursos > Usuarios de Brand Portal]**   ![](assets/upload-user-list1.png)
 1. Se abre la ventana Contribuyentes de carga de Brand Portal.
 Navegue desde el equipo local y cargue el archivo **de** configuración (.csv) que contiene la lista de usuarios activa de Brand Portal.
-1. Haga clic en **[!UICONTROL Guardar]**.
-   ![](assets/upload-user-list2.png)
+1. Haga clic en **[!UICONTROL Guardar]**.   ![](assets/upload-user-list2.png)
 
 
 Los administradores pueden proporcionar acceso a usuarios o grupos específicos desde esta lista de usuarios mientras configuran la carpeta de contribución.
