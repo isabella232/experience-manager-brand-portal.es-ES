@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
 
@@ -54,8 +54,8 @@ Para actualizaciones y cambios de versión, se recomienda realizar un seguimient
 
 **Ques. ¿Quién puede crear una carpeta de contribución?**
 
-**Ans.** Cualquier usuario de AEM puede crear una nueva carpeta en Recursos AEM y asignar la propiedad **Asset Contribution**. La carpeta recién creada se denomina carpeta **Contribution** .
-A continuación, esta carpeta se comparte con los usuarios activos de Brand Portal para obtener su contribución.
+**Ans.** Cualquier usuario de AEM que tenga permisos para crear una nueva carpeta en Recursos AEM puede crear una carpeta **de contribución** . Para crear una carpeta **Contribution** , cree una nueva carpeta de tipo **Asset Contribution**.
+Esta carpeta se comparte con los usuarios activos de Brand Portal para obtener contribución.
 
 
 
@@ -63,6 +63,12 @@ A continuación, esta carpeta se comparte con los usuarios activos de Brand Port
 
 **Ans.** La carpeta **Contribution** contiene dos subcarpetas **NUEVO** y **COMPARTIDO**. Inicialmente, la carpeta NEW está en blanco y la carpeta SHARED contiene el contenido de referencia (recursos reutilizables) para los usuarios de Brand Portal.
 Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan contenido en la carpeta **NEW** .
+
+
+
+**Ques.  ¿Puedo modificar el nombre de una carpeta de contribución existente?**
+
+**Ans.** **No**, no puede modificar el nombre de una carpeta de **contribución** existente.
 
 
 
@@ -102,7 +108,7 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 
 **Ques. ¿Dónde puedo ver el estado de los trabajos de importación y publicación?**
 
-**Ans.** En AEM, puede ver el estado de una importación en la página de trabajo **asincrónica** . En Brand Portal, puede ver el estado de un trabajo de publicación en **[!UICONTROL Herramientas &gt; Estado]** de contribución de recursos.
+**Ans.** En AEM, puede ver el estado de una importación en la página de trabajo **asincrónica** . En Brand Portal, puede ver el estado de un trabajo de publicación en **[!UICONTROL Herramientas > Estado]**de contribución de recursos.
 
 
 
