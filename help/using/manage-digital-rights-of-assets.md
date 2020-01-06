@@ -1,21 +1,21 @@
 ---
-title: Administrar derechos digitales de recursos
-seo-title: Administrar derechos digitales de recursos
+title: Administración de los derechos digitales de recursos
+seo-title: Administración de los derechos digitales de recursos
 description: La concesión de licencias a los recursos y la configuración de la caducidad de los recursos y los vínculos compartidos garantizan el uso controlado de estos recursos y la protección de los mismos.
 seo-description: La concesión de licencias a los recursos y la configuración de la caducidad de los recursos y los vínculos compartidos garantizan el uso controlado de estos recursos y la protección de los mismos.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: referencia
+content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
 
-# Administrar derechos digitales de recursos {#manage-digital-rights-of-assets}
+# Administración de los derechos digitales de recursos {#manage-digital-rights-of-assets}
 
 Garantizar la distribución y el uso seguros de los activos creativos y del material de la marca es vital para proteger su marca. Esto se puede hacer cumplir en toda la organización y fuera de ella asociando una fecha (y hora) de caducidad con los recursos aprobados publicados desde AEM a Brand Portal, o autorizando estos recursos para uso condicional. Además, Brand Portal le permite especificar una fecha de caducidad para los vínculos a los recursos compartidos desde Brand Portal.
 
@@ -29,11 +29,11 @@ La caducidad de los recursos es una forma eficaz de controlar el uso de los recu
 
 En Brand Portal, los administradores pueden ver, descargar y agregar recursos caducados a las colecciones. Mientras que los editores y visores solo pueden ver y añadir recursos caducados a las colecciones.
 
-Los administradores pueden publicar recursos caducados de Recursos AEM en Brand Portal. Sin embargo, los recursos caducados no se pueden compartir mediante tinta desde Brand Portal. Si selecciona cualquier recurso caducado de una carpeta que contenga recursos caducados y no caducados, la acción **[!UICONTROL Compartir vínculo]** no estará disponible. Sin embargo, si selecciona una carpeta que contiene recursos caducados y no caducados, estarán disponibles las acciones [!UICONTROL Compartir] y **[!UICONTROL Compartir vínculo]** .
+Los administradores pueden publicar recursos caducados de Recursos AEM en Brand Portal. Sin embargo, los recursos caducados no se pueden compartir mediante tinta desde Brand Portal. Si selecciona cualquier recurso caducado de una carpeta que contenga tanto recursos caducados como no caducados, la acción **[!UICONTROL Compartir vínculo]**no estará disponible. Sin embargo, si selecciona una carpeta que contiene recursos caducados y no caducados, estarán disponibles las acciones[!UICONTROL Compartir]y**[!UICONTROL  Compartir vínculo]** .
 
 >[!NOTE]
 >
->Una carpeta se puede compartir como vínculo, incluso si contiene recursos caducados. En este caso, el vínculo no enumera los recursos caducados y solo se comparten los que no han caducado.
+>Una carpeta puede seguir compartiéndose como vínculo, incluso si contiene recursos caducados. En este caso, el vínculo no enumera los recursos caducados y solo se comparten los recursos que no han caducado.
 
 La siguiente tabla muestra los permisos de uso de los recursos caducados:
 
@@ -50,7 +50,7 @@ La siguiente tabla muestra los permisos de uso de los recursos caducados:
 
 ### Estado de caducidad de los activos {#expiration-status-of-assets}
 
-Puede ver el estado de caducidad de los recursos en su vista [!UICONTROL de tarjeta]. Un indicador rojo de la tarjeta indica que el recurso ha caducado.
+Puede ver el estado de caducidad de los recursos en su vista **[!UICONTROL de tarjeta]**. Un indicador rojo de la tarjeta indica que el recurso ha caducado.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,7 +60,7 @@ Puede ver el estado de caducidad de los recursos en su vista [!UICONTROL de tarj
 
 ## Caducidad del vínculo de recursos {#asset-link-expiration}
 
-Al compartir recursos a través de vínculos, los administradores y editores pueden establecer una fecha y hora de caducidad mediante el campo **[!UICONTROL Caducidad]** del cuadro de diálogo Uso compartido **[!UICONTROL de]** vínculos. La caducidad predeterminada del vínculo es de siete días a partir de la fecha en que se comparte.
+Al compartir recursos a través de vínculos, los administradores y editores pueden establecer una fecha y hora de caducidad mediante el campo **[!UICONTROL Caducidad]**del cuadro de diálogo Uso compartido**[!UICONTROL  de]** vínculos. La caducidad predeterminada del vínculo es de siete días a partir de la fecha en que se comparte.
 
 ![](assets/asset-link-sharing.png)
 
@@ -74,11 +74,11 @@ Los recursos con licencia están sujetos a la aceptación de un contrato de lice
 
 Los recursos protegidos por licencias tienen un contrato de [licencia adjunto](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , lo que se realiza estableciendo la propiedad [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadatos del recurso en Recursos AEM.
 
-Si decide descargar recursos protegidos por licencias, se le redirigirá a la página Administración [!UICONTROL de] derechos de autor.
+Si decide descargar recursos protegidos por licencias, se le redirigirá a la página Administración **[!UICONTROL de]**derechos de autor.
 
 ![](assets/asset-copyright-mgmt.png)
 
-Aquí debe seleccionar el recurso para descargar y aceptar el contrato de licencia asociado. Si no acepta el contrato de licencia, el botón [!UICONTROL Descargar] no estará activado.
+Aquí debe seleccionar el recurso para descargar y aceptar el contrato de licencia asociado. Si no acepta el contrato de licencia, el botón **[!UICONTROL Descargar]**no estará activado.
 
 ![](assets/licensed-asset-download-2.png)
 
