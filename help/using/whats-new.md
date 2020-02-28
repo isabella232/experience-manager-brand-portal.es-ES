@@ -1,8 +1,8 @@
 ---
 title: Novedades de AEM Assets Brand Portal
 seo-title: Novedades de AEM Assets Brand Portal
-description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.5.
-seo-description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.5.
+description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.6.
+seo-description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.6.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
+source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
 
 ---
 
@@ -19,10 +19,46 @@ source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 
 Recursos Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Adobe está trabajando para mejorar la experiencia general de Brand Portal. A continuación, podrá echar un vistazo a las nuevas funciones y mejoras.
 
+## Qué cambió en 6.4.6 {#what-changed-in-646}
+
+Brand Portal 6.4.6 es una versión mejorada en la que se cambia el canal de autorización entre AEM Assets y Brand Portal. Recursos AEM ahora se configura con Brand Portal a través de Adobe I/O, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal.
+
+Anteriormente, Brand Portal se configuraba en la IU clásica mediante OAuth Gateway heredado, que utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización.
+
+<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+-->
+
+<!--
+  
+   | **AEM Version** |**New Integration** |**Upgrade Integration** |
+|---|---|---|
+| **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+
+   -->
+
+La configuración de AEM Assets con Brand Portal en Adobe I/O se admite en:
+* AEM 6.5.4.0 y posterior
+* AEM 6.4.8.0 y posterior
+* AEM 6.3.3.8 y posterior
+
+
+>[!NOTE]
+>
+>La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se transfiere a Adobe I/O.
+>
+>Las configuraciones existentes seguirán funcionando si no elimina o modifica las opciones de configuración.
+
+Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
+
+Consulte las preguntas más frecuentes sobre [Brand Portal](brand-portal-faqs.md).
+
 ## Qué cambió en 6.4.5 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 es un lanzamiento de funciones que se centra en proporcionar a los usuarios de Brand Portal (agencias/equipos externos) la capacidad de cargar contenido en Brand Portal y publicar en Recursos AEM, sin necesidad de acceder al entorno de creación. Esta función se denomina **[Asset Sourcing en Brand Portal](brand-portal-asset-sourcing.md)** y mejorará las experiencias de los clientes al proporcionar un mecanismo bidireccional para que los usuarios contribuyan y compartan recursos con otros usuarios de Brand Portal distribuidos globalmente.
+Brand Portal 6.4.5 es una versión de funciones que se centra en proporcionar a los usuarios de Brand Portal (agencias/equipos externos) la capacidad de cargar contenido en Brand Portal y publicarlo en AEM Assets, sin la necesidad de acceder al entorno de creación. Esta función se denomina **[Asset Sourcing en Brand Portal](brand-portal-asset-sourcing.md)**y mejorará las experiencias de los clientes al proporcionar un mecanismo bidireccional para que los usuarios contribuyan y compartan recursos con otros usuarios de Brand Portal distribuidos globalmente.
 
 ### Origen de recursos en Brand Portal {#asset-sourcing-in-bp}
 
@@ -34,10 +70,6 @@ A continuación, el usuario de AEM define el requisito [cargando un resumen](bra
 Una vez que el usuario haya terminado de añadir contenido en la carpeta **NEW** , podrá volver a publicar la carpeta de contribución en el entorno de creación de AEM. Tenga en cuenta que la importación puede tardar unos minutos en completarse y reflejar el contenido recién publicado en Recursos AEM.
 
 Además, todas las funcionalidades existentes permanecen sin cambios. Los usuarios de Brand Portal pueden ver, buscar y descargar recursos de la carpeta de contribución, así como de las demás carpetas permitidas. Además, los administradores pueden compartir la carpeta de contribución, modificar las propiedades y añadir recursos a las colecciones.
-
-Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
-
-Consulte las preguntas más frecuentes sobre [Brand Portal](brand-portal-faqs.md)
 
 >[!NOTE]
 >
@@ -163,7 +195,7 @@ Para permitir la vista previa y descarga de representaciones de medios dinámico
 
 Los códigos de vídeo de Dynamic Media se pueden descargar de:
 
-* Portal de marca
+* Brand Portal
 * Vínculo compartido
 
 ![](assets/edit-dynamic-media-config.png)
@@ -490,7 +522,7 @@ Después de descargar una carpeta anidada, puede conservar la jerarquía de carp
 
 Las mejoras en las funciones de exploración, búsqueda y descarga mejoran significativamente el rendimiento de Brand Portal.
 
-### Nueva administración de derechos digitales para activos {#new-digital-rights-management-for-assets}
+### New digital rights management for assets {#new-digital-rights-management-for-assets}
 
 Los administradores pueden definir la fecha y hora de caducidad de los recursos antes de compartirlos. Una vez que un recurso caduca, es visible para los visores y editores, pero no se puede descargar. Cuando un recurso caduca, los administradores reciben una notificación.
 
