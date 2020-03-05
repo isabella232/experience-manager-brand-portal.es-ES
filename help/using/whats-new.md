@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -21,9 +21,7 @@ Recursos Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir,
 
 ## Qué cambió en 6.4.6 {#what-changed-in-646}
 
-Brand Portal 6.4.6 es una versión mejorada en la que se cambia el canal de autorización entre AEM Assets y Brand Portal. Recursos AEM ahora se configura con Brand Portal a través de Adobe I/O, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal.
-
-Anteriormente, Brand Portal se configuraba en la IU clásica mediante OAuth Gateway heredado, que utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización.
+Brand Portal 6.4.6 es una versión mejorada en la que se cambia el canal de autorización entre AEM Assets y Brand Portal. Anteriormente, Brand Portal se configuraba en la IU clásica mediante OAuth Gateway heredado, que utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización. Recursos AEM ahora se configura con Brand Portal a través de Adobe I/O, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -39,17 +37,28 @@ Anteriormente, Brand Portal se configuraba en la IU clásica mediante OAuth Gate
 
    -->
 
-La configuración de AEM Assets con Brand Portal en Adobe I/O se admite en:
-* AEM 6.5.4.0 y posterior
-* AEM 6.4.8.0 y posterior
-* AEM 6.3.3.8 y posterior
+Los pasos para configurar Recursos AEM con Brand Portal son diferentes en función de la versión de AEM y de si está configurando por primera vez o actualizando las configuraciones existentes:
+
+<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+-->
 
 
->[!NOTE]
->
->La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se transfiere a Adobe I/O.
->
->Las configuraciones existentes seguirán funcionando si no elimina o modifica las opciones de configuración.
+<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+* AEM 6.5.4.0 and above
+* AEM 6.4.8.0 and above
+* AEM 6.3.3.8 and above -->
+
+| **Versión de AEM** | **Nueva configuración** | **Configuración de actualización** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 y posterior)** | [Crear configuración](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Configuración de actualización](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.4 (6.4.8.0 y posterior)** | [Crear configuración](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Configuración de actualización](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.3 (6.3.3.8 y posterior)** | [Crear configuración](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Configuración de actualización](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.2** | Comuníquese con la asistencia técnica | Comuníquese con la asistencia técnica |
 
 Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
 
@@ -235,7 +244,7 @@ La versión ofrece una experiencia de descarga simplificada con un número reduc
 
 ## Qué cambió en 6.4.2 {#what-changed-in-1}
 
-La versión 6.4.2 de Brand Portal ofrece una amplia gama de funciones para satisfacer las necesidades de distribución de recursos de las organizaciones y ayudarles a llegar a un gran número de usuarios distribuidos globalmente mediante el acceso de los invitados y una experiencia óptima con las descargas aceleradas. Brand Portal también proporciona un mayor control a las organizaciones a través de nuevas configuraciones para administradores, informes recién agregados y atendiendo las solicitudes de los clientes.
+La versión 6.4.2 de Brand Portal ofrece una amplia gama de funciones para satisfacer las necesidades de distribución de recursos de las organizaciones y ayudarles a llegar a un gran número de usuarios distribuidos globalmente mediante el acceso de los invitados y una experiencia óptima con las descargas aceleradas. Brand Portal también proporciona bueno control a las organizaciones a través de nuevas configuraciones para administradores, informes recién agregados y atención a las solicitudes de los clientes.
 
 ### Acceso de invitados
 
@@ -397,7 +406,7 @@ Brand Portal 6.4.1 es una versión de actualización de plataforma que incorpora
 
 ![](assets/accessassetreport.png)
 
-**La experiencia mejorada del usuario con la interfaz de creación de informes** en Brand Portal se ha vuelto más intuitiva y le ofrece un mayor control. Además de crear varios informes, los administradores ahora pueden volver a examinar los informes generados y descargarlos o eliminarlos, ya que estos informes se guardan en Brand Portal.
+**La experiencia mejorada del usuario con la interfaz de creación de informes** en Brand Portal se ha vuelto más intuitiva e imparte bueno control a las organizaciones. Además de crear varios informes, los administradores ahora pueden volver a examinar los informes generados y descargarlos o eliminarlos, ya que estos informes se guardan en Brand Portal.
 
 Cada uno de los informes que se crean se puede personalizar agregando o eliminando columnas predeterminadas. Además, se pueden agregar columnas personalizadas a los informes Descargar, Caducidad y Publicar para controlar su grado de granularidad.
 
@@ -552,7 +561,7 @@ Brand Portal 6.3.1 introduce metadatos adicionales, que están a la par con AEM 
 
 ### Nuevas funciones de publicación en AEM Assets 6.3 {#new-publishing-capabilities-in-aem-assets}
 
-* Los administradores de AEM pueden publicar esquemas de metadatos de Recursos AEM en Brand Portal con AEM 6.3 SP 1-CFP 1 (6.3.1.1), que estará disponible en el cuarto trimestre de 2017.
+* Los administradores de AEM pueden publicar esquemas de metadatos de Recursos AEM en Brand Portal mediante AEM 6.3 SP 1-CFP 1 (6.3.1.1), que estará disponible en el cuarto trimestre de 2017.
 
 ![](assets/publish_metadataschemaaemassets.png)
 
