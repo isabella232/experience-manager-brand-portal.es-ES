@@ -4,7 +4,7 @@ seo-title: Guía del usuario de AEM Brand Portal
 description: Guía del usuario de AEM Brand Portal
 seo-description: Describe cómo utilizar Brand Portal
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
 
@@ -39,7 +39,7 @@ En esta guía se muestran los detalles de las ofertas y los flujos de trabajo cl
 |--- |---|
 | [Novedades](whats-new.md) | Qué ha cambiado y cuáles son las últimas ofertas que se pueden encontrar en las versiones anteriores de Brand Portal. |
 | [Notas de la versión](brand-portal-release-notes.md) | En la versión actual encontrará mejoras y soluciones a problemas graves y conocidos. |
-| [Configuración de la integración de AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Cómo duplicar Brand Portal con AEM Assets para publicar recursos. |
+| [Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Cómo duplicar Brand Portal con AEM Assets para publicar recursos. |
 | [Solucionar problemas en una publicación paralela](troubleshoot-parallel-publishing.md) | Solucionar la replicación entre Brand Portal y AEM Assets. |
 | [Formatos de archivo admitidos](brand-portal-supported-formats.md) | Formatos de archivo admitidos en Brand Portal para su previsualización y descarga. |
 | [Publicar recursos en Brand Portal](brand-portal-sharing-folders.md) | Cómo publicar carpetas, colecciones, vínculos, ajustes preestablecidos, esquemas, facetas y etiquetas en Brand Portal. |
