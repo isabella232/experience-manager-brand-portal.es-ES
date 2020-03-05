@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
+source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
 
@@ -35,7 +35,7 @@ Recursos Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir,
 
 Esta versión incluye las siguientes nuevas funciones:
 
-* Captcha para iniciar sesión como invitado en Brand Portal.
+* Captcha para iniciar sesión como invitado en Brand Portal. Consulte Acceso [de invitados a](../using/guest-access.md) Brand Portal para obtener más información.
 
 ### Mejoras {#enhancements-646}
 
@@ -45,11 +45,11 @@ Esta versión de Brand Portal incluye las siguientes mejoras:
 
    >[!NOTE]
    >
-   >La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se transfiere a Adobe I/O.
+   >La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se cambia a la configuración mediante Adobe I/O.
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+Para obtener más información, consulte [Configuración de AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md)
+
 
 ### Problemas críticos solucionados {#critical-issues-fixed}
 
