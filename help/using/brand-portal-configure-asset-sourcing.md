@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -20,7 +20,7 @@ Los administradores de AEM pueden configurar **Asset Sourcing** desde la instanc
 
 >[!NOTE]
 >
->Antes de comenzar con la configuración, asegúrese de que la instancia de Recursos AEM está integrada en Brand Portal. Consulte [Configuración de la integración de AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+>Antes de comenzar con la configuración, asegúrese de que la instancia de Recursos AEM está configurada con Brand Portal. Consulte [Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 En el siguiente vídeo se muestra cómo configurar la fuente de recursos en la instancia de creación de AEM:
@@ -34,7 +34,7 @@ Los administradores de AEM pueden activar la fuente de recursos desde la configu
 **Para habilitar la fuente de recursos:**
 1. Inicie sesión en la instancia de creación de AEM y abra Configuration ManagerURL predeterminada: http:// localhost:4502/system/console/configMgr
 1. Buscar con la palabra clave **Recurso de origen** para localizar la configuración de la marca de la característica **[!UICONTROL de origen de recursos]**
-1. Haga clic en Configuración **[!UICONTROL del indicador de característica de origen de]**recursos para abrir la ventana de configuración
+1. Haga clic en Configuración **[!UICONTROL del indicador de característica de origen de]** recursos para abrir la ventana de configuración
 1. Activar la casilla de verificación **[!UICONTROL feature.flag.active.status]**
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -52,10 +52,12 @@ El administrador puede agregar usuarios nuevos en la Consola de administración 
 
 **Para cargar la lista de usuarios de Brand Portal:**
 1. Inicie sesión en la instancia de creación de AEMURL predeterminada: http:// localhost:4502/aem/start.html
-1. En el panel **Herramientas** ![](assets/tools.png) , vaya a **[!UICONTROL Recursos > Usuarios de Brand Portal]**   ![](assets/upload-user-list1.png)
+1. En el panel **Herramientas** ![](assets/tools.png) , vaya a **[!UICONTROL Recursos > Usuarios de Brand Portal]**
+   ![](assets/upload-user-list1.png)
 1. Se abre la ventana Contribuyentes de carga de Brand Portal.
 Navegue desde el equipo local y cargue el archivo **de** configuración (.csv) que contiene la lista de usuarios activa de Brand Portal.
-1. Haga clic en **[!UICONTROL Guardar]**.   ![](assets/upload-user-list2.png)
+1. Haga clic en **[!UICONTROL Guardar]**.
+   ![](assets/upload-user-list2.png)
 
 
 Los administradores pueden proporcionar acceso a usuarios o grupos específicos desde esta lista de usuarios mientras configuran la carpeta de contribución.
