@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 Además, todas las funcionalidades existentes permanecen sin cambios. Los usuarios de Brand Portal pueden ver, buscar y descargar recursos de la carpeta de contribución, así como de las demás carpetas permitidas. Además, los administradores pueden compartir la carpeta de contribución, modificar las propiedades y añadir recursos a las colecciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Además, todas las funcionalidades existentes permanecen sin cambios. Los usuari
 ## Requisitos previos {#prerequisites}
 
 * AEM 6.5.0.2 o posterior.
-* Asegúrese de que la instancia de Recursos AEM esté integrada en Brand Portal. Consulte [Configuración de la integración de AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+* Asegúrese de que la instancia de Recursos AEM esté configurada con Brand Portal. Consulte [Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Consulte también {#reference-articles}
 
