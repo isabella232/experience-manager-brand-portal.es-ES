@@ -5,7 +5,7 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
+source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
 
 ---
 
@@ -24,8 +24,9 @@ source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
    + [Examinar los recursos en Brand Portal](using/browse-assets-brand-portal.md)
 + Publicado desde AEM Assets en Brand Portal{#publish}
    + [Configuración de AEM Assets con Brand Portal](using/configure-aem-assets-with-brand-portal.md)
-   + [Publicar colecciones en Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Publicar carpetas en Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [Publicación de recursos en Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [Publicar carpetas en Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [Publicar colecciones en Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Solución de problemas en la publicación paralela de Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Publicar etiquetas en Brand Portal](using/brand-portal-publish-tags.md)
    + [Publicar ajustes preestablecidos, esquemas y facetas en Brand Portal](using/publish-schema-search-facets-presets.md)
