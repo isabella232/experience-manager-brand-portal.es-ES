@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -27,7 +27,7 @@ Obtenga una visión detallada de las nuevas funciones, mejoras, problemas import
 
 ## Información general {#overview}
 
-Recursos Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios explorar, buscar, obtener una vista previa, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y en cualquier lugar.
+Recursos Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios explorar, buscar, previsualización, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
 
 ## Novedades de 6.4.6 {#what-s-new-in-646}
 
@@ -48,6 +48,13 @@ Esta versión de Brand Portal incluye las siguientes mejoras:
    >La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se cambia a la configuración mediante Adobe I/O.
 
 
+   >[!TIP]
+   >
+   >***Solo clientes existentes***
+   >
+   >Se recomienda seguir utilizando la configuración heredada de OAuth Gateway. En caso de que surjan problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva configuración mediante Adobe I/O.
+
+
 Para obtener más información, consulte [Configuración de AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md)
 
 
@@ -55,13 +62,13 @@ Para obtener más información, consulte [Configuración de AEM Assets con Brand
 
 Esta versión incluye correcciones a los siguientes problemas críticos:
 
-* Los valores desplegables del esquema de metadatos no están visibles en las propiedades del recurso.
+* Los valores desplegables del esquema de metadatos no están visibles en las propiedades de los recursos.
 
 * El subesquema de metadatos no muestra fichas basadas en mimetype en las propiedades del recurso.
 
-* El esquema de metadatos de cancelación de publicación rellena un mensaje de error, aunque el esquema se elimina al final.
+* El esquema Cancelar la publicación de metadatos rellena un mensaje de error aunque el esquema se elimina al final.
 
-* La imagen de vista previa no se muestra para un recurso publicado.
+* La imagen de Previsualización no se muestra para un recurso publicado.
 
 * El usuario no puede publicar ni cancelar la publicación de recursos que contengan una sola cita en el nombre.
 
@@ -72,6 +79,8 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 ### Problemas conocidos {#known-issues}
 
 Esta versión incluye los siguientes problemas conocidos:
+
+* Los usuarios de Brand Portal no pueden publicar recursos de carpetas de contribución en Recursos AEM al actualizar a Adobe I/O.
 
 * La opción Excluir representaciones del sistema no funciona correctamente al descargar un recurso.
 
