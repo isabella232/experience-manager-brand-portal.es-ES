@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ Esta versión de Brand Portal incluye las siguientes mejoras:
    >La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se cambia a la configuración mediante Adobe I/O.
 
 
-   >[!TIP]
-   >
-   >***Solo clientes existentes***
-   >
-   >Se recomienda seguir utilizando la configuración heredada de OAuth Gateway. En caso de que surjan problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva configuración mediante Adobe I/O.
+>[!TIP]
+>
+>***Solo para clientes existentes***
+>
+>Se recomienda seguir utilizando la configuración heredada de OAuth Gateway. En caso de que surjan problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva configuración mediante Adobe I/O.
 
 
 Para obtener más información, consulte [Configuración de AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md)
-
 
 ### Problemas críticos solucionados {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 
 Esta versión incluye los siguientes problemas conocidos:
 
-* Los usuarios de Brand Portal no pueden publicar recursos de carpetas de contribución en Recursos AEM al actualizar a Adobe I/O.
+* Los usuarios de Brand Portal no pueden publicar recursos de carpetas de contribución en Recursos AEM al actualizar a Adobe I/O en AEM 6.5.4.
+
+   Este problema se solucionará en el próximo Service Pack 6.5.5.
+
+   Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación.
 
 * La opción Excluir representaciones del sistema no funciona correctamente al descargar un recurso.
+
 
 ## Idiomas {#languages}
 
