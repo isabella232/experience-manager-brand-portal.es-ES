@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -19,6 +19,20 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 Las preguntas más frecuentes de Brand Portal se centran en las consultas y los problemas que pueden encontrar los usuarios finales al trabajar con la última versión de AEM Assets Brand Portal 6.4.5 o versiones anteriores.
 
 
+## Preguntas más frecuentes sobre Brand Portal 6.4.6 {#faqs-bp646}
+
+**Ques. El punto final (`https://legacy-oauth.cloud.adobe.io/login`) de OAuth heredado no funciona. ¿Cuál podría ser la razón posible?**
+
+**Ans.** La configuración OAuth heredada está en desuso. Debe actualizar las instancias de creación de Recursos AEM al Service Pack más reciente y configurarlas con la E/S de Adobe. Consulte [Configuración de AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md) para obtener más información. Sin embargo, para que la configuración OAuth heredada funcione hasta que se actualice, actualice el punto final OAuth heredado a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+**Ques. No puedo publicar los recursos de la carpeta de contribución de Brand Portal en Recursos AEM después de actualizar a Adobe I/O. Mi instancia de autor se encuentra en AEM 6.5.4. ¿Cuál podría ser la razón posible?**
+
+**Ans.** Sí, se conoce un problema al publicar los recursos de la carpeta de contribución en Recursos AEM en AEM 6.5.4 con Adobe I/O. Este problema se solucionará en el próximo Service Pack AEM 6.5.5.
+
+Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación de AEM.
+
+
+## Preguntas más frecuentes sobre Brand Portal 6.4.5 {#faqs-bp645}
 
 **Ques. ¿Cuál es el cambio más importante en la versión 6.4.5 de Brand Portal?**
 
@@ -74,7 +88,7 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 
 **Ques. ¿Cuáles son los requisitos de activos con contribución de r.t?**
 
-**Ans.** El **breve** documento adjunto a la carpeta **Contribución** y el contenido de referencia (recursos reutilizables) cargado en la carpeta **COMPARTIDO** ayuda al usuario de Brand Portal a comprender la necesidad de contribución y expectativas como colaborador, y se denomina colectivamente como los requisitos de recursos.
+**Ans.** El **breve** documento adjunto a la carpeta **Contribution** y el contenido de referencia (recursos reutilizables) cargados en la carpeta **SHARED** ayuda al usuario de Brand Portal a comprender la necesidad de contribución y expectativas como colaborador, y se le denomina colectivamente como los requisitos de recursos.
 
 
 
@@ -90,7 +104,7 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 
 >[!NOTE]
 >
->Si no es un usuario de Brand Portal, solicite al administrador de AEM que cree su usuario en la consola de administración de AEM y añada su perfil al archivo de configuración de usuario de la lista de usuarios de Brand Portal. Consulte [Adición de un usuario](brand-portal-configure-asset-sourcing.md)de Brand Portal.
+>Si no es un usuario de Brand Portal, solicite al administrador de AEM que cree su usuario en la consola de administración de AEM y añada su perfil al archivo de configuración de usuario de la lista de usuarios de Brand Portal. Consulte, [Añadir usuario](brand-portal-configure-asset-sourcing.md)de Brand Portal.
 
 
 
@@ -108,7 +122,7 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 
 **Ques. ¿Dónde puedo ver el estado de los trabajos de importación y publicación?**
 
-**Ans.** En AEM, puede ver el estado de una importación en la página de trabajo **asincrónica** . En Brand Portal, puede ver el estado de un trabajo de publicación en **[!UICONTROL Herramientas > Estado]**de contribución de recursos.
+**Ans.** En AEM, puede ver el estado de una importación en la página de trabajo **asincrónica** . En Brand Portal, puede ver el estado de un trabajo de publicación en **[!UICONTROL Herramientas > Estado]** de contribución de recursos.
 
 
 
@@ -130,7 +144,7 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 
 
 
-**Ques. ¿No veo miniaturas o vistas previas en los recursos cargados en la carpeta NEW por un usuario de Brand Portal?**
+**Ques. ¿No veo miniaturas o previsualizaciones en los recursos cargados en la carpeta NEW por un usuario de Brand Portal?**
 
 **Ans.** Está diseñado de la misma manera, ya que no se está ejecutando ningún flujo de trabajo en el extremo de Brand Portal.
 
