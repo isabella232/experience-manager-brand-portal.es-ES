@@ -4,12 +4,13 @@ seo-title: Publicar en la carpeta de contribución en Recursos AEM
 description: Obtenga información sobre cómo publicar la carpeta de contribución en Recursos AEM en Brand Portal.
 seo-description: Obtenga información sobre cómo publicar la carpeta de contribución en Recursos AEM en Brand Portal.
 uuid: null
-content-type: referencia
-topic-tags: portal de marca
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -18,12 +19,12 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 Los usuarios de Brand Portal pueden publicar la carpeta de contribución en Recursos AEM sin necesidad de acceder a la instancia de creación de AEM.
 
-Asegúrese de haber superado los requisitos [de](brand-portal-download-asset-requirements.md) recursos y de cargar los recursos recién creados en la carpeta **NEW** de la carpeta de contribución. Consulte [Carga de recursos en la carpeta](brand-portal-upload-assets-to-contribution-folder.md)de contribución.
+Asegúrese de que ha superado los requisitos [de](brand-portal-download-asset-requirements.md) recursos y de cargar los recursos recién creados en la carpeta **NEW** de la carpeta de contribución. Consulte [Carga de recursos en la carpeta](brand-portal-upload-assets-to-contribution-folder.md)de contribución.
 
 **Para publicar la carpeta de contribución:**
 
 1. Inicie sesión en la instancia de Brand Portal.
-1. Seleccione la carpeta de contribución del tablero de Brand Portal.
+1. Seleccione la carpeta de contribución en el panel de Brand Portal.
 1. Haga clic en **[!UICONTROL Publicar en AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
