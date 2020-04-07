@@ -5,11 +5,12 @@ description: 'Obtenga información sobre cómo crear una carpeta de contribució
 seo-description: Obtenga información sobre cómo crear una carpeta de contribución en Recursos AEM.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -21,17 +22,18 @@ Para crear una carpeta de **contribución** , cree una nueva carpeta de tipo Con
 
 **Para crear una nueva carpeta de contribución:**
 1. Inicie sesión en la instancia de creación de AEMURL predeterminada: http:// localhost:4502/aem/start.html
-1. Vaya a **[!UICONTROL Recursos > Archivos]**. Muestra todas las carpetas existentes en el repositorio de AEM Assets.
-1. Click **[!UICONTROL Create]**to create a new folder. Se abre la ventana emergente Crear carpeta.
-1. Introduzca **[!UICONTROL Título]**y**[!UICONTROL  Nombre]** de la carpeta y marque la casilla de verificación Contribución **[!UICONTROL de]**recursos.
+1. Vaya a **[!UICONTROL Recursos > Archivos]** lista todas las carpetas existentes en el repositorio de AEM Assets.
+1. Click **[!UICONTROL Create]** to create a new folder. Se abre la ventana emergente Crear carpeta.
+1. Introduzca **[!UICONTROL Título]** y **[!UICONTROL Nombre]** de la carpeta y marque la casilla de verificación Contribución **[!UICONTROL de]**recursos.
 Se recomienda utilizar alfabetos pequeños sin espacio para asignar un nombre a la carpeta.
-1. Haga clic en **[!UICONTROL Crear]**.   ![](assets/create-contribution-folder.png)
+1. Haga clic en **[!UICONTROL Crear]**.
+   ![](assets/create-contribution-folder.png)
 1. Puede ver la carpeta de contribución recién creada en el repositorio de AEM Assets.
-1. Haga clic para abrir la carpeta de contribución. Verá dos subcarpetas:**[!UICONTROL COMPARTIDO]**y**[!UICONTROL  NUEVO]** , que se crean automáticamente dentro de la carpeta de contribución.\
+1. Haga clic para abrir la carpeta de contribución. Verá dos subcarpetas:**[!UICONTROL COMPARTIDO]** y **[!UICONTROL NUEVO]** , que se crean automáticamente dentro de la carpeta de contribución.\
    ![](assets/contribution-folder.png)
 
 Ahora puede configurar las propiedades de la carpeta Contribution. Consulte [Configuración de las propiedades](brand-portal-configure-contribution-folder-properties.md)de la carpeta Contribution.
 
 >[!NOTE]
 >
->Asegúrese de proporcionar un nombre adecuado a la carpeta Contribution, ya que no puede modificar el nombre de la carpeta tras la creación.
+>Asegúrese de proporcionar un nombre adecuado a la carpeta Contribution, ya que no puede modificar el nombre de la carpeta después de la creación.
