@@ -9,23 +9,23 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
 
 # Descripción general del portal de marca de AEM Assets {#overview-of-aem-assets-brand-portal}
 
-Como especialista en mercadotecnia, a veces necesita colaborar con los socios de canal y los usuarios internos de la empresa para crear, administrar y entregar rápidamente contenido digital relevante a los clientes. La entrega oportuna de contenido relevante a lo largo de todo el viaje del cliente es fundamental para generar buena demanda, conversión, compromiso y lealtad del cliente.
+Como especialista en mercadotecnia, a veces necesita colaborar con socios de canal y usuarios internos de negocios para crear, administrar y distribuir rápidamente contenido digital relevante a los clientes. El envío oportuno del contenido relevante a lo largo de todo el viaje del cliente es fundamental para generar buena demanda, conversión, compromiso y lealtad del cliente.
 
-Sin embargo, es un desafío desarrollar soluciones que permitan un uso compartido eficiente y seguro de logotipos de marca, directrices, recursos de campaña o tomas de productos aprobados con equipos internos, socios y distribuidores extendidos.
+Sin embargo, es un desafío desarrollar soluciones que permitan un uso compartido eficiente y seguro de logotipos de marcas, directrices, recursos de campaña o tomas de productos aprobados con equipos internos, socios y distribuidores extendidos.
 
 **Recursos Adobe Experience Manager (AEM) Assets Brand Portal** se centra en la necesidad del comerciante de colaborar de forma eficaz con los usuarios de Brand Portal distribuidos globalmente proporcionando funciones de distribución de recursos y contribución de recursos.
 
 La distribución de recursos le permite adquirir, controlar y distribuir de forma segura recursos creativos aprobados a partes externas y usuarios empresariales internos entre dispositivos. Mientras que la contribución de recursos permite a los usuarios de Brand Portal cargar recursos en Brand Portal y publicarlos en Recursos AEM sin necesidad de acceder al entorno de creación. La función de contribución se denomina **Recursos de origen en Brand Portal**. Y, en conjunto, mejora la experiencia general del portal de marca de distribución de recursos y contribución de los usuarios del portal de marca (agencias/equipos externos), acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado.
 Consulte [Origen de recursos en Brand Portal](brand-portal-asset-sourcing.md).
 
-El entorno de portal basado en explorador le permite cargar, examinar, buscar, previsualizar y exportar recursos fácilmente en formatos aprobados.
+El entorno de portal basado en explorador le permite cargar, examinar, buscar, previsualización y exportar recursos fácilmente en formatos aprobados.
 
 ## Configuración de AEM Assets con Brand Portal {#configure-brand-portal}
 
@@ -33,13 +33,13 @@ Los recursos de Adobe Experience Manager (AEM) se configuran con Brand Portal a 
 
 >[!NOTE]
 >
->La configuración de AEM Assets con Brand Portal mediante Adobe I/O es compatible con AEM 6.3 y versiones posteriores.
+>La configuración de AEM Assets con Brand Portal mediante Adobe I/O es compatible con el servicio en la nube de AEM Assets, AEM Assets 6.3 y versiones posteriores.
 
 ### Requisitos previos para configurar Recursos AEM con Brand Portal {#prerequisites}
 
 Para configurar Recursos AEM con Brand Portal, es necesario lo siguiente:
 
-* Una instancia de creación de Recursos AEM activa y en ejecución con el último Service Pack.
+* Una instancia de Recursos AEM en ejecución.
 * URL del inquilino de Brand Portal.
 * Un usuario con privilegios de administrador del sistema en la organización IMS del inquilino de Brand Portal.
 
@@ -54,7 +54,7 @@ Brand Portal admite las siguientes funciones de usuario:
 * Editor
 * Administrador
 
-En la tabla siguiente se enumeran las tareas que pueden realizar los usuarios con estas funciones:
+La siguiente tabla lista las tareas que pueden realizar los usuarios en estas funciones:
 
 |  | **Examinar** | **Buscar** | **Descargar** | **Compartir carpetas** | **Compartir una colección** | **Compartir recursos como un vínculo** | **Acceso a las Herramientas de administración** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -77,11 +77,11 @@ Sin embargo, la sesión de invitado le impide crear colecciones y búsquedas gua
 
 [Descargar recursos públicos](brand-portal-download-users.md)
 
-[Adición de recursos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Añadir recursos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visor {#viewer}
 
-Un usuario estándar de Brand Portal suele ser un usuario con la función de visor. Un usuario con esta función puede acceder a las carpetas, colecciones y recursos permitidos. El usuario también puede examinar, previsualizar, descargar y exportar recursos (representaciones originales o específicas), configurar la cuenta y buscar recursos. Esta es una lista de tareas que un visor puede realizar:
+Un usuario estándar de Brand Portal suele ser un usuario con la función de visor. Un usuario con esta función puede acceder a las carpetas, colecciones y recursos permitidos. El usuario también puede examinar, previsualización, descargar y exportar recursos (representaciones originales o específicas), configurar la cuenta y buscar recursos. Esta es una lista de tareas que un visor puede realizar:
 
 [Exploración de recursos](browse-assets-brand-portal.md)
 
@@ -91,7 +91,7 @@ Un usuario estándar de Brand Portal suele ser un usuario con la función de vis
 
 ### Editor {#editor}
 
-Un usuario con la función de editor puede realizar todas las tareas que pueda realizar un visor. Además, y Editor pueden ver los archivos y carpetas que un administrador comparte. El usuario con la función de editor también puede compartir contenido (archivos, carpetas, colecciones) con otros usuarios.
+Un usuario con la función de editor puede realizar todas las tareas que pueda realizar un visor. Además, y Editor pueden vista los archivos y las carpetas que un administrador comparte. El usuario con la función de editor también puede compartir contenido (archivos, carpetas, colecciones) con otros usuarios.
 
 Aparte de las tareas que puede realizar un visor, un editor puede realizar las siguientes tareas adicionales:
 
@@ -103,9 +103,9 @@ Aparte de las tareas que puede realizar un visor, un editor puede realizar las s
 
 ### Administrador {#administrator}
 
-Un administrador incluye un usuario marcado como administrador del sistema o administrador del producto Brand Portal en la Consola [!UICONTROL de administración]. Un administrador puede agregar y quitar administradores y usuarios del sistema, definir ajustes preestablecidos, enviar correos electrónicos a los usuarios y ver informes de almacenamiento y uso del portal.
+Un administrador incluye un usuario marcado como administrador del sistema o administrador del producto Brand Portal en la Consola [!UICONTROL de administración]. Un administrador puede agregar y quitar administradores y usuarios del sistema, definir ajustes preestablecidos, enviar correos electrónicos a los usuarios e informes de uso y almacenamiento del portal de vista.
 
-Un administrador puede realizar todas las tareas que un editor puede realizar con las siguientes tareas adicionales:
+Un administrador puede realizar todas las tareas que un editor pueda realizar con las siguientes tareas adicionales:
 
 [Administrar usuarios, grupos y funciones de usuario](brand-portal-adding-users.md)
 
@@ -188,7 +188,7 @@ Los administradores de productos de Brand Portal reciben solicitudes de acceso e
 Para conceder acceso, los administradores de productos deben hacer clic en la notificación correspondiente en el área de notificación de Brand Portal y, a continuación, hacer clic en **[!UICONTROL Otorgar acceso]**.
 Como alternativa, los administradores de productos pueden seguir el vínculo proporcionado en el correo electrónico de solicitud de acceso para visitar Adobe [!UICONTROL Admin Console] y agregar el usuario a la configuración de producto relevante.
 
-Se le redirige a la página principal de [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Utilice Adobe [!UICONTROL Admin Console] para crear usuarios y asignarlos a perfiles de producto (anteriormente conocidos como configuraciones de producto), que se muestran como grupos en Brand Portal. Para obtener más información sobre cómo agregar usuarios en [!UICONTROL Admin Console], consulte [Agregar un usuario](brand-portal-adding-users.md#add-a-user) (siga los pasos 4 a 7 del procedimiento para agregar un usuario).
+Se le redirige a la página de inicio de [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Utilice Adobe [!UICONTROL Admin Console] para crear usuarios y asignarlos a perfiles de productos (anteriormente conocidos como configuraciones de productos), que se muestran como grupos en Brand Portal. Para obtener más información sobre cómo agregar usuarios en [!UICONTROL Admin Console], consulte [Añadir un usuario](brand-portal-adding-users.md#add-a-user) (siga los pasos 4 a 7 del procedimiento para agregar un usuario).
 
 ## Idiomas de Brand Portal {#brand-portal-language}
 
@@ -198,7 +198,7 @@ Puede cambiar el idioma de Brand Portal desde la configuración [!UICONTROL de A
 
 Para cambiar el idioma:
 
-1. Seleccione [!UICONTROL Usuario] > [!UICONTROL Editar perfil] en el menú superior.<br />
+1. Seleccione [!UICONTROL Usuario] > [!UICONTROL Editar Perfil] en el menú superior.<br />
    ![Editar el perfil](assets/EditBPProfile.png)
 
 1. En la página Configuración [!UICONTROL de] Experience Cloud, seleccione un idioma en el menú desplegable [!UICONTROL Idioma] .
@@ -219,5 +219,5 @@ Puede rechazar esta notificación y continuar usando Brand Portal. Esta notifica
 
 ## Related resources {#related-resources}
 
-* [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 * [Foros de AEM](https://www.adobe.com/go/aod_forums_en)
