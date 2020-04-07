@@ -5,11 +5,12 @@ description: Obtenga información sobre cómo configurar una carpeta de contribu
 seo-description: Obtenga información sobre cómo configurar una carpeta de contribución en Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -24,7 +25,7 @@ En el siguiente vídeo se muestra cómo configurar una carpeta de contribución 
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-El usuario de AEM realiza las siguientes actividades durante la configuración de una carpeta de contribución:
+El usuario de AEM realiza las siguientes actividades al configurar una carpeta de contribución:
 
 * [Crear carpeta de contribución](brand-portal-create-contribution-folder.md)
 * [Cargar requisitos de recursos](brand-portal-configure-contribution-folder-properties.md)
