@@ -5,11 +5,12 @@ description: Obtenga una visión detallada de las preguntas más frecuentes en e
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ Las preguntas más frecuentes de Brand Portal se centran en las consultas y los 
 
 **Ques. No puedo publicar los recursos de la carpeta de contribución de Brand Portal en Recursos AEM después de actualizar a Adobe I/O. Mi instancia de autor se encuentra en AEM 6.5.4. ¿Cuál podría ser la razón posible?**
 
-**Ans.** Sí, se conoce un problema al publicar los recursos de la carpeta de contribución en Recursos AEM en AEM 6.5.4 con Adobe I/O. Este problema se solucionará en el próximo Service Pack AEM 6.5.5.
+**Ans.** Sí, se conoce un problema al publicar los recursos de la carpeta de contribución en Recursos AEM en AEM 6.5.4 con Adobe I/O. Este problema se solucionará en el próximo Service Pack.
 
 Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación de AEM.
 
