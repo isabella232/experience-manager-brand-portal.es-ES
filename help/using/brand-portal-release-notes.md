@@ -5,11 +5,12 @@ description: Obtenga una visión detallada de las funciones, mejoras, problemas 
 seo-description: Obtenga una visión detallada de las mejoras, los problemas críticos solucionados y los problemas conocidos en la versión 6.4.6 de Adobe Experience Manager Assets Brand Portal.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
@@ -37,11 +38,14 @@ Esta versión incluye las siguientes nuevas funciones:
 
 * Captcha para iniciar sesión como invitado en Brand Portal. Consulte Acceso [de invitados a](../using/guest-access.md) Brand Portal para obtener más información.
 
+* Brand Portal ahora es compatible con el servicio en la nube de AEM Assets. Puede configurar Recursos AEM para que el servicio con Brand Portal pueda compartir y distribuir recursos con los usuarios de Brand Portal.
+Para obtener más información, consulte [Configuración del servicio en la nube de AEM Assets con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+
 ### Mejoras {#enhancements-646}
 
 Esta versión de Brand Portal incluye las siguientes mejoras:
 
-* Recursos AEM ahora se configura con Brand Portal a través de Adobe I/O, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal.
+* En AEM 6.3 y versiones posteriores, se cambia el canal de autorización entre AEM Assets y Brand Portal. Recursos AEM ahora se configura con Brand Portal a través de Adobe I/O, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal.
 
    >[!NOTE]
    >
@@ -109,7 +113,7 @@ Para determinar qué plataformas están certificadas para ejecutarse con esta ve
 ## Vínculos {#links}
 
 * [Página del producto Adobe Experience Manager en adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Documentación de Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Documentación de Assets Brand Portal](https://helpx.adobe.com/es/experience-manager/brand-portal/user-guide.html)
 
 ## Asistencia y acceso al producto (sitios restringidos) {#product-access-and-support-restricted-sites}
 
