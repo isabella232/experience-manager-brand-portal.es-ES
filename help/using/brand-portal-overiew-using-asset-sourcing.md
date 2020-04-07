@@ -4,19 +4,20 @@ seo-title: Uso de fuentes de recursos en Brand Portal
 description: Obtenga información sobre cómo utilizar la función de fuentes de recursos, cargar recursos en la carpeta de contribución y publicar la carpeta de contribución en Recursos AEM en Brand Portal.
 seo-description: Obtenga información sobre cómo utilizar la función de fuentes de recursos, cargar recursos en la carpeta de contribución y publicar la carpeta de contribución en Recursos AEM en Brand Portal.
 uuid: null
-content-type: referencia
-topic-tags: portal de marca
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
 
 # Uso de fuentes de recursos {#using-asset-souring-in-bp}
 
-Los usuarios de Brand Portal con los permisos adecuados pueden cargar varios recursos, o carpetas con varios recursos, en la carpeta de contribución. Sin embargo, los usuarios de Brand Portal solo pueden cargar recursos en la carpeta **NEW** . La carpeta **SHARED** está pensada para la distribución de recursos de línea de base (contenido de referencia) que pueden utilizar los usuarios de Brand Portal al crear nuevos recursos para la contribución.
+Los usuarios de Brand Portal con los permisos adecuados pueden cargar varios recursos, o carpetas con varios recursos, en la carpeta de contribución. Sin embargo, los usuarios de Brand Portal solo pueden cargar recursos en la carpeta **NEW** . La carpeta **COMPARTIDO** está pensada para la distribución de recursos de línea de base (contenido de referencia) que pueden utilizar los usuarios de Brand Portal al crear nuevos recursos para la contribución.
 
 El usuario de Brand Portal que tenga permiso para acceder a la carpeta de contribución puede realizar las siguientes actividades:
 
