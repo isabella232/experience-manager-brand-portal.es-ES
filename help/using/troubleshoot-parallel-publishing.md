@@ -9,14 +9,14 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Solución de problemas en la publicación paralela de Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal se ha configurado con Recursos AEM para que los recursos de marca aprobados se transfieran (o publiquen) sin problemas desde la instancia de creación de Recursos AEM. Una vez [configurados](../using/configure-aem-assets-with-brand-portal.md), AEM Author utiliza un agente de replicación para replicar los recursos seleccionados en el servicio en la nube de Brand Portal para que los usuarios de Brand Portal puedan aprobarlos. Los agentes de replicación múltiples se utilizan en AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 y versiones posteriores para permitir la publicación en paralelo de alta velocidad.
+Brand Portal se ha configurado con Recursos AEM para que los recursos de marca aprobados se transfieran (o publiquen) sin problemas desde la instancia de creación de Recursos AEM. Una vez [configurados](../using/configure-aem-assets-with-brand-portal.md), AEM Author utiliza un agente de replicación para replicar los recursos seleccionados en el servicio en la nube de Brand Portal para que los usuarios de Brand Portal puedan aprobarlos. Se utilizan varios agentes de replicación en AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 y versiones posteriores para permitir la publicación en paralelo de alta velocidad.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Si al editar repetidamente el servicio en la nube no está configurado correctam
 
 **Probar la conexión con los agentes de replicación**
 
-Ver registro, si se encuentran errores en el registro de replicación:
+Registro de Vista, si se encuentran errores en el registro de replicación:
 
 1. Póngase en contacto con el servicio de asistencia técnica de Adobe.
 
