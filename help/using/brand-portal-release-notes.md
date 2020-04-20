@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
+source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
 
 ---
 
@@ -32,7 +32,7 @@ Recursos Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir,
 
 ## Novedades de 6.4.6 {#what-s-new-in-646}
 
-### Nuevas funciones {#new-feature}
+### New Features {#new-feature}
 
 Esta versión incluye las siguientes nuevas funciones:
 
@@ -59,7 +59,7 @@ Esta versión de Brand Portal incluye las siguientes mejoras:
 >Se recomienda seguir utilizando la configuración heredada de OAuth Gateway. En caso de que surjan problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva configuración mediante Adobe I/O.
 
 
-Para obtener más información, consulte [Configuración de AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md)
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
 ### Problemas críticos solucionados {#critical-issues-fixed}
 
@@ -119,6 +119,8 @@ Para determinar qué plataformas están certificadas para ejecutarse con esta ve
 
 Estos sitios solo están disponibles para los clientes. Si es un cliente y necesita acceso, póngase en contacto con su administrador de cuentas de Adobe.
 
-* [](https://daycare.day.com) Acceso [al producto](https://login.marketing.adobe.com)
+* [https://daycare.day.com](https://daycare.day.com)
+
+* [Acceso a productos](https://login.marketing.adobe.com)
 
 * [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/contact.html)
