@@ -9,7 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 8%
 
 ---
 
@@ -27,17 +30,18 @@ Consulte [Origen de recursos en Brand Portal](brand-portal-asset-sourcing.md).
 
 El entorno de portal basado en explorador le permite cargar, examinar, buscar, previsualización y exportar recursos fácilmente en formatos aprobados.
 
-## Configuración de AEM Assets con Brand Portal {#configure-brand-portal}
+## Configurar AEM Assets con Brand Portal {#configure-brand-portal}
 
-Los recursos de Adobe Experience Manager (AEM) se configuran con Brand Portal a través de Adobe I/O, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal.
+Recursos Adobe Experience Manager (AEM) se configura con Brand Portal a través de Adobe Developer Console, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal.
 
 >[!NOTE]
 >
->La configuración de AEM Assets con Brand Portal mediante Adobe I/O es compatible con el servicio en la nube de AEM Assets, AEM Assets 6.3 y versiones posteriores.
+>La configuración de AEM Assets con Brand Portal mediante Adobe Developer Console se admite en el servicio en la nube de AEM Assets, AEM Assets 6.3 y versiones posteriores.
 
-### Requisitos previos para configurar Recursos AEM con Brand Portal {#prerequisites}
 
-Para configurar Recursos AEM con Brand Portal, es necesario lo siguiente:
+### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
+
+Para configurar AEM Assets con Brand Portal, es necesario lo siguiente:
 
 * Una instancia de Recursos AEM en ejecución.
 * URL del inquilino de Brand Portal.
@@ -121,7 +125,7 @@ Un administrador puede realizar todas las tareas que un editor pueda realizar co
 
 Además de las tareas anteriores, un autor de Recursos AEM puede realizar las siguientes tareas:
 
-[Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
+[Configurar AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
 [Publicar carpetas en Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -139,6 +143,7 @@ Sin embargo, la instancia de AEM Author solo se puede [configurar](../using/conf
 >Para obtener un alias para el nombre del inquilino en la URL del portal existente, las organizaciones deben ponerse en contacto con el servicio de asistencia de Adobe con una nueva solicitud de creación de alias del inquilino. Esta solicitud se procesa comprobando primero si el alias está disponible y, a continuación, creando el alias.
 >
 >Para reemplazar el alias antiguo o eliminarlo, debe seguirse el mismo proceso.
+
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
@@ -161,6 +166,7 @@ Para solicitar acceso, haga lo siguiente:
    1. Si tiene un [!UICONTROL Adobe ID], un [!UICONTROL Enterprise ID]o un [!UICONTROL Federated ID], haga clic en **[!UICONTROL Iniciar sesión]**.
 Se abre la página [!UICONTROL Iniciar sesión] .
    1. Proporcione sus credenciales de [!UICONTROL Adobe ID] y haga clic en **[!UICONTROL Iniciar sesión]**.<br />
+
    ![Inicio de sesión de Adobe](assets/bplogin_request_access_3.png)
 
    Se le redirige a la página [!UICONTROL Solicitar acceso] .<br />
@@ -171,6 +177,7 @@ Se abre la página [!UICONTROL Iniciar sesión] .
 Se abre la página [!UICONTROL Registro] .
    1. Escriba su nombre y apellidos, ID de correo electrónico y contraseña.
    1. Seleccione **[!UICONTROL Registrarse]**.<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    Se le redirige a la página [!UICONTROL Solicitar acceso] .
@@ -199,6 +206,7 @@ Puede cambiar el idioma de Brand Portal desde la configuración [!UICONTROL de A
 Para cambiar el idioma:
 
 1. Seleccione [!UICONTROL Usuario] > [!UICONTROL Editar Perfil] en el menú superior.<br />
+
    ![Editar el perfil](assets/EditBPProfile.png)
 
 1. En la página Configuración [!UICONTROL de] Experience Cloud, seleccione un idioma en el menú desplegable [!UICONTROL Idioma] .
