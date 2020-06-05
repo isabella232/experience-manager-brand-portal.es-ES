@@ -9,7 +9,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 1%
 
 ---
 
@@ -23,8 +26,8 @@ Los recursos deben publicarse en Brand Portal desde una instancia de AEM Author 
 A continuación se describe el flujo de trabajo de uso compartido de carpetas y el acceso del usuario:
 
 * De forma predeterminada, todas las carpetas publicadas desde Recursos AEM a Brand Portal solo son visibles para el administrador de Brand Portal, a menos que estén marcadas como públicas al configurar la replicación.
-* El administrador utiliza la consola Propiedades **[!UICONTROL de la]**carpeta para compartir una carpeta con usuarios o grupos determinados. Solo los usuarios o grupos con los que se comparte la carpeta pueden verla después de iniciar sesión en Brand Portal. La carpeta no está visible para otros usuarios.
-* El administrador también puede optar por hacer pública una carpeta mediante la casilla de verificación Carpeta ****pública de la consola Propiedades**[!UICONTROL  de la]** carpeta. Todos los usuarios pueden ver una carpeta pública.
+* El administrador utiliza la consola Propiedades **[!UICONTROL de la]** carpeta para compartir una carpeta con usuarios o grupos determinados. Solo los usuarios o grupos con los que se comparte la carpeta pueden verla después de iniciar sesión en Brand Portal. La carpeta no está visible para otros usuarios.
+* El administrador también puede optar por hacer pública una carpeta mediante la casilla de verificación Carpeta **** pública de la consola Propiedades **[!UICONTROL de la]** carpeta. Todos los usuarios pueden ver una carpeta pública.
 
 * Independientemente de las funciones de usuario y los privilegios, cuando los usuarios inician sesión en Brand Portal, verán todas las carpetas públicas y las carpetas que se hayan compartido directamente con ellos o con un grupo al que pertenezcan. Las carpetas privadas o las carpetas compartidas con otros usuarios no son visibles para todos los usuarios.
 
@@ -36,15 +39,16 @@ Del mismo modo, los grupos de usuarios (o usuarios) que tienen permisos para acc
 
 ### Public folder publish {#public-folder-publish}
 
-A menos que se seleccione la opción Publicación **[!UICONTROL de carpetas]**públicas al configurar la replicación de Brand Portal, los usuarios no administradores (como editores y visores) no tendrán acceso a los recursos publicados desde Recursos AEM a Brand Portal.
+A menos que se seleccione la opción Publicación **[!UICONTROL de carpetas]** públicas al configurar la replicación de Brand Portal, los usuarios no administradores (como editores y visores) no tendrán acceso a los recursos publicados desde Recursos AEM a Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
-Si la opción Publicación **[!UICONTROL de carpetas]**públicas está desactivada, los administradores deben compartir específicamente estos recursos con usuarios no administradores que utilicen la función de uso compartido.
+Si la opción Publicación **[!UICONTROL de carpetas]** públicas está desactivada, los administradores deben compartir específicamente estos recursos con usuarios no administradores que utilicen la función de uso compartido.
 
 >[!NOTE]
 >
->La opción para activar Publicación **[!UICONTROL de carpetas]**públicas está disponible en AEM 6.3.2.1 y versiones posteriores.
+>La opción para activar Publicación **[!UICONTROL de carpetas]** públicas está disponible en AEM 6.3.2.1 y versiones posteriores.
+
 
 ## Acceso a carpetas compartidas {#access-to-shared-folders}
 
@@ -57,15 +61,18 @@ La siguiente matriz analiza los derechos y derechos de acceso para compartir o d
 | Visor | No* | Sí, solo si se comparten con ellos o con el grupo al que pertenecen | No |
 | Usuario invitado | No* | Sí, solo si se comparten con ellos o con el grupo al que pertenecen | No |
 
-**De forma predeterminada, la opción Publicación **[!UICONTROL de carpetas]**públicas está desactivada al configurar la replicación de Brand Portal con AEM Author. Si la opción está activada, todas las carpetas publicadas en Brand Portal estarán accesibles a todos los usuarios (también a los usuarios no administradores) de forma predeterminada.*
+>[!NOTE]
+>
+>De forma predeterminada, la opción Publicación **[!UICONTROL de carpetas]** públicas está desactivada al configurar la replicación de Brand Portal con AEM Author. Si la opción está activada, todas las carpetas publicadas en Brand Portal estarán accesibles a todos los usuarios (también a los usuarios no administradores) de forma predeterminada.
+
 
 ### Acceso de usuario no administrador a carpetas compartidas {#non-admin-user-access-to-shared-folders}
 
-Los usuarios no administradores solo pueden acceder a las carpetas compartidas con ellos en Brand Portal. Sin embargo, el modo en que se muestran estas carpetas en el portal cuando inician sesión depende de la configuración de **[!UICONTROL Habilitar jerarquía]**de carpetas.
+Los usuarios no administradores solo pueden acceder a las carpetas compartidas con ellos en Brand Portal. Sin embargo, el modo en que se muestran estas carpetas en el portal cuando inician sesión depende de la configuración de **[!UICONTROL Habilitar jerarquía]** de carpetas.
 
 **Si la configuración está deshabilitada**
 
-Los usuarios no administradores ven todas las carpetas compartidas con ellos en la página de aterrizaje al iniciar sesión en el portal de marca.
+Los usuarios no administradores ven todas las carpetas compartidas con ellos en la página de aterrizaje al iniciar sesión en Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -75,7 +82,7 @@ Los usuarios no administradores ven el árbol de carpetas (a partir de la carpet
 
 Estas carpetas principales son las carpetas virtuales y no se pueden realizar acciones en ellas. Puede reconocer estas carpetas virtuales con un icono de candado.
 
-No hay tareas de acción visibles al pasar el ratón por encima o seleccionarlas en la vista **[!UICONTROL de]**tarjeta, a diferencia de las carpetas compartidas.**[!UICONTROL  El botón Información general]** se muestra al seleccionar una carpeta virtual en la Vista **[!UICONTROL de]**columna y en la Vista**[!UICONTROL  de]**lista.
+No hay tareas de acción visibles al pasar el ratón o seleccionarlas en la Vista **[!UICONTROL de]** tarjetas, a diferencia de las carpetas compartidas. **[!UICONTROL El botón Información general]** se muestra al seleccionar una carpeta virtual en Vista **[!UICONTROL de]** columna y Vista **[!UICONTROL de]** Lista.
 
 >[!NOTE]
 >
@@ -107,17 +114,17 @@ Para compartir una carpeta con los usuarios de Brand Portal, siga estos pasos:
 
    ![](assets/folder_properties.png)
 
-1. En la consola Propiedades **[!UICONTROL de la]**carpeta, especifique el título de la carpeta en el campo Título**[!UICONTROL  de la]** carpeta si no desea que los usuarios vean el nombre predeterminado.
-1. En la lista **[!UICONTROL Agregar usuario]**, seleccione los usuarios o grupos con los que desee compartir la carpeta y haga clic en**[!UICONTROL  Agregar]**.
-Para compartir la carpeta solo con usuarios invitados y ningún otro usuario, seleccione Usuarios ****anónimos en el menú desplegable**[!UICONTROL  Miembros]** .
+1. En la consola Propiedades **[!UICONTROL de la]** carpeta, especifique el título de la carpeta en el campo Título **[!UICONTROL de la]** carpeta si no desea que los usuarios vean el nombre predeterminado.
+1. En la lista **[!UICONTROL Añadir usuario]** , seleccione los usuarios o grupos con los que desee compartir la carpeta y haga clic en **[!UICONTROL Añadir]**.
+Para compartir la carpeta solo con usuarios invitados y ningún otro usuario, seleccione Usuarios **** anónimos en el menú desplegable **[!UICONTROL Miembros]** .
 
    ![](assets/only-anonymous.png)
 
    >[!NOTE]
    >
-   >Para que la carpeta esté disponible para todos los usuarios, independientemente de la pertenencia y función del grupo, haga que se haga pública activando la casilla de verificación Carpeta ****pública.
+   >Para que la carpeta esté disponible para todos los usuarios, independientemente de la pertenencia y función del grupo, haga que se haga pública activando la casilla de verificación Carpeta **** pública.
 
-1. Si es necesario, haga clic en **[!UICONTROL Cambiar miniatura]**para modificar la imagen en miniatura de la carpeta.
+1. Si es necesario, haga clic en **[!UICONTROL Cambiar miniatura]** para modificar la imagen en miniatura de la carpeta.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Para acceder a la carpeta compartida, inicie sesión en Brand Portal con las credenciales del usuario con el que ha compartido la carpeta. Revise la carpeta compartida en la interfaz.
 
@@ -130,11 +137,11 @@ Para dejar de compartir una carpeta compartida anteriormente, siga estos pasos:
    ![](assets/share-folders-1.png)
 
 1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Compartir]**.
-1. En la consola Propiedades **[!UICONTROL de la]**carpeta, en**[!UICONTROL  Miembros]**, haga clic en el símbolo **[!UICONTROL x]**situado junto a un usuario para quitarlos de la lista de usuarios con los que ha compartido la carpeta.
+1. En la consola Propiedades **[!UICONTROL de la]** carpeta, en **[!UICONTROL Miembros]**, haga clic en el símbolo **[!UICONTROL x]** situado junto a un usuario para quitarlos de la lista de usuarios con los que ha compartido la carpeta.
 
    ![](assets/folder_propertiesunshare.png)
 
-1. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Confirmar]**para confirmar que no se comparte.
-Haga clic en**[!UICONTROL  Guardar]**.
+1. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Confirmar]** para confirmar que no se comparte.
+Haga clic en **[!UICONTROL Guardar]**.
 
 1. Inicie sesión en Brand Portal con las credenciales del usuario que ha eliminado de la lista compartida. La carpeta ya no está disponible en la interfaz de Brand Portal para el usuario.
