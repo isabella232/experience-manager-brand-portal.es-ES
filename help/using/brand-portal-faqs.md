@@ -10,30 +10,35 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1250'
+ht-degree: 1%
 
 ---
 
 
 # Preguntas frecuentes {#frequently-asked-questions}
 
-Las preguntas más frecuentes de Brand Portal se centran en las consultas y los problemas que pueden encontrar los usuarios finales al trabajar con la última versión de AEM Assets Brand Portal 6.4.5 o versiones anteriores.
+Las preguntas más frecuentes de Brand Portal se centran en las consultas y problemas que pueden encontrar los usuarios finales al trabajar con la versión más reciente de AEM Assets Brand Portal 6.4.6 o versiones anteriores.
 
 
-## Preguntas más frecuentes sobre Brand Portal 6.4.6 {#faqs-bp646}
+## Preguntas más frecuentes sobre Brand Portal 6.4.6  {#faqs-bp646}
 
 **Ques. El punto final (`https://legacy-oauth.cloud.adobe.io/login`) de OAuth heredado no funciona. ¿Cuál podría ser la razón posible?**
 
-**Ans.** La configuración OAuth heredada está en desuso. Debe actualizar las instancias de creación de Recursos AEM al Service Pack más reciente y configurarlas con la E/S de Adobe. Consulte [Configuración de AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md) para obtener más información. Sin embargo, para que la configuración OAuth heredada funcione hasta que se actualice, actualice el punto final OAuth heredado a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** La configuración OAuth heredada está en desuso. Debe actualizar las instancias de creación de AEM Assets al Service Pack más reciente y configurarlas mediante Adobe Developer Console. Consulte [Configuración de AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md) para obtener más información. Sin embargo, para que la configuración OAuth heredada funcione hasta que se actualice, actualice el punto final OAuth heredado a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Ques. No puedo publicar los recursos de la carpeta de contribución de Brand Portal en Recursos AEM después de actualizar a Adobe I/O. Mi instancia de autor se encuentra en AEM 6.5.4. ¿Cuál podría ser la razón posible?**
+**Ques. No puedo publicar los recursos de la carpeta de contribución de Brand Portal en Recursos AEM después de actualizar a Adobe Developer Console. Mi instancia de autor se encuentra en AEM 6.5.4. ¿Cuál podría ser la razón posible?**
 
-**Ans.** Sí, se conoce un problema al publicar los recursos de la carpeta de contribución en Recursos AEM en AEM 6.5.4 con Adobe I/O. Este problema se solucionará en el próximo Service Pack.
+**Ans.** Sí, se conoce un problema al publicar los recursos de la carpeta de contribución en Recursos AEM en AEM 6.5.4 a través de Adobe Developer Console.
+
+Este problema se ha corregido en AEM 6.5.5. Puede actualizar la instancia de Recursos AEM a la versión más reciente de AEM 6.5.5 y [actualizar las configuraciones](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) en Adobe Developer Console.
 
 Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación de AEM.
 
 
-## Preguntas más frecuentes sobre Brand Portal 6.4.5 {#faqs-bp645}
+## Preguntas más frecuentes sobre Brand Portal 6.4.5  {#faqs-bp645}
 
 **Ques. ¿Cuál es el cambio más importante en la versión 6.4.5 de Brand Portal?**
 
@@ -76,7 +81,7 @@ Esta carpeta se comparte con los usuarios activos de Brand Portal para obtener c
 
 **Ques. ¿Qué contiene una carpeta Contribution?**
 
-**Ans.** La carpeta **Contribution** contiene dos subcarpetas **NUEVO** y **COMPARTIDO**. Inicialmente, la carpeta NEW está en blanco y la carpeta SHARED contiene el contenido de referencia (recursos reutilizables) para los usuarios de Brand Portal.
+**Ans.** **La carpeta Contribution** contiene dos subcarpetas **NUEVO** y **COMPARTIDO**. Inicialmente, la carpeta NEW está en blanco y la carpeta SHARED contiene el contenido de referencia (recursos reutilizables) para los usuarios de Brand Portal.
 Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan contenido en la carpeta **NEW** .
 
 
@@ -106,6 +111,7 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 >[!NOTE]
 >
 >Si no es un usuario de Brand Portal, solicite al administrador de AEM que cree su usuario en la consola de administración de AEM y añada su perfil al archivo de configuración de usuario de la lista de usuarios de Brand Portal. Consulte, [Añadir usuario](brand-portal-configure-asset-sourcing.md)de Brand Portal.
+
 
 
 
@@ -174,6 +180,6 @@ Esto se aplica a cualquier carpeta publicada desde Recursos AEM a Brand Portal y
 
 Estos sitios solo están disponibles para los clientes. Si es un cliente y necesita acceso, póngase en contacto con su administrador de cuentas de Adobe.
 
-* [](https://daycare.day.com) Acceso [al producto](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [Acceso a productos](https://login.marketing.adobe.com)
 
 * [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/contact.html)
