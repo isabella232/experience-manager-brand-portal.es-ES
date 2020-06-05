@@ -19,7 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 0%
 
 ---
 
@@ -40,16 +43,15 @@ Además, todas las funcionalidades existentes permanecen sin cambios. Los usuari
 >
 >Póngase en contacto con el servicio de asistencia técnica de Adobe para actualizar su instancia de AEM a la última versión compatible de AEM.
 
+
 ![Abastecimiento de recursos de Brand Portal](assets/asset-sourcing.png)
 
 
 >[!NOTE]
 >
->Si es un usuario de AEM 6.5.4, la función de fuentes de recursos seguirá funcionando con la &quot;integración heredada de OAuth&quot;.
+>Hay un problema conocido en AEM 6.5.4. Los usuarios de Brand Portal no pueden publicar los recursos de la carpeta de contribución en Recursos AEM al actualizar a Adobe Developer Console.
 >
->Sin embargo, los usuarios de Brand Portal no pueden publicar recursos de carpetas de contribución en Recursos AEM al actualizar a Adobe I/O en AEM 6.5.4.
->
->Este problema se solucionará en el próximo Service Pack AEM 6.5.5.
+>El problema se ha corregido en AEM 6.5.5. Puede actualizar la instancia de Recursos AEM a la versión más reciente de AEM 6.5.5 y [actualizar las configuraciones](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) en Adobe Developer Console.
 >
 >Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación.
 
@@ -57,7 +59,7 @@ Además, todas las funcionalidades existentes permanecen sin cambios. Los usuari
 ## Requisitos previos {#prerequisites}
 
 * AEM 6.5.0.2 o posterior.
-* Asegúrese de que la instancia de Recursos AEM esté configurada con Brand Portal. Consulte [Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Asegúrese de que la instancia de Recursos AEM esté configurada con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Consulte también {#reference-articles}
 
