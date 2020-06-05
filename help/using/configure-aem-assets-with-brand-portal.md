@@ -1,6 +1,6 @@
 ---
-title: Configuración de AEM Assets con Brand Portal
-seo-title: Configuración de AEM Assets con Brand Portal
+title: Configurar AEM Assets con Brand Portal
+seo-title: Configurar AEM Assets con Brand Portal
 description: Obtenga información sobre cómo configurar Recursos AEM con Brand Portal.
 seo-description: Obtenga información sobre cómo configurar Recursos AEM con Brand Portal.
 uuid: null
@@ -10,14 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: dc10879caf91b81deda08682548143c60500fd1b
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 10%
 
 ---
 
 
-# Configuración de AEM Assets con Brand Portal {#configure-integration}
+# Configurar AEM Assets con Brand Portal {#configure-integration}
 
-Los recursos de Adobe Experience Manager (AEM) se configuran con Brand Portal a través de Adobe I/O, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal. Brand Portal ahora es compatible con el servicio en la nube AEM Assets, AEM Assets 6.3 y versiones posteriores.
+Recursos Adobe Experience Manager (AEM) se configura con Brand Portal a través de Adobe Developer Console, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal. Brand Portal ahora es compatible con el servicio en la nube AEM Assets, AEM Assets 6.3 y versiones posteriores.
 
 La configuración de Recursos AEM podría funcionar con Brand Portal y le permite publicar y distribuir recursos con los usuarios de Brand Portal. Mientras que la configuración de Brand Portal en AEM 6.3 (y versiones posteriores) permite la publicación de recursos, la distribución de recursos y las funciones de contribución de recursos para los usuarios de Brand Portal.
 
@@ -27,14 +30,16 @@ La configuración de Recursos AEM podría funcionar con Brand Portal y le permit
 >
 >Anteriormente, Brand Portal se configuraba en la IU clásica mediante OAuth Gateway heredado, que utiliza el intercambio de tokens JWT para obtener un Token de acceso IMS para la autorización.
 >
->La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se cambia a la configuración mediante Adobe I/O.
+>La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se cambia a la configuración mediante Adobe Developer Console.
 
 
 >[!TIP]
 >
 >***Solo para clientes existentes***
 >
->Se recomienda seguir utilizando la configuración heredada de OAuth Gateway. En caso de que surjan problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva configuración mediante Adobe I/O.
+>La configuración heredada de OAuth Gateway seguirá funcionando para los clientes existentes.
+>
+>En caso de que surjan problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva mediante Adobe Developer Console.
 
 
 Los pasos para configurar Recursos AEM con Brand Portal son diferentes en función de la versión de AEM y de si está configurando por primera vez o actualizando las configuraciones existentes:
