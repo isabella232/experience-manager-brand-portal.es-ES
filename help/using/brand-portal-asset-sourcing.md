@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Además, todas las funcionalidades existentes permanecen sin cambios. Los usuari
 >
 >La fuente de recursos en Brand Portal es compatible con AEM 6.5.2.0 y versiones posteriores.
 >
->La función no es compatible con las versiones anteriores: AEM 6.3 y AEM 6.4.
+>La función no es compatible con el servicio en la nube de AEM Assets ni con versiones anteriores: AEM 6.3 y AEM 6.4.
 >
 >Póngase en contacto con el servicio de asistencia técnica de Adobe para actualizar su instancia de AEM a la última versión compatible de AEM.
 
