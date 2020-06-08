@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ Los administradores de AEM pueden configurar **Asset Sourcing** desde la instanc
 
 >[!NOTE]
 >
->Antes de comenzar con la configuración, asegúrese de que la instancia de Recursos AEM está configurada con Brand Portal. Consulte [Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Antes de comenzar con la configuración, asegúrese de que la instancia de Recursos AEM está configurada con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 En el siguiente vídeo se muestra cómo configurar la fuente de recursos en la instancia de creación de AEM:
