@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1418'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,25 @@ Las preguntas más frecuentes de Brand Portal se centran en las consultas y prob
 Este problema se ha corregido en AEM 6.5.5. Puede actualizar la instancia de Recursos AEM a la versión más reciente de AEM 6.5.5 y [actualizar las configuraciones](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) en Adobe Developer Console.
 
 Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación de AEM.
+
+**Ques. Deseo activar la función de fuente de recursos en mi instancia de nube de AEM Assets. ¿Cómo puedo configurarlo?**
+
+**Ans.** No, la función de fuentes de recursos no es compatible con el servicio en la nube de AEM Assets.
+
+Manténgase conectado y observe las notas de la versión para ver las notificaciones sobre la disponibilidad de la función en las próximas versiones.
+
+**Ques. No se pueden publicar recursos de Recursos AEM en Brand Portal y el registro del agente de replicación emite una excepción`java.net.SocketException: Connection timed out`. ¿Hay una solución rápida?**
+
+**Ans.** Si hay un número de solicitudes pendientes en la cola de replicación, existe la posibilidad de que el agente de replicación no procese la solicitud de publicación de un recurso y genere una excepción: `java.net.SocketException: Connection timed out`.
+
+Siga estos pasos para solucionar el problema:
+
+1. Abra el agente de replicación y haga clic en **[!UICONTROL Editar]** para modificar la configuración del agente de replicación.
+1. En Configuración del agente, haga clic en la ficha **[!UICONTROL Ampliado]**.
+1. Active la casilla de verificación **[!UICONTROL Cerrar conexión]**.
+1. Reinicie el paquete de replicación (servidor).
+
+Habilite la configuración en los cuatro agentes de replicación para evitar problemas con cualquiera de ellos.
 
 
 ## Preguntas más frecuentes sobre Brand Portal 6.4.5  {#faqs-bp645}
