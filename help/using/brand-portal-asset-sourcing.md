@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -33,16 +33,18 @@ ht-degree: 0%
 
 Además, todas las funcionalidades existentes permanecen sin cambios. Los usuarios de Brand Portal pueden realizar vistas, búsquedas y descargas de recursos desde la carpeta de contribución, así como desde las demás carpetas permitidas. Además, los administradores pueden compartir la carpeta de contribución, modificar las propiedades y añadir recursos a las colecciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## Requisitos previos {#prerequisites}
+
+* AEM 6.5.2 o posterior.
+* Asegúrese de que la instancia de Recursos AEM esté configurada con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Asegúrese de que el inquilino de Brand Portal está configurado con una instancia de autor de AEM Assets.
 
 >[!NOTE]
 >
->La fuente de recursos en Brand Portal es compatible con AEM 6.5.2.0 y versiones posteriores.
->
->La función no es compatible con el servicio en la nube de AEM Assets ni con versiones anteriores: AEM 6.3 y AEM 6.4.
->
->Póngase en contacto con el servicio de asistencia técnica de Adobe para actualizar su instancia de AEM a la última versión compatible de AEM.
+>El servicio en la nube AEM Assets no admite el servicio de fuentes de recursos.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Abastecimiento de recursos de Brand Portal](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ Además, todas las funcionalidades existentes permanecen sin cambios. Los usuari
 >
 >Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación.
 
-
-## Requisitos previos {#prerequisites}
-
-* AEM 6.5.0.2 o posterior.
-* Asegúrese de que la instancia de Recursos AEM esté configurada con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Consulte también {#reference-articles}
 
