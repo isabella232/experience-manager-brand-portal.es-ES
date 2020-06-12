@@ -4,16 +4,16 @@ solution-title: Información y asistencia
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: Introducción
-getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html
 tutorials-title: Tutoriales
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.es-ES
 index: y
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 6%
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
