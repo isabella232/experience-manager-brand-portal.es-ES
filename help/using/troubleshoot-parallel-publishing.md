@@ -9,7 +9,10 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 5b16a4073592896264237f00554e361ed8929383
+source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -63,7 +66,8 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que está publicando (por ejemplo: `mac-<tenantid>-replication` no tiene la clave privada más reciente y, por lo tanto, la publicación falla con el error &quot;401 no autorizado&quot; y no se notifica ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una nueva configuración. Para que la nueva configuración funcione correctamente, limpie lo siguiente de la configuración del autor de AEM:
 
 1. Vaya a `localhost:4502/crx/de/` (teniendo en cuenta que está ejecutando la instancia de autor en localhost:4502:\
-   i. eliminar `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
+   i. eliminar `/etc/replication/agents.author/mp_replication`ii. delete 
+`/etc/cloudservices/mediaportal/<config_name>`
 
 1. Vaya a localhost:4502/useradmin:\
    i. buscar usuario `mac-<tenantid>replication`ii. eliminar este usuario
@@ -110,3 +114,21 @@ Si un agente de replicación (que se estaba publicando en el portal de marca cor
 Si hay errores de publicación continuos y la cola está bloqueada, debe comprobar la conexión **[!UICONTROL de]** prueba e intentar resolver los errores que se notifican.
 
 En función de los errores, se le aconseja que registre un ticket de asistencia técnica para que el equipo de ingeniería de Brand Portal pueda ayudarle a resolver los problemas.
+
+
+## Configurar los agentes de replicación para evitar el error de tiempo de espera de conexión {#connection-timeout}
+
+**Problema**: No puedo publicar recursos de Recursos AEM en Brand Portal. El registro de replicación indica que se agotó el tiempo de espera de la conexión.
+
+**Resolución**: Normalmente, la publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver el problema, asegúrese de que los agentes de replicación están configurados para evitar el tiempo de espera.
+
+Realice los siguientes pasos para configurar el agente de replicación:
+1. Inicie sesión en la instancia de creación de Recursos AEM.
+1. En el panel **Herramientas** , vaya a **[!UICONTROL Implementación]** > **[!UICONTROL Replicación]**.
+1. En la página Replicación, haga clic en **[!UICONTROL Agentes en el autor]**. Puede ver los cuatro agentes de replicación para el inquilino de Brand Portal.
+1. Haga clic en la dirección URL del agente de replicación para abrir los detalles del agente.
+1. Haga clic en **[!UICONTROL Editar]** para modificar la configuración del agente de replicación.
+1. En Configuración del agente, haga clic en la ficha **[!UICONTROL Ampliado]** .
+1. Active la casilla de verificación **[!UICONTROL Cerrar conexión]** .
+1. Repita los pasos 4 a 7 para configurar los cuatro agentes de replicación.
+1. Reinicie el servidor.
