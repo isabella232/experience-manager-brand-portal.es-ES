@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1521'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,6 @@ Este problema se ha corregido en AEM 6.5.5. Puede actualizar la instancia de Rec
 
 Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación de AEM.
 
-
 **Ques. No veo el contenido de la carpeta de contribución publicado desde Brand Portal en Recursos AEM. ¿Cuál podría ser la razón posible?**
 
 **Ans.** Póngase en contacto con el administrador de Recursos AEM para comprobar las configuraciones y asegurarse de que el inquilino de Brand Portal está configurado con una sola instancia de autor de Recursos AEM.
@@ -58,7 +57,7 @@ Realice los siguientes pasos para configurar el agente de replicación:
 1. En Configuración del agente, haga clic en la ficha **[!UICONTROL Ampliado]** .
 1. Active la casilla de verificación **[!UICONTROL Cerrar conexión]** .
 1. Repita los pasos 4 a 7 para configurar los cuatro agentes de replicación.
-1. Reinicie el servidor.
+1. Reinicie el servidor y compruebe la conexión.
 
 
 ## Preguntas más frecuentes sobre Brand Portal 6.4.5  {#faqs-bp645}
