@@ -1,8 +1,8 @@
 ---
 title: Crear carpeta de contribución
 seo-title: Crear carpeta de contribución
-description: 'Obtenga información sobre cómo crear una carpeta de contribución en Recursos AEM. '
-seo-description: Obtenga información sobre cómo crear una carpeta de contribución en Recursos AEM.
+description: 'Obtenga información sobre cómo crear una carpeta de contribución en AEM Assets. '
+seo-description: Obtenga información sobre cómo crear una carpeta de contribución en AEM Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Create contribution folder {#create-contribution-folder}
 
-Los administradores de AEM y los usuarios no administradores que tengan permiso para crear una nueva carpeta pueden crear una carpeta de **contribución** en Recursos AEM.
+Los administradores de AEM y los usuarios no administradores que tengan permiso para crear una nueva carpeta pueden crear una carpeta de **contribución** en AEM Assets.
 Para crear una carpeta de **contribución** , cree una nueva carpeta de tipo Contribución de **recursos**, asegurándose de que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal.  Esto desencadena automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas **COMPARTIDO** y **NUEVO**, dentro de la carpeta **Contribución** recién creada.
 
 **Para crear una nueva carpeta de contribución:**
@@ -39,4 +39,7 @@ Ahora puede configurar las propiedades de la carpeta Contribution. Consulte [Con
 
 >[!NOTE]
 >
->Asegúrese de proporcionar un nombre adecuado a la carpeta Contribution, ya que no puede modificar el nombre de la carpeta después de la creación.
+>Asegúrese de proporcionar un nombre adecuado a la carpeta Contribution, ya que no puede modificar el nombre de la carpeta tras la creación.
+>
+>No se admite el anidado de la carpeta Contribution. No cree una carpeta de contribución dentro de otra carpeta de contribución.
+
