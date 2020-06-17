@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 1%
@@ -194,6 +194,7 @@ Esto se aplica a todas las carpetas publicadas desde AEM Assets hasta Brand Port
 >[!NOTE]
 >
 >La programación de versiones es provisional y está sujeta a cambios. Póngase en contacto con el administrador de cuentas de Adobe o con el servicio de asistencia al cliente para obtener la programación de versiones actualizada.
+
 
 
 
