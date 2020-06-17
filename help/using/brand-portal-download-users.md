@@ -4,12 +4,15 @@ seo-title: Descargar recursos
 description: Todos los usuarios pueden descargar simultáneamente varios recursos y carpetas a los que tengan acceso. De este modo, los recursos de marca aprobados se pueden distribuir de forma segura para su uso sin conexión.
 seo-description: Todos los usuarios pueden descargar simultáneamente varios recursos y carpetas a los que tengan acceso. De este modo, los recursos de marca aprobados se pueden distribuir de forma segura para su uso sin conexión.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
-content-type: referencia
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+workflow-type: tm+mt
+source-wordcount: '888'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +25,7 @@ Todos los usuarios pueden descargar simultáneamente varios recursos y carpetas 
 >
 >Solo los administradores pueden descargar recursos caducados. Para obtener más información sobre los recursos caducados, consulte [Gestión de derechos digitales de los recursos](../using/manage-digital-rights-of-assets.md).
 
+
 ## Pasos para descargar recursos {#steps-to-download-assets}
 
 Para descargar recursos o carpetas que contengan recursos para Brand Portal, siga estos pasos:
@@ -29,15 +33,17 @@ Para descargar recursos o carpetas que contengan recursos para Brand Portal, sig
 1. En la interfaz de Brand Portal, realice una de las siguientes acciones:
 
    * Seleccione las carpetas o los recursos que desee descargar. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Descargar]** .
+
    ![](assets/downloadassets-1.png)
 
    * Para descargar una sola carpeta o un recurso, pase el puntero sobre la carpeta o el recurso. En las miniaturas de acción rápida disponibles, haga clic en el icono **[!UICONTROL Descargar]** .
+
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
    >Si los recursos que está descargando también incluyen recursos con licencia, se le redirigirá a la página Administración de **[!UICONTROL derechos de autor]** . En esta página, seleccione los recursos, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si no está de acuerdo, los recursos con licencia no se descargan.\
-   >Los recursos protegidos por licencias tienen un contrato de [licencia adjunto](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , lo que se realiza estableciendo la propiedad [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadatos del recurso en Recursos AEM.
+   >Los recursos protegidos por licencias tienen un contrato de [licencia adjunto](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , lo que se realiza estableciendo la propiedad [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadatos del recurso en AEM Assets.
 
    ![](assets/licensed-asset-download-1.png)
 
@@ -64,15 +70,17 @@ Para descargar recursos o carpetas que contengan recursos para Brand Portal, sig
    * Para acelerar la descarga de archivos de recursos desde Brand Portal, seleccione la opción **[!UICONTROL Activar aceleración]** de descarga y [siga el asistente](../using/accelerated-download.md#main-pars-header-405749062). Para obtener más información sobre la descarga más rápida de recursos, consulte la [guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
 
    * Para aplicar un ajuste preestablecido de imagen [personalizado al recurso y a sus representaciones](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), seleccione Representaciones **[!UICONTROL dinámicas]**. Especifique las propiedades de ajustes preestablecidos de imagen personalizados (tamaño, formato, espacio de color, resolución y modificador de imagen) para aplicar el ajuste preestablecido de imagen personalizado al descargar el recurso y sus representaciones. Para descargar solo las representaciones dinámicas, seleccione **[!UICONTROL Recursos]**.
+
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >Para obtener una vista previa (o descargar) de las representaciones dinámicas de cualquier recurso, asegúrese de que el medio dinámico está activado y que la representación de tiff piramidal del recurso existe en la instancia de creación de AEM, desde donde se han publicado los recursos. Cuando se publica un recurso en Brand Portal, también se publica su representación de tiff piramidal. No hay forma de generar la representación de tiff de la Pirámide desde Brand Portal.
+   >Para realizar la previsualización (o descarga) de representaciones dinámicas de cualquier recurso, asegúrese de que el medio dinámico está activado y que la representación de tiff piramidal del recurso existe en la instancia de creación de AEM, desde donde se han publicado los recursos. Cuando se publica un recurso en Brand Portal, también se publica su representación de tiff piramidal. No hay forma de generar la representación de tiff de la Pirámide desde Brand Portal.
 
    * Para conservar la jerarquía de carpetas de Brand Portal durante la descarga de recursos, seleccione **[!UICONTROL Crear carpeta independiente para cada recurso]**. De forma predeterminada, la jerarquía de carpetas de Brand Portal se ignora y todos los recursos se descargan en una carpeta del sistema local.
 
    * Para enviar una notificación por correo electrónico a los usuarios con un vínculo para descargar los recursos, seleccione **[!UICONTROL Correo electrónico]**.
+
    ![](assets/download-link.png)
 
    >[!NOTE]
@@ -103,7 +111,7 @@ La experiencia de descarga de archivos puede variar para los usuarios en diferen
 | Zona occidental de EE. UU. (Oregón) | 42 milisegundos | 3,84 MB/s | 9 minutos |
 | Zona oriental de EE. UU. (Norte de Virginia ) | 85 milisegundos | 1,61 MB/s | 21 minutos |
 | APAC (Tokio) | 124 milisegundos | 1,13 MB/s | 30 minutos |
-| Noida | 275 milisegundos | 0,5 MB/s | 68 minutos |
+| Adobe | 275 milisegundos | 0,5 MB/s | 68 minutos |
 | Sídney | 175 milisegundos | 0,49 MB/s | 69 minutos |
 | Londres | 179 milisegundos | 0,32 MB/s | 106 minutos |
 | Singapur | 196 milisegundos | 0,5 MB/s | 68 minutos |
