@@ -1,8 +1,8 @@
 ---
 title: Configuración de las propiedades de la carpeta Contribution
 seo-title: Configuración de las propiedades de la carpeta Contribution
-description: 'Obtenga información sobre cómo configurar las propiedades de una carpeta de contribución en Recursos AEM. '
-seo-description: 'Obtenga información sobre cómo configurar las propiedades de una carpeta de contribución en Recursos AEM. '
+description: 'Obtenga información sobre cómo configurar las propiedades de una carpeta de contribución en AEM Assets. '
+seo-description: 'Obtenga información sobre cómo configurar las propiedades de una carpeta de contribución en AEM Assets. '
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -46,4 +46,5 @@ Estos usuarios o grupos de Brand Portal tendrán permiso para acceder a la carpe
 
 >[!NOTE]
 >
->Los resultados de la búsqueda se basan en la lista de usuario de Brand Portal configurada en Recursos AEM. Asegúrese de que dispone de la lista de usuario de Brand Portal actualizada. Consulte [Carga de la lista](brand-portal-configure-asset-sourcing.md)de usuario de Brand Portal.
+>Los resultados de la búsqueda se basan en la lista de usuario de Brand Portal configurada en AEM Assets. Asegúrese de que dispone de la lista de usuario de Brand Portal actualizada. Consulte [Carga de la lista](brand-portal-configure-asset-sourcing.md)de usuario de Brand Portal.
+
