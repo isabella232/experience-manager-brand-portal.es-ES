@@ -10,7 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+workflow-type: tm+mt
+source-wordcount: '1097'
+ht-degree: 2%
 
 ---
 
@@ -23,6 +26,7 @@ Brand Portal permite mejorar el rendimiento de descarga de archivos de recursos 
 >
 >La velocidad de descarga varía para los usuarios, ya que depende de factores como el ancho de banda de la red, la latencia del servidor y la ubicación geográfica de los clientes.
 
+
 Si está activada, los usuarios de Brand Portal pueden reducir considerablemente el tiempo necesario para descargar los archivos de recursos deseados desde Brand Portal o a través de un vínculo compartido mediante la instalación del cliente de Aspera Connect.
 
 ![](assets/enable-fast-file-download.png)
@@ -31,7 +35,7 @@ Si está activada, los usuarios de Brand Portal pueden reducir considerablemente
 
 Para descargar los archivos más rápidamente, asegúrese de lo siguiente:
 
-* **[!UICONTROL Habilite la aceleración]**de descarga (que está deshabilitada de forma predeterminada) desde Configuracióngeneral en el panel Herramientas administrativas.
+* **[!UICONTROL Habilite la aceleración]** de descarga (que está deshabilitada de forma predeterminada) desde Configuración  general en el panel Herramientas administrativas.
 * El puerto 33001 (TCP y UDP) está abierto en el servidor de seguridad. Para obtener más información sobre los requisitos previos, consulte la documentación [del cliente de](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
 * Instale Aspera Connect con privilegios de administrador.
 * Para obtener compatibilidad con plataformas del cliente de transferencia Aspera, consulte Matriz [de compatibilidad con plataformas](https://www.asperasoft.com/company/support/transfer-clients/)Aspera Connect.
@@ -59,7 +63,7 @@ La siguiente tabla muestra el rendimiento de descarga de un archivo de 2 GB medi
 | Oeste de EE.UU. (Oregón) | 42 | 36 | 57 |
 | U.S. East (N. Virginia) | 85 | 35 | 58 |
 | APAC (Tokio) | 124 | 36 | 57 |
-| Noida (India) | 275 | 13.36 | 153 |
+| Adobe (India) | 275 | 13.36 | 153 |
 | Sídney | 175 | 29 | 70 |
 | Londres | 179 | 35 | 58 |
 | Singapur | 196 | 34 | 60 |
@@ -79,28 +83,28 @@ Aparece el cuadro de diálogo Descargar con la opción [Activar aceleración] de
 
    ![](assets/fast-download-emailchk.png)
 
-1. Toque o haga clic en la opción **[!UICONTROL Descargar]**.
+1. Toque o haga clic en la opción **[!UICONTROL Descargar]** .
 Para acelerar la experiencia de descarga en la cuenta de inquilino de Brand Portal, debe tener instalada la aplicación cliente Aspera Connect en el sistema.
 
-1. **Descargar Aspera Connect Client** Si el cliente de Aspera Connect no está instalado en el sistema o el cliente de Aspera Connect instalado no está actualizado, se mostrará un mensaje en la página del navegador desde la que podrá descargar el cliente de Aspera Connect específico del sistema seleccionando **[!UICONTROL Descargar la versión]**más reciente.
+1. **Descargar Aspera Connect Client** Si el cliente de Aspera Connect no está instalado en el sistema o el cliente de Aspera Connect instalado no está actualizado, se mostrará un mensaje en la página del navegador desde la que podrá descargar el cliente de Aspera Connect específico del sistema seleccionando **[!UICONTROL Descargar la versión]** más reciente.
 
    ![](assets/aspera-not-launched.png)
 
-   Para descargar la versión más reciente de Aspera Connect desde [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), seleccione **[!UICONTROL Descargar ahora]**y siga las instrucciones.
+   Para descargar la versión más reciente de Aspera Connect desde [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), seleccione **[!UICONTROL Descargar ahora]** y siga las instrucciones.
 
 1. **Instalación de Aspera Connect Client** Para instalar la configuración del cliente de IBM Aspera Connect, ejecute la configuración desde el archivo .msi de la aplicación cliente IBM Aspera Connect y siga el asistente de instalación.
 
-1. Una vez que el cliente se haya instalado correctamente, actualice la página del explorador e inicie los pasos de descarga de nuevo o seleccione **[!UICONTROL Reiniciar]**en el cuadro de diálogo**[!UICONTROL  Descargar]** recurso (paso 2).
-Al utilizar Aspera Connect por primera vez, el navegador solicita que se abra el vínculo mediante **[!UICONTROL IBM Aspera Connect]**. Para omitir este cuadro de diálogo en el futuro, habilite**[!UICONTROL  Recordar mi selección para los vínculos]**FASP.
+1. Una vez que el cliente se haya instalado correctamente, actualice la página del explorador e inicie los pasos de descarga de nuevo o seleccione **[!UICONTROL Reiniciar]** en el cuadro de diálogo **[!UICONTROL Descargar]** recurso (paso 2).
+Al utilizar Aspera Connect por primera vez, el navegador solicita que se abra el vínculo mediante **[!UICONTROL IBM Aspera Connect]**. Para omitir este cuadro de diálogo en el futuro, habilite **[!UICONTROL Recordar mi selección para los vínculos]** FASP.
 
    >[!NOTE]
    >
    >Este mensaje es diferente en los distintos navegadores.
 
-1. Un cuadro de diálogo confirma si se debe continuar con la transferencia o no. Seleccione **[!UICONTROL Permitir]**que comience.
-Para omitir este cuadro de diálogo en el futuro, habilite**[!UICONTROL  Usar mi opción para todas las conexiones con este host]**.
-Comienza la descarga. Un cuadro de diálogo muestra el progreso de la descarga. Utilice el cuadro de diálogo para **[!UICONTROL pausar]**,**[!UICONTROL  reanudar]**o **[!UICONTROL cancelar]**la descarga.
-La aplicación Aspera Connect proporciona una ventana de actividad en el sistema donde el usuario puede ver y administrar todas las sesiones de transferencia. Para obtener más información, consulte la documentación[del cliente de](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
+1. Un cuadro de diálogo confirma si se debe continuar con la transferencia o no. Seleccione **[!UICONTROL Permitir]** que comience.
+Para omitir este cuadro de diálogo en el futuro, habilite **[!UICONTROL Usar mi opción para todas las conexiones con este host]**.
+Comienza la descarga. Un cuadro de diálogo muestra el progreso de la descarga. Utilice el cuadro de diálogo para **[!UICONTROL pausar]**, **[!UICONTROL reanudar]** o **[!UICONTROL cancelar]** la descarga.
+La aplicación Aspera Connect proporciona una ventana de Actividad en el sistema donde el usuario puede realizar la vista y administrar todas las sesiones de transferencia. Para obtener más información, consulte la documentación [del cliente de](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
 
 ![](assets/aspera-activity-window.png)
 
@@ -108,7 +112,7 @@ Una vez completada la descarga, un cuadro de diálogo muestra la ubicación en l
 
 >[!NOTE]
 >
->Existe una limitación conocida en la aplicación cliente de Aspera Connect de que no aparece ningún mensaje para seleccionar la ubicación de descarga si **[!UICONTROL Preguntarme siempre dónde guardar los archivos]**descargados está habilitado en la ficha[!UICONTROL Transferencias]en[!UICONTROL Preferencias]. Antes de comenzar la descarga, especifique la ubicación en el cuadro de texto**[!UICONTROL  Guardar los archivos descargados en]**.
+>Existe una limitación conocida en la aplicación cliente de Aspera Connect de que no aparece ningún mensaje para seleccionar la ubicación de descarga si **[!UICONTROL Preguntarme siempre dónde guardar los archivos]** descargados está habilitado en la ficha [!UICONTROL Transferencias] en [!UICONTROL Preferencias]. Antes de que comience la descarga, especifique la ubicación en el cuadro de texto **[!UICONTROL Guardar los archivos descargados en]**.
 
 ## Uso del acelerador de archivos en el navegador Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -116,11 +120,11 @@ Microsoft Edge se ejecuta en modo protegido mejorado (EPM) para evitar la comuni
 
 ![](assets/switchapps-msedge.png)
 
-Para utilizar la funcionalidad de descarga acelerada en Microsoft Edge, elimine el sitio de Brand Portal de la lista de sitios de confianza.
+Para utilizar la funcionalidad de descarga acelerada en Microsoft Edge, elimine el sitio de Brand Portal de la lista del sitio de confianza.
 
-1. Abra el Panel de control (pulse la tecla **[!UICONTROL Ventana + X]**y, a continuación, seleccione**[!UICONTROL  Panel]**de control).
-1. Vaya a **[!UICONTROL Red e Internet > Opciones]**de Internet. Click the**[!UICONTROL  Security]** tab.
-1. Haga clic en la zona **[!UICONTROL Sitios de]**confianza y, a continuación, haga clic en**[!UICONTROL  Sitios]**.
+1. Abra el Panel de control (pulse la tecla **[!UICONTROL Ventana + X]** y, a continuación, seleccione **[!UICONTROL Panel]** de control).
+1. Vaya a **[!UICONTROL Red e Internet > Opciones]** de Internet. Click the **[!UICONTROL Security]** tab.
+1. Haga clic en la zona **[!UICONTROL Sitios de]** confianza y, a continuación, haga clic en **[!UICONTROL Sitios]**.
 1. Elimine el sitio de Brand Portal de la lista.
 
 ## Preferencias del cliente de Aspera Connect {#aspera-connect-client-preferences}
@@ -133,7 +137,7 @@ Puede establecer la ubicación de descarga predeterminada.
 
 ![](assets/aspera-preferences.png)
 
-Además, el cliente de Aspera Connect se puede marcar para que se inicie automáticamente al iniciar el sistema, de modo que el cliente de Connect se esté ejecutando y esté disponible para que la descarga comience más rápido.
+Además, el cliente de Aspera Connect se puede marcar para que se active el inicio automáticamente al iniciar el sistema, de modo que el cliente de Connect se esté ejecutando y esté disponible para que la descarga comience más rápido.
 
 ![](assets/aspera-automaticallylaunch.png)
 
