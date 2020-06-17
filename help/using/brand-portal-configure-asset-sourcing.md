@@ -1,8 +1,8 @@
 ---
 title: Configurar el origen de recursos
 seo-title: Configurar el origen de recursos
-description: Obtenga información sobre la configuración de la función de abastecimiento de recursos en Recursos AEM.
-seo-description: Obtenga información sobre la configuración de la función de abastecimiento de recursos en Recursos AEM.
+description: Obtenga una visión detallada de la configuración de la función de abastecimiento de recursos en AEM Assets.
+seo-description: Obtenga una visión detallada de la configuración de la función de abastecimiento de recursos en AEM Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -20,11 +20,12 @@ ht-degree: 1%
 
 # Configurar el origen de recursos {#configure-asset-sourcing}
 
-Los administradores de AEM pueden configurar **Asset Sourcing** desde la instancia de creación de AEM. El administrador activa la configuración del indicador de característica de fuentes de recursos desde la configuración **de la consola web de** AEM y carga la lista activa de usuarios de Brand Portal en Recursos **AEM**.
+Los administradores de AEM pueden configurar **Asset Sourcing** desde la instancia de creación de AEM. El administrador habilita la configuración del indicador de característica de fuentes de recursos desde la configuración **de la consola web de** AEM y carga la lista de usuarios activa de Brand Portal en **AEM Assets**.
 
 >[!NOTE]
 >
->Antes de comenzar con la configuración, asegúrese de que la instancia de Recursos AEM está configurada con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Antes de comenzar con la configuración, asegúrese de que la instancia de AEM Assets está configurada con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+
 
 
 En el siguiente vídeo se muestra cómo configurar la fuente de recursos en la instancia de creación de AEM:
@@ -46,14 +47,14 @@ Los administradores de AEM pueden activar la fuente de recursos desde la configu
 
 ## Cargar lista de usuarios de Brand Portal {#upload-bp-user-list}
 
-Los administradores de AEM pueden cargar el archivo de configuración de usuario de Brand Portal (.csv) que contiene la lista de usuario activa de Brand Portal en Recursos AEM. Una carpeta de contribución solo se puede compartir con los usuarios activos de Brand Portal definidos en la lista de usuario. El administrador también puede agregar usuarios nuevos en el archivo de configuración y cargar la lista de usuario modificada.
+Los administradores de AEM pueden cargar el archivo de configuración de usuario de Brand Portal (.csv) que contiene la lista de usuario activa de Brand Portal en AEM Assets. Una carpeta de contribución solo se puede compartir con los usuarios activos de Brand Portal definidos en la lista de usuario. El administrador también puede agregar usuarios nuevos en el archivo de configuración y cargar la lista de usuario modificada.
 
 >[!NOTE]
 >
->El formato del archivo CSV es el mismo que el que admite la Consola de administración para la importación masiva de usuarios. El correo electrónico, el nombre y los apellidos son obligatorios.
+>El formato del archivo CSV es el mismo que Admin Console admite la importación masiva de usuarios. El correo electrónico, el nombre y los apellidos son obligatorios.
 
 
-El administrador puede agregar usuarios nuevos en la Consola de administración de AEM. Consulte [Administrar usuarios](brand-portal-adding-users.md) para obtener información detallada. Después de agregar usuarios en Admin Console, estos usuarios se pueden agregar al archivo de configuración de usuario de Brand Portal y, a continuación, se les puede asignar permiso para acceder a la carpeta de contribución.
+El administrador puede agregar usuarios nuevos en AEM Admin Console; consulte [Administrar usuarios](brand-portal-adding-users.md) para obtener información detallada. Después de agregar usuarios en Admin Console, estos usuarios se pueden agregar al archivo de configuración de usuario de Brand Portal y, a continuación, se les puede asignar permiso para acceder a la carpeta de contribución.
 
 **Para cargar la lista de usuarios de Brand Portal:**
 1. Inicie sesión en la instancia de creación de AEMURL predeterminada: http:// localhost:4502/aem/start.html
