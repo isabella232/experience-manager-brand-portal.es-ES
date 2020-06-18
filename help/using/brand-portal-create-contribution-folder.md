@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
+source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Ahora puede configurar las propiedades de la carpeta Contribution. Consulte [Con
 
 >[!NOTE]
 >
->Asegúrese de proporcionar un nombre adecuado a la carpeta Contribution, ya que no puede modificar el nombre de la carpeta después de la creación.
+>Un usuario que no es administrador solo puede crear y compartir una carpeta de contribución. Asegúrese de proporcionar un nombre adecuado a la carpeta Contribution, ya que un usuario no administrador no puede modificar ni eliminar una carpeta de contribución después de la creación.
 >
 >No se admite el anidado de la carpeta Contribution. Puede crear varias carpetas de contribución dentro de una carpeta pero no crear una carpeta de contribución dentro de otra carpeta de contribución.
 
