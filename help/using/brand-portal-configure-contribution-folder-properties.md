@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: d0c5adad47fdc83adfad79bae4119cb6d38caf5e
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,9 @@ A continuación, el administrador puede conceder acceso a los usuarios y grupos 
 1. Vaya a la ficha Contribución **[!UICONTROL de]** recursos.
 1. Introduzca una **[!UICONTROL descripción]** de alto nivel de la carpeta de contribución.
 1. Haga clic en **[!UICONTROL Cargar resumen]** ![](assets/upload.png) para buscar en el equipo local y cargar un Documento **de requisitos** de recursos.
-1. En **[!UICONTROL Añadir usuario o grupo]**, busque y **[!UICONTROL Añada]** usuarios o grupos de Brand Portal con los que desee compartir la carpeta de contribución.
-Estos usuarios o grupos de Brand Portal tendrán permiso para acceder a la carpeta de contribución y cargar contenido desde la interfaz de Brand Portal sin necesidad de acceder a la instancia de creación de AEM.
+1. En **[!UICONTROL Añadir usuario o grupo]**, busque y **[!UICONTROL Añada]** usuarios de Brand Portal con los que desee compartir la carpeta de contribución. No se puede asignar una carpeta de contribución a los grupos.
+Estos usuarios de Brand Portal tendrán permiso para acceder a la carpeta de contribución y cargar contenido desde la interfaz de Brand Portal sin necesidad de acceder a la instancia de creación de AEM.
+
 1. Haga clic en **[!UICONTROL Guardar]**.
    ![](assets/contribution-folder-property2.png)
 
