@@ -9,7 +9,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Los recursos deben publicarse en Brand Portal desde una instancia de AEM Author 
 
 A continuación se describe el flujo de trabajo de uso compartido de carpetas y el acceso del usuario:
 
-* De forma predeterminada, todas las carpetas publicadas desde Recursos AEM a Brand Portal solo son visibles para el administrador de Brand Portal, a menos que estén marcadas como públicas al configurar la replicación.
+* De forma predeterminada, todas las carpetas publicadas desde AEM Assets hasta Brand Portal solo son visibles para el administrador de Brand Portal, a menos que estén marcadas como públicas al configurar la replicación.
 * El administrador utiliza la consola Propiedades **[!UICONTROL de la]** carpeta para compartir una carpeta con usuarios o grupos determinados. Solo los usuarios o grupos con los que se comparte la carpeta pueden verla después de iniciar sesión en Brand Portal. La carpeta no está visible para otros usuarios.
 * El administrador también puede optar por hacer pública una carpeta mediante la casilla de verificación Carpeta **** pública de la consola Propiedades **[!UICONTROL de la]** carpeta. Todos los usuarios pueden ver una carpeta pública.
 
@@ -39,7 +39,7 @@ Del mismo modo, los grupos de usuarios (o usuarios) que tienen permisos para acc
 
 ### Public folder publish {#public-folder-publish}
 
-A menos que se seleccione la opción Publicación **[!UICONTROL de carpetas]** públicas al configurar la replicación de Brand Portal, los usuarios no administradores (como editores y visores) no tendrán acceso a los recursos publicados desde Recursos AEM a Brand Portal.
+A menos que se seleccione la opción Publicación **[!UICONTROL de carpetas]** públicas al configurar la replicación de Brand Portal, los usuarios no administradores (como editores y visores) no tendrán acceso a los recursos publicados desde AEM Assets hasta Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
@@ -49,12 +49,11 @@ Si la opción Publicación **[!UICONTROL de carpetas]** públicas está desactiv
 >
 >La opción para activar Publicación **[!UICONTROL de carpetas]** públicas está disponible en AEM 6.3.2.1 y versiones posteriores.
 
-
 ## Acceso a carpetas compartidas {#access-to-shared-folders}
 
 La siguiente matriz analiza los derechos y derechos de acceso para compartir o dejar de compartir recursos para diversas funciones de usuario:
 
-|  | Acceso a todas las carpetas publicadas desde Recursos AEM en Brand Portal | Acceso a carpetas compartidas | Compartir/dejar de compartir derechos de carpeta |
+|  | Acceso a todas las carpetas publicadas desde AEM Assets a Brand Portal | Acceso a carpetas compartidas | Compartir/dejar de compartir derechos de carpeta |
 |---------------|-----------|-----------|------------|
 | Administrador | Sí | Sí | Sí |
 | Editor | No* | Sí, solo si se comparten con ellos o con el grupo al que pertenecen | Sí, solo para las carpetas compartidas con ellos o con el grupo al que pertenecen |
@@ -64,7 +63,6 @@ La siguiente matriz analiza los derechos y derechos de acceso para compartir o d
 >[!NOTE]
 >
 >De forma predeterminada, la opción Publicación **[!UICONTROL de carpetas]** públicas está desactivada al configurar la replicación de Brand Portal con AEM Author. Si la opción está activada, todas las carpetas publicadas en Brand Portal estarán accesibles a todos los usuarios (también a los usuarios no administradores) de forma predeterminada.
-
 
 ### Acceso de usuario no administrador a carpetas compartidas {#non-admin-user-access-to-shared-folders}
 
