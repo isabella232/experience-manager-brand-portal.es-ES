@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -32,6 +32,7 @@ El requisito de recursos se refiere a los detalles proporcionados por los admini
 A continuación, el administrador puede conceder acceso a los usuarios y grupos de Brand Portal a la carpeta de contribución antes de publicar la carpeta de contribución recién creada en Brand Portal.
 
 **Para configurar las propiedades de la carpeta de contribución:**
+
 1. Inicie sesión en la instancia de creación de AEMURL predeterminada: http:// localhost:4502/aem/start.html
 1. Vaya a **[!UICONTROL Recursos > Archivos]** y busque la carpeta de contribución.
 1. Seleccione la carpeta de contribución y haga clic en **[!UICONTROL Propiedades]** ![](assets/properties.png). Se abre la ventana Propiedades de la carpeta.
@@ -40,11 +41,10 @@ A continuación, el administrador puede conceder acceso a los usuarios y grupos 
 1. Introduzca una **[!UICONTROL descripción]** de alto nivel de la carpeta de contribución.
 1. Haga clic en **[!UICONTROL Cargar resumen]** ![](assets/upload.png) para buscar en el equipo local y cargar un Documento **de requisitos** de recursos.
 1. En el campo **[!UICONTROL Añadir usuario o grupo]** , agregue usuarios de Brand Portal con los que desee compartir la carpeta de contribución. Los usuarios Añadidos pueden acceder y cargar contenido en la carpeta de contribución mediante la interfaz de Brand Portal. Actualmente, no se pueden agregar grupos a una carpeta de contribución.
-
 1. Haga clic en **[!UICONTROL Guardar]**.
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >Los resultados de la búsqueda se basan en la lista de usuario de Brand Portal configurada en AEM Assets. Asegúrese de que dispone de la lista de usuario de Brand Portal actualizada. Consulte [Carga de la lista](brand-portal-configure-asset-sourcing.md)de usuario de Brand Portal.
-
