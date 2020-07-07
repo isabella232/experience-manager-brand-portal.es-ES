@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 2%
@@ -68,8 +68,6 @@ Los pasos para configurar AEM Assets con Brand Portal son diferentes en función
 >
 >Se recomienda actualizar la instancia de AEM al Service Pack más reciente.
 
-
-
 Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
 
 Consulte las preguntas más frecuentes sobre [Brand Portal](brand-portal-faqs.md).
@@ -95,8 +93,6 @@ Además, todas las funcionalidades existentes permanecen sin cambios. Los usuari
 >La fuente de recursos en Brand Portal es compatible con AEM 6.5.2.0 y versiones posteriores.
 >
 >La función no es compatible con las versiones anteriores: AEM 6.3 y AEM 6.4.
-
-
 
 ### Carga de recursos en la carpeta de contribución {#upload-assets-in-bp}
 
@@ -153,7 +149,6 @@ Del mismo modo, especificando:
 >[!NOTE]
 >
 >Al seleccionar la casilla de verificación Búsqueda **** parcial, se selecciona **Omitir caso** de forma predeterminada.
-
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
