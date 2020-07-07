@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -24,7 +24,6 @@ Brand Portal está configurado con AEM Assets para que los recursos de marca apr
 >[!NOTE]
 >
 >Adobe recomienda actualizar a AEM 6.4.1.0 para garantizar que el portal de marcas de AEM Assets se configure correctamente con AEM Assets. Una limitación en AEM 6.4 produce un error al configurar AEM Assets con Brand Portal y falla la replicación.
-
 
 Al configurar el servicio en la nube para el portal de marca en **[!UICONTROL /etc/cloudservice]**, todos los usuarios y tokens necesarios se generan automáticamente y se guardan en el repositorio. Se crea la configuración del servicio en la nube, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Esto crea cuatro agentes de replicación. Así, cuando publica numerosos recursos de AEM en Brand Portal, estos se ponen en cola y se distribuyen entre estos agentes de replicación a través de Round Robin.
 
