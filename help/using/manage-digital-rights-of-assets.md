@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 2%
@@ -38,7 +38,6 @@ Los administradores pueden publicar recursos caducados de AEM Assets en Brand Po
 >
 >Una carpeta puede seguir compartiéndose como vínculo, incluso si contiene recursos caducados. En este caso, el vínculo no lista los recursos caducados y solo se comparten los recursos no caducados.
 
-
 La siguiente tabla muestra los permisos de uso de los recursos caducados:
 
 |  | **[!UICONTROL Uso compartido de vínculos]** | **[!UICONTROL Descargar]** | **[!UICONTROL Propiedades]** | **[!UICONTROL Añadir a la colección]** | **[!UICONTROL Eliminar]** |
@@ -52,7 +51,6 @@ La siguiente tabla muestra los permisos de uso de los recursos caducados:
 >
 >Si los visores y editores descargan una carpeta que contenga recursos caducados y no caducados, solo se descargarán los recursos que no hayan caducado. Si una carpeta solo contiene recursos caducados, se descarga una carpeta vacía.
 
-
 ### Estado de caducidad de los activos {#expiration-status-of-assets}
 
 Puede vista del estado de caducidad de los recursos en su Vista **** de tarjetas. Un indicador rojo de la tarjeta indica que el recurso ha caducado.
@@ -62,7 +60,6 @@ Puede vista del estado de caducidad de los recursos en su Vista **** de tarjetas
 >[!NOTE]
 >
 >Las vistas de Listas y columnas no muestran el estado de caducidad de los recursos.
-
 
 ## Caducidad del vínculo de recursos {#asset-link-expiration}
 
