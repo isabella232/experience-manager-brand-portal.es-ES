@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -42,4 +42,3 @@ Ahora puede configurar las propiedades de la carpeta Contribution. Consulte [Con
 >Un usuario no administrador solo puede crear y compartir una carpeta de contribución de recursos. Una vez creada la carpeta de contribución, un usuario no administrador no puede modificarla ni eliminarla.
 >
 >No se admite el anidado de la carpeta de contribución de recursos. Puede crear varias carpetas de contribución dentro de una carpeta, pero no debe crear una carpeta de contribución dentro de otra carpeta de contribución.
-
