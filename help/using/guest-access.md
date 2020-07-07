@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -66,7 +66,6 @@ No hay tareas de acción visibles al pasar el ratón o seleccionarlas en la Vist
 >[!NOTE]
 >
 >La miniatura predeterminada de las carpetas virtuales es la imagen en miniatura de la primera carpeta compartida.
-
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
