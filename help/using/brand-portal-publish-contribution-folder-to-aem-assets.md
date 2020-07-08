@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Asegúrese de que ha superado los requisitos [de](brand-portal-download-asset-re
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Se envía una notificación por correo electrónico o por impulso al usuario de Brand Portal y al administrador de AEM en las distintas etapas del flujo de trabajo de publicación:
-1. **En cola** : cuando el flujo de trabajo de publicación se activa en Brand Portal, se publica una carpeta de contribución desde Brand Portal para AEM Assets.
+1. **En cola** : se envía una notificación al usuario de Brand Portal cuando se activa un flujo de trabajo de publicación en Brand Portal.
 
-1. **Completado** : cuando se completa el flujo de trabajo de publicación, la carpeta de contribución se importa correctamente a los AEM Assets.
+1. **Completado** : se envía una notificación al usuario de Brand Portal y al administrador de AEM cuando se completa el flujo de trabajo de publicación, es decir, cuando la carpeta de contribución se publica correctamente para los AEM Assets.
 
 
