@@ -1,8 +1,8 @@
 ---
 title: 'Publicar carpeta de contribución en Brand Portal '
 seo-title: Publicar carpeta de contribución en Brand Portal
-description: Obtenga información sobre cómo publicar una carpeta de contribución de Recursos AEM en Brand Portal en Brand Portal 6.4.5.
-seo-description: Obtenga información sobre cómo publicar una carpeta de contribución de Recursos AEM en Brand Portal en Brand Portal 6.4.5.
+description: Obtenga información sobre cómo publicar una carpeta de contribución de AEM Assets a Brand Portal en Brand Portal 6.4.5.
+seo-description: Obtenga información sobre cómo publicar una carpeta de contribución de AEM Assets a Brand Portal en Brand Portal 6.4.5.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: 168177bae46b2242d883838da538218b8d192031
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Publicar carpeta de contribución en Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Una vez configurada [la carpeta de](brand-portal-configure-contribution-folder-properties.md)contribución, el usuario de AEM (administrador/usuario no administrador) puede publicar la carpeta de contribución de Recursos AEM en Brand Portal. Los usuarios o grupos de Brand Portal que tengan permiso para acceder a la carpeta de contribución recibirán una notificación por correo electrónico o por impulso al finalizar la acción de publicación.
+Una vez configurada [la carpeta de](brand-portal-configure-contribution-folder-properties.md)contribución, el usuario de AEM (administrador/usuario no administrador) puede publicar la carpeta de contribución de AEM Assets en Brand Portal. Los usuarios o grupos de Brand Portal que tengan permiso para acceder a la carpeta de contribución recibirán una notificación por correo electrónico o por impulso al finalizar la acción de publicación.
 
 **Para publicar la carpeta de contribución:**
 
@@ -31,4 +31,4 @@ Dirección URL predeterminada: http:// localhost:4502/aem/start.html
    ![](assets/publish-contribution-folder-to-bp.png)
 Recibirá un mensaje de éxito una vez que la carpeta de contribución se publique en Brand Portal.
 
-Se envía una notificación por correo electrónico o por impulso a los usuarios o grupos de Brand Portal asignados a la carpeta de contribución. Los usuarios de Brand Portal pueden acceder a la carpeta de contribución y empezar a colaborar. Consulte [Carga de recursos en la carpeta](brand-portal-upload-assets-to-contribution-folder.md)Contribution.
+Se envía una notificación por correo electrónico o por impulso a los usuarios de Brand Portal asignados a la carpeta de contribución. Los usuarios de Brand Portal pueden acceder a la carpeta de contribución y empezar a colaborar. Consulte [Carga de recursos en la carpeta](brand-portal-upload-assets-to-contribution-folder.md)Contribution.
