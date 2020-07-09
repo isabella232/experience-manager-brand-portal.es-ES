@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
+source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Para crear una carpeta de contribución:
 1. Introduzca **[!UICONTROL Título]** y **[!UICONTROL Nombre]** de la carpeta y active la casilla de verificación Contribución **[!UICONTROL de]** recursos.
 Se recomienda utilizar letras minúsculas sin ningún espacio para asignar un nombre a la carpeta.
 
-1. Haga clic en **[!UICONTROL Crear]**. Puede ver la carpeta de contribución recién creada en el repositorio de AEM Assets.
+1. Haga clic en **[!UICONTROL Crear]**. Puede ver la carpeta de contribución en el repositorio de AEM Assets.
 
    >[!NOTE]
    >
