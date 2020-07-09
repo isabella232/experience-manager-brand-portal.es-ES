@@ -4,17 +4,17 @@ seo-title: Guía del usuario de AEM Brand Portal
 description: Guía del usuario de AEM Brand Portal
 seo-description: Describe cómo utilizar Brand Portal
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 90%
+source-wordcount: '349'
+ht-degree: 81%
 
 ---
 
 
 # Introducción
 
-Brand Portal ayuda a las organizaciones a satisfacer sus necesidades de marketing mediante la distribución segura de recursos de productos y marcas aprobados a agencias externas, socios, equipos internos y distribuidores para su descarga.
+**Recursos de Adobe Experience Manager (AEM) El portal** de marca ayuda a las organizaciones a satisfacer sus necesidades de marketing mediante la distribución segura de los activos de marca y producto aprobados a agencias externas, socios, equipos internos y distribuidores para su descarga.
 
 Si no hay una solución segura para compartir recursos puede conllevar lo siguiente:
 
@@ -46,7 +46,7 @@ En esta guía se muestran los detalles de las ofertas y los flujos de trabajo cl
 | [Solucionar problemas en una publicación paralela](troubleshoot-parallel-publishing.md) | Solucionar la replicación entre Brand Portal y AEM Assets. |
 | [Formatos de archivo admitidos](brand-portal-supported-formats.md) | Formatos de archivo admitidos en Brand Portal para su previsualización y descarga. |
 | [Publicar recursos en Brand Portal](brand-portal-sharing-folders.md) | Cómo publicar carpetas, colecciones, vínculos, ajustes preestablecidos, esquemas, facetas y etiquetas en Brand Portal. |
-| [Origen de recursos en Brand Portal](brand-portal-asset-sourcing.md) | Cómo configurar la fuente de recursos en Recursos AEM, cargar recursos en Brand Portal y publicar la carpeta de contribución en Recursos AEM. |
+| [Origen de recursos en Brand Portal](brand-portal-asset-sourcing.md) | Cómo configurar la fuente de recursos en AEM Assets, cargar recursos en Brand Portal y publicar la carpeta de contribución en AEM Assets. |
 
 ### Recursos útiles
 
