@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
+source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,16 @@ Asegúrese de que ha superado los requisitos [de](brand-portal-download-asset-re
 **Para publicar la carpeta de contribución:**
 
 1. Inicie sesión en la instancia de Brand Portal.
-1. Seleccione la carpeta de contribución en el panel de Brand Portal.
-1. Haga clic en **[!UICONTROL Publicar en AEM]** ![](assets/export.png).
+1. Seleccione la carpeta de contribución del panel.
+1. Haga clic en **[!UICONTROL Publicar en AEM]**
+
+   ![](assets/export.png).
+
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Se envía una notificación por correo electrónico o por impulso al usuario y a los administradores de Brand Portal en las distintas etapas del flujo de trabajo de publicación:
 1. **En cola** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando se activa un flujo de trabajo de publicación en Brand Portal.
 
-1. **Completado** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando se completa el flujo de trabajo de publicación, es decir, cuando la carpeta de contribución se publica correctamente para los AEM Assets.
+1. **Finalizado** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando la carpeta de contribución se publica correctamente para los AEM Assets.
 
 
