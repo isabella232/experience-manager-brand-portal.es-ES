@@ -5,19 +5,22 @@ description: Configure la aceleración de la descarga, la creación [!UICONTROL 
 seo-description: Configure la aceleración de la descarga, la creación [!UICONTROL de colecciones] inteligentes públicas, la creación de [!UICONTROL colecciones] públicas y la posibilidad de que los usuarios administradores eliminen recursos de los inquilinos.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
-topic-tags: administración
-content-type: referencia
+topic-tags: administration
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
 
 # Administrar configuraciones de inquilino generales {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal permite a las organizaciones configurar las siguientes funciones para inquilinos específicos:
+AEM Assets Brand Portal permite a las organizaciones configurar las siguientes capacidades para inquilinos específicos:
 
 * Eliminación de recursos por administradores
 * Creación de colecciones públicas por usuarios no administradores
@@ -25,7 +28,7 @@ AEM Assets Brand Portal permite a las organizaciones configurar las siguientes f
 * Aceleración de descarga
 * Jerarquía principal de carpetas compartidas visible para usuarios no administradores
 
-Estas configuraciones se han proporcionado como configuraciones **[!UICONTROL generales]** en el panel de herramientas administrativas.
+Estas configuraciones se han proporcionado como configuraciones de Configuración **** general en el panel de herramientas administrativas.
 
 ![](assets/general-configs.png)
 
@@ -54,7 +57,7 @@ Para habilitar/deshabilitar cada una de estas configuraciones:
 
 **[!UICONTROL Permitir que los usuarios eliminen]** la configuración permite a las organizaciones permitir (o restringir) a los usuarios con privilegios de administrador eliminar recursos y carpetas de Brand Portal.
 
-## Permitir la creación de colecciones públicas por usuarios no administradores {#allow-public-collections-creation-by-non-admins}
+## Permitir la creación de colecciones públicas por usuarios que no sean administradores {#allow-public-collections-creation-by-non-admins}
 
 [[!UICONTROL Permitir la configuración de creación]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) de colecciones públicas controla si los no administradores pueden crear colecciones públicas en Brand Portal. La configuración está habilitada de forma predeterminada. Al desactivar las organizaciones de configuración, se puede evitar tener numerosas colecciones públicas en el portal para que se pueda guardar el espacio del sistema.
 
