@@ -1,24 +1,27 @@
 ---
-title: Formatos de archivo admitidos
-seo-title: Formatos de archivo admitidos
+title: Formatos de archivo compatibles
+seo-title: Formatos de archivo compatibles
 description: 'Cada AEM Assets Brand Portal admite formatos de archivo específicos, como se indica en la matriz. '
 seo-description: 'Cada AEM Assets Brand Portal admite formatos de archivo específicos, como se indica en la matriz. '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
-content-type: referencia
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: introducción
+topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 47%
 
 ---
 
 
-# Formatos de archivo admitidos {#supported-file-formats}
+# Formatos de archivo compatibles {#supported-file-formats}
 
 Cada AEM Assets Brand Portal admite formatos de archivo específicos, como se indica en la matriz.
 
-| Formato de archivo | Recursos publicados en Brand Portal | Representaciones publicadas en Brand Portal | Metadatos publicados en Brand Portal | Miniaturas publicadas en Brand Portal | Páginas de detalles de recursos publicadas en Brand Portal | Vínculos compartidos | Vínculo de miniaturas de uso compartido | Vistas previas de uso compartido de vínculos |
+| Formato de archivo | Recursos publicados en Brand Portal | Representaciones publicadas en Brand Portal | Metadatos publicados en Brand Portal | Miniaturas publicadas en Brand Portal | Páginas de detalles de recursos publicadas en Brand Portal | Vínculos compartidos | Vínculo de miniaturas de uso compartido | previsualizaciones de uso compartido de vínculos |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
