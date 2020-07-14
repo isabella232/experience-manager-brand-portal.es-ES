@@ -36,7 +36,7 @@ ht-degree: 70%
 + Origen de recursos en Brand Portal {#asset-sourcing-in-brand-portal}
    + [Información general](using/brand-portal-asset-sourcing.md)
    + [Configuración de fuentes de recursos en AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configuración de la carpeta Contribution en Recursos AEM {#configure-contribution-folder}
+   + Configurar la carpeta Contribution en AEM Assets {#configure-contribution-folder}
       + [Información general](using/brand-portal-contribution-folder.md)
       + [Crear carpeta de contribución](using/brand-portal-create-contribution-folder.md)
       + [Configuración de las propiedades de la carpeta de contribución](using/brand-portal-configure-contribution-folder-properties.md)
@@ -46,7 +46,7 @@ ht-degree: 70%
       + [Información general](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Descargar requisitos de recursos](using/brand-portal-download-asset-requirements.md)
       + [Carga de recursos en la carpeta de contribución](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicación de la carpeta de contribución en Recursos AEM](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Publicación de la carpeta de contribución en AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartir los recursos con los usuarios {#share}
    + [Compartir una colección](using/brand-portal-share-collection.md)
    + [Compartir carpetas](using/brand-portal-sharing-folders.md)
