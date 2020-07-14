@@ -1,23 +1,26 @@
 ---
 title: Compartir recursos como un vínculo
 seo-title: Compartir recursos como un vínculo
-description: Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos compartidos con ellos.
-seo-description: Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos compartidos con ellos.
+description: AEM Assets Los administradores de Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
+seo-description: AEM Assets Los administradores de Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
-content-type: referencia
-topic-tags: compartir
+content-type: reference
+topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 4%
 
 ---
 
 
 # Compartir recursos como un vínculo {#share-assets-as-a-link}
 
-Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos compartidos con ellos.
+AEM Assets Los administradores de Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
 
 El uso compartido de recursos a través de un vínculo es una forma práctica de ponerlos a disposición de terceros externos, ya que los receptores no tienen que iniciar sesión en Brand Portal para acceder a los recursos.
 
@@ -61,7 +64,7 @@ Para compartir recursos como vínculo, siga estos pasos:
 1. En el cuadro **[!UICONTROL Mensaje]** , escriba un mensaje si es necesario.
 1. En el campo **[!UICONTROL Caducidad]** , utilice el selector de fechas para especificar una fecha y hora de caducidad para el vínculo. De forma predeterminada, la fecha de caducidad se establece en 7 días a partir de la fecha en que se comparte el vínculo.
 
-   Los recursos compartidos a través del vínculo caducan después de superar la fecha y hora especificadas en el campo **[!UICONTROL Caducidad]** . Para obtener más información sobre el comportamiento de los recursos caducados y los cambios en las actividades permisibles en función de las funciones de usuario en Brand Portal, consulte [Gestión de los derechos digitales de los recursos](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Los recursos compartidos a través del vínculo caducan después de superar la fecha y hora especificadas en el campo **[!UICONTROL Caducidad]** . Para obtener información sobre el comportamiento de los recursos caducados y los cambios en las actividades permisibles en función de las funciones de usuario en Brand Portal, consulte [Gestión de los derechos digitales de los recursos](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
 1. Haga clic en **[!UICONTROL Compartir]**. Un mensaje confirma que el vínculo se comparte con los usuarios. Los usuarios reciben un correo electrónico que contiene el vínculo.
 
@@ -73,7 +76,7 @@ Para compartir recursos como vínculo, siga estos pasos:
 
 ## Descargar recursos de vínculos compartidos {#download-assets-from-shared-links}
 
-Haga clic en el vínculo del correo electrónico para ver el recurso compartido. Se abre la página Compartir vínculos de AEM.
+Haga clic en el vínculo del correo electrónico para realizar la vista del recurso compartido. Se abre la página Compartir vínculos de AEM.
 
 Para descargar los recursos compartidos:
 
@@ -83,11 +86,11 @@ Para descargar los recursos compartidos:
 
    >[!NOTE]
    >
-   >Actualmente, puede generar una vista previa y una miniatura solo para determinados recursos, según el formato de archivo. Para obtener más información sobre los formatos de archivo admitidos, consulte Compatibilidad con [vista previa y miniaturas para los formatos](#preview-thumbnail-support)de recurso.
+   >Actualmente, puede generar una previsualización y una miniatura solo para determinados recursos, según el formato de archivo. Para obtener más información sobre los formatos de archivo admitidos, consulte Compatibilidad con [Previsualizaciones y miniaturas para los formatos](#preview-thumbnail-support)de recurso.
 
    >[!NOTE]
    >
-   >Si los recursos que está descargando también incluyen recursos con licencia, se le redirigirá a la página Administración de **[!UICONTROL derechos de autor]** . En esta página, seleccione los recursos con licencia, haga clic en **[!UICONTROL Aceptar]** y, a continuación, en **[!UICONTROL Descargar]**. Si no está de acuerdo, solo se descargan los recursos sin licencia.\
+   >Si los recursos que está descargando también incluyen recursos con licencia, se le redirigirá a la página Administración de **[!UICONTROL derechos de autor]** . En esta página, seleccione los recursos con licencia, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si no está de acuerdo, solo se descargan los recursos sin licencia.\
    >Los recursos protegidos por licencias tienen un contrato [de licencia adjunto](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , lo que se realiza estableciendo la propiedad [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadatos del recurso en [!DNL AEM Assets].
 
    ![](assets/licensed-asset-download.png)
@@ -114,11 +117,11 @@ Para descargar los recursos compartidos:
 >
 >Brand Portal restringe la descarga de recursos de más de 5 GB por tamaño de archivo.
 
-## Compatibilidad con vista previa y miniaturas para formatos de recursos {#preview-thumbnail-support}
+## Compatibilidad con Previsualizaciones y miniaturas para formatos de recursos {#preview-thumbnail-support}
 
-La siguiente matriz enumera los formatos de recurso para los que Brand Portal admite miniaturas y vista previa:
+La siguiente matriz lista los formatos de recursos para los que Brand Portal admite miniaturas y previsualizaciones:
 
-| Formato del recurso | Compatibilidad con miniaturas | Compatibilidad con vista previa |
+| Formato del recurso | Compatibilidad con miniaturas | Compatibilidad con Previsualizaciones |
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
@@ -190,7 +193,7 @@ La leyenda siguiente explica los símbolos utilizados en la matriz:
 
 Para dejar de compartir recursos compartidos anteriormente como vínculo, haga lo siguiente:
 
-1. Para ver los recursos compartidos como vínculos, haga clic en el icono de superposición de la izquierda y elija **[!UICONTROL Navegación]**.
+1. Para vista de los recursos compartidos como vínculos, haga clic en el icono de superposición de la izquierda y elija **[!UICONTROL Navegación]**.
 
    ![](assets/siderail.png)
 
