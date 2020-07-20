@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1603'
 ht-degree: 8%
 
 ---
@@ -62,11 +62,18 @@ La siguiente tabla lista las tareas que pueden realizar los usuarios en estas fu
 |  | **Examinar** | **Buscar** | **Descargar** | **Compartir carpetas** | **Compartir una colección** | **Compartir recursos como un vínculo** | **Acceso a las Herramientas de administración** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Usuario invitado** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Visor** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Visor** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrador** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Los usuarios invitados pueden examinar, acceder y buscar recursos solo en carpetas públicas y colecciones.
+
+* Los usuarios del visor pueden realizar vistas y descargar los recursos públicos que se han compartido con ellos, y pueden agregarlos para crear sus propias colecciones.
+
+>[!NOTE]
+>
+>Existe un problema conocido por el que el vínculo compartido de colecciones está visible actualmente para los usuarios del visor. Los usuarios del visor no tienen el privilegio de agregar usuarios para crear un vínculo compartido. Este problema se solucionará en la próxima versión; la opción de compartir vínculo para las colecciones no estará disponible para los usuarios del visor.
+
 
 ### Guest user {#guest-user}
 
