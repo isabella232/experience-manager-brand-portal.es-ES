@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1135'
 ht-degree: 4%
 
 ---
@@ -20,17 +20,18 @@ ht-degree: 4%
 
 # Compartir recursos como un vínculo {#share-assets-as-a-link}
 
-AEM Assets Los administradores de Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
+Los administradores y editores de Brand Portal de AEM Assets pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
 
-El uso compartido de recursos a través de un vínculo es una forma práctica de ponerlos a disposición de terceros externos, ya que los receptores no tienen que iniciar sesión en Brand Portal para acceder a los recursos.
+El uso compartido de recursos a través de un vínculo es una forma práctica de ponerlos a disposición de terceros externos, ya que los receptores no tienen que iniciar sesión en Brand Portal para acceder a los recursos. Los receptores (usuarios del visor) pueden acceder a los recursos públicos compartidos con ellos y descargarlos, y pueden agregarlos para crear su propia colección.
 
-El acceso al uso compartido de vínculos está restringido a editores y administradores. Para obtener más información, consulte [Administración de usuarios, grupos y funciones](../using/brand-portal-adding-users.md#manage-user-roles)de usuario.
+Para obtener más información, consulte [Administración de usuarios, grupos y funciones](../using/brand-portal-adding-users.md#manage-user-roles)de usuario.
 
 >[!NOTE]
 >
 >Se permiten hasta 5 GB de descarga zip mediante la función de uso compartido de vínculos en Brand Portal.
 
-Para compartir recursos como vínculo, siga estos pasos:
+
+A continuación se indican los pasos para compartir recursos como vínculo:
 
 1. Haga clic en el icono de superposición de la izquierda y elija **[!UICONTROL Navegación]**.
 
