@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 8%
@@ -68,7 +68,7 @@ La siguiente tabla lista las tareas que pueden realizar los usuarios en estas fu
 
 * Los usuarios invitados pueden examinar, acceder y buscar recursos solo en carpetas públicas y colecciones.
 
-* Los usuarios del visor pueden realizar vistas y descargar los recursos públicos que se han compartido con ellos, y pueden agregarlos para crear sus propias colecciones.
+* Los usuarios del visor pueden acceder y descargar los recursos públicos que se han compartido con ellos, y pueden agregarlos para crear sus propias colecciones.
 
 >[!NOTE]
 >
