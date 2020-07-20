@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1632'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,12 @@ Las preguntas más frecuentes de Brand Portal se centran en las consultas y prob
 **Ques. El punto final (`https://legacy-oauth.cloud.adobe.io/login`) de OAuth heredado no funciona. ¿Cuál podría ser la razón posible?**
 
 **Ans.** La configuración OAuth heredada está en desuso. Debe actualizar las instancias de creación de AEM Assets al Service Pack más reciente y configurarlas mediante Adobe Developer Console. Consulte [Configuración de AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md) para obtener más información. Sin embargo, para que la configuración OAuth heredada funcione hasta que se actualice, actualice el punto final OAuth heredado a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+
+**Ques. He creado una colección mediante el vínculo de recurso compartido por el administrador. Pero no puedo crear un vínculo compartido para mi colección. ¿Necesito permisos especiales para hacerlo?**
+
+**Ans.** La funcionalidad se basa en el diseño; los usuarios del visor no pueden compartir vínculos para colecciones, ya que tienen privilegios limitados, ya que no pueden agregar usuarios para crear un vínculo compartido. Es un problema conocido que el vínculo compartido de colecciones está visible actualmente para los usuarios del visor. Este problema se solucionará en la próxima versión; la opción de compartir vínculo para las colecciones no estará disponible para los usuarios del visor.
+
 
 **Ques. No puedo publicar los recursos de la carpeta de contribución desde Brand Portal a los AEM Assets después de actualizar a Adobe Developer Console. Mi instancia de autor se encuentra en AEM 6.5.4. ¿Cuál podría ser la razón posible?**
 
