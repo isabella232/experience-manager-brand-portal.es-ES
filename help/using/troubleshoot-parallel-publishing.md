@@ -63,7 +63,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Limpiar las configuraciones de publicación existentes de Brand Portal {#clean-up-existing-config}
 
-La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que la publica (por ejemplo: `mac-<tenantid>-replication` no tiene la clave privada más reciente y, por lo tanto, la publicación falla con el error &quot;401 no autorizado&quot; y no se notifica ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una nueva configuración. Para que la nueva configuración funcione correctamente, limpie lo siguiente de la configuración del autor de AEM:
+La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que está publicando (por ejemplo: `mac-<tenantid>-replication` no tiene la clave privada más reciente y, por lo tanto, la publicación falla con el error &quot;401 no autorizado&quot; y no se notifica ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una nueva configuración. Para que la nueva configuración funcione correctamente, limpie lo siguiente de la configuración del autor de AEM:
 
 1. Vaya a `localhost:4502/crx/de/` (teniendo en cuenta que está ejecutando la instancia de autor en localhost:4502:\
    i. eliminar `/etc/replication/agents.author/mp_replication`ii. delete 
