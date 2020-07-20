@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 8%
+source-wordcount: '801'
+ht-degree: 7%
 
 ---
 
@@ -55,6 +55,8 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 ### Problemas conocidos {#known-issues-6462}
 
 Esta versión incluye los siguientes problemas conocidos:
+
+* El vínculo para compartir colecciones está visible actualmente para los usuarios del visor.
 
 * Si se cambia el nombre de una carpeta de la jerarquía de AEM Assets y la carpeta anidada que contiene un recurso se publica en Brand Portal, el título de la carpeta no se actualiza en Brand Portal hasta que se vuelva a publicar la carpeta raíz.
 
