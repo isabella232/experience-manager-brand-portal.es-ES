@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1118'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 4%
 
 # Compartir recursos como un vínculo {#share-assets-as-a-link}
 
-Los administradores y editores de Brand Portal de AEM Assets pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
+AEM Assets Los administradores de Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
 
-El uso compartido de recursos a través de un vínculo es una forma práctica de ponerlos a disposición de terceros externos, ya que los receptores no tienen que iniciar sesión en Brand Portal para acceder a los recursos. Los receptores (usuarios del visor) pueden acceder a los recursos públicos compartidos con ellos y descargarlos, y pueden agregarlos para crear su propia colección.
+El uso compartido de recursos a través de un vínculo es una forma práctica de ponerlos a disposición de terceros externos, ya que los receptores no tienen que iniciar sesión en Brand Portal para acceder a los recursos.
+
+El acceso al uso compartido de vínculos está restringido a editores y administradores.
 
 Para obtener más información, consulte [Administración de usuarios, grupos y funciones](../using/brand-portal-adding-users.md#manage-user-roles)de usuario.
 
