@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1522'
 ht-degree: 8%
 
 ---
@@ -62,18 +62,21 @@ La siguiente tabla lista las tareas que pueden realizar los usuarios en estas fu
 |  | **Examinar** | **Buscar** | **Descargar** | **Compartir carpetas** | **Compartir una colección** | **Compartir recursos como un vínculo** | **Acceso a las Herramientas de administración** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Usuario invitado** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Visor** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Visor** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrador** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Los usuarios invitados pueden examinar, acceder y buscar recursos solo en carpetas públicas y colecciones.
 
-* Los usuarios del visor pueden acceder y descargar los recursos públicos que se han compartido con ellos, y pueden agregarlos para crear sus propias colecciones.
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->Existe un problema conocido por el que el vínculo compartido de colecciones está visible actualmente para los usuarios del visor. Los usuarios del visor no tienen el privilegio de agregar usuarios para crear un vínculo compartido. Este problema se solucionará en la próxima versión; la opción de compartir vínculo para las colecciones no estará disponible para los usuarios del visor.
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### Guest user {#guest-user}
 
