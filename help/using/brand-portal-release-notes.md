@@ -1,8 +1,8 @@
 ---
 title: Notas de la versión
 seo-title: Notas de la versión
-description: Obtenga una visión detallada de las funciones, mejoras, problemas importantes solucionados y problemas conocidos de la versión 6.4.6.2 de Adobe Experience Manager Assets Brand Portal.
-seo-description: Obtenga una visión detallada de las mejoras, los problemas críticos solucionados y los problemas conocidos en la versión 6.4.6.2 de Adobe Experience Manager Assets Brand Portal.
+description: Obtenga una visión detallada de las funciones, mejoras, problemas importantes solucionados y problemas conocidos de la versión 6.4.7 de Adobe Experience Manager Assets Brand Portal.
+seo-description: Obtenga una visión detallada de las mejoras, los problemas críticos solucionados y los problemas conocidos de la versión 6.4.7 de Adobe Experience Manager Assets Brand Portal.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,117 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 7%
+source-wordcount: '505'
+ht-degree: 11%
 
 ---
 
 
 # Notas de la versión {#release-notes}
 
-Obtenga una visión detallada de las nuevas funciones, mejoras, problemas importantes solucionados y problemas conocidos de la versión 6.4.6.2 de Adobe Experience Manager Assets Brand Portal.
+Obtenga una visión detallada de las nuevas funciones, mejoras, problemas importantes solucionados y problemas conocidos de la versión 6.4.7 de Adobe Experience Manager Assets Brand Portal.
 
 ## Información de la versión {#release-information}
 
 | Producto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versión | 6.4.6.2 |
-| Fecha | Junio de 2020 |
+| Versión | 6.4.7 |
+| Fecha | Agosto de 2020 |
 
 ## Información general {#overview}
 
-Recursos de Adobe Experience Manager (AEM) El portal de marca le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos en todos los dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios explorar, buscar, previsualización, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
+Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a partes externas y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios explorar, buscar, previsualización, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
 
-## Novedades de 6.4.6.2 {#what-s-new-in-6462}
+## Novedades de 6.4.7 {#whats-new-in-647}
 
-### Problemas críticos solucionados {#critical-issues-fixed-6462}
-
-Esta versión incluye correcciones a los siguientes problemas críticos:
-
-* Si elimina un esquema de metadatos publicado de Brand Portal, se producirá un error.
-
-* Si el administrador configura Experience Manager Assets 6.5.4 con Brand Portal a través de Adobe Developer Console, el usuario de Brand Portal no podrá publicar los recursos de la carpeta de contribución de Brand Portal en Experience Manager.
-
-* Replicación de Duplicados de las carpetas principales que causan conflictos.
-
-* El usuario no puede generar el informe de uso compartido de vínculos.
-
-* El usuario puede copiar secretos MAC para un extremo de Brand Portal mediante el comando copyPage.
-
-* cqTags causan reindexación en un clon de VA5.
-
-
-### Problemas conocidos {#known-issues-6462}
-
-Esta versión incluye los siguientes problemas conocidos:
-
-* Los usuarios del visor no tienen permiso para compartir vínculos para colecciones, pero la opción de compartirlos es visible para ellos en la interfaz del producto.
-
-* Si se cambia el nombre de una carpeta de la jerarquía de AEM Assets y la carpeta anidada que contiene un recurso se publica en Brand Portal, el título de la carpeta no se actualiza en Brand Portal hasta que se vuelva a publicar la carpeta raíz.
-
-
-## Novedades de 6.4.6 {#what-s-new-in-646}
-
-### New Features {#new-feature}
+### New Features {#new-features}
 
 Esta versión incluye las siguientes nuevas funciones:
 
-* Captcha para iniciar sesión como invitado en Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.
+* Se ha introducido el visor de documento para mejorar la visualización de archivos PDF. Hay nuevas opciones disponibles para ver los archivos PDF en Brand Portal.
 
-* Brand Portal ahora es compatible con el servicio en la nube de AEM Assets. Puede configurar que los AEM Assets puedan ofrecer servicios con Brand Portal para compartir y distribuir recursos con los usuarios de Brand Portal.
-Para obtener más información, consulte [Configuración del servicio en la nube de AEM Assets con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
+<!--
+* Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
+-->
 
-### Mejoras {#enhancements-646}
+* Avances en el proceso de descarga de recursos que mejoran la experiencia del usuario de Brand Portal al descargar recursos de Brand Portal. Los administradores de Brand Portal pueden configurar la descarga **** rápida, las representaciones **** personalizadas y las representaciones **[!UICONTROL del sistema]** desde la configuración de la **[!UICONTROL descarga]** .
 
-Esta versión de Brand Portal incluye las siguientes mejoras:
+For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
 
-* En AEM 6.3 y versiones posteriores, se cambia el canal de autorización entre AEM Assets y Brand Portal. Ahora, los AEM Assets se configuran con Brand Portal mediante Adobe Developer Console, que proporciona un distintivo IMS para la autorización del inquilino de Brand Portal.
-
->[!NOTE]
->
->La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se cambia a la configuración mediante Adobe Developer Console.
-
->[!TIP]
->
->***Solo para clientes existentes***
->
->La configuración heredada de OAuth Gateway seguirá funcionando para los clientes existentes.
->
->En caso de que surjan problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva mediante Adobe Developer Console.
-
-For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
-
-### Problemas críticos solucionados {#critical-issues-fixed}
+### Problemas críticos solucionados {#critical-issues-fixed-647}
 
 Esta versión incluye correcciones a los siguientes problemas críticos:
 
-* Los valores desplegables del esquema de metadatos no están visibles en las propiedades de los recursos.
+* Los usuarios del visor no tienen permiso para compartir vínculos para colecciones, pero la opción de compartir los puede ver en la interfaz del producto.
 
-* El subesquema de metadatos no muestra fichas basadas en mimetype en las propiedades del recurso.
+* El botón **[!UICONTROL Descargar]** de la barra de opciones no lista todos los recursos con licencia de la carpeta seleccionada.
 
-* El esquema Cancelar la publicación de metadatos rellena un mensaje de error aunque el esquema se elimina al final.
+* La búsqueda tarda más en mostrar los resultados de ciertas palabras clave.
 
-* La imagen de Previsualización no se muestra para un recurso publicado.
+* Las casillas de verificación **[!UICONTROL Aceptar]** y **[!UICONTROL Rechazar]** no aparecen en la selección masiva de recursos con licencia y sin licencia durante la descarga.
 
-* El usuario no puede publicar ni cancelar la publicación de recursos que contengan una sola cita en el nombre.
+* La búsqueda basada en filtros muestra el procesamiento en la interfaz del producto sin resultados de búsqueda.
 
-* Los términos y condiciones no se muestran al descargar varios recursos.
+* Los recursos no se descargan del vínculo compartido si la carpeta compartida contiene varios recursos grandes.
 
-* Se han solucionado pequeñas vulnerabilidades de seguridad.
 
-### Problemas conocidos {#known-issues}
+### Problemas conocidos {#known-issues-647}
 
 Esta versión incluye los siguientes problemas conocidos:
 
-* Los usuarios de Brand Portal no pueden publicar recursos de carpetas de contribución para AEM Assets al actualizar a Adobe Developer Console en AEM 6.5.4.
+* Si se seleccionan varios recursos, el texto de la licencia no aparece al hacer clic en Términos y condiciones en la página del acuerdo de licencia durante la descarga mediante el vínculo de uso compartido.
 
-   Este problema se solucionará en el próximo Service Pack 6.5.5.
-
-   Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisión](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de creación.
-
-* La opción Excluir representaciones del sistema no funciona correctamente al descargar un recurso.
 
 
 ## Idiomas {#languages}
@@ -148,7 +99,7 @@ Para determinar qué plataformas están certificadas para ejecutarse con esta ve
 
 ## Asistencia y acceso al producto (sitios restringidos) {#product-access-and-support-restricted-sites}
 
-Estos sitios solo están disponibles para los clientes. Si es un cliente y necesita acceso, póngase en contacto con su administrador de cuentas de Adobe.
+Estos sitios solo están disponibles para los clientes. Si es cliente y necesita acceso, póngase en contacto con el administrador de cuentas de Adobe.
 
 * [https://daycare.day.com](https://daycare.day.com)
 
