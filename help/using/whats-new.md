@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4753'
 ht-degree: 2%
 
 ---
@@ -24,29 +24,46 @@ Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controla
 
 ## Qué cambió en 6.4.7 {#what-changed-in-647}
 
-La versión 6.4.7 de Brand Portal se centra en mejorar la experiencia del visor de documento, la configuración para descargar recursos desde Brand Portal y las principales solicitudes de los clientes. Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
+La versión 6.4.7 de Brand Portal incorpora el visor de Documento, mejora la experiencia de descarga de recursos e incluye correcciones importantes. Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### Visor de documento {#doc-viewer}
 
-El visor de *Documento* mejora la experiencia de los visores de PDF. Ofrece una experiencia similar a la de Adobe Document Cloud en la visualización de archivos PDF en Brand Portal.
+El visor de Documento mejora la visualización de archivos PDF. Proporciona una experiencia similar a la de Adobe Document Cloud mientras ve los archivos PDF en Brand Portal.
 
-Anteriormente, las representaciones solo estaban disponibles para la primera página del archivo PDF y las opciones disponibles en el visor de PDF predeterminado también eran limitadas.
+Anteriormente, había disponibles opciones limitadas para la vista de los archivos PDF.
 
-Con la implementación del visor *de* Documento, los usuarios de Brand Portal pueden realizar la vista de los metadatos del PDF y experimentar nuevas opciones para reproducirlos con los archivos PDF, como la vista de página, la vista de índices, la búsqueda en línea, el acercamiento, el alejamiento, la página anterior, la página siguiente, el cambio a la página, el ajuste a la ventana, la adaptación a la pantalla, la ocultación o la muestra.
+Con el visor de Documento, los usuarios de Brand Portal ahora tienen las opciones de vista de páginas, marcadores de vista, búsqueda de texto en la página, acercamiento, alejamiento, navegación a páginas anteriores y siguientes, cambio a página, ajuste a la ventana, ajuste a la pantalla y oculte o muestre la barra de herramientas.
 
-En los casos en que los usuarios de Brand Portal ahora disponen de una experiencia de visores de PDF mejorada, la experiencia con otros formatos permanece sin cambios.
+>[!NOTE]
+>
+>La experiencia de visualización de otros formatos de documentos permanece sin cambios.
+
+
 
 ![](assets/doc-viewer.png)
 
-### Descargar configuración {#download-configurations}
+### Descargar experiencia {#download-configurations}
 
-La configuración de descarga es una nueva configuración que permite a los administradores de Brand Portal configurar la descarga de recursos desde Brand Portal.
+El proceso de descarga de recursos se ha rediseñado, lo que ofrece una experiencia de usuario simplificada al descargar recursos desde Brand Portal.
 
-El flujo de trabajo actual de descarga de recursos de Brand Portal va seguido inevitablemente de la aparición de una ventana emergente con varias opciones de descarga entre las que elegir.
+El flujo de trabajo existente de descarga de recursos de Brand Portal va seguido inevitablemente de la aparición de un cuadro de diálogo de **[!UICONTROL descarga]** con varias opciones de descarga entre las que elegir.
 
-En Brand Portal 6.4.7, la descarga de recursos se puede configurar desde la interfaz de usuario de Brand Portal. Las tres configuraciones disponibles son: descarga rápida, representaciones personalizadas y representaciones del sistema. El administrador de Brand Portal puede seleccionar cualquier combinación para configurar la descarga de recursos. El administrador también puede habilitar o deshabilitar estas configuraciones.
+En Brand Portal 6.4.7, los administradores de Brand Portal pueden configurar la configuración de **[!UICONTROL descarga]** de recursos. Las configuraciones disponibles son:
+* **[!UICONTROL Descarga rápida]**
+* **[!UICONTROL Representaciones personalizadas]**
+* **[!UICONTROL Representaciones del sistema]**
 
-La configuración de descarga rápida omite el aspecto de la ventana emergente durante la descarga de recursos. En el caso de representaciones personalizadas o del sistema, o de varias configuraciones, aparece la ventana emergente y se descarga el recurso original junto con las representaciones de recursos.
+El administrador de Brand Portal puede habilitar cualquier combinación para configurar la descarga de recursos.
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* Si las tres configuraciones están desactivadas, los recursos se descargan sin ningún cuadro de diálogo adicional que simplifique la descarga para los usuarios de Brand Portal. En función de la configuración, el flujo de trabajo de descarga permanece constante para los recursos independientes, varios recursos, carpetas que contienen recursos, recursos con licencia o sin licencia, y también cuando los recursos se descargan mediante un vínculo compartido.
+
+* Si se ha habilitado cualquiera de las representaciones **** personalizadas o **[!UICONTROL del sistema]** , aparece el cuadro de diálogo **[!UICONTROL Descargar]** y se descarga el recurso original junto con las representaciones de recursos. La activación de la configuración de descarga **** rápida acelera el proceso de descarga.
 
 ![](assets/download-configuration.png)
 
@@ -69,7 +86,7 @@ En Brand Portal 6.4.6, se cambia el canal de autorización entre AEM Assets y Br
 
    -->
 
-Los pasos para configurar AEM Assets con Brand Portal son diferentes en función de la versión AEM y de si va a realizar la configuración por primera vez o a actualizar las configuraciones existentes:
+Los pasos para configurar AEM Assets con Brand Portal son diferentes en función de la versión de AEM y de si va a realizar la configuración por primera vez o a actualizar las configuraciones existentes:
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
