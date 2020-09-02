@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 3%
+source-wordcount: '402'
+ht-degree: 4%
 
 ---
 
@@ -25,12 +25,11 @@ AEM Assets Brand Portal permite a las organizaciones configurar las siguientes c
 * Eliminación de recursos por administradores
 * Creación de colecciones públicas por usuarios no administradores
 * Creación de colecciones inteligentes públicas por usuarios no administradores
-* Aceleración de descarga
 * Jerarquía principal de carpetas compartidas visible para usuarios no administradores
 
 Estas configuraciones se han proporcionado como configuraciones de Configuración **** general en el panel de herramientas administrativas.
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **Una** configuración que permite a los administradores eliminar recursos de Brand Portal. (El valor predeterminado está habilitado)
 
@@ -38,9 +37,7 @@ Estas configuraciones se han proporcionado como configuraciones de Configuració
 
 **Configuración de C** para permitir que los usuarios no administradores creen colecciones inteligentes públicas. (El valor predeterminado está habilitado)
 
-**Configuración D** para permitir la aceleración de descargas de recursos descargados del portal y de los vínculos compartidos. (El valor predeterminado está desactivado)
-
-**Configuración electrónica** para mostrar la jerarquía de carpetas (desde la raíz) de las carpetas compartidas a usuarios no administradores (editores, visores, usuarios invitados). (El valor predeterminado está desactivado)
+**D** Configuración para mostrar la jerarquía de carpetas (desde la raíz) de las carpetas compartidas a usuarios no administradores (editores, visores, usuarios invitados). (El valor predeterminado está desactivado)
 
 ## Habilitar o deshabilitar configuraciones generales {#enable-disable-general-configurations}
 
@@ -65,9 +62,11 @@ Para habilitar/deshabilitar cada una de estas configuraciones:
 
 [[!UICONTROL Permitir la configuración de creación]](../using/brand-portal-searching.md#main-pars-header-500620467) de colecciones inteligentes públicas controla si los usuarios que no son administradores pueden guardar sus búsquedas como colecciones inteligentes y hacerlas públicas para ese inquilino. La configuración está habilitada de forma predeterminada. Al desactivar las organizaciones de configuración, se puede evitar tener un gran número de colecciones inteligentes públicas creadas por usuarios no administradores en Brand Portal de la organización.
 
-## Permitir aceleración de descarga {#allow-download-acceleration}
+<!-- 
+## Allow download acceleration {#allow-download-acceleration}
 
-[[!UICONTROL Permitir la configuración de aceleración]](../using/accelerated-download.md) de descargas permite a las organizaciones permitir descargas aceleradas de recursos desde Brand Portal y vínculos compartidos, mediante la integración con IBM Aspera Connect, que es una aplicación de instalación bajo demanda. La aplicación utiliza tecnología patentada para eliminar los sobrecargos TCP.
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## Habilitar la jerarquía de carpetas {#enable-folder-hierarchy}
 
