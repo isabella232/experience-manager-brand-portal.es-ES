@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -26,15 +26,16 @@ Brand Portal permite mejorar el rendimiento de descarga de archivos de recursos 
 >
 >La velocidad de descarga varía para los usuarios, ya que depende de factores como el ancho de banda de la red, la latencia del servidor y la ubicación geográfica de los clientes.
 
-Si está activada, los usuarios de Brand Portal pueden reducir considerablemente el tiempo necesario para descargar los archivos de recursos deseados desde Brand Portal o a través de un vínculo compartido mediante la instalación del cliente de Aspera Connect.
 
-![](assets/enable-fast-file-download.png)
+La configuración de Descarga **** rápida está activada de forma predeterminada, lo que reduce considerablemente el tiempo necesario para descargar los archivos de recursos deseados desde Brand Portal.
+
+![](assets/download-configuration.png)
 
 ## Requisitos previos para acelerar la descarga de archivos {#prerequisites-to-accelerate-file-download}
 
 Para descargar los archivos más rápidamente, asegúrese de lo siguiente:
 
-* **[!UICONTROL Habilite la aceleración]** de descarga (que está deshabilitada de forma predeterminada) desde Configuración  general en el panel Herramientas administrativas.
+* Vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Descargar]** y compruebe que la configuración de Descarga **** rápida está habilitada en Configuración **[!UICONTROL de]** descarga.
 * El puerto 33001 (TCP y UDP) está abierto en el servidor de seguridad. Para obtener más información sobre los requisitos previos, consulte la documentación [del cliente de](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
 * Instale Aspera Connect con privilegios de administrador.
 * Para obtener compatibilidad con plataformas del cliente de transferencia Aspera, consulte Matriz [de compatibilidad con plataformas](https://www.asperasoft.com/company/support/transfer-clients/)Aspera Connect.
@@ -72,8 +73,8 @@ La siguiente tabla muestra el rendimiento de descarga de un archivo de 2 GB medi
 Para descargar recursos más rápido desde Brand Portal:
 
 1. Inicie sesión en Brand Portal con un navegador compatible.
-1. Busque y seleccione el archivo, la carpeta o la colección de recursos que desee descargar. Toque o haga clic en la opción de descarga.
-Aparece el cuadro de diálogo Descargar con la opción [Activar aceleración] de descarga seleccionada.
+1. Busque y seleccione las carpetas o los recursos que desee descargar. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Descargar]** . el cuadro de diálogo **[!UICONTROL Descargar]** aparece con las casillas de verificación **[!UICONTROL Recursos y]** Activar aceleración **** de descarga seleccionadas de forma predeterminada.
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -82,19 +83,25 @@ Aparece el cuadro de diálogo Descargar con la opción [Activar aceleración] de
 
    ![](assets/fast-download-emailchk.png)
 
-1. Toque o haga clic en la opción **[!UICONTROL Descargar]** .
-Para acelerar la experiencia de descarga en la cuenta de inquilino de Brand Portal, debe tener instalada la aplicación cliente Aspera Connect en el sistema.
+1. Haga clic en **[!UICONTROL Descargar]**.
 
-1. **Descargar Aspera Connect Client** Si el cliente de Aspera Connect no está instalado en el sistema o el cliente de Aspera Connect instalado no está actualizado, se mostrará un mensaje en la página del navegador desde la que podrá descargar el cliente de Aspera Connect específico del sistema seleccionando **[!UICONTROL Descargar la versión]** más reciente.
+   Para acelerar la experiencia de descarga en la cuenta de inquilino de Brand Portal, debe tener instalada la aplicación cliente Aspera Connect en la extensión del explorador.
+
+1. **Descargar el cliente de Aspera Connect**
+
+   Si el cliente de Aspera Connect no está instalado en el sistema o el cliente de Aspera Connect existente no está actualizado, se mostrará un mensaje en la página del explorador desde la que podrá descargar el cliente de Aspera Connect específico del sistema seleccionando **[!UICONTROL Descargar la versión]** más reciente.
 
    ![](assets/aspera-not-launched.png)
 
    Para descargar la versión más reciente de Aspera Connect desde [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), seleccione **[!UICONTROL Descargar ahora]** y siga las instrucciones.
 
-1. **Instalación de Aspera Connect Client** Para instalar la configuración del cliente de IBM Aspera Connect, ejecute la configuración desde el archivo .msi de la aplicación cliente IBM Aspera Connect y siga el asistente de instalación.
+1. **Instalación de Aspera Connect Client**
 
-1. Una vez que el cliente se haya instalado correctamente, actualice la página del explorador e inicie los pasos de descarga de nuevo o seleccione **[!UICONTROL Reiniciar]** en el cuadro de diálogo **[!UICONTROL Descargar]** recurso (paso 2).
-Al utilizar Aspera Connect por primera vez, el navegador solicita que se abra el vínculo mediante **[!UICONTROL IBM Aspera Connect]**. Para omitir este cuadro de diálogo en el futuro, habilite **[!UICONTROL Recordar mi selección para los vínculos]** FASP.
+   Para instalar la configuración del cliente de IBM Aspera Connect, ejecute la instalación desde el archivo .msi de la aplicación cliente IBM Aspera Connect y siga el asistente de instalación.
+
+1. Una vez que el cliente se haya instalado correctamente, actualice la página del explorador e inicie los pasos de descarga de nuevo.
+
+   Al utilizar Aspera Connect por primera vez, el navegador solicita que se abra el vínculo mediante **[!UICONTROL IBM Aspera Connect]**. Para omitir este cuadro de diálogo en el futuro, habilite **[!UICONTROL Recordar mi selección para los vínculos]** FASP.
 
    >[!NOTE]
    >
@@ -111,7 +118,7 @@ Una vez completada la descarga, un cuadro de diálogo muestra la ubicación en l
 
 >[!NOTE]
 >
->Existe una limitación conocida en la aplicación cliente de Aspera Connect de que no aparece ningún mensaje para seleccionar la ubicación de descarga si **[!UICONTROL Preguntarme siempre dónde guardar los archivos]** descargados está habilitado en la ficha [!UICONTROL Transferencias] en [!UICONTROL Preferencias]. Antes de que comience la descarga, especifique la ubicación en el cuadro de texto **[!UICONTROL Guardar los archivos descargados en]**.
+>Existe una limitación conocida en la aplicación cliente de Aspera Connect de que no aparece ningún mensaje para seleccionar la ubicación de descarga si **[!UICONTROL Preguntarme siempre dónde guardar los archivos]** descargados está habilitado en la ficha **[!UICONTROL Transferencias]** en **[!UICONTROL Preferencias]**. Antes de que comience la descarga, especifique la ubicación en el cuadro de texto **[!UICONTROL Guardar los archivos descargados en]**.
 
 ## Uso del acelerador de archivos en el navegador Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -121,8 +128,8 @@ Microsoft Edge se ejecuta en modo protegido mejorado (EPM) para evitar la comuni
 
 Para utilizar la funcionalidad de descarga acelerada en Microsoft Edge, elimine el sitio de Brand Portal de la lista del sitio de confianza.
 
-1. Abra el Panel de control (pulse la tecla **[!UICONTROL Ventana + X]** y, a continuación, seleccione **[!UICONTROL Panel]** de control).
-1. Vaya a **[!UICONTROL Red e Internet > Opciones]** de Internet. Click the **[!UICONTROL Security]** tab.
+1. Abra el Panel de control de Campaign (tecla **[!UICONTROL Ventana + X]**, luego seleccione **[!UICONTROL Panel de control de Campaign]**).
+1. Vaya a **[!UICONTROL Red e Internet]** > Opciones **[!UICONTROL de Internet]**. Click the **[!UICONTROL Security]** tab.
 1. Haga clic en la zona **[!UICONTROL Sitios de]** confianza y, a continuación, haga clic en **[!UICONTROL Sitios]**.
 1. Elimine el sitio de Brand Portal de la lista.
 
