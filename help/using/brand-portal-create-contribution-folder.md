@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
+source-git-commit: 70d93d37b04d899979e38b454e342ebd78bad3bb
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Para crear una carpeta de contribución:
 
    La dirección URL predeterminada es http:// localhost:4502/aem/start.html.
 
-1. Vaya a **[!UICONTROL Recursos]** > **[!UICONTROL Archivos]**. lista todas las carpetas existentes en el repositorio de AEM Assets.
+1. Vaya a **[!UICONTROL Recursos]** > **[!UICONTROL Archivos]**. Lista todas las carpetas existentes en el repositorio de AEM Assets.
 
 1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL Se abre el cuadro de diálogo Crear carpeta]** .
 
-1. Introduzca **[!UICONTROL Título]** y **[!UICONTROL Nombre]** de la carpeta y active la casilla de verificación Contribución **[!UICONTROL de]** recursos.
+1. Introduzca el **[!UICONTROL título]** y el **[!UICONTROL nombre]** de la carpeta y active la casilla de verificación Contribución **[!UICONTROL de]** recursos.
 Se recomienda utilizar letras minúsculas sin ningún espacio para asignar un nombre a la carpeta.
 
 1. Haga clic en **[!UICONTROL Crear]**. Puede ver la carpeta de contribución en el repositorio de AEM Assets.
