@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Configurar el origen de recursos {#configure-asset-sourcing}
 
-Los administradores de AEM pueden configurar **Asset Sourcing** desde la instancia de creación de AEM. El administrador habilita la configuración del indicador de característica de fuentes de recursos desde la configuración **de la consola web de** AEM y carga la lista de usuarios activa de Brand Portal en **AEM Assets**.
+Los administradores de AEM pueden configurar el **origen** de recursos desde la instancia de creación de AEM. El administrador habilita la configuración del indicador de característica de fuentes de recursos desde **AEM Configuración** de consola web y carga la lista activa de usuarios de Brand Portal en **AEM Assets**.
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ En el siguiente vídeo se muestra cómo configurar la fuente de recursos en la i
 
 ## Habilitar el origen de recursos {#enable-asset-sourcing}
 
-Los administradores de AEM pueden activar la fuente de recursos desde la configuración de la consola web de AEM (también denominada Administrador de configuración).
+Los administradores de AEM pueden habilitar la fuente de recursos desde la Configuración de la consola web AEM (también denominada Administrador de configuración).
 
 **Para habilitar la fuente de recursos:**
-1. Inicie sesión en la instancia de creación de AEM y abra Configuration ManagerURL predeterminada: http:// localhost:4502/system/console/configMgr
+1. Inicie sesión en la instancia de creación de AEM y abra Configuration ManagerDirección URL predeterminada: http:// localhost:4502/system/console/configMgr
 1. Buscar con la palabra clave **Recurso de origen** para localizar la configuración de la marca de la característica **[!UICONTROL de origen de recursos]**
 1. Haga clic en Configuración **[!UICONTROL del indicador de característica de origen de]** recursos para abrir la ventana de configuración
-1. Activar la casilla de verificación **[!UICONTROL feature.flag.active.status]**
+1. Seleccione la casilla de verificación **[!UICONTROL feature.flag.active.status]** .
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ![](assets/enable-asset-sourcing.png)
@@ -49,12 +49,12 @@ Los administradores de AEM pueden cargar el archivo de configuración de usuario
 
 >[!NOTE]
 >
->El formato del archivo CSV es el mismo que Admin Console admite la importación masiva de usuarios. El correo electrónico, el nombre y los apellidos son obligatorios.
+>El formato del archivo CSV es el mismo que el que admite Admin Console para la importación masiva de usuarios. El correo electrónico, el nombre y los apellidos son obligatorios.
 
 El administrador puede agregar usuarios nuevos en AEM Admin Console; consulte [Administrar usuarios](brand-portal-adding-users.md) para obtener información detallada. Después de agregar usuarios en Admin Console, estos usuarios se pueden agregar al archivo de configuración de usuario de Brand Portal y, a continuación, se les puede asignar permiso para acceder a la carpeta de contribución.
 
 **Para cargar la lista de usuarios de Brand Portal:**
-1. Inicie sesión en la instancia de creación de AEMURL predeterminada: http:// localhost:4502/aem/start.html
+1. Inicie sesión en la instancia de creación de AEMDirección URL predeterminada: http:// localhost:4502/aem/start.html
 1. En el panel **Herramientas** ![](assets/tools.png) , vaya a **[!UICONTROL Recursos > Usuarios de Brand Portal]**
    ![](assets/upload-user-list1.png)
 1. Se abre la ventana Contribuyentes de carga de Brand Portal.
