@@ -1,17 +1,17 @@
 ---
 title: Aplicar ajustes preestablecidos de imagen o representaciones dinámicas
 seo-title: Aplicar ajustes preestablecidos de imagen o representaciones dinámicas
-description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a los AEM Assets que el portal de marca distribuya de forma dinámica imágenes de diferentes tamaños, formatos y propiedades. '
-seo-description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a los AEM Assets que el portal de marca distribuya de forma dinámica imágenes de diferentes tamaños, formatos y propiedades. '
+description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a AEM Assets Brand Portal distribuir dinámicamente imágenes de diferentes tamaños, formatos y propiedades. '
+seo-description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a AEM Assets Brand Portal distribuir dinámicamente imágenes de diferentes tamaños, formatos y propiedades. '
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '871'
 ht-degree: 3%
 
 ---
@@ -19,32 +19,35 @@ ht-degree: 3%
 
 # Aplicar ajustes preestablecidos de imagen o representaciones dinámicas {#apply-image-presets-or-dynamic-renditions}
 
-Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a los AEM Assets que el portal de marca distribuya de forma dinámica imágenes de diferentes tamaños, formatos y propiedades.
+Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a AEM Assets Brand Portal distribuir dinámicamente imágenes de diferentes tamaños, formatos y propiedades.
 
 Un ajuste preestablecido de imagen se utiliza para generar representaciones dinámicas de imágenes que se pueden previsualizar y descargar. Al obtener una vista previa de las imágenes y sus representaciones, puede elegir un ajuste preestablecido para cambiar el formato de las imágenes según las especificaciones establecidas por el administrador.
 
-Para vista de representaciones dinámicas de un recurso en Brand Portal, asegúrese de que su representación de tiff piramidal existe en la instancia de creación de AEM desde la que publica en Brand Portal. Al publicar el recurso, su representación PTIFF también se publica en Brand Portal. No hay forma de generar la representación PTIFF desde Brand Portal.
+(*Si AEM instancia (Autor) se está ejecutando en modo **híbrido de medios***dinámicos) Para vista de representaciones dinámicas de un recurso en Brand Portal, asegúrese de que su representación de tiff piramidal existe en la instancia de creación de AEM desde donde publica en Brand Portal. Al publicar el recurso, su representación PTIFF también se publica en Brand Portal.
 
 >[!NOTE]
 >
 >Al descargar imágenes y sus representaciones, no hay opción de elegir entre los ajustes preestablecidos existentes. En su lugar, puede especificar las propiedades de un ajuste preestablecido de imagen personalizado. Para obtener más información, consulte [Aplicación de ajustes preestablecidos de imagen al descargar imágenes](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Para obtener más información sobre los parámetros requeridos al crear ajustes preestablecidos de imagen, consulte [Administración de ajustes preestablecidos](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)de imagen.
 
 ## Creación de un ajuste preestablecido de imagen {#create-an-image-preset}
 
-Los administradores pueden crear ajustes preestablecidos de imagen que aparecen como representaciones dinámicas en la página de detalles del recurso. Puede crear un ajuste preestablecido de imagen desde cero o guardar uno existente con un nombre nuevo. Al crear un ajuste preestablecido de imagen, elija un tamaño para el envío de la imagen y los comandos de formato. Cuando se envía una imagen para su visualización, su aspecto se optimiza según los comandos seleccionados.
-Tenga en cuenta que solo los administradores pueden crear ajustes preestablecidos de imagen en Brand Portal.
+Los administradores de AEM pueden crear ajustes preestablecidos de imagen que aparecen como representaciones dinámicas en la página de detalles del recurso. Puede crear un ajuste preestablecido de imagen desde cero o guardar uno existente con un nombre nuevo. Al crear un ajuste preestablecido de imagen, elija un tamaño para el envío de la imagen y los comandos de formato. Cuando se envía una imagen para su visualización, su aspecto se optimiza según los comandos seleccionados.
 
-Tenga en cuenta que solo los administradores pueden crear ajustes preestablecidos de imagen en Brand Portal.
 
 >[!NOTE]
 >
 >Las representaciones dinámicas de una imagen se crean con su TIFF piramidal. Si el TIFF piramidal no está disponible para ningún recurso, las representaciones dinámicas para ese recurso no se pueden recuperar en el portal de marca.
-Si la instancia de AEM (Autor) se está ejecutando en el modo **Híbrido de** Dynamic Media, las representaciones TIFF piramidales de los recursos de imagen se crean y guardan en el repositorio de AEM. Mientras que, si la instancia de AEM (Autor) se está ejecutando en el modo **de**Dynamic Media Scene 7, entonces existen representaciones TIFF piramidales de recursos de imagen en el servidor de Scene 7.
-Cuando estos recursos se publican en el portal de marca, se aplican ajustes preestablecidos de imagen y se muestran representaciones dinámicas.
+>
+>Si AEM instancia (Autor) se está ejecutando en el modo **** Dynamic Media Hybrid, las representaciones TIFF piramidales de los recursos de imagen se crean y guardan en AEM repositorio.
+>
+>Mientras que, si AEM instancia (Autor) se está ejecutando en el modo **de**Dynamic Media Scene 7, entonces existen representaciones TIFF piramidales de recursos de imagen en el servidor de Scene 7.
+>Cuando estos recursos se publican en el portal de marca, se aplican ajustes preestablecidos de imagen y se muestran representaciones dinámicas.
 
-1. En la barra de herramientas de AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
+
+1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
 
 1. En el panel Herramientas administrativas, haga clic en Ajustes preestablecidos **[!UICONTROL de imagen]**.
 
