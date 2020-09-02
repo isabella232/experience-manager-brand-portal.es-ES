@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 030fab342dba6e6561668eb34c0bb2c9c056db41
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 2%
@@ -79,7 +79,8 @@ En función de la configuración, el flujo de trabajo de descarga permanece cons
 * Si se desactivan las configuraciones de Representaciones **** personalizadas y de Representaciones **** del sistema, las representaciones originales de los recursos se descargan sin que se presente ningún cuadro de diálogo adicional a los usuarios.
 
 <!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
+Test.. 
 -->
 
 * Si está habilitada alguna de las representaciones **** personalizadas o la configuración de representaciones **** del sistema, aparece un cuadro de diálogo de **[!UICONTROL descarga]** adicional en el que puede elegir si desea descargar el recurso original junto con sus representaciones o descargar solo representaciones específicas.
