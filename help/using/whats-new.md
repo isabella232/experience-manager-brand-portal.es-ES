@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Con el visor de Documento, los usuarios de Brand Portal ahora tienen las opcione
 
 ### Descargar experiencia {#download-configurations}
 
-El proceso de descarga de recursos se ha rediseñado, lo que ofrece una experiencia de usuario simplificada al [descargar recursos de Brand Portal](brand-portal-download-users.md).
+El proceso de descarga de recursos se ha rediseñado, lo que ofrece una experiencia de usuario simplificada al [descargar recursos de Brand Portal](brand-portal-download-assets.md).
 
 El flujo de trabajo existente de descarga de recursos de Brand Portal va seguido inevitablemente de la aparición de un cuadro de diálogo de **[!UICONTROL descarga]** con varias opciones de descarga entre las que elegir.
 
