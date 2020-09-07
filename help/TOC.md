@@ -6,7 +6,7 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 translation-type: tm+mt
-source-git-commit: 3ef894f4aa6f12054716315b343d3f85246a313e
+source-git-commit: 628c051cad7c3d3923b1b6c7f7eaf0e353f13227
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 70%
@@ -47,7 +47,7 @@ ht-degree: 70%
       + [Información general](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Descargar requisitos de recursos](using/brand-portal-download-asset-requirements.md)
       + [Carga de recursos en la carpeta de contribución](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicación de la carpeta de contribución en AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Publicar carpeta de contribución en AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartir los recursos con los usuarios {#share}
    + [Compartir una colección](using/brand-portal-share-collection.md)
    + [Compartir carpetas](using/brand-portal-sharing-folders.md)
@@ -56,7 +56,7 @@ ht-degree: 70%
    + [Buscar recursos en Brand Portal](using/brand-portal-searching.md)
    + [Uso de facetas de búsqueda personalizadas](using/brand-portal-search-facets.md)
 + Uso de las funciones de descarga {#download}
-   + [Descargar recursos](using/brand-portal-download-users.md)
+   + [Descargar recursos](using/brand-portal-download-assets.md)
    + [Compatibilidad con vídeos dinámicos en Brand Portal](using/dynamic-video-brand-portal.md)
    + [Administración de la colección Lightbox](using/brand-portal-light-box.md)
    + [Administración de los derechos digitales de recursos](using/manage-digital-rights-of-assets.md)
