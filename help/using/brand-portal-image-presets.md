@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Al igual que una macro, un ajuste preestablecido de imagen es una colección pre
 
 Un ajuste preestablecido de imagen se utiliza para generar representaciones dinámicas de imágenes que se pueden previsualizar y descargar. Al obtener una vista previa de las imágenes y sus representaciones, puede elegir un ajuste preestablecido para cambiar el formato de las imágenes según las especificaciones establecidas por el administrador.
 
-(*Si AEM instancia (Autor) se está ejecutando en modo **híbrido de medios***dinámicos) Para vista de representaciones dinámicas de un recurso en Brand Portal, asegúrese de que su representación de tiff piramidal existe en la instancia de creación de AEM desde donde publica en Brand Portal. Al publicar el recurso, su representación PTIFF también se publica en Brand Portal.
+(*Si AEM instancia de creación se está ejecutando en modo **híbrido de medios***dinámicos) Para realizar vistas de representaciones dinámicas de un recurso en Brand Portal, asegúrese de que su representación de tiff piramidal existe en la instancia de creación de AEM desde donde publica en Brand Portal. Al publicar el recurso, su representación PTIFF también se publica en Brand Portal.
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ Los administradores de AEM pueden crear ajustes preestablecidos de imagen que ap
 >
 >Las representaciones dinámicas de una imagen se crean con su TIFF piramidal. Si el TIFF piramidal no está disponible para ningún recurso, las representaciones dinámicas para ese recurso no se pueden recuperar en el portal de marca.
 >
->Si AEM instancia (Autor) se está ejecutando en el modo **** Dynamic Media Hybrid, las representaciones TIFF piramidales de los recursos de imagen se crean y guardan en AEM repositorio.
+>Si AEM instancia de autor se está ejecutando en modo **híbrido de medios** dinámicos, las representaciones TIFF piramidables de los recursos de imagen se crean y guardan en AEM repositorio.
 >
->Mientras que, si AEM instancia (Autor) se está ejecutando en el modo **de**Dynamic Media Scene 7, entonces existen representaciones TIFF piramidales de recursos de imagen en el servidor de Scene 7.
+>En cambio, si AEM instancia de autor se está ejecutando en el modo **de**Dynamic Media Scene 7, entonces existen representaciones TIFF piramidales de recursos de imagen en el servidor de Scene 7.
 >Cuando estos recursos se publican en el portal de marca, se aplican ajustes preestablecidos de imagen y se muestran representaciones dinámicas.
 
 
