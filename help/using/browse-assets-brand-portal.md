@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 4%
@@ -19,9 +19,9 @@ ht-degree: 4%
 
 # Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal proporciona diversas funciones y elementos de interfaz de usuario que facilitan la navegación por los recursos, la navegación por jerarquías de recursos y la búsqueda de recursos mientras se utilizan diferentes opciones de vista.
+AEM Assets Brand Portal ofrece varias funciones y elementos de interfaz de usuario que facilitan la navegación por los recursos, la navegación por las jerarquías de recursos y la búsqueda de recursos mientras se utilizan distintas opciones de vista.
 
-El logotipo de AEM en la barra de herramientas de AEM en la parte superior facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
+AEM logotipo de la barra de herramientas AEM en la parte superior facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
 
 ![](assets/aemlogo.png)
 
@@ -65,7 +65,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 ![](assets/cardquickactions.png)
 
-#### vista de tarjetas para usuarios no administradores
+#### Vista de tarjetas para usuarios no administradores
 
 Las tarjetas de carpetas, en Vista de tarjetas, muestran información sobre la jerarquía de carpetas a los usuarios no administradores (Editor, Visor y Usuario invitado). Esta funcionalidad permite a los usuarios conocer la ubicación de las carpetas a las que acceden, con respecto a la jerarquía principal.
 La información sobre la jerarquía de carpetas resulta especialmente útil para diferenciar las carpetas que tienen nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios que no son administradores no conocen la estructura de carpetas de los recursos compartidos con ellos, los recursos o carpetas con nombres similares parecen confusos.
@@ -87,9 +87,9 @@ Al seleccionar la opción **[!UICONTROL Información general]** mientras se sele
 
 ![](assets/overview-rail-selector.png)
 
-#### Configuración de Vista en la vista de tarjetas
+#### Configuración de vista en la vista de tarjetas
 
-**[!UICONTROL El cuadro de diálogo Configuración]** de Vista se abre al seleccionar Configuración **[!UICONTROL de]** Vista en el selector de vistas. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjetas. De este modo, puede personalizar su vista y controlar el número de miniaturas que se muestran.
+**[!UICONTROL El cuadro de diálogo Configuración]** de vista se abre al seleccionar Configuración **[!UICONTROL de]** Vista en el selector de vistas. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjetas. De este modo, puede personalizar su vista y controlar el número de miniaturas que se muestran.
 
 ![](assets/cardviewsettings.png)
 
@@ -97,14 +97,14 @@ Al seleccionar la opción **[!UICONTROL Información general]** mientras se sele
 
 ![](assets/list-view.png)
 
-La vista de lista muestra información para cada recurso en el nivel actual. La vista de Lista proporciona los siguientes detalles:
+La vista de lista muestra información para cada recurso en el nivel actual. La vista de lista proporciona los siguientes detalles:
 
 * Imagen en miniatura de los recursos
 * Nombre
 * Título
 * Conf. regional
 * Tipo
-* Dimensión
+* Dimension
 * Tamaño
 * Clasificación
 * Ruta de acceso de la carpeta que muestra la jerarquía<sup>de recursos*</sup>
@@ -116,9 +116,9 @@ La columna Ruta permite identificar fácilmente la ubicación del recurso en la 
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
  -->
 
-### Configuración de Vista en vista de lista
+### Configuración de vista en vista de lista
 
-La vista de Lista muestra **[!UICONTROL Nombre]** del recurso como la primera columna de forma predeterminada. También se muestra información adicional, como **[!UICONTROL Título]** del recurso, **[!UICONTROL Configuración regional]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimensiones]**, **[!UICONTROL Tamaño]******,Clasificación, estado de publicación. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+La vista de lista muestra **[!UICONTROL Nombre]** del recurso como la primera columna de forma predeterminada. También se muestra información adicional, como **[!UICONTROL Título]** del recurso, **[!UICONTROL Configuración regional]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamaño]******,Clasificación, estado de publicación. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -215,7 +215,7 @@ Comment Type: draft
 <!--
 Comment Type: draft
 
-<h4>Deselecting All</h4>
+Deselecting All
 -->
 
 <!--
@@ -261,4 +261,4 @@ Para abrir la página de propiedades del recurso, utilice la opción **[!UICONTR
 
 ![](assets/asset-properties.png)
 
-También puede realizar la vista de una lista de todos sus recursos relacionados (recursos de origen o derivados en AEM) en la página de propiedades de un recurso, ya que la relación de recursos también se publica desde AEM en Brand Portal.
+También puede realizar la vista de una lista de todos sus recursos relacionados (recursos de origen o derivados en AEM) en la página de propiedades de un recurso, ya que la relación de recursos también se publica de AEM a Brand Portal.
