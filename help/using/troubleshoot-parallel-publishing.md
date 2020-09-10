@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
+source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 2%
@@ -120,7 +120,7 @@ En función de los errores, se le aconseja que registre un ticket de asistencia 
 
 Normalmente, el trabajo de publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver este problema, asegúrese de que los agentes de replicación están configurados para evitar el tiempo de espera.
 
-Realice los siguientes pasos para configurar el agente de replicación:
+Realice los siguientes pasos para configurar los agentes de replicación:
 1. Inicie sesión en la instancia de creación de AEM Assets.
 1. En el panel **Herramientas** , vaya a **[!UICONTROL Implementación]** > **[!UICONTROL Replicación]**.
 1. En la página Replicación, haga clic en **[!UICONTROL Agentes en el autor]**. Puede ver los cuatro agentes de replicación del inquilino de Brand Portal.
