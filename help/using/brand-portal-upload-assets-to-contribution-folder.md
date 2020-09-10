@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: ea7744001cfcf14cccf0e59eb2aa337ba8a3b1a2
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,44 @@ ht-degree: 0%
 
 # Carga de recursos en la carpeta de contribución {#uplad-new-assets-to-contribution-folder}
 
-Los usuarios de Brand Portal [descargan los requisitos](brand-portal-download-asset-requirements.md) de los recursos: un breve documento adjunto a la carpeta de contribución y descargue los recursos de línea de base de la carpeta **SHARED** para comprender la necesidad de la contribución.
-Los usuarios de Brand Portal pueden crear nuevos recursos para la contribución y cargarlos en la carpeta **NEW** de la carpeta de contribución.
+Los usuarios de Brand Portal pueden [descargar los requisitos](brand-portal-download-asset-requirements.md) de recursos para comprender la necesidad de contribución.
+A continuación, pueden crear nuevos recursos para contribución y cargarlos en la carpeta NEW de la carpeta de contribución.
 
 >[!NOTE]
 >
->Los usuarios de Brand Portal solo pueden cargar contenido o recursos en la carpeta **NEW** .
+>Los usuarios de Brand Portal solo pueden cargar recursos en la carpeta NEW.
 >
->El límite máximo de carga para cualquier cuenta o inquilino de Brand Portal es de **10** GB.
+>El límite máximo de carga para cualquier inquilino de Brand Portal es de **10** GB, que se aplica acumulativamente a todas las carpetas de contribución.
+
+
+Después de publicar los recursos recién creados en AEM Assets, los usuarios de Brand Portal pueden eliminarlos de la carpeta NEW. En cambio, el administrador de Brand Portal puede eliminar los recursos de las carpetas NUEVO y COMPARTIDO.
+
+Una vez alcanzado el objetivo de crear la carpeta de contribución, el administrador de Brand Portal puede eliminar la carpeta de contribución para liberar el espacio de carga para otros usuarios.
+
+>[!NOTE]
+>
+>Se recomienda liberar el espacio de carga después de publicar la carpeta de contribución en AEM Assets para que esté disponible para los demás usuarios de Brand Portal para su contribución.
+>
+>Si es necesario ampliar el límite de carga del inquilino de Brand Portal más allá de **10** GB, póngase en contacto con el servicio de asistencia técnica de Adobe para especificar el requisito.
 
 
 **Para cargar recursos nuevos:**
 
 1. Inicie sesión en la instancia de Brand Portal.
 El panel de Brand Portal refleja todas las carpetas existentes permitidas al usuario de Brand Portal junto con la carpeta de contribución recientemente compartida.
-1. Haga clic para abrir la carpeta de contribución y verá dos subcarpetas:**[!UICONTROL COMPARTIDO]** y **[!UICONTROL NUEVO]** en la carpeta de contribución.
-1. Haga clic en **[!UICONTROL NUEVA]** carpeta.
+
+1. Seleccione la carpeta de contribución y haga clic en para abrirla. La carpeta de contribución contiene dos subcarpetas: **[!UICONTROL COMPARTIDO]** y **[!UICONTROL NUEVO]**.
+
+1. Haga clic en la carpeta **[!UICONTROL NEW]** .
+
    ![](assets/upload-new-assets1.png)
-1. Haga clic en **[!UICONTROL Crear > Archivos]** ![](assets/upload.png) para cargar archivos o carpetas individuales (.zip) que contengan varios recursos.
+
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Archivos]** para cargar archivos o carpetas individuales (.zip) que contengan varios recursos.
+
    ![](assets/upload-new-assets2.png)
-1. Busque y cargue nuevos recursos (archivos/carpetas) en la carpeta **[!UICONTROL NEW]** .
+
+1. Explore y cargue recursos (archivos o carpetas) en la carpeta **[!UICONTROL NEW]** .
+
    ![](assets/upload-new-assets3.png)
 
-Una vez finalizada la carga, el usuario de Brand Portal puede volver a publicar la carpeta de contribución en AEM Assets. Consulte [Publicación de la carpeta de contribución en AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Después de cargar todos los recursos o carpetas en la carpeta NEW, publique la carpeta de contribución en AEM Assets. Consulte [Publicación de la carpeta de contribución en AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
