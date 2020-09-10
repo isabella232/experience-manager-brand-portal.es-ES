@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1521'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Este problema puede producirse cuando se ha configurado un inquilino de Brand Po
 
 **Ques. No puedo publicar recursos de AEM Assets en Brand Portal. El registro de replicación indica que se agotó el tiempo de espera de la conexión. ¿Hay una solución rápida?**
 
-**Ans.** Normalmente, la publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver el problema, asegúrese de que los agentes de replicación están configurados para evitar el tiempo de espera.
+**Ans.** Normalmente, la publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver este problema, asegúrese de que los agentes de replicación están configurados para evitar el tiempo de espera.
 
 Realice los siguientes pasos para configurar el agente de replicación:
 1. Inicie sesión en la instancia de creación de AEM Assets.
