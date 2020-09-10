@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 # Solución de problemas en la publicación paralela de Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal está configurado con AEM Assets para que los recursos de marca aprobados se transfieran (o publiquen) sin problemas desde la instancia de creación de AEM Assets. Una vez [configurados](../using/configure-aem-assets-with-brand-portal.md), el AEM Author utiliza un agente de replicación para replicar los recursos seleccionados en el servicio en la nube de Brand Portal para que los usuarios de Brand Portal puedan aprobarlos. Se utilizan varios agentes de replicación en AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 y versiones posteriores para permitir la publicación en paralelo de alta velocidad.
+Brand Portal se ha configurado con AEM Assets para que los recursos de marca aprobados se transfieran (o publiquen) sin problemas desde la instancia de creación de AEM Assets. Una vez [configurados](../using/configure-aem-assets-with-brand-portal.md), AEM Author utiliza un agente de replicación para replicar los recursos seleccionados en el servicio en la nube de Brand Portal para que los usuarios de Brand Portal puedan aprobarlos. Se utilizan varios agentes de replicación AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 y versiones posteriores para permitir la publicación en paralelo de alta velocidad.
 
 >[!NOTE]
 >
->Adobe recomienda actualizar a AEM 6.4.1.0 para garantizar que el portal de marcas de AEM Assets se configure correctamente con AEM Assets. Una limitación en AEM 6.4 produce un error al configurar AEM Assets con Brand Portal y falla la replicación.
+>Adobe recomienda actualizar a AEM 6.4.1.0 para garantizar que AEM Assets Brand Portal se configure correctamente con AEM Assets. Una limitación en AEM 6.4 produce un error al configurar AEM Assets con Brand Portal y falla la replicación.
 
-Al configurar el servicio en la nube para el portal de marca en **[!UICONTROL /etc/cloudservice]**, todos los usuarios y tokens necesarios se generan automáticamente y se guardan en el repositorio. Se crea la configuración del servicio en la nube, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Esto crea cuatro agentes de replicación. Así, cuando publica numerosos recursos de AEM en Brand Portal, estos se ponen en cola y se distribuyen entre estos agentes de replicación a través de Round Robin.
+Al configurar el servicio en la nube para el portal de marca en **[!UICONTROL /etc/cloudservice]**, todos los usuarios y tokens necesarios se generan automáticamente y se guardan en el repositorio. Se crea la configuración del servicio en la nube, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Esto crea cuatro agentes de replicación. Así que cuando publica numerosos recursos de AEM en Brand Portal, estos se ponen en cola y se distribuyen entre estos agentes de replicación a través de Round Robin.
 
 Sin embargo, la publicación puede fallar de forma intermitente debido a los grandes trabajos de sling, a la mayor cantidad de E/S **[!UICONTROL de red y]** disco en la instancia de AEM Author o al menor rendimiento de la instancia de AEM Author. Por lo tanto, se recomienda probar la conexión con los agentes de replicación antes de comenzar a publicar.
 
@@ -47,9 +47,9 @@ Si al editar repetidamente el servicio en la nube no está configurado correctam
 
 **Probar la conexión con los agentes de replicación**
 
-Registro de Vista, si se encuentran errores en el registro de replicación:
+Registro de vista, si se encuentran errores en el registro de replicación:
 
-1. Póngase en contacto con el servicio de asistencia técnica de Adobe.
+1. Póngase en contacto con la asistencia de Adobe.
 
 1. Vuelva a intentar la [limpieza](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) y cree de nuevo la configuración de publicación.
 
@@ -63,7 +63,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Limpiar las configuraciones de publicación existentes de Brand Portal {#clean-up-existing-config}
 
-La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que está publicando (por ejemplo: `mac-<tenantid>-replication` no tiene la clave privada más reciente y, por lo tanto, la publicación falla con el error &quot;401 no autorizado&quot; y no se notifica ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una nueva configuración. Para que la nueva configuración funcione correctamente, limpie lo siguiente de la configuración del autor de AEM:
+La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que está publicando (por ejemplo: `mac-<tenantid>-replication` no tiene la clave privada más reciente y, por lo tanto, la publicación falla con el error &quot;401 no autorizado&quot; y no se notifica ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una nueva configuración. Para que la nueva configuración funcione correctamente, limpie lo siguiente de AEM configuración del autor:
 
 1. Vaya a `localhost:4502/crx/de/` (teniendo en cuenta que está ejecutando la instancia de autor en localhost:4502:\
    i. eliminar `/etc/replication/agents.author/mp_replication`ii. delete 
@@ -109,7 +109,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Si un agente de replicación (que se estaba publicando en el portal de marca correctamente) detiene el procesamiento de los trabajos de publicación, compruebe los registros de replicación. AEM ha incorporado reintentos automáticos, por lo que si falla una publicación de un recurso en particular, se volverá a intentar automáticamente. Si hay algún problema intermitente, como un error de red, podría suceder durante el reintento.
+Si un agente de replicación (que se estaba publicando en el portal de marca correctamente) detiene el procesamiento de los trabajos de publicación, compruebe los registros de replicación. AEM tiene incorporado un reintento automático, por lo que si falla una publicación de un recurso en particular, se volverá a intentar automáticamente. Si hay algún problema intermitente, como un error de red, podría suceder durante el reintento.
 
 Si hay errores de publicación continuos y la cola está bloqueada, debe comprobar la conexión **[!UICONTROL de]** prueba e intentar resolver los errores que se notifican.
 
@@ -118,14 +118,12 @@ En función de los errores, se le aconseja que registre un ticket de asistencia 
 
 ## Configurar los agentes de replicación para evitar el error de tiempo de espera de conexión {#connection-timeout}
 
-**Problema**: No puedo publicar recursos de AEM Assets en Brand Portal. El registro de replicación indica que se agotó el tiempo de espera de la conexión.
-
-**Resolución**: Normalmente, la publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver el problema, asegúrese de que los agentes de replicación están configurados para evitar el tiempo de espera.
+Normalmente, el trabajo de publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver este problema, asegúrese de que los agentes de replicación están configurados para evitar el tiempo de espera.
 
 Realice los siguientes pasos para configurar el agente de replicación:
 1. Inicie sesión en la instancia de creación de AEM Assets.
 1. En el panel **Herramientas** , vaya a **[!UICONTROL Implementación]** > **[!UICONTROL Replicación]**.
-1. En la página Replicación, haga clic en **[!UICONTROL Agentes en el autor]**. Puede ver los cuatro agentes de replicación para el inquilino de Brand Portal.
+1. En la página Replicación, haga clic en **[!UICONTROL Agentes en el autor]**. Puede ver los cuatro agentes de replicación del inquilino de Brand Portal.
 1. Haga clic en la dirección URL del agente de replicación para abrir los detalles del agente.
 1. Haga clic en **[!UICONTROL Editar]** para modificar la configuración del agente de replicación.
 1. En Configuración del agente, haga clic en la ficha **[!UICONTROL Ampliado]** .
