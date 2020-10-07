@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
 workflow-type: tm+mt
-source-wordcount: '4758'
+source-wordcount: '4755'
 ht-degree: 2%
 
 ---
@@ -212,10 +212,12 @@ Los administradores ahora pueden configurar cómo se muestran las carpetas a los
 * **está desactivada**, solo se muestran en la página de aterrizaje las carpetas compartidas.
 
 ![](assets/enable-folder-hierarchy.png)
-**Caso de uso**
 
 La funcionalidad [Habilitar jerarquía](../using/brand-portal-general-configuration.md) de carpetas (cuando está habilitada) ayuda a diferenciar las carpetas con los mismos nombres compartidos de jerarquías diferentes. Al iniciar sesión, los usuarios que no son administradores ahora ven las carpetas principales virtuales (y antecesoras) de las carpetas compartidas.
-![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
+
+![](assets/disabled-folder-hierarchy1-2.png)
+
+![](assets/enabled-hierarchy1-2.png)
 
 Las carpetas compartidas están organizadas dentro de los directorios respectivos en carpetas virtuales. Puede reconocer estas carpetas virtuales con un icono de candado.
 
@@ -231,7 +233,8 @@ Tenga en cuenta que la miniatura predeterminada de las carpetas virtuales es la 
 
 * Los usuarios administradores pueden utilizar el navegador de rutas para desplazarse a cualquier directorio de carpetas de Brand Portal.
 * Los usuarios que no son administradores pueden utilizar el navegador de rutas para desplazarse únicamente a las carpetas (y volver a las carpetas principales) compartidas con ellos.
-Por ejemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` se comparte con un usuario no administrador. El usuario puede buscar recursos dentro de folderC mediante el navegador de rutas. Este usuario también puede desplazarse a la carpeta B y a la carpeta A (ya que son antecesores de la carpeta C que se comparte con el usuario).
+
+   Por ejemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` se comparte con un usuario no administrador. El usuario puede buscar recursos dentro de folderC mediante el navegador de rutas. Este usuario también puede desplazarse a la carpeta B y a la carpeta A (ya que son antecesores de la carpeta C que se comparte con el usuario).
 
 ![](assets/edit-search-form.png)
 
