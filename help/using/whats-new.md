@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '4755'
 ht-degree: 2%
@@ -41,8 +41,6 @@ Con el visor de Documento, los usuarios de Brand Portal ahora tienen las opcione
 >[!NOTE]
 >
 >La experiencia de visualización de otros formatos de documentos permanece sin cambios.
-
-
 
 ![](assets/doc-viewer.png)
 
