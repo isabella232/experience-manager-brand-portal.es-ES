@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 1%
@@ -187,20 +187,13 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 **Ans.** En AEM, los registros se mantienen cada vez que se publica una carpeta en Brand Portal. En el momento de la publicación, todos los recursos que no se publican en Brand Portal se colocan en una cola de replicación. Los recursos agregados a la carpeta después de activar el trabajo de publicación no se publican en Brand Portal. Cuando el usuario AEM publica la carpeta de nuevo, solo se publican en Brand Portal los recursos que no se publicaron anteriormente (que ya existían en la cola de replicación).
 Esto se aplica a todas las carpetas publicadas desde AEM Assets hasta Brand Portal y a las carpetas COMPARTIDAS dentro de una carpeta Contribution.
 
-
-
 **Ques. ¿Con quién puedo ponerme en contacto?**
 
 **Ans.** Póngase en contacto con el administrador de cuentas de Adobe o con la asistencia al cliente.
 
-
 >[!NOTE]
 >
 >La programación de versiones es provisional y está sujeta a cambios. Póngase en contacto con el administrador de cuentas de Adobe o con la asistencia al cliente para obtener la programación de versiones actualizada.
-
-
-
-
 
 ## Asistencia y acceso al producto (sitios restringidos) {#product-access-and-support-restricted-sites}
 
