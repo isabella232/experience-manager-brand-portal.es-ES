@@ -1,8 +1,8 @@
 ---
 title: Compartir recursos como un vínculo
 seo-title: Compartir recursos como un vínculo
-description: AEM Assets Los administradores de Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
-seo-description: AEM Assets Los administradores de Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
+description: Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
+seo-description: Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Compartir recursos como un vínculo {#share-assets-as-a-link}
 
-AEM Assets Los administradores de Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
+Los administradores de AEM Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores pueden realizar vistas y compartir solo los recursos que se comparten con ellos.
 
 El uso compartido de recursos a través de un vínculo es una forma práctica de ponerlos a disposición de terceros externos, ya que los receptores no tienen que iniciar sesión en Brand Portal para acceder a los recursos.
 
@@ -31,7 +31,6 @@ Para obtener más información, consulte [Administración de usuarios, grupos y 
 >[!NOTE]
 >
 >Se permiten hasta 5 GB de descarga zip mediante la función de uso compartido de vínculos en Brand Portal.
-
 
 A continuación se indican los pasos para compartir recursos como vínculo:
 
@@ -120,11 +119,11 @@ Para descargar los recursos compartidos:
 >
 >Brand Portal restringe la descarga de recursos de más de 5 GB por tamaño de archivo.
 
-## Compatibilidad con Previsualizaciones y miniaturas para formatos de recursos {#preview-thumbnail-support}
+## Compatibilidad con previsualizaciones y miniaturas para formatos de recursos {#preview-thumbnail-support}
 
 La siguiente matriz lista los formatos de recursos para los que Brand Portal admite miniaturas y previsualizaciones:
 
-| Formato del recurso | Compatibilidad con miniaturas | Compatibilidad con Previsualizaciones |
+| Formato del recurso | Compatibilidad con miniaturas | Compatibilidad con previsualizaciones |
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
@@ -190,7 +189,7 @@ La leyenda siguiente explica los símbolos utilizados en la matriz:
 | ✓ | Este formato de archivo admite esta función |
 | ✕ | Este formato de archivo no admite esta función |
 | ND | Esta función no se aplica a este formato de archivo |
-| * | Esta función requiere compatibilidad con complementos para este formato de archivo en la instancia de creación de AEM, pero no en Brand Portal después de publicar los recursos en Brand Portal |
+| * | Esta función requiere compatibilidad con complementos para este formato de archivo en AEM instancia de creación, pero no en Brand Portal después de publicar los recursos en Brand Portal |
 
 ## No compartir recursos compartidos como vínculo {#unshare-assets-shared-as-a-link}
 
