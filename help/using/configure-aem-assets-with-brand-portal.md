@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -32,7 +32,6 @@ Adobe Experience Manager Assets se configura con Brand Portal mediante Adobe Dev
 >
 >La configuración mediante OAuth heredado ya no se admite a partir del 6 de abril de 2020 y se cambia a la configuración mediante la consola de desarrollador de Adobe.
 
-
 >[!TIP]
 >
 >***Solo para clientes existentes***
@@ -40,7 +39,6 @@ Adobe Experience Manager Assets se configura con Brand Portal mediante Adobe Dev
 >La configuración heredada de OAuth Gateway seguirá funcionando para los clientes existentes.
 >
 >En caso de que surjan problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva mediante Adobe Developer Console.
-
 
 Los pasos para configurar AEM Assets con Brand Portal son diferentes en función de la versión AEM y de si está configurando por primera vez o actualizando las configuraciones existentes:
 
@@ -51,5 +49,3 @@ Los pasos para configurar AEM Assets con Brand Portal son diferentes en función
 | **AEM 6.4 (6.4.8.0 y posterior)** | [Crear configuración](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Configuración de actualización](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 y posterior)** | [Crear configuración](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Configuración de actualización](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Comuníquese con la asistencia técnica | Comuníquese con la asistencia técnica |
-
-
