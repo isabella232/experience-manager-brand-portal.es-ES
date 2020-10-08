@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 2%
@@ -28,7 +28,6 @@ Adobe Experience Manager Assets Brand Portal mejora la experiencia de descarga a
 >[!NOTE]
 >
 >Instale IBM Aspera Connect 3.9.9 en la extensión de su navegador antes de descargar los recursos de Brand Portal.
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >Solo los administradores pueden descargar los recursos caducados. Para obtener más información sobre los recursos caducados, consulte [Gestión de derechos digitales de los recursos](../using/manage-digital-rights-of-assets.md).
-
 
 ## Pasos para descargar recursos {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
       >
       >Brand Portal admite la configuración de Dynamic Media tanto en modo Hybird como en modo Scene 7.
       >
-      >(*Si AEM instancia de autor se está ejecutando en el modo **híbrido de medios***dinámicos)      >Para realizar la previsualización o descarga de representaciones dinámicas de un recurso, asegúrese de que el medio dinámico está activado y que la representación de tiff piramidal del recurso existe en la instancia de creación de AEM Assets desde donde se han publicado los recursos. Cuando se publica un recurso en Brand Portal, también se publica su representación de tiff piramidal.
+      >(*Si AEM instancia de autor se está ejecutando en el modo **híbrido de medios***dinámicos)
+      >
+      >Para realizar la previsualización o descarga de representaciones dinámicas de un recurso, asegúrese de que el medio dinámico está activado y que la representación de tiff piramidal del recurso existe en la instancia de creación de AEM Assets desde donde se han publicado los recursos. Cuando se publica un recurso en Brand Portal, también se publica su representación de tiff piramidal.
 
    * Para conservar la jerarquía de carpetas de Brand Portal al descargar recursos, active la casilla de verificación **[!UICONTROL Crear carpeta independiente para cada recurso]** . De forma predeterminada, se ignora la jerarquía de carpetas de Brand Portal y todos los recursos se descargan en una carpeta del sistema local.
 
@@ -179,7 +179,6 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
    >[!NOTE]
    >
    >Los recursos que se descargan de forma individual están visibles en el informe de descarga de recursos. Sin embargo, si se descarga una carpeta que contiene recursos, la carpeta y los recursos no se muestran en el informe de descarga de recursos.
-
 
 ## Rendimiento de descarga esperado {#expected-download-performance}
 
@@ -199,4 +198,3 @@ La experiencia de descarga de archivos puede variar para los usuarios en diferen
 >[!NOTE]
 >
 >Los datos citados se observan en condiciones de prueba, que pueden variar para los usuarios en distintas ubicaciones que presencian latencia y ancho de banda variados.
-
