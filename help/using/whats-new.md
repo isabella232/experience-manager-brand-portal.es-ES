@@ -1,8 +1,8 @@
 ---
 title: Novedades de AEM Assets Brand Portal
 seo-title: Novedades de AEM Assets Brand Portal
-description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.7.
-seo-description: Eche un vistazo a las nuevas funciones y mejoras de la versión 6.4.7.
+description: Eche un vistazo a las nuevas funciones y mejoras de 2020.10.0.
+seo-description: Eche un vistazo a las nuevas funciones y mejoras de 2020.10.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '5387'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,94 @@ ht-degree: 2%
 # Novedades de AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a partes externas y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Adobe está trabajando para mejorar la experiencia general de Brand Portal. A continuación, podrá echar un vistazo a las nuevas funciones y mejoras.
+
+## Qué cambió en 2020.10.0 {#what-changed-in-oct-2020}
+
+Brand Portal 2020.10.0 es una versión mejorada que se centra en simplificar la experiencia de descarga de recursos e incluye correcciones críticas. La mejora incluye un flujo de trabajo nuevo y mejorado para la descarga de recursos, opciones adicionales para excluir representaciones, descarga directa desde el panel **[!UICONTROL Representaciones]** , configuración para permitir derechos de acceso y descarga para grupos específicos de usuarios, y navegación sencilla hacia los archivos, colecciones y vínculos compartidos desde todas las páginas de Brand Portal. Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
+
+
+### Experiencia de descarga simplificada {#download-dialog}
+
+Anteriormente, el cuadro de diálogo **[!UICONTROL Descargar]** aparecía con varias opciones, como crear una carpeta independiente para cada recurso, enviar un recurso por correo electrónico, seleccionar el recurso original, las representaciones personalizadas, las representaciones dinámicas, excluir las representaciones del sistema y habilitar la aceleración de la descarga, que eran ambiguas para los usuarios nuevos o no técnicos, especialmente cuando se seleccionaban varios recursos o carpetas para la descarga. Además, el usuario no pudo ver todas las representaciones de recursos ni excluir una representación personalizada o dinámica específica.
+
+El nuevo cuadro de diálogo **[!UICONTROL Descargar]** generaliza el proceso de selección y filtrado de recursos, lo que facilita a los usuarios de Brand Portal la toma de decisiones eficaces mientras descargan las representaciones de recursos. Lista todos los recursos seleccionados y sus representaciones en función de la configuración de [**[!UICONTROL descarga]**](brand-portal-download-assets.md) y la configuración de **[!UICONTROL descarga]** .
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+En el cuadro de diálogo **[!UICONTROL Descargar]** , los usuarios pueden:
+
+* Vista todas las representaciones disponibles de cualquier recurso en la lista de descarga.
+* Excluya las representaciones de los recursos que no sean necesarias para la descarga.
+* Aplique el mismo conjunto de representaciones a todos los tipos de recursos similares con un solo clic.
+* Aplique un conjunto diferente de representaciones para distintos tipos de recursos.
+* Crear una carpeta independiente para cada recurso.
+* Descargue los recursos seleccionados y sus representaciones.
+
+El flujo de trabajo de descarga se mantiene constante para los recursos independientes, varios recursos, carpetas que contienen recursos, recursos con licencia o sin licencia y la descarga de recursos mediante el vínculo compartido.
+
+![download-dialog](assets/download-dialog-box.png)
+
+### Navegación rápida  {#quick-navigation}
+
+Anteriormente, la opción de vista de **[!UICONTROL archivos]**, **[!UICONTROL colecciones]** y vínculos **** compartidos estaba oculta y requería varios clics cada vez que el usuario deseaba cambiar a otra vista.
+
+En Brand Portal 2020.10.0, los usuarios pueden navegar a **[!UICONTROL Archivos]**, **[!UICONTROL colecciones]** y vínculos **** compartidos desde todas las páginas de Brand Portal con un solo clic mediante los vínculos de navegación rápida.
+
+![collection-navigation](assets/collection-navigation.png)
+
+### Panel de representación mejorado {#rendition-panel}
+
+Anteriormente, los usuarios solo podían realizar la vista del recurso original y sus representaciones en el panel **[!UICONTROL Representaciones]** si alguna de las representaciones **** personalizadas o **[!UICONTROL del sistema]** estaba habilitada en la configuración de **[!UICONTROL descarga]** . Además, los usuarios tuvieron que descargar todas las representaciones de recursos, ya que no había ningún filtro para excluir representaciones personalizadas o dinámicas específicas que no eran necesarias.
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+En Brand Portal 2020.10.0, los usuarios pueden excluir representaciones específicas y descargar directamente las representaciones seleccionadas del panel **[!UICONTROL Representaciones]** de la página de detalles de recursos sin tener que abrir el cuadro de diálogo **[!UICONTROL Descargar]** .
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![renditions-panel](assets/rendition-panel.png)
+
+
+### Configurar permisos de descarga {#download-permissions}
+
+Además de las configuraciones de [**[!UICONTROL descarga]**](brand-portal-download-assets.md) existentes, los administradores de Brand Portal también pueden configurar permisos para que distintos grupos de usuarios realicen vistas y (o) descarguen el recurso original y sus representaciones desde la página de detalles del recurso. Estas configuraciones definirán quién puede acceder a las representaciones de recursos y (o) descargarlas.
+
+Anteriormente, la configuración solo estaba disponible para evitar que los usuarios del grupo descargaran el recurso original.
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+La ficha **[!UICONTROL Grupos]** de la página Funciones **[!UICONTROL de]** usuario permite a los administradores configurar las opciones de vista y descarga:
+
+* Si están activadas las opciones **[!UICONTROL Descargar representaciones originales]** y **[!UICONTROL Descargar representaciones]** , los usuarios del grupo seleccionado pueden realizar vistas y descargar los recursos originales y sus representaciones.
+* Si ambas opciones de configuración están desactivadas, los usuarios solo pueden realizar la vista de los recursos originales. Las representaciones de recursos no son visibles para los usuarios en la página de detalles de recursos.
+* Si solo está activada la opción **[!UICONTROL Descargar original]** , los usuarios pueden realizar la vista y descargar solo los recursos originales desde la página de detalles del recurso.
+* Si solo está activada la opción **[!UICONTROL Descargar representaciones]** , los usuarios pueden realizar la vista del recurso original pero no pueden descargarlo. Sin embargo, el usuario puede realizar vistas y descargar las representaciones de recursos.
+
+![vista-descarga-permiso](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>Si se agrega un usuario a varios grupos y uno de ellos tiene restricciones, las restricciones se aplicarán al usuario.
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## Qué cambió en 6.4.7 {#what-changed-in-647}
 
@@ -236,7 +324,6 @@ Tenga en cuenta que la miniatura predeterminada de las carpetas virtuales es la 
 
 ![](assets/edit-search-form.png)
 
-**Caso de uso**
 
 Ahora puede restringir la búsqueda de recursos dentro de una carpeta específica a la que ha navegado, en lugar de comenzar en la carpeta raíz.
 
@@ -252,7 +339,8 @@ Los usuarios cuya instancia de AEM Author se encuentra en el modo híbrido Dynam
 
 Para permitir la previsualización y descarga de representaciones de medios dinámicos en cuentas de inquilino específicas, los administradores deben especificar la Configuración **de medios** dinámicos (URL del servicio de vídeo (URL de DM-Gateway) y el ID de registro para recuperar el vídeo dinámico) en la configuración de **vídeo** desde el panel Herramientas de administración.
 
-**Caso** de uso Los vídeos de Dynamic Media se pueden previsualizar en:
+
+Los vídeos de Dynamic Media se pueden previsualizar en:
 
 * Página de detalles del recurso
 * Vista de tarjetas del recurso
@@ -274,6 +362,7 @@ Los recursos (y las carpetas) publican el flujo de trabajo desde [AEM (6.4.2.0)]
 Del mismo modo, los recursos publicados se pueden eliminar del portal en una fecha (hora) posterior, programando el flujo de trabajo Cancelar publicación desde Brand Portal.
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -287,7 +376,7 @@ Por ejemplo, una organización con un dominio existente **geometSymmetrix.brand-
 
 Sin embargo, la instancia de AEM Author solo se puede [configurar](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) con la dirección URL de identificación del inquilino y no con la URL de alias del inquilino (alternativa).
 
-**Caso** de uso Las organizaciones pueden satisfacer sus necesidades de marca personalizando la dirección URL del portal, en lugar de atenerse a la dirección URL proporcionada por Adobe.
+Las organizaciones pueden satisfacer sus necesidades de marca personalizando la dirección URL del portal, en lugar de atenerse a la dirección URL proporcionada por Adobe.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -295,8 +384,8 @@ Sin embargo, la instancia de AEM Author solo se puede [configurar](https://helpx
 
 La versión oferta una experiencia de descarga simplificada con un número reducido de clics y advertencias, en:
 
-* optar por descargar solo las representaciones (y no los recursos originales).
-* descargar los recursos cuando se restringe el acceso a las representaciones originales.
+* Al optar por descargar solo las representaciones (y no los recursos originales).
+* Descarga de recursos cuando se restringe el acceso a las representaciones originales.
 
 ## Qué cambió en 6.4.2 {#what-changed-in-1}
 
