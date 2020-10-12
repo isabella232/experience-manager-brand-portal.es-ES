@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 1%
 
 ---
 
@@ -115,14 +115,13 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
       ![](assets/licensed-asset-download-1.png)
 
-      <!--
-     >>[!NOTE]
-     >
-     >Ensure to select all the required asset renditions while downloading them from the asset details page, and click **[!UICONTROL Download]**. The selected renditions are downloaded to your local machine.
-     > 
-     >Once you download, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the downloaded renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
-     >
-     -->
+
+      >[!NOTE]
+      >
+      >Asegúrese de seleccionar todas las representaciones de recursos necesarias mientras las descarga desde la página de detalles del recurso y haga clic en **[!UICONTROL Descargar]**. Las representaciones seleccionadas se descargan en el equipo local.
+      > 
+      >Una vez descargado, el botón **[!UICONTROL Descargar]** se desactiva para evitar la creación de copias de duplicado de las representaciones descargadas. Para descargar más (falta una u otra copia de las representaciones), actualice el explorador para volver a habilitar el botón de descarga.
+
 
       Si alguna de las representaciones **** personalizadas o la configuración de representaciones **** del sistema está habilitada en Configuración **[!UICONTROL de]** descarga, aparecerá el cuadro de diálogo **[!UICONTROL Descargar]** con la casilla de verificación **** Recursos activada de forma predeterminada. Si la configuración de Descarga **** rápida está habilitada, la casilla de verificación **[!UICONTROL Activar aceleración]** de descarga está activada de forma predeterminada.
 
