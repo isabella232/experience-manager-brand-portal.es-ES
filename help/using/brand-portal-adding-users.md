@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -223,6 +223,7 @@ Puede proporcionar el privilegio de administrador del sistema o administrador de
    >
    >Para revocar los privilegios de administrador para un usuario, realice los cambios correspondientes en la página **[!UICONTROL Editar administrador]** y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
+
 ## Administrar funciones de usuario {#manage-user-roles}
 
 Un administrador puede modificar las funciones de los usuarios en Brand Portal.
@@ -250,9 +251,11 @@ Además de la función de administrador, Brand Portal admite las siguientes func
    >
    >La lista de [!UICONTROL rol] para usuarios administradores está deshabilitada. No puede seleccionar estos usuarios para modificar sus funciones.
 
+
    >[!NOTE]
    >
    >La función de usuario también se desactiva si el usuario es miembro del grupo Editor. Para revocar los privilegios de edición del usuario, elimine el usuario del grupo Editor o cambie la función de todo el grupo a Visor.
+
 
 1. Haga clic en **[!UICONTROL Guardar.]** La función se modifica para el usuario correspondiente. Si ha seleccionado varios usuarios, las funciones de todos los usuarios se modifican simultáneamente.
 
@@ -287,8 +290,10 @@ Para modificar la función y el derecho a acceder a las representaciones origina
    >
    >Además, las restricciones para acceder a las representaciones originales de los archivos de imagen no se aplican a los administradores aunque sean miembros de grupos restringidos.
 
+
 1. Haga clic en **[!UICONTROL Guardar.]** La función se modifica para los grupos correspondientes.
 
    >[!NOTE]
    >
    >La asociación de usuario a grupo, o la pertenencia a grupo de un usuario, se sincroniza con Brand Portal cada 8 horas. Los cambios en las funciones de usuario o grupo se aplican después de ejecutar el siguiente trabajo de sincronización.
+
