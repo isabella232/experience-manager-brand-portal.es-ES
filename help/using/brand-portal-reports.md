@@ -1,15 +1,15 @@
 ---
 title: Trabajar con informes
 seo-title: Trabajar con informes
-description: Los administradores de Brand Portal de AEM Assets pueden realizar vistas en informes sobre el uso de Brand Portal y crear, administrar y vista de informes sobre los recursos descargados, caducados, publicados y compartidos a través de Brand Portal.
-seo-description: Los administradores de Brand Portal de AEM Assets pueden realizar vistas en informes sobre el uso de Brand Portal y crear, administrar y vista de informes sobre los recursos descargados, caducados, publicados y compartidos a través de Brand Portal.
+description: Los administradores de AEM Assets Brand Portal pueden crear informes de vista sobre el uso de Brand Portal y crear, administrar y vista de informes sobre los recursos descargados, caducados, publicados y compartidos a través de Brand Portal.
+seo-description: Los administradores de AEM Assets Brand Portal pueden crear informes de vista sobre el uso de Brand Portal y crear, administrar y vista de informes sobre los recursos descargados, caducados, publicados y compartidos a través de Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 2%
@@ -23,7 +23,7 @@ La función de sistema de informes es fundamental para evaluar el uso de Brand P
 
 La interfaz de administración de informes es intuitiva e incluye opciones y controles detallados para acceder a los informes guardados. Puede vista, descargar o eliminar informes desde la página Informes de recursos, donde se muestran todos los informes generados anteriormente.
 
-## Informes de Vista {#view-reports}
+## Informes de vista {#view-reports}
 
 Para vista de un informe, siga estos pasos:
 
@@ -78,7 +78,6 @@ Para vista de un informe, siga estos pasos:
    >[!NOTE]
    >
    >El informe de uso compartido de vínculos no muestra a los usuarios que tienen acceso al recurso compartido a través del vínculo o que han descargado el recurso a través del vínculo.
-   >
    >
    >Para realizar el seguimiento de descargas a través del vínculo compartido, debe generar un informe de descarga después de seleccionar la opción **[!UICONTROL Solo vínculos para compartir descargas]** en la página **[!UICONTROL Crear informe]** . Sin embargo, el usuario (descargado por) es anónimo en este caso.
 
