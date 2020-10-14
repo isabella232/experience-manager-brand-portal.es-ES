@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -29,6 +29,7 @@ A continuación, pueden crear nuevos recursos para contribución y cargarlos en 
 >
 >El límite máximo de carga para cualquier inquilino de Brand Portal es de **10** GB, que se aplica acumulativamente a todas las carpetas de contribución.
 
+
 Después de publicar los recursos recién creados en AEM Assets, los usuarios de Brand Portal pueden eliminarlos de la carpeta NEW. En cambio, el administrador de Brand Portal puede eliminar los recursos de las carpetas NUEVO y COMPARTIDO.
 
 Una vez alcanzado el objetivo de crear la carpeta de contribución, el administrador de Brand Portal puede eliminar la carpeta de contribución para liberar el espacio de carga para otros usuarios.
@@ -38,6 +39,7 @@ Una vez alcanzado el objetivo de crear la carpeta de contribución, el administr
 >Se recomienda liberar el espacio de carga después de publicar la carpeta de contribución en AEM Assets para que esté disponible para los demás usuarios de Brand Portal para su contribución.
 >
 >Si es necesario ampliar el límite de carga del inquilino de Brand Portal más allá de **10** GB, póngase en contacto con el servicio de asistencia técnica de Adobe para especificar el requisito.
+
 
 **Para cargar recursos nuevos:**
 
