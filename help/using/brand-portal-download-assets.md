@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -107,11 +107,13 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
       >
       >Si descarga los recursos por primera vez y no tiene instalado IBM Aspera Connect en su navegador, se le pedirá que instale el acelerador de descargas de Aspera.
 
+
       >[!NOTE]
       >
       >Si los recursos que está descargando también incluyen recursos con licencia, se le redirigirá a la página Administración de **[!UICONTROL derechos de autor]** . En esta página, seleccione los recursos, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si no está de acuerdo, los recursos con licencia no se descargan.
       > 
       >Los recursos protegidos por licencias tienen un contrato de [licencia adjunto](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , lo que se realiza estableciendo la propiedad [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadatos del recurso en Recursos Experience Manager.
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
       >
       >Los administradores pueden personalizar los mensajes de correo electrónico, es decir, el logotipo, la descripción y el pie de página, mediante la función [Marcas](../using/brand-portal-branding.md) .
 
+
    * Puede seleccionar un ajuste preestablecido de imagen predefinido o crear una representación dinámica personalizada desde el cuadro de diálogo **[!UICONTROL Descargar]** .
 
       Para aplicar un ajuste preestablecido de imagen [personalizado al recurso y sus representaciones](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), active la casilla de verificación Representaciones **[!UICONTROL dinámicas]** . Especifique las propiedades del ajuste preestablecido de imagen (como el tamaño, el formato, el espacio de color, la resolución y el modificador de imagen) para aplicar el ajuste preestablecido de imagen personalizado al descargar el recurso y sus representaciones. Para descargar solo las representaciones dinámicas, desactive la casilla de verificación **[!UICONTROL Recursos]** .
@@ -166,6 +169,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
       >
       >Para realizar la previsualización o descarga de representaciones dinámicas de un recurso, asegúrese de que el medio dinámico está activado y que la representación de tiff piramidal del recurso existe en la instancia de creación de AEM Assets desde donde se han publicado los recursos. Cuando se publica un recurso en Brand Portal, también se publica su representación de tiff piramidal.
 
+
    * Para conservar la jerarquía de carpetas de Brand Portal al descargar recursos, active la casilla de verificación **[!UICONTROL Crear carpeta independiente para cada recurso]** . De forma predeterminada, se ignora la jerarquía de carpetas de Brand Portal y todos los recursos se descargan en una carpeta del sistema local.
 
 1. Haga clic en **[!UICONTROL Descargar]**.
@@ -177,6 +181,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
    >[!NOTE]
    >
    >Los recursos que se descargan de forma individual están visibles en el informe de descarga de recursos. Sin embargo, si se descarga una carpeta que contiene recursos, la carpeta y los recursos no se muestran en el informe de descarga de recursos.
+
 
 ## Rendimiento de descarga esperado {#expected-download-performance}
 
@@ -193,6 +198,8 @@ La experiencia de descarga de archivos puede variar para los usuarios en diferen
 | Londres | 179 milisegundos | 0,32 MB/s | 106 minutos |
 | Singapur | 196 milisegundos | 0,5 MB/s | 68 minutos |
 
+
 >[!NOTE]
 >
 >Los datos citados se observan en condiciones de prueba, que pueden variar para los usuarios en distintas ubicaciones que presencian latencia y ancho de banda variados.
+
