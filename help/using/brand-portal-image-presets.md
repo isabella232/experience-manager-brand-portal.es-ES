@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 3%
@@ -29,6 +29,7 @@ Un ajuste preestablecido de imagen se utiliza para generar representaciones din�
 >
 >Al descargar imágenes y sus representaciones, no hay opción de elegir entre los ajustes preestablecidos existentes. En su lugar, puede especificar las propiedades de un ajuste preestablecido de imagen personalizado. Para obtener más información, consulte [Aplicación de ajustes preestablecidos de imagen al descargar imágenes](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Para obtener más información sobre los parámetros requeridos al crear ajustes preestablecidos de imagen, consulte [Administración de ajustes preestablecidos](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)de imagen.
 
 ## Creación de un ajuste preestablecido de imagen {#create-an-image-preset}
@@ -44,6 +45,7 @@ Los administradores de AEM pueden crear ajustes preestablecidos de imagen que ap
 >En cambio, si AEM instancia de autor se está ejecutando en el modo **de** Dynamic Media Scene 7, entonces existen representaciones TIFF piramidales de recursos de imagen en el servidor de Scene 7.
 >
 >Cuando estos recursos se publican en el portal de marca, se aplican ajustes preestablecidos de imagen y se muestran representaciones dinámicas.
+
 
 1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
 
