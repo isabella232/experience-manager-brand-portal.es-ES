@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 11%
+source-wordcount: '544'
+ht-degree: 10%
 
 ---
 
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * Además de las configuraciones de **[!UICONTROL descarga]** existentes, los administradores de Brand Portal también pueden configurar permisos para que distintos grupos de usuarios realicen vistas y (o) descarguen el recurso original y sus representaciones desde la página de detalles del recurso. Estas configuraciones definirán quién puede acceder a las representaciones de recursos y (o) descargarlas.
 
+### Mejoras {#enhancements}
 
-### Problemas críticos solucionados {#critical-issues-fixed}
+Esta versión incluye las siguientes mejoras:
 
-Esta versión incluye correcciones para el siguiente problema crítico:
+* El umbral de tiempo de espera de sesión para los usuarios invitados se ha reducido de 2 horas a 15 minutos.
+* La opción de páginas **[!UICONTROL de]** Vista adicionales se ha eliminado para archivos PDF de varias páginas, ya que el usuario puede realizar la vista de las páginas PDF desde el visor de Adobe Document Cloud.
 
-* Los usuarios no pueden realizar vistas de las páginas PDF si el PDF contiene subrecursos.
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### Problemas conocidos {#known-issues}
 
 Esta versión incluye el siguiente problema conocido:
 
-* Si el usuario está descargando el recurso mediante un vínculo compartido, el recurso original se descarga incluso cuando la opción **[!UICONTROL Permitir la descarga del archivo]** original está desactivada.
+* La búsqueda en los informes **[!UICONTROL de]** recursos muestra el procesamiento en la interfaz del producto sin resultados de búsqueda.
+* Las codificaciones de DM de vídeo no son visibles para los usuarios no administradores en la página de detalles de recursos.
+* La alineación del tamaño de las representaciones de recursos individuales y el tamaño total de descarga se distorsiona en el cuadro de diálogo Descargar.
 
 
 
