@@ -4,20 +4,20 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
-breadcrumb-title: Brand Portal Guide
-user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
+breadcrumb-title: Guía de Brand Portal
+user-guide-description: Utilice AEM Assets Brand Portal para satisfacer las necesidades de marketing mediante la distribución segura de activos de productos y marcas aprobados a agencias externas, socios, equipos internos y distribuidores para que puedan descargarlos.
 translation-type: tm+mt
 source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 67%
+source-wordcount: '318'
+ht-degree: 71%
 
 ---
 
 
 # Guía de Adobe Experience Manager Assets Brand Portal {#using}
 
-+ [Guía del portal de marca](using/home.md)
++ [Guía de Brand Portal](using/home.md)
 + Introducción {#introduction}
    + [Información general](using/brand-portal.md)
    + [Novedades de AEM Assets Brand Portal](using/whats-new.md)
