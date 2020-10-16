@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 2%
@@ -249,7 +249,7 @@ Una vez completada la carga en la carpeta **NEW** , los usuarios de Brand Portal
 
 La versión 6.4.4 de Brand Portal se centra en las mejoras en la búsqueda de texto y en las principales solicitudes de los clientes. Consulte las últimas notas de la versión [de Brand Portal](brand-portal-release-notes.md).
 
-### Mejoras de búsqueda {#search-enhancements}
+### Mejoras de búsqueda
 
 A partir de la versión 6.4.4 de Brand Portal, se admite la búsqueda de texto parcial en el predicado de propiedades en el panel de filtrado. Para permitir la búsqueda de texto parcial, debe habilitar la búsqueda **parcial** en el predicado de propiedades en el formulario de búsqueda.
 
