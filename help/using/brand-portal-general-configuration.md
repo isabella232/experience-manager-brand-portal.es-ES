@@ -1,8 +1,8 @@
 ---
 title: Administrar configuraciones de inquilino generales
 seo-title: Administrar configuraciones de inquilino generales
-description: Configure la aceleración de la descarga, la creación [!UICONTROL de colecciones] inteligentes públicas, la creación de [!UICONTROL colecciones] públicas y la posibilidad de que los usuarios administradores eliminen recursos de los inquilinos.
-seo-description: Configure la aceleración de la descarga, la creación [!UICONTROL de colecciones] inteligentes públicas, la creación de [!UICONTROL colecciones] públicas y la posibilidad de que los usuarios administradores eliminen recursos de los inquilinos.
+description: Configure la aceleración de la descarga, la creación de colecciones inteligentes públicas, la creación de colecciones públicas y permita a los usuarios administradores eliminar recursos en los inquilinos.
+seo-description: Configure la aceleración de la descarga, la creación de colecciones inteligentes públicas, la creación de colecciones públicas y permita a los usuarios administradores eliminar recursos en los inquilinos.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
+source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 4%
