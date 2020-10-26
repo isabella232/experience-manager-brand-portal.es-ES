@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 8881e9d171c3a4e750a906caadd8aa26f6fc0674
+source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '540'
 ht-degree: 10%
 
 ---
@@ -144,7 +144,9 @@ Para determinar qué plataformas están certificadas para ejecutarse con esta ve
 
 Estos sitios solo están disponibles para los clientes. Si es cliente y necesita acceso, póngase en contacto con el administrador de cuentas de Adobe.
 
-* [https://daycare.day.com](https://daycare.day.com)
+<!--
+* [https://daycare.day.com](https://daycare.day.com) 
+-->
 
 * [Acceso a productos](https://login.marketing.adobe.com)
 
