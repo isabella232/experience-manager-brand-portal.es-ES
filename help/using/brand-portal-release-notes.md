@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 10%
@@ -39,7 +39,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controla
 
 Esta versión incluye las siguientes nuevas funciones:
 
-* El cuadro de diálogo **[!UICONTROL Descargar]** se ha reformado en una vista de lista con opciones adicionales para excluir las representaciones que no son necesarias, aplicar el mismo conjunto de reglas para tipos de recursos similares y descargar las representaciones de recursos seleccionadas. Consulte [Pasos para descargar recursos de Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* El cuadro de diálogo **[!UICONTROL Descargar]** se ha reformado en una vista de lista con opciones adicionales para excluir las representaciones que no son necesarias, aplicar el mismo conjunto de reglas para tipos de recursos similares y descargar las representaciones de recursos seleccionadas. Consulte [los pasos para descargar recursos desde Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
