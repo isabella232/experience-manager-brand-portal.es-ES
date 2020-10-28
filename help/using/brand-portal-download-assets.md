@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1878'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal mejora la experiencia de descarga a
 
 >[!NOTE]
 >
->En Brand Portal 2020.10.0 (y versiones posteriores), el ajuste Descarga **** rápida está habilitado de forma predeterminada, que utiliza IBM Aspera Connect para la descarga acelerada de los recursos. Instale IBM Aspera Connect 3.9.9 en la extensión de su navegador antes de descargar los recursos de Brand Portal.
+>En Brand Portal 2020.10.0 (y versiones posteriores), el ajuste Descarga **** rápida está habilitado de forma predeterminada, que utiliza IBM Aspera Connect para la descarga acelerada de los recursos. Instale IBM Aspera Connect 3.9.9 en la extensión de su navegador antes de descargar los recursos de Brand Portal. Para obtener más información, consulte la [guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
 >
 >Si no desea utilizar IBM Aspera Connect y continuar con el proceso normal de descarga, póngase en contacto con el administrador de Brand Portal para desactivar la configuración de Descarga **** rápida.
 
@@ -51,8 +51,6 @@ Las opciones de configuración disponibles son:
 * **[!UICONTROL Descarga rápida]**
 
    Proporciona una descarga acelerada de los recursos mediante IBM Aspera Connect. De forma predeterminada, la opción Descarga **** rápida está activada en Configuración **[!UICONTROL de]** descarga.
-
-   Para obtener más información, consulte la [guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
 
 * **[!UICONTROL Representaciones personalizadas]**
 
