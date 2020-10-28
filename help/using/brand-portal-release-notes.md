@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '585'
 ht-degree: 10%
 
 ---
@@ -39,7 +39,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controla
 
 Esta versión incluye las siguientes nuevas funciones:
 
-* El cuadro de diálogo **[!UICONTROL Descargar]** se ha reformado en una vista de lista con opciones adicionales para excluir las representaciones que no son necesarias, aplicar el mismo conjunto de reglas para tipos de recursos similares y descargar las representaciones de recursos seleccionadas.
+* El cuadro de diálogo **[!UICONTROL Descargar]** se ha reformado en una vista de lista con opciones adicionales para excluir las representaciones que no son necesarias, aplicar el mismo conjunto de reglas para tipos de recursos similares y descargar las representaciones de recursos seleccionadas. Consulte [Pasos para descargar recursos de Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,13 +47,13 @@ Esta versión incluye las siguientes nuevas funciones:
 
 * La navegación a **[!UICONTROL archivos]**, **[!UICONTROL colecciones]** y vínculos **** compartidos ahora es posible desde todas las páginas de Brand Portal con un solo clic.
 
-* El panel **[!UICONTROL Representaciones]** de la página de detalles de recursos ahora permite a los usuarios de Brand Portal seleccionar el recurso original y (o) representaciones de recursos específicas, y descargarlos directamente desde el panel **[!UICONTROL Representaciones]** sin tener que abrir el cuadro de diálogo **[!UICONTROL Descargar]** .
+* El panel **[!UICONTROL Representaciones]** de la página de detalles de recursos ahora permite a los usuarios de Brand Portal seleccionar el recurso original y (o) representaciones de recursos específicas, y descargarlos directamente desde el panel **[!UICONTROL Representaciones]** sin tener que abrir el cuadro de diálogo **[!UICONTROL Descargar]** . Consulte [Descargar recursos de la página](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)de detalles de recursos.
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Además de las configuraciones de **[!UICONTROL descarga]** existentes, los administradores de Brand Portal también pueden configurar permisos para que distintos grupos de usuarios realicen vistas y (o) descarguen el recurso original y sus representaciones desde la página de detalles del recurso. Estas configuraciones definirán quién puede acceder a las representaciones de recursos y (o) descargarlas.
+* Además de las configuraciones de **[!UICONTROL descarga]** existentes, los administradores de Brand Portal también pueden [configurar permisos para diferentes grupos de usuarios](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) para la vista y (o) descargar el recurso original y sus representaciones desde la página de detalles del recurso. Estas configuraciones definirán quién puede acceder a las representaciones de recursos y (o) descargarlas.
 
 ### Mejoras {#enhancements}
 
