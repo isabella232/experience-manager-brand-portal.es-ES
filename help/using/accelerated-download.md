@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1107'
 ht-degree: 2%
 
 ---
@@ -35,9 +35,9 @@ La configuración de Descarga **** rápida está activada de forma predeterminad
 Para descargar los archivos más rápidamente, asegúrese de lo siguiente:
 
 * Vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Descargar]** y compruebe que la configuración de Descarga **** rápida está habilitada en Configuración **[!UICONTROL de]** descarga.
-* El puerto 33001 (TCP y UDP) está abierto en el servidor de seguridad. Para obtener más información sobre los requisitos previos, consulte la documentación [del cliente de](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
-* Instale Aspera Connect con privilegios de administrador.
-* Para obtener compatibilidad con plataformas del cliente de transferencia Aspera, consulte Matriz [de compatibilidad con plataformas](https://www.asperasoft.com/company/support/transfer-clients/)Aspera Connect.
+* Asegúrese de que el puerto 33001 (TCP y UDP) esté abierto en el servidor de seguridad. Para obtener más información sobre los requisitos previos, consulte la documentación [del cliente de](https://downloads.asperasoft.com/en/documentation/8)IBM Aspera Connect.
+* [Instale IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) en la extensión de su navegador mediante privilegios de administrador.
+* Para obtener compatibilidad con plataformas del cliente de transferencia Aspera, consulte Matriz [de soporte de plataformas de](https://www.asperasoft.com/company/support/transfer-clients/)IBM Aspera Connect.
 
 ## Descargar dominios {#download-domains}
 
