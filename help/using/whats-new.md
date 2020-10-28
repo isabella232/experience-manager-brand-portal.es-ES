@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
-ht-degree: 2%
+source-wordcount: '5471'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ En el cuadro de diálogo **[!UICONTROL Descargar]** , los usuarios pueden:
 * Crear una carpeta independiente para cada recurso.
 * Descargue los recursos seleccionados y sus representaciones.
 
-El flujo de trabajo de descarga se mantiene constante para los recursos independientes, varios recursos, carpetas que contienen recursos, recursos con licencia o sin licencia y la descarga de recursos mediante el vínculo compartido.
+El flujo de trabajo de descarga se mantiene constante para los recursos independientes, varios recursos, carpetas que contienen recursos, recursos con licencia o sin licencia y la descarga de recursos mediante el vínculo compartido. Consulte [los pasos para descargar recursos desde Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-En Brand Portal 2020.10.0, los usuarios pueden excluir representaciones específicas y [descargar directamente las representaciones seleccionadas del panel **** Representaciones](brand-portal-download-assets.md#download-assets-from-asset-details-page) de la página de detalles del recurso sin tener que abrir el cuadro de diálogo **[!UICONTROL Descargar]** .
+En Brand Portal 2020.10.0, los usuarios pueden excluir representaciones específicas y [descargar directamente las representaciones seleccionadas del panel](brand-portal-download-assets.md#download-assets-from-asset-details-page) Representaciones de la página de detalles de recursos sin tener que abrir el cuadro de diálogo **[!UICONTROL Descargar]** .
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Configurar permisos de descarga {#download-permissions}
 
-Además de las configuraciones de [**[!UICONTROL descarga]**](brand-portal-download-assets.md) existentes, los administradores de Brand Portal también pueden configurar permisos para que distintos grupos de usuarios realicen vistas y (o) descarguen el recurso original y sus representaciones desde la página de detalles del recurso.
+Además de las configuraciones de **[!UICONTROL descarga]** existentes, los administradores de Brand Portal también pueden configurar permisos para que distintos grupos de usuarios realicen vistas y (o) descarguen el recurso original y sus representaciones desde la página de detalles del recurso.
 
 Inicie sesión como administrador en el inquilino de Brand Portal y vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Usuarios]**.
 
@@ -99,6 +99,8 @@ La ficha **[!UICONTROL Grupos]** de la página Funciones **[!UICONTROL de]** usu
 * Si ambas opciones de configuración están desactivadas, los usuarios solo pueden realizar la vista de los recursos originales. Las representaciones de recursos no son visibles para los usuarios en la página de detalles de recursos.
 * Si solo está activada la opción **[!UICONTROL Descargar original]** , los usuarios pueden realizar la vista y descargar solo los recursos originales desde la página de detalles del recurso.
 * Si solo está activada la opción **[!UICONTROL Descargar representaciones]** , los usuarios pueden realizar la vista del recurso original pero no pueden descargarlo. Sin embargo, el usuario puede realizar vistas y descargar las representaciones de recursos.
+
+Consulte [Configuración de la descarga](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)de recursos.
 
 ![vista-descarga-permiso](assets/download-permissions.png)
 
