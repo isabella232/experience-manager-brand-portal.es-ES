@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 3%
 
 ---
@@ -56,7 +56,7 @@ Las opciones de configuración disponibles son:
 
    Permite descargar representaciones personalizadas y dinámicas de los recursos.
 
-   Todas las representaciones de recursos que no sean el recurso original y las representaciones generadas por el sistema se denominan representaciones personalizadas. Incluye representaciones estáticas y dinámicas disponibles para el recurso. Cualquier usuario puede crear una representación estática personalizada en AEM Assets, mientras que solo el administrador de AEM puede crear representaciones dinámicas personalizadas. Para obtener más información, consulte [cómo aplicar ajustes preestablecidos de imagen o representaciones](../using/brand-portal-image-presets.md)dinámicas.
+   Todas las representaciones de recursos que no sean el recurso original y las representaciones generadas por el sistema se denominan representaciones personalizadas. Incluye tanto representaciones estáticas como dinámicas disponibles para el recurso. Cualquier usuario puede crear una representación estática personalizada en AEM Assets, mientras que solo el administrador de AEM puede crear representaciones dinámicas personalizadas. Para obtener más información, consulte [cómo aplicar ajustes preestablecidos de imagen o representaciones](../using/brand-portal-image-presets.md)dinámicas.
 
 * **[!UICONTROL Representaciones del sistema]**
 
