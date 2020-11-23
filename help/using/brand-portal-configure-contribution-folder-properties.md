@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,9 @@ AEM administrador realiza las siguientes actividades al configurar las propiedad
 
 * **Añadir descripción**: Proporcione una descripción de alto nivel de la carpeta de contribución.
 * **Cargar resumen**:  Cargar documento de requisitos de recursos que contiene información relacionada con los recursos.
-* **Añadir colaboradores**: Añada usuarios o grupos de Brand Portal para que puedan acceder a la carpeta de contribución.
+* **Añadir colaboradores**: Añada a los usuarios de Brand Portal para que les concedan acceso a la carpeta de contribución.
 
 El requisito de recursos se refiere a los detalles proporcionados por los administradores para ayudar a los colaboradores (usuarios de Brand Portal) a comprender la necesidad y los requisitos de la carpeta de contribución. El administrador carga un documento de requisitos de recursos que contiene información sobre el tipo de recursos que se deben agregar a la carpeta de contribución y la información relacionada con los recursos, por ejemplo, el propósito, el tipo de imágenes, el tamaño máximo, etc.
-
-A continuación, el administrador puede conceder acceso a los usuarios y grupos de Brand Portal a la carpeta de contribución antes de publicar la carpeta de contribución recién creada en Brand Portal.
 
 **Para configurar las propiedades de la carpeta de contribución:**
 
@@ -53,5 +51,7 @@ A continuación, el administrador puede conceder acceso a los usuarios y grupos 
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
+>
+>Actualmente, los grupos no se pueden asignar a una carpeta de contribución.
 >
 >Los resultados de la búsqueda se basan en la lista de usuario de Brand Portal configurada en AEM Assets. Asegúrese de que dispone de la lista de usuario de Brand Portal actualizada. Consulte [Carga de la lista](brand-portal-configure-asset-sourcing.md)de usuario de Brand Portal.
