@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Publicar carpeta de contribución en Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Una vez configurada [la carpeta de](brand-portal-configure-contribution-folder-properties.md)contribución, AEM usuario (administrador/no administrador) puede publicar la carpeta de contribución de AEM Assets en Brand Portal. Los usuarios de Brand Portal que tengan permiso para acceder a la carpeta de contribución recibirán una notificación por correo electrónico o por impulso al finalizar la acción de publicación.
+Una vez configurada [la carpeta de](brand-portal-configure-contribution-folder-properties.md)contribución, AEM usuario (administrador/no administrador) puede publicar la carpeta de contribución de AEM Assets en Brand Portal. Los usuarios o grupos de Brand Portal que tengan permiso para acceder a la carpeta de contribución recibirán una notificación por correo electrónico o por impulso al finalizar la acción de publicación.
 
 **Para publicar la carpeta de contribución:**
 
