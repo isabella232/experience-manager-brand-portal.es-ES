@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,22 @@ A continuación, el administrador puede conceder acceso a los usuarios y grupos 
 
 1. Inicie sesión en la instancia de creación de AEMDirección URL predeterminada: http:// localhost:4502/aem/start.html
 1. Vaya a **[!UICONTROL Recursos > Archivos]** y busque la carpeta de contribución.
-1. Seleccione la carpeta de contribución y haga clic en **[!UICONTROL Propiedades]** ![](assets/properties.png). Se abre la ventana Propiedades de la carpeta.
+1. Seleccione la carpeta de contribución y haga clic en **[!UICONTROL Propiedades]** para abrir la ventana Propiedades de la carpeta.
+
+   ![](assets/properties.png)
+
    ![](assets/contribution-folder-property1.png)
+
 1. Vaya a la ficha Contribución **[!UICONTROL de]** recursos.
 1. Introduzca una **[!UICONTROL descripción]** de alto nivel de la carpeta de contribución.
-1. Haga clic en **[!UICONTROL Cargar resumen]** ![](assets/upload.png) para buscar en el equipo local y cargar un Documento **de requisitos** de recursos.
-1. En el campo **[!UICONTROL Añadir usuario o grupo]** , agregue usuarios de Brand Portal con los que desee compartir la carpeta de contribución. Los usuarios añadidos pueden acceder y cargar contenido en la carpeta de contribución mediante la interfaz de Brand Portal. Actualmente, no se pueden agregar grupos a una carpeta de contribución.
+1. Haga clic en **[!UICONTROL Cargar resumen]** para buscar en el equipo local y cargar un Documento **de requisitos de** recursos.
+
+   ![](assets/upload.png)
+
+1. En el campo **[!UICONTROL Añadir usuario o grupo]** , agregue usuarios de Brand Portal con los que desee compartir la carpeta de contribución. Estos usuarios pueden acceder y cargar contenido en la carpeta de contribución mediante la interfaz de Brand Portal.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
