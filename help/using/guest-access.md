@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: c2f230fabfa62768ad63d1f0952335ed8c6fd004
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Acceso de invitado a Brand Portal {#guest-access-to-brand-portal}
 
-El portal de AEM Brand permite a los invitados acceder al portal. Un usuario invitado no necesita credenciales para entrar en el portal y tiene acceso a los recursos públicos (y colecciones) del portal. Los usuarios de la sesión de invitados pueden agregar recursos a su caja de luz (colección privada) y descargarlos hasta que dure la sesión, es decir, 2 horas después del inicio de la sesión, a menos que el usuario invitado elija [[!UICONTROL Finalizar sesión]](#exit-guest-session).
+AEM portal de marca permite a los invitados acceder al portal. Un usuario invitado no necesita credenciales para entrar en el portal y tiene acceso a los recursos públicos (y colecciones) del portal. Los usuarios de la sesión de invitados pueden agregar recursos a su caja de luz (colección privada) y descargarlos hasta que dure la sesión, es decir, 2 horas después del inicio de la sesión, a menos que el usuario invitado elija [[!UICONTROL Finalizar sesión]](#exit-guest-session).
 
 La funcionalidad de acceso de invitados permite a las organizaciones compartir [rápidamente los activos](../using/brand-portal-sharing-folders.md#how-to-share-folders) aprobados con la audiencia prevista a escala sin tener que incorporarlos. A partir de la versión 6.4.2, Brand Portal está equipado para servir a varios usuarios invitados simultáneos, lo que representa el 10 % de la cuota total de usuarios por organización. Permitir el acceso de los invitados ahorra tiempo para administrar y agregar puntuaciones de usuarios que necesitan usar funcionalidades limitadas en Brand Portal.\
 Las organizaciones pueden habilitar (o deshabilitar) el acceso de invitados en la cuenta de Brand Portal de la organización mediante la opción **[!UICONTROL Permitir acceso]** de invitados desde la configuración de **[!UICONTROL Access]** en el panel de herramientas administrativas.
@@ -42,8 +42,15 @@ Para entrar en Brand Portal de forma anónima, seleccione **[!UICONTROL Haga cli
 
 ## Duración de la sesión del invitado {#guest-session-duration}
 
-Una sesión de usuario invitado permanece activa durante 2 horas. Esto significa que el estado de **[!UICONTROL Lightbox]** se conserva hasta 1 hora desde el inicio de la sesión y después de 2 horas la sesión de invitado actual se reinicia para que se pierda el estado de Lightbox.\
-Por ejemplo, un usuario invitado inicia sesión en Brand Portal a las 15.00 horas y agrega recursos a Lightbox para descargarlos a las 16.50 horas. Si el usuario no descarga la colección **[!UICONTROL Lightbox]** (o sus recursos) antes de las 17:00 horas, el **[!UICONTROL Lightbox]** quedará vacío, ya que el usuario tendrá que reiniciar la sesión al final de 1 hora (es decir, 1700 horas).
+Una sesión de usuario invitado permanece activa durante 15 minutos.
+Esto significa que el estado de **[!UICONTROL Lightbox]** se conserva durante 15 minutos desde el inicio de la sesión y, después, se reinicia la sesión de invitado actual para que se pierda el estado de Lightbox.
+
+Por ejemplo, un usuario invitado inicia sesión en Brand Portal a las 15.00 horas y agrega recursos a **[!UICONTROL Lightbox]** para descargarlos a las 15.05 horas. Si el usuario no descarga la colección **[!UICONTROL Lightbox]** (o sus recursos) antes de las 15:15 horas (en un plazo de 15 minutos desde el inicio de sesión), tendrá que reiniciar la sesión. El **[!UICONTROL Lightbox]** estará vacío, lo que significa que los recursos cargados ya no estarán disponibles si se perdió la sesión.
+
+<!--
+A guest user session remains active for 2 hours. This means that the state of the **[!UICONTROL Lightbox]** is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.  
+For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the **[!UICONTROL Lightbox]** collection (or its assets) before 17:00 hours, the **[!UICONTROL Lightbox]** will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+-->
 
 ## Sesiones de invitados simultáneas permitidas {#concurrent-guest-sessions-allowed}
 
@@ -69,7 +76,7 @@ No hay tareas de acción visibles al pasar el ratón o seleccionarlas en la Vist
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-**[!UICONTROL La opción Configuración]** de Vista permite a los usuarios invitados ajustar el tamaño de las tarjetas en la Vista **[!UICONTROL de]** tarjetas o en las columnas para que se muestren en la Vista **[!UICONTROL de]** Lista.
+**[!UICONTROL La opción Configuración]** de vista permite a los usuarios invitados ajustar el tamaño de las tarjetas en la Vista **[!UICONTROL de]** tarjetas o en las columnas para que se muestren en la Vista **[!UICONTROL de]** Lista.
 
 ![](assets/nav-guest-user.png)
 
