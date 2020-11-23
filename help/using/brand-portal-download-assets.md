@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -191,9 +191,8 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
 >[!NOTE]
 >
->Si se seleccionan más de 20 recursos para la descarga, se omite el cuadro de diálogo **[!UICONTROL Descargar]** y todas las representaciones accesibles para el usuario, excluidas las representaciones dinámicas, se descargan directamente en una carpeta zip.
->
->Se sigue el mismo comportamiento al descargar las carpetas que contienen recursos y colecciones. Las representaciones accesibles, excluidas las representaciones dinámicas, se descargan directamente en una carpeta zip.
+>Si se selecciona una carpeta, una colección o más de 20 recursos para la descarga, el cuadro de diálogo **[!UICONTROL Descargar]** se omite y todas las representaciones de recursos a las que puede acceder el usuario, excluidas las representaciones dinámicas, se descargan en una carpeta zip. Las representaciones de recursos se descargan en una carpeta independiente para cada recurso de la carpeta zip.
+
 
 >[!NOTE]
 >
