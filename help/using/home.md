@@ -12,9 +12,9 @@ ht-degree: 74%
 ---
 
 
-# Guía de Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
+# Guía del portal de marca de Adobe Experience Manager Assets {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** ayuda a las organizaciones a satisfacer sus necesidades de mercadotecnia mediante la distribución segura de los activos de marca y producto aprobados a agencias externas, socios, equipos internos y distribuidores para su descarga.
+**Adobe Experience Manager Assets Brand** Portal ayuda a las organizaciones a satisfacer sus necesidades de mercadotecnia mediante la distribución segura de los activos de marca y producto aprobados a agencias externas, socios, equipos internos y distribuidores para su descarga.
 
 Si no hay una solución segura para compartir recursos puede conllevar lo siguiente:
 
