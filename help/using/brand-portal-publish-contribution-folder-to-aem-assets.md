@@ -1,8 +1,8 @@
 ---
 title: Publicar en la carpeta Contribution en AEM Assets
 seo-title: Publicar en la carpeta Contribution en AEM Assets
-description: Obtenga información sobre cómo publicar la carpeta de contribución para AEM Assets en Brand Portal.
-seo-description: Obtenga información sobre cómo publicar la carpeta de contribución para AEM Assets en Brand Portal.
+description: Obtenga información sobre cómo publicar la carpeta de contribución en AEM Assets en Brand Portal.
+seo-description: Obtenga información sobre cómo publicar la carpeta de contribución en AEM Assets en Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Publicación de la carpeta de contribución en AEM Assets {#publish-contribution-folder-to-aem}
+# Publicar carpeta de contribución en AEM Assets {#publish-contribution-folder-to-aem}
 
 Los usuarios de Brand Portal pueden publicar la carpeta de contribución en AEM Assets sin necesidad de acceder a la instancia de creación de AEM.
 
-Asegúrese de que ha superado los requisitos [de](brand-portal-download-asset-requirements.md) recursos y de cargar los recursos recién creados en la carpeta **NEW** de la carpeta de contribución. Consulte [Carga de recursos en la carpeta](brand-portal-upload-assets-to-contribution-folder.md)de contribución.
+Asegúrese de haber pasado por los [requisitos de recursos](brand-portal-download-asset-requirements.md) y de cargar los recursos recién creados en la carpeta **NEW** dentro de la carpeta de contribución. Consulte [Carga de recursos en la carpeta de contribución](brand-portal-upload-assets-to-contribution-folder.md).
 
 **Para publicar la carpeta de contribución:**
 
@@ -38,6 +38,6 @@ Asegúrese de que ha superado los requisitos [de](brand-portal-download-asset-re
 Se envía una notificación por correo electrónico o por impulso al usuario y a los administradores de Brand Portal en las distintas etapas del flujo de trabajo de publicación:
 1. **En cola** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando se activa un flujo de trabajo de publicación en Brand Portal.
 
-1. **Finalizado** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando la carpeta de contribución se publica correctamente para los AEM Assets.
+1. **Completa** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando la carpeta de contribución se publica correctamente en AEM Assets.
 
 
