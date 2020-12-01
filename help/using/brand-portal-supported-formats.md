@@ -21,71 +21,71 @@ ht-degree: 47%
 
 Cada AEM Assets Brand Portal admite formatos de archivo específicos, como se indica en la matriz.
 
-| Formato de archivo | Recursos publicados en Brand Portal | Representaciones publicadas en Brand Portal | Metadatos publicados en Brand Portal | Miniaturas publicadas en Brand Portal | Páginas de detalles de recursos publicadas en Brand Portal | Vínculos compartidos | Vínculo de miniaturas de uso compartido | previsualizaciones de uso compartido de vínculos |
+| Formato de archivo | Recursos publicados en Brand Portal | Representaciones publicadas en Brand Portal | Metadatos publicados en Brand Portal | Miniaturas publicadas en Brand Portal | Páginas de detalles de recursos publicadas en Brand Portal | Vínculos compartidos | Vínculo de miniaturas de uso compartido | Previsualizaciones de uso compartido de vínculos |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
-| PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Tiff | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| JPEG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| BMP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PNM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PGM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PBM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PPM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PSD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| EPS | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| AI | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| DOC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| DOCX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| ODT* | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| HTML | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| RTF | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| TXT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| XLS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| XLSX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| ODS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| PPT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PPTX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| ODP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| QXP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| AAC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| MIDI | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| 3GP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| MP3 | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| Mp4 | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| Mpg | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| OGA | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| OGG | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| RA | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| WAV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| WMA | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| DVI | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| FLV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| M4V | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| MPG | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| OGV | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| MOV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| WMV | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| SWF | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| TGZ | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| JAR | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
-| RAR | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| TAR | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| Código postal | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
+| PNG | xib | xib | xib | xib | xib | xib | xib | xib |
+| GIF | xib | xib | xib | xib | xib | xib | xib | xib |
+| Tiff | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| JPEG | xib | xib | xib | xib | xib | xib | xib | xib |
+| BMP | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| PNM* | xib | ND | xib | ND | ND | xib | ND | ND |
+| PGM* | xib | ND | xib | ND | ND | xib | ND | ND |
+| PBM* | xib | ND | xib | ND | ND | xib | ND | ND |
+| PPM* | xib | ND | xib | ND | ND | xib | ND | ND |
+| PSD | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| EPS | xib | ND | xib | ND | ND | xib | ND | ☐ |
+| DNG | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| PICT | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| PSB* | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| JPG | xib | xib | xib | xib | xib | xib | xib | xib |
+| AI | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| DOC | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| DOCX | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| ODT* | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| PDF | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| HTML | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| RTF | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| TXT | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| XLS | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| XLSX | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| ODS | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| PPT | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| PPTX | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| ODP | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| INDD | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| PS | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| QXP | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| EPUB | xib | xib | xib | xib | xib | xib | xib | ☐ |
+| AAC | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| MIDI | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| 3GP | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| MP3 | xib | ND | xib | ND | ☐ | xib | ☐ | ☐ |
+| Mp4 | xib | ND | xib | ND | xib | xib | ☐ | ☐ |
+| Mpg | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| OGA | xib | ND | xib | ND | ☐ | xib | ☐ | ☐ |
+| OGG | xib | ND | xib | ND | xib | xib | ☐ | ☐ |
+| RA | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| WAV | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| WMA | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| DVI | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| FLV | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| M4V | xib | ND | xib | ND | ☐ | xib | ☐ | ☐ |
+| MPG | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| OGV | xib | ND | xib | ND | xib | xib | ☐ | ☐ |
+| MOV | xib | ND | xib | ND | ND | xib | ☐ | ☐ |
+| WMV | xib | ND | xib | ND | ☐ | xib | ☐ | ☐ |
+| SWF | xib | ND | xib | ND | xib | xib | ☐ | ☐ |
+| TGZ | xib | ND | xib | ND | ND | xib | ND | ☐ |
+| JAR | xib | xib | xib | xib | ND | xib | xib | ☐ |
+| RAR | xib | ND | xib | ND | ND | xib | ND | ☐ |
+| TAR | xib | ND | xib | ND | ND | xib | ND | ☐ |
+| Código postal | xib | xib | xib | xib | ND | xib | xib | ☐ |
 
 La leyenda siguiente explica los símbolos utilizados en la matriz:
 
 | Símbolo | Significado |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | Este formato de archivo admite esta función. |
-| ✕ | Este formato de archivo no admite esta función. |
+| xib | Este formato de archivo admite esta función. |
+| ☐ | Este formato de archivo no admite esta función. |
 | ND | Esta función no se aplica a este formato de archivo. |
-| * | Esta función requiere compatibilidad con complementos para este formato de archivo en la instancia de creación de AEM, pero no en Brand Portal después de publicar los recursos en Brand Portal. |
+| * | Esta función requiere compatibilidad con complementos para este formato de archivo en AEM instancia de creación, pero no en Brand Portal después de publicar los recursos en Brand Portal. |
