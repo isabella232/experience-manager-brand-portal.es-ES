@@ -15,7 +15,7 @@ ht-degree: 71%
 ---
 
 
-# Guía de Adobe Experience Manager Assets Brand Portal {#using}
+# Guía del portal de marca de Adobe Experience Manager Assets {#using}
 
 + [Guía de Brand Portal](using/home.md)
 + Introducción {#introduction}
