@@ -1,6 +1,6 @@
 ---
 title: Buscar recursos en Brand Portal
-seo-title: Búsqueda de recursos y búsqueda guardada en AEM Brand Portal
+seo-title: Búsqueda de recursos y búsqueda guardada en AEM portal de marca
 description: La función de búsqueda de Brand Portal le permite buscar rápidamente recursos relevantes mediante la búsqueda por omnidirección, y los filtros de búsqueda le ayudan a reducir aún más la búsqueda. Guarde sus búsquedas como colecciones inteligentes para el futuro.
 seo-description: La función de búsqueda de Brand Portal le permite buscar rápidamente recursos relevantes mediante la búsqueda por omnidirección, y los filtros de búsqueda le ayudan a reducir aún más la búsqueda. Guarde sus búsquedas como colecciones inteligentes para el futuro.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
@@ -26,7 +26,7 @@ La función de búsqueda de Brand Portal le permite buscar rápidamente en los r
 
 Para buscar recursos en Brand Portal:
 
-1. En la barra de herramientas, haga clic en el icono **[!UICONTROL Buscar]** o presione la tecla &quot;**[!UICONTROL /]**&quot; para iniciar Omniture Search.
+1. En la barra de herramientas, haga clic en el icono **[!UICONTROL Buscar]** o presione la tecla &quot;**[!UICONTROL /]**&quot; para iniciar Omnisearch.
 
    ![](assets/omnisearchicon-1.png)
 
@@ -44,19 +44,19 @@ Para buscar recursos en Brand Portal:
 
    *Búsqueda de recursos mediante omnisearch*
 
-Para obtener información sobre el comportamiento de búsqueda con recursos con etiquetas inteligentes, consulte [Comprender los resultados y el comportamiento](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)de la búsqueda.
+Para obtener información sobre el comportamiento de búsqueda con activos con etiquetas inteligentes, consulte [comprender los resultados y el comportamiento de la búsqueda](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
 
-## Búsqueda mediante facetas en el panel Filtros {#search-using-facets-in-filters-panel}
+## Buscar con facetas en el panel Filtros {#search-using-facets-in-filters-panel}
 
 Las facetas de búsqueda del panel Filtros agregan granularidad a la experiencia de búsqueda y hacen que la funcionalidad de búsqueda sea eficiente. Las facetas de búsqueda utilizan varias dimensiones (predicados) que le permiten realizar búsquedas intrincadas. Puede desplazarse fácilmente hasta el nivel de detalle deseado para una búsqueda más enfocada.
 
 Por ejemplo, si busca una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el alcance de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo. Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, PDF o MS Word.<br />
 
-![Panel Filtros en el](assets/file-type-search.png "portal de marcasPanel Filtros en el portal de marcas")
+![Panel filtros en el ](assets/file-type-search.png "portal de marcasPanel Filtros en el portal de marcas")
 
-El panel **[!UICONTROL Filtros]** incluye algunas facetas estándar, como: Navegador **[!UICONTROL de]** rutas, Tipo **[!UICONTROL de]** archivo, Tamaño **** de archivo, **[!UICONTROL Estado]****** y Orientación. Sin embargo, puede [agregar facetas](../using/brand-portal-search-facets.md) de búsqueda personalizadas o quitar facetas de búsqueda específicas del panel **[!UICONTROL Filtros]** agregando o eliminando predicados en el formulario de búsqueda subyacente. Consulte la lista de los predicados de [búsqueda disponibles y utilizables en Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+El panel **[!UICONTROL Filtros]** incluye algunas facetas estándar, como: **[!UICONTROL Explorador de rutas]**, **[!UICONTROL Tipo de archivo]**, **[!UICONTROL Tamaño de archivo]**, **[!UICONTROL Estado]** y **[!UICONTROL Orientación]**. Sin embargo, puede [agregar facetas de búsqueda personalizadas](../using/brand-portal-search-facets.md) o quitar facetas de búsqueda específicas del panel **[!UICONTROL Filtros]** agregando o eliminando predicados en el formulario de búsqueda subyacente. Consulte la lista de los [predicados de búsqueda disponibles y utilizables en Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-Para aplicar filtros a la búsqueda, utilice las facetas [de](../using/brand-portal-search-facets.md)búsqueda disponibles:
+Para aplicar filtros a la búsqueda, utilice las facetas de búsqueda [disponibles](../using/brand-portal-search-facets.md):
 
 1. Haga clic en el icono de superposición y seleccione **[!UICONTROL Filtro]**.
 
@@ -65,40 +65,41 @@ Para aplicar filtros a la búsqueda, utilice las facetas [de](../using/brand-por
 1. En el panel **[!UICONTROL Filtros]** de la izquierda, seleccione las opciones adecuadas para aplicar los filtros relevantes.
 Por ejemplo, utilice los siguientes filtros estándar:
 
-   * **[!UICONTROL Navegador]** de rutas para buscar recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado para el Explorador de rutas es `/content/dam/mac/<tenant-id>/`, que se puede configurar editando el formulario de búsqueda predeterminado.
+   * **[!UICONTROL Path]** Browserpara buscar recursos en un directorio específico. La ruta de búsqueda predeterminada del predicado para el Explorador de rutas es `/content/dam/mac/<tenant-id>/`, que se puede configurar editando el formulario de búsqueda predeterminado.
    >[!NOTE]
    >
-   >Para los usuarios que no son administradores, el [!UICONTROL navegador] de rutas del panel [!UICONTROL Filtro] muestra únicamente la estructura de contenido de las carpetas (y sus carpetas antecesoras) compartidas con ellos.\
+   >Para los usuarios que no son administradores, [!UICONTROL Path Browser] en el panel [!UICONTROL Filter] muestra únicamente la estructura de contenido de las carpetas (y sus carpetas antecesoras) compartidas con ellas.\
    >Para administrar usuarios, el navegador de rutas permite desplazarse a cualquier carpeta de Brand Portal.
 
    * **[!UICONTROL Tipo]** de archivo para especificar el tipo (imagen, documento, multimedia, archivo) del archivo de recurso que está buscando. Además, puede reducir el ámbito de la búsqueda, por ejemplo, especificar el tipo MIME (Tiff, Bitmap, GIMP Images) para la imagen o el formato (PDF o MS Word) de los documentos.
-   * **[!UICONTROL Tamaño]** de archivo para buscar recursos según su tamaño. Puede especificar los límites inferior y superior del intervalo de tamaño para reducir la búsqueda y especificar la unidad de medida que desea buscar.
-   * **[!UICONTROL Estado]** para buscar recursos en función de estados de recursos, como Aprobación (aprobada, cambios solicitados, Rechazada, pendiente) y Caducidad.
-   * **[!UICONTROL Clasificación]** promedio para buscar recursos en función de la clasificación de los recursos.
-   * **[!UICONTROL Orientación]** para buscar recursos en función de la orientación (horizontal, vertical, cuadrada) de los recursos.
-   * **[!UICONTROL Estilo]** para buscar recursos en función del estilo (coloreado, monocromo) de los recursos.
-   * **[!UICONTROL Formato]** de vídeo para buscar recursos de vídeo en función de su formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
+   * **[!UICONTROL Archivo]** Sizeto para buscar recursos en función de su tamaño. Puede especificar los límites inferior y superior del intervalo de tamaño para reducir la búsqueda y especificar la unidad de medida que desea buscar.
+   * **[!UICONTROL El estado]** busca recursos en función de estados de recursos, como Aprobación (aprobada, cambios solicitados, Rechazada, pendiente) y Caducidad.
+   * **[!UICONTROL Clasificación promedio]** para buscar recursos en función de la clasificación de los recursos.
+   * **** Orientación para buscar recursos en función de la orientación (horizontal, vertical, cuadrada) de los recursos.
+   * **** Estilo para buscar recursos en función del estilo (de color, monocromo) de los recursos.
+   * **[!UICONTROL Formato de]** vídeo para buscar recursos de vídeo en función de su formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
 
-   Puede utilizar facetas [de búsqueda](../using/brand-portal-search-facets.md) personalizadas en el panel Filtros editando el formulario de búsqueda subyacente.
+   Puede utilizar [facetas de búsqueda personalizadas](../using/brand-portal-search-facets.md) en el panel Filtros editando el formulario de búsqueda subyacente.
 
-   * **[!UICONTROL El predicado]** de propiedades, si se utiliza en el formulario de búsqueda, permite buscar recursos que coincidan con una propiedad de metadatos a la que se asigna el predicado.\
+   * **[!UICONTROL El]** predicado de propiedades, si se utiliza en el formulario de búsqueda, permite buscar recursos que coincidan con una propiedad de metadatos a la que se asigna el predicado.\
       Por ejemplo, si el predicado de propiedades está asignado a [!UICONTROL `jcr:content /metadata/dc:title`], puede buscar recursos en función de su título.\
-      El predicado [!UICONTROL de propiedades] admite búsquedas de texto para:
+      El [!UICONTROL predicado de propiedades] admite búsquedas de texto para:
 
       **Frases parciales** Para permitir la búsqueda de recursos utilizando frases parciales en el predicado de propiedad, habilite la casilla **[!UICONTROL Búsqueda parcial]** en el formulario de búsqueda.\
       Esto le permite buscar los recursos deseados aunque no especifique las palabras o frases exactas utilizadas en los metadatos del recurso.\
       Puede hacer lo siguiente:
-      * Especifique una palabra que aparezca en la frase buscada en la faceta del panel Filtros. For example, if you search for the term **climb** (and Property Predicate is mapped to [!UICONTROL `dc:title`] property), then all the assets with the word **climb** in their title phrase are returned.
+      * Especifique una palabra que aparezca en la frase buscada en la faceta del panel Filtros. Por ejemplo, si busca el término **escalar** (y el predicado de propiedades está asignado a la propiedad [!UICONTROL `dc:title`]), se devuelven todos los recursos con la palabra **escalar** en su frase de título.
       * Especificar una parte de la palabra que aparece en la frase buscada, junto con el carácter comodín (*) para rellenar los huecos.
 Por ejemplo, buscar:
          * **escalar*** devuelve todos los recursos que tienen palabras que comienzan con los caracteres &quot;escalar&quot; en la frase de título.
-         * ***escalar** devuelve todos los recursos que tienen palabras que finalizan con caracteres &quot;escalar&quot; en la frase de título.
+         * ***** escalar devuelve todos los recursos que tienen palabras que finalizan con caracteres &quot;escalar&quot; en la frase de título.
          * ***escalar*** devuelve todos los recursos que tienen palabras que incluyen los caracteres &quot;escalar&quot; en la frase de título.
 
-Para permitir la búsqueda sin distinción de mayúsculas y minúsculas en el predicado de propiedades, habilite la variable       **Texto** que no distingue entre mayúsculas y minúsculas Para permitir la búsqueda que no distingue entre mayúsculas y minúsculas en el predicado de propiedades, active la casilla de verificación **[!UICONTROL Ignorar mayúsculas y minúsculas]** en el formulario de búsqueda. De forma predeterminada, la búsqueda de texto en el predicado de propiedades distingue entre mayúsculas y minúsculas.
+Para permitir la búsqueda sin distinción de mayúsculas y minúsculas en el predicado de propiedades, habilite la variable       **Texto que no distingue entre mayúsculas y minúsculasPara permitir la búsqueda que no distingue entre mayúsculas y minúsculas en el predicado de propiedades, habilite el**
+cuadro  **[!UICONTROL Ignorar]** Casecheckbox en el formulario de búsqueda. De forma predeterminada, la búsqueda de texto en el predicado de propiedades distingue entre mayúsculas y minúsculas.
    >[!NOTE]
    >
-   >Al seleccionar la casilla de verificación Búsqueda **** parcial, se selecciona **[!UICONTROL Omitir caso]** de forma predeterminada.
+   >Al seleccionar la casilla de verificación **[!UICONTROL Búsqueda parcial]**, **[!UICONTROL Omitir caso]** está seleccionado de forma predeterminada.
 
    ![](assets/wildcard-prop-1.png)
 
@@ -110,26 +111,26 @@ Para permitir la búsqueda sin distinción de mayúsculas y minúsculas en el pr
 
 1. Puede desplazarse fácilmente a un elemento desde el resultado de la búsqueda y volver al mismo resultado de búsqueda utilizando el botón Atrás en el explorador sin tener que volver a ejecutar la consulta de búsqueda.
 
-## Guardar las búsquedas como colección inteligente {#save-your-searches-as-smart-collection}
+## Guarde las búsquedas como una colección inteligente {#save-your-searches-as-smart-collection}
 
 Puede guardar la configuración de búsqueda como una colección inteligente para poder repetir rápidamente la misma búsqueda sin tener que rehacer la misma configuración más tarde.
 
 Para guardar la configuración de búsqueda como una colección inteligente:
 
-1. Toque o haga clic en **[!UICONTROL Guardar colección]** inteligente y proporcione un nombre para la colección inteligente.
+1. Toque o haga clic en **[!UICONTROL Guardar colección inteligente]** y proporcione un nombre para la colección inteligente.
 
    Para que la colección inteligente sea accesible para todos los usuarios, seleccione **[!UICONTROL Público]**. Un mensaje confirma que la colección inteligente se creó y se agregó a la lista de las búsquedas guardadas.
 
    >[!NOTE]
    >
-   >Los usuarios que no son administradores no pueden hacer públicas las colecciones inteligentes, para evitar tener un gran número de colecciones inteligentes públicas creadas por usuarios que no son administradores en el portal de marcas de la organización. Las organizaciones pueden desactivar la configuración **[!UICONTROL Permitir la creación]** de colecciones inteligentes públicas desde la configuración **[!UICONTROL General]** disponible en el panel Herramientas de administración.
+   >Los usuarios que no son administradores no pueden hacer públicas las colecciones inteligentes, para evitar tener un gran número de colecciones inteligentes públicas creadas por usuarios que no son administradores en el portal de marcas de la organización. Las organizaciones pueden desactivar la configuración **[!UICONTROL Permitir la creación de colecciones inteligentes públicas]** desde la configuración **[!UICONTROL General]** disponible en el panel Herramientas de administración.
 
    ![](assets/save_smartcollectionui.png)
 
-1. Para guardar la colección inteligente con un nombre diferente y seleccionar o borrar la casilla **[!UICONTROL Público]** , haga clic en **[!UICONTROL Editar colección]** inteligente.
+1. Para guardar la colección inteligente con un nombre diferente y seleccionar o borrar la casilla **[!UICONTROL Public]**, haga clic en **[!UICONTROL Editar colección inteligente]**.
 
    ![](assets/edit_smartcollection.png)
 
-1. En el cuadro de diálogo **[!UICONTROL Editar colección]** inteligente, seleccione **[!UICONTROL Guardar como]** e introduzca un nombre para la colección inteligente. Haga clic en **[!UICONTROL Guardar]**.
+1. En el cuadro de diálogo **[!UICONTROL Editar colección inteligente]**, seleccione **[!UICONTROL Guardar como]** e introduzca un nombre para la colección inteligente. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/saveas_smartsearch.png)
