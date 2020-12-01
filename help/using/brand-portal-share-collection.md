@@ -20,25 +20,25 @@ ht-degree: 1%
 
 # Compartir colecciones {#share-collections}
 
-Una colección representa un grupo de recursos relacionados almacenados juntos en Adobe Experience Manager Assets Brand Portal. Los usuarios pueden crear colecciones inteligentes mediante la [aplicación de búsquedas de omnisearch o facetas para filtrar los recursos](brand-portal-searching.md) relacionados y almacenarlos juntos para facilitar el acceso y compartirlos con otros usuarios de Brand Portal.
+Una colección representa un grupo de recursos relacionados almacenados juntos en Adobe Experience Manager Assets Brand Portal. Los usuarios pueden crear colecciones inteligentes [aplicando omnisearch o facet search para filtrar los recursos relacionados](brand-portal-searching.md) y almacenarlos juntos para facilitar el acceso y compartirlos con otros usuarios de Brand Portal.
 
 Los administradores pueden compartir y dejar de compartir una colección con los usuarios autorizados de Brand Portal. Los editores y visores pueden realizar vistas y compartir las colecciones creadas por ellos, compartidas con ellos y las colecciones públicas.
 
 >[!NOTE]
 >
->Los editores no pueden cambiar una colección pública a una colección no pública y, por lo tanto, no tienen la casilla de verificación Colección **** pública disponible en el cuadro de diálogo Configuración **[!UICONTROL de]** colección.
+>Los editores no pueden cambiar una colección pública a una colección no pública y, por lo tanto, no tienen la casilla de verificación **[!UICONTROL Colección pública]** disponible en el cuadro de diálogo **[!UICONTROL Configuración de colección]**.
 
 ## Compartir una colección {#share-collection}
 
 A continuación se indican los pasos para compartir una colección con los usuarios autorizados de Brand Portal:
 
-1. Inicie sesión en el inquilino de Brand Portal. De forma predeterminada, se abre la vista **[!UICONTROL Archivos]** , que contiene todos los recursos y carpetas publicados.
+1. Inicie sesión en el inquilino de Brand Portal. De forma predeterminada, se abre la vista **[!UICONTROL Archivos]**, que contiene todos los recursos y carpetas publicados.
 
 1. En las navegaciones rápidas de la parte superior, haga clic en **[!UICONTROL Colecciones]**.
 
-1. Desde la consola **[!UICONTROL Colecciones]** , realice una de las siguientes acciones:
+1. Desde la consola **[!UICONTROL Collections]**, realice una de las siguientes acciones:
 
-   * Pase el puntero sobre la colección que desee compartir. En las miniaturas de acción rápida disponibles para la colección, haga clic en el icono **[!UICONTROL Configuración]** .
+   * Pase el puntero sobre la colección que desee compartir. En las miniaturas de acción rápida disponibles para la colección, haga clic en el icono **[!UICONTROL Configuración]**.
 
       ![](assets/settings-icon.png)
 
@@ -46,17 +46,17 @@ A continuación se indican los pasos para compartir una colección con los usuar
 
       ![](assets/collection-console.png)
 
-1. En el cuadro de diálogo Configuración **[!UICONTROL de]** colección, seleccione los usuarios con los que desea compartir la colección y seleccione la función que el usuario debe desempeñar para que coincida con su función global. Por ejemplo, asigne la función de editor a un editor global, la función de visor a un visor global.
+1. En el cuadro de diálogo **[!UICONTROL Configuración de la colección]**, seleccione los usuarios con los que desea compartir la colección y seleccione la función que el usuario debe desempeñar para que coincida con su función global. Por ejemplo, asigne la función de editor a un editor global, la función de visor a un visor global.
 
-   Como alternativa, para que la colección esté disponible para todos los usuarios, independientemente de su pertenencia a grupos y función, haga que se haga pública activando la casilla de verificación Colección **** pública.
+   Como alternativa, para que la colección esté disponible para todos los usuarios independientemente de la pertenencia y función del grupo, haga que se haga pública al seleccionar la casilla de verificación **[!UICONTROL Colección pública]**.
 
    >[!NOTE]
    >
-   >Sin embargo, los usuarios que no son administradores no pueden crear colecciones públicas para evitar tener muchas colecciones públicas y así poder guardar el espacio del sistema. Las organizaciones pueden desactivar la configuración **[!UICONTROL Permitir la creación]** de colecciones públicas desde la configuración **[!UICONTROL General]** disponible en el panel Herramientas de administración.
+   >Sin embargo, los usuarios que no son administradores no pueden crear colecciones públicas para evitar tener muchas colecciones públicas y así poder guardar el espacio del sistema. Las organizaciones pueden desactivar la configuración **[!UICONTROL Permitir la creación de colecciones públicas]** desde la configuración **[!UICONTROL General]** disponible en el panel Herramientas de administración.
 
    ![](assets/collection_sharingadduser.png)
 
-   Los editores no pueden cambiar una colección pública a una colección no pública y, por lo tanto, no tienen la casilla de verificación Colección **** pública disponible en el cuadro de diálogo Configuración **[!UICONTROL de]** colección.
+   Los editores no pueden cambiar una colección pública a una colección no pública y, por lo tanto, no tienen la casilla de verificación **[!UICONTROL Colección pública]** disponible en el cuadro de diálogo **[!UICONTROL Configuración de colección]**.
 
    ![](assets/collection-setting-editor.png)
 
@@ -70,13 +70,13 @@ A continuación se indican los pasos para compartir una colección con los usuar
 
 Para dejar de compartir una colección compartida anteriormente, haga lo siguiente:
 
-1. En la consola **[!UICONTROL Colecciones]** , seleccione la colección que desee dejar de compartir.
+1. En la consola **[!UICONTROL Colecciones]**, seleccione la colección que desee dejar de compartir.
 
    En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Configuración]**.
 
    ![](assets/collection_settings.png)
 
-1. En el cuadro de diálogo Configuración **[!UICONTROL de]** colección, en la sección **[!UICONTROL Miembros]** , haga clic en el símbolo **[!UICONTROL x]** junto a los usuarios para quitarlos de la lista de usuarios que tengan acceso a la colección.
+1. En el cuadro de diálogo **[!UICONTROL Configuración de la colección]**, en la sección **[!UICONTROL Miembros]**, haga clic en el símbolo **[!UICONTROL x]** junto a los usuarios para quitarlos de la lista de usuarios que tengan acceso a la colección.
 
    ![](assets/unshare_collection.png)
 
