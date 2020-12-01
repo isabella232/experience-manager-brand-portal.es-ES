@@ -27,40 +27,40 @@ AEM Assets Brand Portal permite a las organizaciones configurar las siguientes c
 * Creación de colecciones inteligentes públicas por usuarios no administradores
 * Jerarquía principal de carpetas compartidas visible para usuarios no administradores
 
-Estas configuraciones se han proporcionado como configuraciones de Configuración **** general en el panel de herramientas administrativas.
+Estas configuraciones se han proporcionado como **[!UICONTROL configuraciones generales]** en el panel de herramientas administrativas.
 
 ![](assets/general-config.png)
 
-**Una** configuración que permite a los administradores eliminar recursos de Brand Portal. (El valor predeterminado está habilitado)
+**Configuración**   de CA para permitir a los administradores eliminar recursos de Brand Portal. (El valor predeterminado está habilitado)
 
-**Configuración B** para permitir que los usuarios no administradores creen colecciones públicas. (El valor predeterminado está habilitado)
+****   BConfiguration para permitir que los usuarios no administradores creen colecciones públicas. (El valor predeterminado está habilitado)
 
-**Configuración de C** para permitir que los usuarios no administradores creen colecciones inteligentes públicas. (El valor predeterminado está habilitado)
+****   Configuración para permitir que los usuarios no administradores creen colecciones inteligentes públicas. (El valor predeterminado está habilitado)
 
-**D** Configuración para mostrar la jerarquía de carpetas (desde la raíz) de las carpetas compartidas a usuarios no administradores (editores, visores, usuarios invitados). (El valor predeterminado está desactivado)
+****  Configuración de DC para mostrar la jerarquía de carpetas (desde la raíz) de las carpetas compartidas a usuarios no administradores (editores, visores, usuarios invitados). (El valor predeterminado está desactivado)
 
-## Habilitar o deshabilitar configuraciones generales {#enable-disable-general-configurations}
+## Habilitar/deshabilitar configuraciones generales {#enable-disable-general-configurations}
 
 Para habilitar/deshabilitar cada una de estas configuraciones:
 
 1. Inicie sesión con privilegios de administrador.
 1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
-1. En el panel Herramientas administrativas, seleccione **[!UICONTROL General]** para abrir la página Configuración **** general.
+1. En el panel Herramientas administrativas, seleccione **[!UICONTROL General]** para abrir la página **[!UICONTROL Configuración general]**.
 1. Utilice el conmutador correspondiente para habilitar o deshabilitar cualquiera de las configuraciones generales.
 1. **[!UICONTROL Guarde los cambios.]**
 1. Cierre la sesión para que los cambios surtan efecto.
 
 ## Permitir que los usuarios administradores eliminen recursos de Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL Permitir que los usuarios eliminen]** la configuración permite a las organizaciones permitir (o restringir) a los usuarios con privilegios de administrador eliminar recursos y carpetas de Brand Portal.
+**[!UICONTROL Permitir que los usuarios]** eliminen la configuración permite a las organizaciones permitir (o restringir) que los usuarios con privilegios de administrador eliminen recursos y carpetas de Brand Portal.
 
 ## Permitir la creación de colecciones públicas por usuarios que no sean administradores {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Permitir la configuración de creación]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) de colecciones públicas controla si los no administradores pueden crear colecciones públicas en Brand Portal. La configuración está habilitada de forma predeterminada. Al desactivar las organizaciones de configuración, se puede evitar tener numerosas colecciones públicas en el portal para que se pueda guardar el espacio del sistema.
+[[!UICONTROL Permitir la ]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) creación de colecciones públicas La configuración controla si los no administradores pueden crear colecciones públicas en Brand Portal. La configuración está habilitada de forma predeterminada. Al desactivar las organizaciones de configuración, se puede evitar tener numerosas colecciones públicas en el portal para que se pueda guardar el espacio del sistema.
 
 ## Permitir la creación de colecciones inteligentes públicas por usuarios que no sean administradores {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Permitir la configuración de creación]](../using/brand-portal-searching.md#main-pars-header-500620467) de colecciones inteligentes públicas controla si los usuarios que no son administradores pueden guardar sus búsquedas como colecciones inteligentes y hacerlas públicas para ese inquilino. La configuración está habilitada de forma predeterminada. Al desactivar las organizaciones de configuración, se puede evitar tener un gran número de colecciones inteligentes públicas creadas por usuarios no administradores en Brand Portal de la organización.
+[[!UICONTROL Permitir la ]](../using/brand-portal-searching.md#main-pars-header-500620467) creación de colecciones inteligentes públicas La configuración controla si los no administradores pueden guardar sus búsquedas como colecciones inteligentes y hacerlas públicas para ese inquilino. La configuración está habilitada de forma predeterminada. Al desactivar las organizaciones de configuración, se puede evitar tener un gran número de colecciones inteligentes públicas creadas por usuarios no administradores en Brand Portal de la organización.
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}
@@ -70,4 +70,4 @@ Para habilitar/deshabilitar cada una de estas configuraciones:
 
 ## Habilitar la jerarquía de carpetas {#enable-folder-hierarchy}
 
-[[!UICONTROL Habilitar la configuración de jerarquía]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) de carpetas permite a los administradores controlar cómo los usuarios no administradores (editores, visores y usuarios invitados) ven las carpetas compartidas después de iniciar sesión.
+[[!UICONTROL Habilitar la configuración de ]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) jerarquía de carpetas permite a los administradores controlar cómo los usuarios no administradores (editores, visores y usuarios invitados) ven las carpetas compartidas después de iniciar sesión.
