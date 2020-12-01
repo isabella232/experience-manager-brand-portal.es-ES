@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Create contribution folder {#create-contribution-folder}
+# Crear carpeta de contribución {#create-contribution-folder}
 
 
 AEM los administradores y usuarios no administradores que tengan permiso para crear una nueva carpeta, pueden crear una carpeta de contribución en AEM Assets.
@@ -35,9 +35,9 @@ Para crear una carpeta de contribución:
 
 1. Vaya a **[!UICONTROL Recursos]** > **[!UICONTROL Archivos]**. Lista todas las carpetas existentes en el repositorio de AEM Assets.
 
-1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL Se abre el cuadro de diálogo Crear carpeta]** .
+1. Haga clic en **[!UICONTROL Crear]** para crear una nueva carpeta. **[!UICONTROL Se abre]** el cuadro de diálogo Crear carpeta.
 
-1. Introduzca el **[!UICONTROL título]** y el **[!UICONTROL nombre]** de la carpeta y active la casilla de verificación Contribución **[!UICONTROL de]** recursos.
+1. Introduzca **[!UICONTROL Título]** y **[!UICONTROL Nombre]** de la carpeta y active la casilla de verificación **[!UICONTROL Contribución de recursos]**.
 Se recomienda utilizar letras minúsculas sin ningún espacio para asignar un nombre a la carpeta.
 
 1. Haga clic en **[!UICONTROL Crear]**. Puede ver la carpeta de contribución en el repositorio de AEM Assets.
@@ -49,10 +49,10 @@ Se recomienda utilizar letras minúsculas sin ningún espacio para asignar un no
 
    ![](assets/create-contribution-folder.png)
 
-1. Haga clic para abrir la carpeta de contribución. Verá dos subcarpetas:**[!UICONTROL COMPARTIDO]** y **[!UICONTROL NUEVO]** , que se crean automáticamente dentro de la carpeta de contribución.
+1. Haga clic para abrir la carpeta de contribución y verá dos subcarpetas:**[!UICONTROL SHARED]** y **[!UICONTROL NEW]** se crean automáticamente dentro de la carpeta de contribución.
 
    ![](assets/contribution-folder.png)
 
-Ahora puede [configurar las propiedades](brand-portal-configure-contribution-folder-properties.md)de la carpeta de contribución.
+Ahora puede [configurar las propiedades de la carpeta de contribución](brand-portal-configure-contribution-folder-properties.md).
 
 
