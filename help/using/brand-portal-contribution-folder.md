@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Configurar carpeta de contribución {#configure-contribution-folder}
 
-Para el abastecimiento de recursos en colaboración, los usuarios de AEM (administradores y usuarios no administradores con permiso) pueden crear nuevas carpetas de tipo Contribución **de** recursos, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal.  Esto desencadena automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas **COMPARTIDO** y **NUEVO**, dentro de la carpeta **Contribución** recién creada.
+Para el abastecimiento de recursos en colaboración, AEM usuarios (administradores y usuarios no administradores con permiso) pueden crear nuevas carpetas de tipo **Contribución de recursos**, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal.  Esto desencadena automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas **SHARED** y **NEW**, dentro de la carpeta **Contribution** recién creada.
 
-A continuación, el usuario de AEM define los requisitos de los recursos cargando un resumen sobre los tipos de recursos que deben agregarse a la carpeta de contribución, así como un conjunto de recursos de línea de base, en la carpeta **COMPARTIDO** para garantizar que los usuarios de Brand Portal dispongan de la información que necesitan. A continuación, el administrador puede otorgar a los usuarios activos de Brand Portal acceso a la carpeta de contribución antes de publicar la carpeta de contribución recién creada en Brand Portal.
+A continuación, AEM usuario define los requisitos de los recursos cargando un resumen sobre los tipos de recursos que deben agregarse a la carpeta de contribución, así como un conjunto de recursos de línea de base, a la carpeta **SHARED** para garantizar que los usuarios de Brand Portal dispongan de la información que necesitan. A continuación, el administrador puede otorgar a los usuarios activos de Brand Portal acceso a la carpeta de contribución antes de publicar la carpeta de contribución recién creada en Brand Portal.
 
 En el siguiente vídeo se muestra cómo configurar una carpeta de contribución en AEM Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-El usuario de AEM realiza las siguientes actividades al configurar una carpeta de contribución:
+AEM usuario realiza las siguientes actividades al configurar una carpeta de contribución:
 
 * [Crear carpeta de contribución](brand-portal-create-contribution-folder.md)
 * [Cargar requisitos de recursos](brand-portal-configure-contribution-folder-properties.md)
