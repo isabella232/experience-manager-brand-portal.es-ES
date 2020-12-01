@@ -19,9 +19,9 @@ ht-degree: 4%
 
 # Administración de la colección Lightbox {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox]** es un tipo especial de colección que facilita el acceso a los recursos. Cada usuario tiene un **[!UICONTROL Lightbox]** exclusivo que se crea automáticamente cuando inicia sesión en Brand Portal por primera vez. No se puede eliminar la colección **[!UICONTROL Lightbox]** .
+**** Lightboxes un tipo especial de colección que facilita el acceso a los recursos. Cada usuario tiene un **[!UICONTROL Lightbox]** exclusivo que se crea automáticamente cuando inicia sesión en Brand Portal por primera vez. No se puede eliminar la colección **[!UICONTROL Lightbox]**.
 
-## Añadir recursos en Lightbox {#add-assets-to-lightbox}
+## Añadir recursos a lightbox {#add-assets-to-lightbox}
 
 Para agregar recursos a **[!UICONTROL Lightbox]**, haga lo siguiente:
 
@@ -33,30 +33,30 @@ Para agregar recursos a **[!UICONTROL Lightbox]**, haga lo siguiente:
 
    ![](assets/add_to_collection.png)
 
-1. En la página **[!UICONTROL Añadir a colección]** , la colección **[!UICONTROL Lightbox]** está seleccionada de forma predeterminada.
+1. En la página **[!UICONTROL Añadir a colección]**, la colección **[!UICONTROL Lightbox]** está seleccionada de forma predeterminada.
 
    Haga clic en **[!UICONTROL Agregar]**. Los recursos seleccionados se agregan al **[!UICONTROL Lightbox]**.
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. Para revisar los recursos agregados a **[!UICONTROL Lightbox]**, haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo y, a continuación, haga clic en la colección **[!UICONTROL Lightbox]** .
+1. Para revisar los recursos agregados a **[!UICONTROL Lightbox]**, haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo y, a continuación, haga clic en la colección **[!UICONTROL Lightbox]**.
 
    ![](assets/collections_lightbox.png)
 
-   Los recursos añadidos a **[!UICONTROL Lightbox]** aparecen en la página **[!UICONTROL Lightbox]** .
+   Los recursos agregados a **[!UICONTROL Lightbox]** aparecen en la página **[!UICONTROL Lightbox]**.
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Quitar recursos de la caja de iluminación {#remove-assets-from-lightbox}
 
-1. Para revisar los recursos en [!UICONTROL Lightbox], haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo y, a continuación, haga clic en la colección [!UICONTROL Lightbox] .
+1. Para revisar los recursos en [!UICONTROL Lightbox], haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo y, a continuación, haga clic en la colección [!UICONTROL Lightbox].
 
    ![](assets/collections_lightbox-1.png)
 
-1. Seleccione la carpeta que desee quitar de la colección y, a continuación, haga clic en **[!UICONTROL Quitar]** en la barra de herramientas de la parte superior.
+1. Seleccione la carpeta que desee quitar de la colección y haga clic en **[!UICONTROL Quitar]** de la barra de herramientas en la parte superior.
 
    ![](assets/collections_lightboxdelete.png)
 
 1. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Eliminar]** para confirmar la eliminación.
 
-La carpeta se elimina de la colección **[!UICONTROL Lightbox]** .
+La carpeta se elimina de la colección **[!UICONTROL Lightbox]**.
