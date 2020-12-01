@@ -17,7 +17,7 @@ ht-degree: 4%
 ---
 
 
-# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
+# Examinar recursos en Brand Portal {#browsing-assets-on-brand-portal}
 
 AEM Assets Brand Portal ofrece varias funciones y elementos de interfaz de usuario que facilitan la navegación por los recursos, la navegación por las jerarquías de recursos y la búsqueda de recursos mientras se utilizan distintas opciones de vista.
 
@@ -61,7 +61,7 @@ La vista de tarjeta muestra tarjetas de información para cada elemento del nive
 * Tamaño
 * Dimensiones
 
-You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Puede bajar por la jerarquía tocando o haciendo clic en las tarjetas (teniendo cuidado de evitar las acciones rápidas) o hacia arriba de nuevo utilizando las [rutas de exploración en el encabezado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ![](assets/cardquickactions.png)
 
@@ -89,7 +89,7 @@ Al seleccionar la opción **[!UICONTROL Información general]** mientras se sele
 
 #### Configuración de vista en la vista de tarjetas
 
-**[!UICONTROL El cuadro de diálogo Configuración]** de vista se abre al seleccionar Configuración **[!UICONTROL de]** Vista en el selector de vistas. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjetas. De este modo, puede personalizar su vista y controlar el número de miniaturas que se muestran.
+**[!UICONTROL El cuadro de diálogo]** Configuración de vistas se abre al seleccionar  **[!UICONTROL Configuración de]** Vistas en el selector de vistas. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjetas. De este modo, puede personalizar su vista y controlar el número de miniaturas que se muestran.
 
 ![](assets/cardviewsettings.png)
 
@@ -107,10 +107,10 @@ La vista de lista muestra información para cada recurso en el nivel actual. La 
 * Dimension
 * Tamaño
 * Clasificación
-* Ruta de acceso de la carpeta que muestra la jerarquía<sup>de recursos*</sup>
+* Ruta de acceso de la carpeta que muestra la jerarquía de recursos<sup>*</sup>
 * Fecha de publicación del recurso en Brand Portal
 
-La columna Ruta permite identificar fácilmente la ubicación del recurso en la jerarquía de carpetas. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+La columna Ruta permite identificar fácilmente la ubicación del recurso en la jerarquía de carpetas. Para desplazarse hacia abajo por la jerarquía, toque o haga clic en el nombre del recurso y haga una copia de seguridad utilizando las [rutas de exploración del encabezado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Configuración de vista en vista de lista
 
-La vista de lista muestra **[!UICONTROL Nombre]** del recurso como la primera columna de forma predeterminada. También se muestra información adicional, como **[!UICONTROL Título]** del recurso, **[!UICONTROL Configuración regional]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamaño]******,Clasificación, estado de publicación. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+La vista de lista muestra el recurso **[!UICONTROL Name]** como la primera columna de forma predeterminada. También se muestra información adicional, como recursos **[!UICONTROL Título]**, **[!UICONTROL Configuración regional]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamaño]**, **[!UICONTROL Clasificación]**, estado de publicación. Sin embargo, puede seleccionar las columnas que se mostrarán mediante **[!UICONTROL Configuración de Vista]**.
 
 ![](assets/list-view-setting.png)
 
@@ -235,7 +235,7 @@ Comment Type: draft
 
 Además de estas vistas, utilice la vista de árbol para explorar en profundidad la jerarquía de recursos mientras realiza la vista y selecciona los recursos o las carpetas que desee.
 
-Para abrir la vista de árbol, toque o haga clic en el selector de carril situado en la esquina superior izquierda y seleccione el árbol **[!UICONTROL de]** contenido en el menú.
+Para abrir la vista de árbol, toque o haga clic en el selector de carril en la esquina superior izquierda y seleccione el **[!UICONTROL árbol de contenido]** en el menú.
 
 ![](assets/contenttree.png)
 
