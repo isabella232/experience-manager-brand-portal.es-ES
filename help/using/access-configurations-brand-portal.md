@@ -20,13 +20,13 @@ ht-degree: 10%
 
 # Administrar el acceso de los usuarios en el Brand Portal {#administer-user-access-on-brand-portal}
 
-A partir de la versión 6.4.2, AEM Assets Brand Portal autoriza a los administradores a configurar el acceso de invitados y permitir que los usuarios soliciten acceso a Brand Portal de su organización. Estas configuraciones se han proporcionado como configuraciones de **[!UICONTROL Access Settings]** en el panel administrativo. Ambas configuraciones están deshabilitadas de forma predeterminada.
+A partir de la versión 6.4.2 de AEM Assets Brand Portal, los administradores pueden configurar el acceso de los invitados y permitir que los usuarios soliciten acceso a Brand Portal de su organización. Estas configuraciones se han proporcionado como configuraciones de **[!UICONTROL Configuración de acceso]** en el panel administrativo. Ambas configuraciones están deshabilitadas de forma predeterminada.
 
 ![](assets/access-configs.png)
 
-**¿Una** configuración que permita el acceso de los invitados a Brand Portal mediante el acceso de **[!UICONTROL invitados?]** en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está desactivado)
+**¿**   Configuración de CA para permitir el acceso de los invitados a Brand Portal mediante el acceso de  **[!UICONTROL invitados?]** en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está desactivado)
 
-**B** Configuración que permite a los usuarios solicitar acceso a Brand Portal mediante **[!UICONTROL Necesita acceso?]** en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está desactivado)
+****   BConfiguration para permitir a los usuarios solicitar acceso a Brand Portal mediante  **[!UICONTROL ¿Necesita acceso?]** en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está desactivado)
 
 ## Permitir el acceso de invitados {#allow-guest-access}
 
@@ -34,8 +34,8 @@ Al permitir el acceso de los invitados, los usuarios pueden acceder a los recurs
 Para permitir el acceso de los invitados, el administrador debe realizar los siguientes pasos:
 
 1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
-1. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página Configuración **[!UICONTROL de]** acceso.
-1. Active la configuración **[!UICONTROL Permitir acceso]** de invitado.
+1. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página **[!UICONTROL Configuración de acceso]**.
+1. Habilite la configuración **[!UICONTROL Permitir acceso de invitado]**.
 1. **[!UICONTROL Guarde los cambios.]**
 1. Cierre la sesión para que los cambios surtan efecto.
 
@@ -48,7 +48,7 @@ Los administradores pueden permitir que los usuarios de la organización solicit
 Para permitir que los usuarios de la organización soliciten acceso a Brand Portal, los administradores deben:
 
 1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
-1. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página Configuración **[!UICONTROL de]** acceso.
-1. Active la configuración **[!UICONTROL Permitir que los usuarios soliciten acceso]** .
+1. En el panel Herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página **[!UICONTROL Configuración de acceso]**.
+1. Habilite la configuración **[!UICONTROL Permitir que los usuarios soliciten acceso]**.
 1. **[!UICONTROL Guarde los cambios.]**
 1. Cierre la sesión para que los cambios surtan efecto.
