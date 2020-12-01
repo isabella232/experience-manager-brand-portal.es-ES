@@ -31,7 +31,7 @@ Para vista de un informe, siga estos pasos:
 
    ![](assets/aemlogo.png)
 
-1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Crear/administrar informes]** para abrir la página Informes **[!UICONTROL de]** recursos.
+1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Crear/administrar informes]** para abrir la página **[!UICONTROL Informes de recursos]**.
 
    ![](assets/access-asset-reports.png)
 
@@ -43,27 +43,27 @@ Para vista de un informe, siga estos pasos:
 
    Para realizar la vista de un informe, toque o haga clic en el vínculo del informe. Como alternativa, seleccione el informe y toque o haga clic en el icono de Vista en la barra de herramientas.
 
-   **[!UICONTROL El informe]** Uso muestra información sobre el número de usuarios actuales de Brand Portal, el espacio de almacenamiento ocupado por todos los recursos y el número total de recursos en Brand Portal. El informe también muestra la capacidad permitida para cada una de estas métricas de información.
+   **[!UICONTROL Los]** informes de uso muestran información sobre el número de usuarios actuales de Brand Portal, el espacio de almacenamiento ocupado por todos los recursos y el recuento total de recursos en Brand Portal. El informe también muestra la capacidad permitida para cada una de estas métricas de información.
 
    ![](assets/usage-report.png)
 
-   **[!UICONTROL El informe de inicios de sesión]** del usuario proporciona información sobre los usuarios que iniciaron sesión en Brand Portal. El informe muestra los nombres para mostrar, los ID de correo electrónico, las personas (administrador, visor, editor, invitado), los grupos, el último inicio de sesión, el estado de la actividad y el recuento de inicio de sesión de cada usuario desde la implementación de Brand Portal 6.4.2 hasta el momento de la generación del informe.
+   **[!UICONTROL El informe]** Registros de usuario proporciona información sobre los usuarios que iniciaron sesión en Brand Portal. El informe muestra los nombres para mostrar, los ID de correo electrónico, las personas (administrador, visor, editor, invitado), los grupos, el último inicio de sesión, el estado de la actividad y el recuento de inicio de sesión de cada usuario desde la implementación de Brand Portal 6.4.2 hasta el momento de la generación del informe.
 
    ![](assets/user-logins.png)
 
-   **[!UICONTROL Descargue]** listas de informes y detalles sobre todos los recursos descargados en un intervalo de fecha y hora específico.
+   **** Descargue listas de informes y detalles sobre todos los recursos descargados en un intervalo de fecha y hora específico.
 
    ![](assets/download-report.png)
 
    >[!NOTE]
    >
-   >El informe de **[!UICONTROL descarga]** de recursos muestra únicamente los recursos que se seleccionaron y descargaron de forma individual desde Brand Portal. Si un usuario ha descargado una carpeta que contiene recursos, el informe no muestra la carpeta ni los recursos que contiene.
+   >El informe **[!UICONTROL Descargar]** recursos muestra solamente los recursos que se seleccionaron y descargaron de forma individual desde Brand Portal. Si un usuario ha descargado una carpeta que contiene recursos, el informe no muestra la carpeta ni los recursos que contiene.
 
-   **[!UICONTROL El informe de caducidad]** lista y detalla todos los recursos que caducaron en un intervalo de tiempo específico.
+   **** CaducidadInforme lista y detalla todos los recursos que han caducado en un intervalo de tiempo específico.
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publique]** listas de informes y proporcione información sobre todos los recursos publicados desde AEM a Brand Portal en un intervalo de tiempo específico.
+   **** Publicar listas de informes y proporciona información sobre todos los recursos que se publican de AEM a Brand Portal en un intervalo de tiempo específico.
 
    ![](assets/publish-report.png)
 
@@ -71,7 +71,7 @@ Para vista de un informe, siga estos pasos:
    >
    >Publicar informe no muestra información sobre fragmentos de contenido, ya que los fragmentos de contenido no se pueden publicar en Brand Portal.
 
-   **[!UICONTROL El informe]** Compartir vínculos lista todos los recursos compartidos mediante vínculos de la interfaz de Brand Portal en un intervalo de tiempo específico. El informe también indica cuándo se compartió el recurso mediante un vínculo, por qué usuario, cuándo caduca el vínculo y el número de vínculos compartidos para el inquilino (y los usuarios con los que se compartió el vínculo del recurso). Las columnas del informe de uso compartido de vínculos no se pueden personalizar.
+   **[!UICONTROL Los]** informes de Uso compartido de vínculos muestran todos los recursos compartidos a través de los vínculos de la interfaz de Brand Portal en un intervalo de tiempo específico. El informe también indica cuándo se compartió el recurso mediante un vínculo, por qué usuario, cuándo caduca el vínculo y el número de vínculos compartidos para el inquilino (y los usuarios con los que se compartió el vínculo del recurso). Las columnas del informe de uso compartido de vínculos no se pueden personalizar.
 
    ![](assets/link-share-report.png)
 
@@ -79,11 +79,11 @@ Para vista de un informe, siga estos pasos:
    >
    >El informe de uso compartido de vínculos no muestra a los usuarios que tienen acceso al recurso compartido a través del vínculo o que han descargado el recurso a través del vínculo.
    >
-   >Para realizar el seguimiento de descargas a través del vínculo compartido, debe generar un informe de descarga después de seleccionar la opción **[!UICONTROL Solo vínculos para compartir descargas]** en la página **[!UICONTROL Crear informe]** . Sin embargo, el usuario (descargado por) es anónimo en este caso.
+   >Para rastrear las descargas a través del vínculo compartido, debe generar un informe de descarga después de seleccionar la opción **[!UICONTROL Solo vincular descargas]** en la página **[!UICONTROL Crear informe]**. Sin embargo, el usuario (descargado por) es anónimo en este caso.
 
 ## Generar informes {#generate-reports}
 
-Los administradores pueden generar y administrar los siguientes informes estándar, una vez que se generan, se guardan para [acceder](../using/brand-portal-reports.md#main-pars-header) a ellos más adelante:
+Los administradores pueden generar y administrar los siguientes informes estándar, una vez generados, se guardan para [obtener acceso a ellos](../using/brand-portal-reports.md#main-pars-header) más adelante:
 
 * Inicios de sesión de usuario
 * Descargar
@@ -97,20 +97,20 @@ Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar 
 
    ![](assets/aemlogo.png)
 
-1. En el panel Herramientas administrativas, toque o haga clic en **[!UICONTROL Crear/Administrar informes]** para abrir la página Informes **[!UICONTROL de]** recursos.
+1. En el panel Herramientas administrativas, toque o haga clic **[!UICONTROL Crear/Administrar informes]** para abrir la página **[!UICONTROL Informes de recursos]**.
 
    ![](assets/asset-reports.png)
 
 1. En la página Informes de recursos, pulse o haga clic en **[!UICONTROL Crear]**.
-1. En la página **[!UICONTROL Crear informe]** , seleccione un informe para crear y toque o haga clic en **[!UICONTROL Siguiente]**.
+1. En la página **[!UICONTROL Crear informe]**, seleccione un informe para crear y toque o haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/crete-report.png)
 
-1. Configure los detalles del informe. Especifique el título, la descripción, la estructura de carpetas (donde el informe debe ejecutar y generar estadísticas) y el intervalo de fechas para los informes de **[!UICONTROL descarga]**, **[!UICONTROL caducidad]** y **[!UICONTROL publicación]** .
+1. Configure los detalles del informe. Especifique el título, la descripción, la estructura de carpetas (donde el informe necesita ejecutar y generar estadísticas) y el intervalo de fechas para los informes **[!UICONTROL Descargar]**, **[!UICONTROL Caducidad]** y **[!UICONTROL Publicar]**.
 
    ![](assets/create-report-page.png)
 
-   Mientras que el informe **[!UICONTROL de uso compartido de]** vínculos solo necesita los parámetros de título, descripción e intervalo de fechas.
+   Mientras que **[!UICONTROL Informe de uso compartido de vínculos]** solo necesita los parámetros de título, descripción e intervalo de fechas.
 
    ![](assets/create-link-share-report.png)
 
@@ -118,8 +118,8 @@ Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar 
    >
    >Los caracteres especiales # y % en el título del informe se sustituyen por un guión (-) en la generación del informe.
 
-1. Toque o haga clic en **[!UICONTROL Siguiente]** para configurar las columnas de los informes Descargar, Caducidad y Publicar.
-1. Seleccione o anule la selección de las casillas de verificación correspondientes según sea necesario. Por ejemplo, para asignar nombres de vista a los usuarios (que descargaron recursos) en el informe **[!UICONTROL Descargar]** , seleccione **[!UICONTROL Descargado por]**. La siguiente imagen ilustra la selección de columnas predeterminadas en el informe Descargar.
+1. Toque o haga clic **[!UICONTROL Siguiente]** para configurar las columnas de los informes Descargar, Caducidad y Publicar.
+1. Seleccione o anule la selección de las casillas de verificación correspondientes según sea necesario. Por ejemplo, para asignar nombres de vista a los usuarios (que descargaron recursos) en el informe **[!UICONTROL Descargar]**, seleccione **[!UICONTROL Descargado por]**. La siguiente imagen ilustra la selección de columnas predeterminadas en el informe Descargar.
 
    ![](assets/createdownloadreport.png)
 
@@ -127,8 +127,8 @@ Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar 
 
    Para agregar columnas personalizadas al informe Descargar, Publicar o Caducidad, siga estos pasos:
 
-   1. Para mostrar una columna personalizada, toque o haga clic en **[!UICONTROL Añadir]** en Columnas personalizadas.
-   1. Especifique el nombre de la columna en el campo Nombre **[!UICONTROL de]** columna.
+   1. Para mostrar una columna personalizada, toque o haga clic **[!UICONTROL Añadir]** dentro de [!UICONTROL Columnas personalizadas].
+   1. Especifique el nombre de la columna en el campo **[!UICONTROL Nombre de columna]**.
    1. Seleccione la propiedad a la que debe asignarse la columna mediante el selector de propiedades.
 
       ![](assets/property-picker.png)
@@ -136,7 +136,7 @@ También puede escribir la ruta en el campo de ruta de la propiedad.
 
       ![](assets/property-path.png)
 
-      Para agregar más columnas personalizadas, toque o haga clic en **Añadir** y repita los pasos 2 y 3.
+      Para agregar más columnas personalizadas, toque o haga clic **Añadir** y repita los pasos 2 y 3.
 
 1. Toque o haga clic en **[!UICONTROL Crear]**. Un mensaje notifica que se ha iniciado la generación de informes.
 
@@ -154,8 +154,8 @@ Para guardar y descargar un informe como archivo .csv, realice una de las siguie
 
 ## Eliminar informes {#delete-reports}
 
-Para eliminar un informe existente, seleccione el informe en la página Informes **[!UICONTROL de]** recursos y toque o haga clic en **[!UICONTROL Eliminar]** en la barra de herramientas de la parte superior.
+Para eliminar un informe existente, seleccione el informe en la página **[!UICONTROL Informes de recursos]** y toque o haga clic **[!UICONTROL Eliminar]** en la barra de herramientas de la parte superior.
 
 >[!NOTE]
 >
->**[!UICONTROL No se puede eliminar el informe de uso]** .
+>**[!UICONTROL No se puede eliminar]** el informe de usuario.
