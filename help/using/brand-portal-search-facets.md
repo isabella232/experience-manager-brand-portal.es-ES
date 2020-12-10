@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 11%
+source-wordcount: '1298'
+ht-degree: 10%
 
 ---
 
@@ -69,6 +69,12 @@ Para agregar un predicado de búsqueda al panel **[!UICONTROL Filtros]**:
    >Al seleccionar la casilla de verificación **[!UICONTROL Búsqueda parcial]**, **[!UICONTROL Omitir caso]** está seleccionado de forma predeterminada.
 
 1. En el campo **[!UICONTROL Nombre de propiedad]**, abra el selector de propiedades y seleccione la propiedad en función de la cual se realiza la búsqueda. También puede introducir un nombre para la propiedad. Por ejemplo, escriba `  jcr :content/metadata/dc:title` o `./jcr:content/metadata/dc:title`.
+
+   >[!NOTE]
+   >
+   >En Brand Portal, todas las propiedades (excepto las que comienzan con `xmp`) en `jcrcontent/metadata` de `dam:asset` se indexan de forma predeterminada.
+   >
+   >Cualquier propiedad indizada se puede utilizar al crear un predicado de propiedades. Si se configura cualquier propiedad no indizada, la consulta de búsqueda en una propiedad no indizada puede no dar ningún resultado de búsqueda.
 
    ![](assets/title-prop.png)
 
