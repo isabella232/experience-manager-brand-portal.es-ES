@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
+source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 3%
@@ -39,7 +39,7 @@ Los administradores de Brand Portal pueden configurar la descarga de recursos y 
 
 >[!NOTE]
 >
->La configuración de descarga que se aplica en la interfaz de usuario facilita a los usuarios de Brand Portal una experiencia de autoservicio para configurar y descargar fácilmente las representaciones de recursos. No restringe la descarga de recursos en la capa de la aplicación; por ejemplo, los usuarios pueden acceder a las representaciones de recursos y descargarlas con la ruta de URL completa.
+>La configuración de descarga que se aplica en la interfaz de usuario facilita a los usuarios de Brand Portal una experiencia de autoservicio para configurar y descargar fácilmente las representaciones de recursos. No restringe la descarga de recursos en la capa de la aplicación; por ejemplo, los usuarios pueden acceder a las representaciones de recursos y descargarlas con la ruta completa de la URL.
 
 El acceso y la descarga de las representaciones de recursos desde la interfaz de Brand Portal se definen en las siguientes configuraciones:
 
