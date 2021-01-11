@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1940'
 ht-degree: 3%
 
 ---
@@ -35,12 +35,16 @@ Adobe Experience Manager Assets Brand Portal mejora la experiencia de descarga a
 
 ## Configurar descarga de recursos {#configure-download}
 
-Los administradores de Brand Portal pueden configurar la descarga de recursos y los permisos para los usuarios de Brand Portal, lo que les permite acceder a las representaciones de recursos y descargarlas desde la interfaz de Brand Portal.
+Los administradores de Brand Portal pueden configurar la descarga de recursos y los grupos de usuarios para los usuarios de Brand Portal, lo que les permite acceder a las representaciones de recursos y descargarlas desde la interfaz de Brand Portal.
 
-El acceso y la descarga de las representaciones desde Brand Portal se definen en las siguientes configuraciones:
+>[!NOTE]
+>
+>La configuración de descarga que se aplica en la interfaz de usuario facilita a los usuarios de Brand Portal una experiencia de autoservicio para configurar y descargar fácilmente las representaciones de recursos. No restringe la descarga de recursos en la capa de la aplicación; por ejemplo, los usuarios pueden acceder a las representaciones de recursos y descargarlas con la ruta de URL completa.
+
+El acceso y la descarga de las representaciones de recursos desde la interfaz de Brand Portal se definen en las siguientes configuraciones:
 
 * Habilitar la configuración de descarga
-* Configurar permisos de descarga
+* Configuración de la configuración de grupos de usuarios
 
 ### Habilitar la configuración de descarga {#enable-download-settings}
 
@@ -75,11 +79,11 @@ Los administradores pueden habilitar cualquier combinación de configuraciones p
 >
 >Solo los administradores pueden descargar los recursos caducados. Para obtener más información sobre los recursos caducados, consulte [administración de derechos digitales de los recursos](../using/manage-digital-rights-of-assets.md).
 
-### Configurar permisos de descarga {#configure-download-permissions}
+### Configurar la configuración de grupos de usuarios {#configure-user-group-settings}
 
-Además de la **[!UICONTROL configuración de descarga]**, los administradores de Brand Portal pueden configurar los permisos de vista de diferentes grupos de usuarios y descargar los recursos originales y sus representaciones.
+Además de la **[!UICONTROL configuración de descarga]**, los administradores de Brand Portal pueden seguir configurando la configuración para que distintos grupos de usuarios puedan realizar la vista y (o) descargar los recursos originales y sus representaciones.
 
-Inicie sesión en el inquilino de Brand Portal como administrador y vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Usuarios]**. En la página **[!UICONTROL Funciones de usuario]**, vaya a la ficha **[!UICONTROL Grupos]** para configurar la vista y (o) los permisos de descarga para los grupos de usuarios.
+Inicie sesión en el inquilino de Brand Portal como administrador y vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Usuarios]**. En la página **[!UICONTROL Funciones de usuario]**, vaya a la ficha **[!UICONTROL Grupos]** para configurar la vista y (o) la configuración de descarga de los grupos de usuarios.
 
 ![vista-descarga-permiso](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ En función de la configuración, el flujo de trabajo de descarga permanece cons
 
 La siguiente matriz define si un usuario tendría acceso a las representaciones en función de las [configuraciones de descarga](#configure-download):
 
-| **Configuración de descarga: Representaciones personalizadas** | **Configuración de descarga: Representaciones del sistema** | **Permisos del grupo de usuarios: Descargar original** | **Permisos del grupo de usuarios: Descargar representaciones** | **Resultado** |
+| **Configuración de descarga: Representaciones personalizadas** | **Configuración de descarga: Representaciones del sistema** | **Configuración de grupo de usuarios: Descargar original** | **Configuración de grupo de usuarios: Descargar representaciones** | **Resultado** |
 |---|---|---|---|---|
 | ACTIVADO | ACTIVADO | ACTIVADO | ACTIVADO | Vista y descarga de todas las representaciones |
 | ACTIVADO | ACTIVADO | DESACTIVADO | DESACTIVADO | Vista del recurso original |
@@ -112,7 +116,7 @@ Los usuarios de Brand Portal pueden descargar varios recursos, carpetas que cont
 
 >[!NOTE]
 >
->Póngase en contacto con el administrador de Brand Portal si no tiene permisos para acceder o descargar las representaciones.
+>Póngase en contacto con el administrador de Brand Portal si no tiene permiso para acceder o descargar las representaciones de recursos.
 
 Si el usuario tiene acceso a las representaciones, se le proporciona el cuadro de diálogo mejorado **[!UICONTROL Descargar]** con las siguientes capacidades:
 * Vista todas las representaciones disponibles de cualquier recurso en la lista de descarga.
@@ -196,7 +200,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
 >[!NOTE]
 >
->Brand Portal admite la configuración de Dynamic Media tanto en modo híbrido como en modo Scene7.
+>Brand Portal admite la configuración de Dynamic Media en modo híbrido y Scene7.
 >
 >(*Si AEM instancia de autor se está ejecutando en **modo híbrido de Dynamic Media***)
 >
