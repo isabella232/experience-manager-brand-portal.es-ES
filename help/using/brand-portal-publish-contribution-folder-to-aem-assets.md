@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
+source-git-commit: 6eb01e2eec7de6b704976c990fb6ffacbc67471a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,13 @@ Se envía una notificación por correo electrónico o por impulso al usuario y a
 
 Los administradores pueden utilizar dos informes para vista del estado de las carpetas de contribución de recursos publicadas desde Brand Portal a AEM Assets.
 
-* En Brand Portal, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Estado de contribución de recursos]**. Este informe refleja el estado de todos los trabajos de publicación, incluidas las diferentes etapas del flujo de trabajo de publicación (En cola y completado).
+* En Brand Portal, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Estado de contribución de recursos]**. Este informe refleja el estado de todos los trabajos de publicación en las diferentes etapas del flujo de trabajo de publicación.
 
-* En la instancia de autor de AEM Assets, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Trabajos]**. Este informe refleja únicamente los trabajos de publicación que están en estado pendiente.
+   ![](assets/contribution-folder-status.png)
+
+* En la instancia de autor de AEM Assets, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Trabajos]**. Este informe refleja el estado final (Éxito o Error) de todos los trabajos de publicación.
+
+   ![](assets/publishing-status.png)
 
 
 
