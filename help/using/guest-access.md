@@ -46,7 +46,7 @@ Para ingresar a Brand Portal de forma anónima, seleccione **[!UICONTROL Haga cl
 Una sesión de usuario invitado permanece activa durante 15 minutos.
 Esto significa que el estado del **[!UICONTROL Lightbox]** se conserva durante 15 minutos desde el inicio de sesión y, después, se reinicia la sesión de invitado actual para que se pierda el estado del Lightbox.
 
-Por ejemplo, un usuario invitado inicia sesión en Brand Portal a las 15.00 horas y agrega recursos a **[!UICONTROL Lightbox]** para descargarlos a las 15.05 horas. Si el usuario no descarga la colección **[!UICONTROL Lightbox]** (o sus recursos) antes de las 15:15 horas (dentro de los 15 minutos posteriores al inicio de sesión), tendrá que reiniciar la sesión. El **[!UICONTROL Lightbox]** estará vacío, lo que significa que los recursos cargados ya no estarán disponibles si se perdió la sesión.
+Por ejemplo, un usuario invitado inicia sesión en Brand Portal a las 15.00 horas y agrega recursos a **[!UICONTROL Lightbox]** para descargarlos a las 15.05 horas. Si el usuario no descarga la colección **[!UICONTROL Lightbox]** (o sus recursos) antes de las 15:15 horas (en los 15 minutos posteriores al inicio de sesión), tendrá que reiniciar la sesión. El **[!UICONTROL Lightbox]** estará vacío, lo que significa que los recursos cargados ya no estarán disponibles si se perdió la sesión.
 
 ## Sesiones de invitados simultáneas permitidas {#concurrent-guest-sessions-allowed}
 
