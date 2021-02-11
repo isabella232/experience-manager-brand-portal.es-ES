@@ -36,7 +36,7 @@ Asegúrese de haber pasado por los [requisitos de recursos](brand-portal-downloa
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Se envía una notificación por correo electrónico o por impulso al usuario y a los administradores de Brand Portal en las distintas etapas del flujo de trabajo de publicación:
-1. **En cola** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando se activa un flujo de trabajo de publicación en Brand Portal.
+1. **En cola** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando un flujo de trabajo de publicación déclencheur en Brand Portal.
 
 1. **Completa** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando la carpeta de contribución se publica correctamente en AEM Assets.
 
