@@ -220,7 +220,7 @@ Brand Portal 6.4.5 es una versión de funciones que se centra en proporcionar a 
 
 ### Origen de recursos en Brand Portal {#asset-sourcing-in-bp}
 
-La fuente de recursos permite a los usuarios de AEM (administradores/usuarios no administradores) crear nuevas carpetas con una propiedad **de contribución de recursos** adicional, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal. Esto desencadena automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas NUEVO y COMPARTIDO, dentro de la carpeta **Contribución** recién creada.
+La fuente de recursos permite a los usuarios de AEM (administradores/usuarios no administradores) crear nuevas carpetas con una propiedad **de contribución de recursos** adicional, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal. Esto déclencheur automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas NUEVO y COMPARTIDO, dentro de la carpeta **Contribution** recién creada.
 
 A continuación, el usuario de AEM define el requisito [cargando una breve](brand-portal-configure-contribution-folder-properties.md) sobre los tipos de recursos que se deben agregar a la carpeta de contribución, así como [cargando los recursos de línea de base](brand-portal-upload-baseline-assets.md) a la carpeta **SHARED** para garantizar que los usuarios de BP tengan la información de referencia que necesitan. A continuación, el administrador puede otorgar a los usuarios activos de Brand Portal acceso a la carpeta de contribución antes de publicar la carpeta **Contribution** recién creada en Brand Portal.
 
@@ -344,9 +344,9 @@ Tenga en cuenta que la búsqueda en estas carpetas solo se obtiene a partir de l
 
 ### Compatibilidad con representaciones de vídeo de Dynamic Media
 
-Los usuarios cuya instancia de AEM Author se encuentra en el modo híbrido Dynamic Media pueden realizar previsualizaciones y descargar las representaciones de medios dinámicos, además de los archivos de vídeo originales.
+Los usuarios cuya instancia de AEM Author se encuentra en el modo híbrido de Dynamic Media pueden realizar previsualizaciones y descargar las representaciones de medios dinámicos, además de los archivos de vídeo originales.
 
-Para permitir la previsualización y descarga de representaciones de medios dinámicos en cuentas de inquilino específicas, los administradores deben especificar **Configuración de medios dinámicos** (URL del servicio de vídeo (URL de DM-Gateway) e ID de registro para recuperar el vídeo dinámico) en **Configuración de vídeo** desde el panel Herramientas de administración.
+Para permitir la previsualización y descarga de representaciones de medios dinámicos en cuentas de inquilino específicas, los administradores deben especificar **Configuración de Dynamic Media** (URL del servicio de vídeo (URL de DM-Gateway) e ID de registro para recuperar el vídeo dinámico) en la configuración de **Vídeo** del panel Herramientas de administración.
 
 
 Los vídeos de Dynamic Media se pueden previsualizar en:
@@ -396,7 +396,7 @@ La versión oferta una experiencia de descarga simplificada con un número reduc
 * Al optar por descargar solo las representaciones (y no los recursos originales).
 * Descarga de recursos cuando se restringe el acceso a las representaciones originales.
 
-## Qué cambió en 6.4.6 {#what-changed-in-1}
+## Qué cambió en 6.4.2 {#what-changed-in-1}
 
 La versión 6.4.2 de Brand Portal ofrece una amplia gama de funciones para satisfacer las necesidades de distribución de recursos de las organizaciones y ayudarles a llegar a un gran número de usuarios distribuidos globalmente mediante el acceso de los invitados y una experiencia óptima con las descargas aceleradas. Brand Portal también proporciona bueno control a las organizaciones a través de nuevas configuraciones para administradores, informes recién agregados y atención a las solicitudes de los clientes.
 
