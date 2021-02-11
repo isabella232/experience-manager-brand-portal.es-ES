@@ -47,7 +47,7 @@ Para una corrección inmediata en AEM 6.5.4, se recomienda [descargar la revisi�
 
 **Ans.** Póngase en contacto con el administrador de AEM Assets para comprobar las configuraciones y asegurarse de que el inquilino de Brand Portal está configurado con una sola instancia de autor de AEM Assets.
 
-Este problema puede producirse cuando se ha configurado un inquilino de Brand Portal en varias instancias de autor de AEM Assets. Por ejemplo, el administrador configura el mismo inquilino de Brand Portal en la instancia de creación de AEM Assets de entorno de ensayo y producción. En este caso, la publicación de recursos se activa en Brand Portal, pero la instancia de autor de AEM Assets no pudo importar el recurso porque el agente de replicación no recibe el token solicitante.
+Este problema puede producirse cuando se ha configurado un inquilino de Brand Portal en varias instancias de autor de AEM Assets. Por ejemplo, el administrador configura el mismo inquilino de Brand Portal en la instancia de creación de AEM Assets de entorno de ensayo y producción. En este caso, los déclencheur de publicación de recursos en Brand Portal, pero la instancia de creación de AEM Assets no pudo importar el recurso porque el agente de replicación no recibe el token solicitante.
 
 
 **Ques. No puedo publicar recursos de AEM Assets en Brand Portal. El registro de replicación indica que se agotó el tiempo de espera de la conexión. ¿Hay alguna corrección rápida?**
