@@ -19,7 +19,7 @@ ht-degree: 8%
 
 # Información general sobre AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
-Como especialista en mercadotecnia, a veces necesita colaborar con socios de canal y usuarios internos de negocios para crear, administrar y distribuir rápidamente contenido digital relevante a los clientes. El envío oportuno del contenido relevante a lo largo de todo el viaje del cliente es fundamental para generar buena demanda, conversión, compromiso y lealtad del cliente.
+Como especialista en mercadotecnia, a veces necesita colaborar con socios de canal y usuarios internos de negocios para crear, administrar y distribuir rápidamente contenido digital relevante a los clientes. El envío oportuno del contenido relevante en todo el recorrido del cliente es fundamental para generar buena demanda, conversión, compromiso y lealtad del cliente.
 
 Sin embargo, es un desafío desarrollar soluciones que permitan un uso compartido eficiente y seguro de logotipos de marcas, directrices, recursos de campaña o tomas de productos aprobados con equipos internos, socios y distribuidores extendidos.
 
