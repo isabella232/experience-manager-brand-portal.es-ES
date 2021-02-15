@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
+source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1960'
 ht-degree: 3%
 
 ---
@@ -68,11 +68,16 @@ Las opciones de configuración disponibles son:
 
    Estas son las miniaturas que se generan automáticamente en AEM Assets en función del flujo de trabajo &quot;Recurso de actualización DAM&quot;.
 
+* **[!UICONTROL Descarga de recursos]**
+
+   Permite descargar las representaciones en una carpeta independiente para cada recurso. Esta configuración se aplica a la descarga de carpetas, colecciones y descargas masivas de recursos (más de 20 recursos).
+
+
 Inicie sesión en el inquilino de Brand Portal como administrador y vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Descargar]**.
 
 Los administradores pueden habilitar cualquier combinación de configuraciones para que los usuarios de Brand Portal accedan a las representaciones y las descarguen.
 
-![](assets/download-configuration.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]
@@ -81,7 +86,7 @@ Los administradores pueden habilitar cualquier combinación de configuraciones p
 
 ### Configurar la configuración de grupos de usuarios {#configure-user-group-settings}
 
-Además de la **[!UICONTROL configuración de descarga]**, los administradores de Brand Portal pueden seguir configurando la configuración para que distintos grupos de usuarios puedan realizar la vista y (o) descargar los recursos originales y sus representaciones.
+Además de la **[!UICONTROL configuración de descarga]**, los administradores de Brand Portal pueden seguir configurando la configuración para que distintos grupos de usuarios realicen la vista y (o) descarguen los recursos originales y sus representaciones.
 
 Inicie sesión en el inquilino de Brand Portal como administrador y vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Usuarios]**. En la página **[!UICONTROL Funciones de usuario]**, vaya a la ficha **[!UICONTROL Grupos]** para configurar la vista y (o) la configuración de descarga de los grupos de usuarios.
 
@@ -123,7 +128,7 @@ Si el usuario tiene acceso a las representaciones, se le proporciona el cuadro d
 * Excluya las representaciones de los recursos que no sean necesarias para la descarga.
 * Aplique el mismo conjunto de representaciones a todos los tipos de recursos similares con un solo clic.
 * Aplique un conjunto diferente de representaciones para distintos tipos de recursos.
-* Cree una carpeta independiente para cada representación de recursos.
+* Cree una carpeta independiente para cada recurso.
 * Descargue los recursos seleccionados y sus representaciones.
 
 ![download-dialog](assets/download-dialog-box.png)
@@ -176,7 +181,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
    ![elimina](assets/remove.png)
 
-   Para conservar la jerarquía de carpetas de Brand Portal al descargar recursos, active la casilla de verificación **[!UICONTROL Crear carpeta independiente para cada recurso]**. De forma predeterminada, se ignora la jerarquía de carpetas de Brand Portal y todos los recursos se descargan en una carpeta zip.
+   Para conservar la jerarquía de carpetas de Brand Portal al descargar recursos, active la casilla de verificación **[!UICONTROL Crear carpeta independiente para cada recurso]**.
 
    El botón de descarga refleja el recuento de los elementos seleccionados. Una vez que haya terminado de aplicar las reglas, haga clic en **[!UICONTROL Descargar elementos]**.
 
@@ -195,7 +200,9 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
 >[!NOTE]
 >
->Si se selecciona una carpeta, colección o más de 20 recursos para la descarga, se omite el cuadro de diálogo **[!UICONTROL Descargar]** y todas las representaciones de recursos a las que puede acceder el usuario, excluidas las representaciones dinámicas, se descargan en una carpeta zip. Las representaciones de recursos se descargan en una carpeta independiente para cada recurso de la carpeta zip.
+>Si se selecciona una carpeta, colección o más de 20 recursos para la descarga, se omite el cuadro de diálogo **[!UICONTROL Descargar]** y todas las representaciones de recursos a las que puede acceder el usuario, excluidas las representaciones dinámicas, se descargan en una carpeta zip.
+>
+>Si el ajuste **[!UICONTROL Descarga de recursos]** está habilitado en **[!UICONTROL Configuración de descarga]**, las representaciones de recursos se descargan en una carpeta independiente para cada recurso dentro de la carpeta zip.
 
 
 >[!NOTE]
