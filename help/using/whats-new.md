@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5798'
+source-wordcount: '5796'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Además de la **[!UICONTROL configuración de descarga]** existente, los adminis
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-Anteriormente, todas las representaciones de recursos se descargaban directamente en una carpeta zip. Se omitió el cuadro de diálogo **[!UICONTROL Descargar]** para carpetas y colecciones, y no hubo ningún método para controlar el comportamiento de descarga de los recursos, lo que dificulta la búsqueda de una representación concreta a partir de un gran número de descargas.
+Anteriormente, todas las representaciones de recursos se descargaban directamente en una carpeta zip. El cuadro de diálogo **[!UICONTROL Descargar]** se omitió para carpetas y colecciones, y no hubo ningún método para controlar el comportamiento de descarga de los recursos, lo que dificulta la búsqueda de una representación concreta a partir de un gran número de descargas.
 
 **[!UICONTROL La]** configuración de descarga de recursos ahora ofrece una opción para crear una carpeta independiente para cada recurso mientras se descargan las carpetas, las colecciones o la descarga masiva de recursos.
 
