@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
+source-git-commit: 1a2ede041a08c687022108a3d5f52c258c6b945a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,11 @@ Dirección URL predeterminada: http:// localhost:4502/aem/start.html
 
    ![](assets/upload.png)
 
-1. En el campo **[!UICONTROL Añadir usuario o grupo]**, agregue usuarios de Brand Portal con los que desee compartir la carpeta de contribución. Estos usuarios pueden acceder y cargar contenido en la carpeta de contribución mediante la interfaz de Brand Portal.
+1. En el campo **[!UICONTROL Añadir usuario]**, agregue usuarios de Brand Portal con los que desee compartir la carpeta de contribución. Estos usuarios pueden acceder y cargar contenido en la carpeta de contribución mediante la interfaz de Brand Portal.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   ![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
->
->Actualmente, los grupos no se pueden asignar a una carpeta de contribución.
 >
 >Los resultados de la búsqueda se basan en la lista de usuario de Brand Portal configurada en AEM Assets. Asegúrese de que dispone de la lista de usuario de Brand Portal actualizada. Consulte [Carga de la lista de usuario de Brand Portal](brand-portal-configure-asset-sourcing.md).
