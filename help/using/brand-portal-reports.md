@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 0e26e6ae38d7b62576bc1751965a71168ad8faf5
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1023'
 ht-degree: 2%
 
 ---
@@ -39,11 +39,12 @@ Para vista de un informe, siga estos pasos:
 
    >[!NOTE]
    >
-   >El informe de uso está presente de forma predeterminada en Brand Portal. No se puede crear ni eliminar. Sin embargo, puede crear, descargar y eliminar los informes de descarga, caducidad, publicación, uso compartido de vínculos e inicios de sesión de usuario.
+   >El informe de uso es un informe predeterminado generado en Brand Portal. No se puede crear ni eliminar. Sin embargo, puede crear, descargar y eliminar los informes de descarga, caducidad, publicación, uso compartido de vínculos e inicios de sesión de usuario.
 
-   Para realizar la vista de un informe, toque o haga clic en el vínculo del informe. Como alternativa, seleccione el informe y toque o haga clic en el icono de Vista en la barra de herramientas.
+   Para vista de un informe, haga clic en el vínculo del informe. Como alternativa, seleccione el informe y toque o haga clic en el icono de Vista en la barra de herramientas.
 
-   **[!UICONTROL Los]** informes de uso muestran información sobre el número de usuarios actuales de Brand Portal, el espacio de almacenamiento ocupado por todos los recursos y el recuento total de recursos en Brand Portal. El informe también muestra la capacidad permitida para cada una de estas métricas de información.
+   **[!UICONTROL Los]** informes de uso muestran información sobre el número de usuarios activos de Brand Portal, el espacio de almacenamiento ocupado por todos los recursos y el recuento total de recursos en Brand Portal. Los usuarios del portal de marca que no están asignados a ningún perfil de producto en el Admin Console se consideran usuarios inactivos y no se reflejan en el **[!UICONTROL Informe de uso]**.
+El informe también muestra la capacidad permitida para cada una de estas métricas de información.
 
    ![](assets/usage-report.png)
 
@@ -94,8 +95,6 @@ Los administradores pueden generar y administrar los siguientes informes estánd
 Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar para su visualización. Para generar un informe, siga estos pasos:
 
 1. En la barra de herramientas de la parte superior, toque o haga clic en el logotipo de AEM para acceder a las herramientas administrativas.
-
-   ![](assets/aemlogo.png)
 
 1. En el panel Herramientas administrativas, toque o haga clic **[!UICONTROL Crear/Administrar informes]** para abrir la página **[!UICONTROL Informes de recursos]**.
 
