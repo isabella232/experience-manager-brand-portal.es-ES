@@ -7,15 +7,15 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Guía de Brand Portal
 user-guide-description: Utilice AEM Assets Brand Portal para satisfacer las necesidades de marketing mediante la distribución segura de activos de productos y marcas aprobados a agencias externas, socios, equipos internos y distribuidores para que puedan descargarlos.
 translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 71%
+source-wordcount: '283'
+ht-degree: 78%
 
 ---
 
 
-# Guía del portal de marca de Adobe Experience Manager Assets {#using}
+# Guía de Adobe Experience Manager Assets Brand Portal {#using}
 
 + [Guía de Brand Portal](using/home.md)
 + Introducción {#introduction}
@@ -25,7 +25,7 @@ ht-degree: 71%
    + [Preguntas frecuentes](using/brand-portal-faqs.md)
    + [Formatos de archivo admitidos](using/brand-portal-supported-formats.md)
    + [Acceso de invitado a Brand Portal](using/guest-access.md)
-   + [Explicación de Brand Portal con AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
+   + [Información sobre Brand Portal con AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
    + [Examinar los recursos en Brand Portal](using/browse-assets-brand-portal.md)
 + Publicado desde AEM Assets en Brand Portal{#publish}
    + [Configurar AEM Assets con Brand Portal](using/configure-aem-assets-with-brand-portal.md)
@@ -35,20 +35,10 @@ ht-degree: 71%
    + [Solución de problemas en la publicación paralela de Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Publicar etiquetas en Brand Portal](using/brand-portal-publish-tags.md)
    + [Publicar ajustes preestablecidos, esquemas y facetas en Brand Portal](using/publish-schema-search-facets-presets.md)
-+ Origen de recursos en Brand Portal {#asset-sourcing-in-brand-portal}
-   + [Información general](using/brand-portal-asset-sourcing.md)
-   + [Configuración de fuentes de recursos en AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configurar la carpeta Contribution en AEM Assets {#configure-contribution-folder}
-      + [Información general](using/brand-portal-contribution-folder.md)
-      + [Crear carpeta de contribución](using/brand-portal-create-contribution-folder.md)
-      + [Configuración de las propiedades de la carpeta de contribución](using/brand-portal-configure-contribution-folder-properties.md)
-      + [Carga de recursos de línea de base](using/brand-portal-upload-baseline-assets.md)
-      + [Publicar carpeta de contribución en Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Uso de fuentes de recursos en Brand Portal {#using-asset-sourcing}
-      + [Información general](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [Descargar requisitos de recursos](using/brand-portal-download-asset-requirements.md)
-      + [Carga de recursos en la carpeta de contribución](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicar carpeta de contribución en AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
++ Abastecimiento de recursos en Brand Portal {#asset-sourcing-in-brand-portal}
+   + [Información general de Asset Sourcing](using/brand-portal-asset-sourcing.md)
+   + [Configurar la carpeta de contribución en AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Publicar carpeta de contribución en AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartir los recursos con los usuarios {#share}
    + [Compartir una colección](using/brand-portal-share-collection.md)
    + [Compartir carpetas](using/brand-portal-sharing-folders.md)
