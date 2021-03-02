@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Se recomienda utilizar letras minúsculas sin ningún espacio para asignar un no
 
    ![](assets/contribution-folder.png)
 
-Ahora puede configurar las propiedades de la carpeta de contribución.
+También puede configurar las propiedades de la carpeta de contribución al crear la carpeta de contribución.
 
 ## Configurar las propiedades de la carpeta de contribución {#configure-contribution-folder-properties}
 
