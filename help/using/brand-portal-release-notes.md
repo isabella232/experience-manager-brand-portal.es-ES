@@ -1,8 +1,8 @@
 ---
 title: Notas de la versión
 seo-title: Notas de la versión
-description: Obtenga una visión detallada de las funciones, las mejoras, los problemas críticos solucionados y los problemas conocidos de la versión 2021.02.0 de Adobe Experience Manager Assets Brand Portal.
-seo-description: Obtenga una visión detallada de las mejoras, los problemas críticos solucionados y los problemas conocidos en la versión 2021.02.0 de Adobe Experience Manager Assets Brand Portal.
+description: Obtenga información sobre las funciones, las mejoras, los problemas críticos corregidos y los problemas conocidos en la versión 2021.02.0 de Adobe Experience Manager Assets Brand Portal.
+seo-description: Obtenga información sobre las mejoras, los problemas críticos corregidos y los problemas conocidos en la versión 2021.02.0 de Adobe Experience Manager Assets Brand Portal.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,17 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 11%
+source-wordcount: '558'
+ht-degree: 10%
 
 ---
 
 
 # Notas de la versión {#release-notes}
 
-Obtenga una visión detallada de las nuevas funciones, mejoras, problemas importantes solucionados y problemas conocidos de la versión 2021.02.0 de Adobe Experience Manager Assets Brand Portal.
+Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión 2021.02.0 de Adobe Experience Manager Assets Brand Portal.
 
 ## Información de la versión {#release-information}
 
@@ -31,7 +31,7 @@ Obtenga una visión detallada de las nuevas funciones, mejoras, problemas import
 
 ## Información general {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a partes externas y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios explorar, buscar, previsualización, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
+Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios examinar, buscar, previsualizar, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
 
 ## Novedades de 2021.02.0 {#whats-new-in-2021.02.0}
 
@@ -39,7 +39,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controla
 
 Esta versión incluye las siguientes nuevas funciones:
 
-* Se ha introducido una configuración adicional de **[!UICONTROL descarga de recursos]** en **[!UICONTROL configuración de descarga]**. Crea una carpeta independiente para cada recurso mientras descarga las carpetas, las colecciones o la descarga masiva de recursos. Consulte [configuración de descarga](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* La función de abastecimiento de recursos ya está disponible en AEM Assets as a Cloud Service. Permite a los usuarios de Brand Portal cargar recursos en las carpetas de contribución permitidas y publicar la carpeta de contribución de Brand Portal en la instancia de AEM Assets as a Cloud Service .
+
+* Se ha introducido una configuración adicional de **[!UICONTROL descarga de recursos]** en **[!UICONTROL Configuración de descarga]**. Crea una carpeta independiente para cada recurso al descargar las carpetas, colecciones o descargas masivas de recursos. Consulte [configuración de descarga](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -67,8 +69,8 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 Esta versión incluye las siguientes mejoras:
 
-* Para la descarga de carpetas, se crea una carpeta independiente para cada recurso mediante un vínculo compartido, independientemente de la **[!UICONTROL configuración de descarga]**.
-* El informe de uso de Brand Portal **** se ha modificado para reflejar únicamente los usuarios activos de Brand Portal.
+* Para la descarga de carpetas, se crea una carpeta independiente para cada recurso mediante el vínculo compartido independientemente de la **[!UICONTROL Configuración de descarga]**.
+* El **[!UICONTROL Informe de uso]** de Brand Portal se ha modificado para reflejar únicamente los usuarios activos de Brand Portal.
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -76,17 +78,17 @@ Esta versión incluye las siguientes mejoras:
 -->
 
 
-### Problemas críticos solucionados {#critical-issues-fixed}
+### Problemas críticos corregidos {#critical-issues-fixed}
 
-Esta versión incluye correcciones a los siguientes problemas críticos:
+Esta versión incluye correcciones para los siguientes problemas críticos:
 
 * Si solo se descargan los recursos originales, el recurso refleja su propia extensión y no se abre hasta que la extensión se cambia manualmente a zip.
 * La interfaz de usuario de la carpeta de recopilación no responde al hacer clic en la flecha de navegación.
-* **[!UICONTROL El botón]** Crear está visible en la  **** vista de columnas aunque las carpetas estén vacías.
-* **[!UICONTROL La]** búsqueda de Omni falla con un mensaje de error 414 (Solicitar-URI demasiado largo) si se omite el despachante al acceder a la instancia de Brand Portal.
+* **** El botón Crear está visible en la  **** Vista de columna incluso cuando las carpetas están vacías.
+* **[!UICONTROL La]** búsqueda de Omni falla con un mensaje de error 414 (URI de solicitud demasiado largo) si se omite el despachante al acceder a la instancia de Brand Portal.
 * Se descarga una carpeta zip vacía si el recurso contiene una coma (`,`) en el nombre del archivo.
-* Los usuarios del visor obtienen la opción de agregar usuarios a la colección que han creado.
-* Se produce un comportamiento incoherente cuando un recurso (miniatura o representación web) se descarga mediante un vínculo compartido.
+* Los usuarios del visor tienen la opción de agregar usuarios a la colección que han creado.
+* Se experimenta un comportamiento incoherente cuando se descarga un recurso (miniatura o representación web) mediante un vínculo compartido.
 
 Consulte [novedades en Brand Portal 2021.02.0](whats-new.md).
 
@@ -153,7 +155,7 @@ La interfaz de usuario de Brand Portal está disponible en los siguientes idioma
 
 ## Plataformas certificadas {#certified-platforms}
 
-Para determinar qué plataformas están certificadas para ejecutarse con esta versión de Brand Portal, consulte la columna **Compatibilidad con IU táctil** de la tabla de la sección **Exploradores admitidos para la creación de la interfaz de usuario** de [Requisitos técnicos](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Para determinar qué plataformas están certificadas para ejecutarse con esta versión de Brand Portal, consulte la columna **Compatibilidad con la IU táctil** en la tabla de la sección **Exploradores admitidos para la interfaz de usuario de creación** de [Requisitos técnicos](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Vínculos {#links}
 
@@ -162,7 +164,7 @@ Para determinar qué plataformas están certificadas para ejecutarse con esta ve
 
 ## Asistencia y acceso al producto (sitios restringidos) {#product-access-and-support-restricted-sites}
 
-Estos sitios solo están disponibles para los clientes. Si es cliente y necesita acceso, póngase en contacto con el administrador de cuentas de Adobe.
+Estos sitios solo están disponibles para los clientes. Si es cliente de y necesita acceso, póngase en contacto con su administrador de cuentas de Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
