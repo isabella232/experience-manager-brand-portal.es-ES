@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Después de publicar los recursos recién creados en AEM Assets, los usuarios de
 
 Una vez alcanzado el objetivo de crear la carpeta de contribución, el administrador de Brand Portal puede eliminar la carpeta de contribución para liberar el espacio de carga para otros usuarios.
 
-**Estado del trabajo de publicación**
+## Estado del trabajo de publicación {#publishing-job-status}
 
 Los administradores pueden utilizar dos informes para ver el estado de las carpetas de contribución de recursos publicadas desde Brand Portal en AEM Assets.
 
@@ -129,13 +129,27 @@ Los administradores pueden utilizar dos informes para ver el estado de las carpe
 
    ![](assets/contribution-folder-status.png)
 
-* En la instancia de creación de AEM Assets, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Trabajos]**. Este informe refleja el estado final (éxito o error) de todos los trabajos de publicación.
+* En AEM Assets (servicio local o administrado), vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Trabajos]**. Este informe refleja el estado final (éxito o error) de todos los trabajos de publicación.
 
    ![](assets/publishing-status.png)
 
+* En AEM Assets as a Cloud Service, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Recursos]** > **[!UICONTROL Informes]**.
+
+   Haga clic en el botón **[!UICONTROL Create]** y seleccione **[!UICONTROL Publish]** para crear un informe de publicación.
+
+   ![](assets/create-publish-report.png)
+
+   Introduzca **[!UICONTROL Title]** y **[!UICONTROL Description]**, luego seleccione la **[!UICONTROL Folder Path]** de la carpeta de contribución y programe el informe para **[!UICONTROL Now]**. Haga clic en **[!UICONTROL Siguiente]**. 
+
+   ![](assets/create-publish-report1.png)
+
+   Seleccione los atributos de campo que desee en el informe y genérelos. Este informe refleja el estado final (éxito o error) de todos los trabajos de publicación.
+
+<!--
 >[!NOTE]
 >
->La interfaz de usuario de AEM Assets as a Cloud Service puede tener una ligera diferencia, pero el flujo de trabajo permanece sin cambios.
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
