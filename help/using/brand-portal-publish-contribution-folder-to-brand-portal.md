@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ El usuario de AEM realiza las siguientes actividades al configurar una carpeta d
 Los administradores de AEM y los usuarios no administradores que tengan permiso para crear una nueva carpeta pueden crear una carpeta de contribución en AEM Assets.
 Para crear una carpeta de contribución, cree una nueva carpeta de tipo Contribución de recursos, asegurándose de que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal.  Esto activa automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, denominadas SHARED y NEW, en la carpeta de contribución.
 
+
 >[!NOTE]
 >
 >Puede crear varias carpetas de contribución dentro de una carpeta. No cree una carpeta de contribución dentro de otra carpeta de contribución.
+
+Puede configurar las propiedades de la carpeta de contribución por separado, así como al crear la carpeta de contribución. En este ejemplo, configuramos las propiedades por separado.
 
 **Para crear una carpeta de contribución:**
 1. Inicie sesión en la instancia de AEM Assets.
@@ -68,7 +71,6 @@ Se recomienda utilizar letras minúsculas sin ningún espacio para asignar un no
 
    ![](assets/contribution-folder.png)
 
-También puede configurar las propiedades de la carpeta de contribución al crear la carpeta de contribución.
 
 ## Configurar las propiedades de la carpeta de contribución {#configure-contribution-folder-properties}
 
