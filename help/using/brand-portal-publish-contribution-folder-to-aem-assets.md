@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,24 @@ El tablero de Brand Portal refleja todas las carpetas existentes permitidas al u
 
 1. Inicie sesión en la instancia de Brand Portal.
 1. Seleccione la carpeta de contribución en el panel de control de Brand Portal.
-1. Haga clic en **[!UICONTROL Propiedades]** ![](assets/properties.png). Se abre la ventana de propiedades y se muestran los detalles de la carpeta Contribución de recursos.
-   ![](assets/download-asset-requirement1.png)
-1. Haga clic en **[!UICONTROL Descargar resumen]** ![](assets/download.png) para descargar el documento de requisitos de recursos en el equipo local.
+1. Haga clic en **[!UICONTROL Propiedades]**. Se abre la ventana Propiedad que contiene los detalles de la carpeta de contribución.
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. Haga clic en la opción **[!UICONTROL Descargar breve]** para descargar el documento de requisitos de recursos en el equipo local.
+
+   ![](assets/download.png)
+
 1. Vuelva al tablero de Brand Portal.
 1. Haga clic en para abrir la carpeta de contribución. En la carpeta de contribución, puede ver dos subcarpetas, **[!UICONTROL SHARED]** y **[!UICONTROL NEW]**. La carpeta SHARED contiene todos los recursos de línea de base (contenido de referencia) compartidos por los administradores.
 1. Puede descargar la carpeta **[!UICONTROL SHARED]** que contiene todos los recursos de línea de base en el equipo local.
-O bien, puede abrir la carpeta **[!UICONTROL SHARED]** y hacer clic en el icono **Descargar** ![](assets/download.png) para descargar archivos/carpetas individuales.
-   ![](assets/download-asset-requirement3.png)
+O bien, puede abrir la carpeta **[!UICONTROL SHARED]** y hacer clic en el icono **Download** para descargar archivos/carpetas individuales.
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 Consulte el documento breve (documento de requisitos de recursos) y consulte los recursos de línea de base para comprender los requisitos de los recursos. Ahora, puede crear nuevos recursos para la contribución y cargarlos en la carpeta de contribución.
 
@@ -82,15 +91,15 @@ El tablero de Brand Portal refleja todas las carpetas existentes permitidas al u
 
 1. Haga clic en la carpeta **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Archivos]** para cargar archivos o carpetas individuales (.zip) que contengan varios recursos.
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. Examine y cargue los recursos (archivos o carpetas) en la carpeta **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 Después de cargar todos los recursos o carpetas en la carpeta NEW , publique la carpeta de contribución en AEM Assets.
 
@@ -110,7 +119,7 @@ Asegúrese de haber pasado por los requisitos de recursos y cargar los recursos 
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 Se envía una notificación por correo electrónico o por pulso al usuario y a los administradores de Brand Portal en diferentes etapas del flujo de trabajo de publicación:
 1. **En cola** : se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando se activa un flujo de trabajo de publicación en Brand Portal.
@@ -129,21 +138,17 @@ Los administradores pueden utilizar dos informes para ver el estado de las carpe
 
    ![](assets/contribution-folder-status.png)
 
-* En AEM Assets (servicio local o administrado), vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Trabajos]**. Este informe refleja el estado final (éxito o error) de todos los trabajos de publicación.
+* En AEM Assets (servicio local o administrado), vaya a **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Este informe refleja el estado final (éxito o error) de todos los trabajos de publicación.
 
    ![](assets/publishing-status.png)
 
-* En AEM Assets as a Cloud Service, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Recursos]** > **[!UICONTROL Informes]**.
+* En AEM Assets as a Cloud Service, vaya a **[!UICONTROL Assets]** > **[!UICONTROL Trabajos]**.
 
-   Haga clic en el botón **[!UICONTROL Create]** y seleccione **[!UICONTROL Publish]** para crear un informe de publicación.
+   O bien, puede navegar directamente a **[!UICONTROL Trabajos]** desde la navegación global.
 
-   ![](assets/create-publish-report.png)
+   Este informe refleja el estado final (éxito o error) de todos los trabajos de publicación, incluida la importación de recursos de Brand Portal a AEM Assets as a Cloud Service.
 
-   Introduzca **[!UICONTROL Title]** y **[!UICONTROL Description]**, luego seleccione la **[!UICONTROL Folder Path]** de la carpeta de contribución y programe el informe para **[!UICONTROL Now]**. Haga clic en **[!UICONTROL Siguiente]**. 
-
-   ![](assets/create-publish-report1.png)
-
-   Seleccione los atributos de campo que desee en el informe y genérelos. Este informe refleja el estado final (éxito o error) de todos los trabajos de publicación.
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
