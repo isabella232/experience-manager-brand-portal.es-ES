@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
+source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
 workflow-type: tm+mt
-source-wordcount: '6069'
+source-wordcount: '6053'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Brand Portal 2021.02.0 es una versión de mejora que incorpora el flujo de traba
 
 AEM Assets as a Cloud Service se configura automáticamente con Brand Portal activando Brand Portal desde Cloud Manager. Un usuario de Cloud Manager déclencheur el flujo de trabajo de activación que crea las configuraciones necesarias en el servidor y activa Brand Portal en la misma organización de IMS que la de AEM Assets como instancia de Cloud Service.
 
-Anteriormente, AEM Assets as a Cloud Service se configuraba manualmente con Brand Portal mediante Adobe Developer Console, que proporciona un token de Identity Management Services (IMS) de Adobe para la autorización del inquilino de Brand Portal.
+Anteriormente, AEM Assets as a Cloud Service se configuraba manualmente con Brand Portal mediante Adobe Developer Console.
 
 Consulte [Activación de Brand Portal en AEM Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
