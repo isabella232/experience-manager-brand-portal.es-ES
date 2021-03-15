@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 10%
 
 ---
@@ -39,9 +39,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controla
 
 Esta versión incluye las siguientes nuevas funciones:
 
-* La función de abastecimiento de recursos ya está disponible en AEM Assets as a Cloud Service. Permite a los usuarios de Brand Portal cargar recursos en las carpetas de contribución permitidas y publicar la carpeta de contribución de Brand Portal en la instancia de AEM Assets as a Cloud Service .
+* AEM Assets as a Cloud Service se configura automáticamente con Brand Portal activando Brand Portal desde Cloud Manager.
 
-* Se ha introducido una configuración adicional de **[!UICONTROL descarga de recursos]** en **[!UICONTROL Configuración de descarga]**. Crea una carpeta independiente para cada recurso al descargar las carpetas, colecciones o descargas masivas de recursos. Consulte [configuración de descarga](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* La función de abastecimiento de recursos ya está disponible en AEM Assets as a Cloud Service. Permite a los usuarios de Brand Portal cargar recursos en las carpetas de contribución permitidas y publicar la carpeta de contribución de Brand Portal en AEM Assets as a Cloud Service.
+
+* Se ha introducido una configuración adicional de **[!UICONTROL descarga de recursos]** en **[!UICONTROL Configuración de descarga]**. Crea una carpeta independiente para cada recurso al descargar las carpetas, colecciones o descargas masivas de recursos.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -171,7 +173,7 @@ Para determinar qué plataformas están certificadas para ejecutarse con esta ve
 
 ## Asistencia y acceso al producto (sitios restringidos) {#product-access-and-support-restricted-sites}
 
-Estos sitios solo están disponibles para los clientes. Si es cliente de y necesita acceso, póngase en contacto con su administrador de cuentas de Adobe.
+Estos sitios solo están disponibles para los clientes. Si es cliente de y requiere acceso, póngase en contacto con su administrador de cuentas de Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
