@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6125'
+source-wordcount: '6138'
 ht-degree: 3%
 
 ---
@@ -24,15 +24,15 @@ Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controla
 
 ## Qué cambió en 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 es una versión de mejora que incorpora el flujo de trabajo de automatización de Brand Portal en AEM Assets as a Cloud Service, facilita la función de abastecimiento de recursos en AEM Assets como Cloud Service, mejora la experiencia de descarga de recursos e incluye correcciones críticas. También permite a los administradores configurar el comportamiento de descarga predeterminado de carpetas, colecciones y descargas masivas de recursos a nivel de inquilino. El **[!UICONTROL Informe de uso]** de Brand Portal también se ha modificado para reflejar a los usuarios activos de Brand Portal. Consulte las últimas [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 es una versión de mejora que incorpora el flujo de trabajo de activación de Brand Portal en AEM Assets as a Cloud Service, facilita la función de abastecimiento de recursos en AEM Assets como Cloud Service, mejora la experiencia de descarga de recursos e incluye correcciones críticas. También permite a los administradores configurar el comportamiento de descarga predeterminado de carpetas, colecciones y descargas masivas de recursos a nivel de inquilino. El **[!UICONTROL Informe de uso]** de Brand Portal también se ha modificado para reflejar a los usuarios activos de Brand Portal. Consulte las últimas [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
 
-### Automatización de Brand Portal en AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
+### Activar Brand Portal en AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets as a Cloud Service se configura automáticamente con Brand Portal activando Brand Portal desde Cloud Manager.
+AEM Assets as a Cloud Service ahora tiene derecho a tener una instancia preconfigurada de Brand Portal. El usuario de Cloud Manager puede activar Brand Portal en la instancia de AEM Assets as a Cloud Service.
 
 Anteriormente, AEM Assets as a Cloud Service se configuraba manualmente con Brand Portal mediante Adobe Developer Console.
 
-Un usuario de Cloud Manager déclencheur el flujo de trabajo de activación que crea las configuraciones necesarias en el servidor y activa Brand Portal en la misma organización de IMS que la de AEM Assets como instancia de Cloud Service.
+El usuario de Cloud Manager déclencheur el flujo de trabajo de activación que crea las configuraciones necesarias en el servidor y activa Brand Portal en la misma organización de IMS que la de AEM Assets como instancia de Cloud Service.
 
 Para activar Brand Portal en la instancia de AEM Assets as a Cloud Service:
 
@@ -225,7 +225,7 @@ El administrador de Brand Portal puede habilitar cualquier combinación para con
 En función de la configuración, el flujo de trabajo de descarga permanece constante para los recursos independientes, varios recursos, carpetas que contengan recursos, recursos con licencia o sin licencia y descarga de recursos mediante el vínculo de uso compartido.
 
 
-## Qué ha cambiado en 6.4.6 {#what-changed-in-646}
+## Qué ha cambiado en 6.4.2 {#what-changed-in-646}
 
 En Brand Portal 6.4.6, se cambia el canal de autorización entre AEM Assets y Brand Portal. Brand Portal ahora es compatible con AEM Assets as a Cloud Service, AEM Assets 6.3 y versiones posteriores. En AEM Assets 6.3 y versiones posteriores, Brand Portal se configuró anteriormente en la IU clásica mediante la puerta de enlace OAuth heredada, que utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización. AEM Assets ahora se configura con Brand Portal a través de Adobe Developer Console, que obtiene un testigo IMS para la autorización del inquilino de Brand Portal.
 
@@ -458,7 +458,7 @@ La versión ofrece una experiencia de descarga simplificada con un número reduc
 * Optar por descargar solo las representaciones (y no los recursos originales).
 * La descarga de los recursos cuando el acceso a las representaciones originales está restringido.
 
-## Qué ha cambiado en 6.4.2 {#what-changed-in-1}
+## Qué ha cambiado en 6.4.6 {#what-changed-in-1}
 
 La versión 6.4.2 de Brand Portal ofrece una amplia gama de funciones para satisfacer las necesidades de distribución de recursos de las organizaciones y ayudarles a llegar a un gran número de usuarios distribuidos globalmente mediante Acceso de invitado y una experiencia óptima con descargas aceleradas. Brand Portal también proporciona bueno control a las organizaciones a través de nuevas configuraciones para administradores, informes recién agregados y atención a las solicitudes de los clientes.
 
