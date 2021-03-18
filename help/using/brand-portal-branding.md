@@ -8,10 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
+role: Administrador
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -21,20 +22,20 @@ ht-degree: 2%
 
 Los administradores de Brand Portal pueden realizar personalizaciones limitadas de la interfaz que se muestra a los usuarios. Puede elegir una imagen de fondo específica (fondo de pantalla) para la página de inicio de sesión de Brand Portal. También puede añadir una imagen de encabezado y personalizar los correos electrónicos de uso compartido de recursos para que coincidan con la marca del cliente.
 
-## Personalice el fondo de pantalla de inicio de sesión {#customize-the-login-screen-wallpaper}
+## Personalización del fondo de pantalla de inicio de sesión {#customize-the-login-screen-wallpaper}
 
-A falta de una imagen personalizada de fondo de pantalla con marca, se muestra un fondo de pantalla predeterminado en la página de inicio de sesión.
+En ausencia de una imagen personalizada de papel tapiz con marca, se muestra un papel tapiz predeterminado en la página de inicio de sesión.
 
 1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
-1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Marcas]**.
+1. En el panel de herramientas administrativas, haga clic en **[!UICONTROL Marcas]**.
 
 
    ![](assets/admin-tools-panel-10.png)
 
-1. En el carril izquierdo de la página **[!UICONTROL Configurar personalización]**, **[!UICONTROL Papel de escritorio]** está seleccionado de forma predeterminada. Se muestra la imagen de fondo predeterminada que aparece en la página de inicio de sesión.
+1. En el carril izquierdo de la página **[!UICONTROL Configurar marca]**, **[!UICONTROL Wallpaper]** está seleccionado de forma predeterminada. Se muestra la imagen de fondo predeterminada que aparece en la página de inicio de sesión.
 
    ![](assets/default_wallpaper.png)
 
@@ -45,13 +46,13 @@ A falta de una imagen personalizada de fondo de pantalla con marca, se muestra u
    Realice una de las acciones siguientes:
 
    * Para cargar una imagen desde el equipo, haga clic en **[!UICONTROL Cargar]**. Vaya a la imagen requerida y cárguela.
-   * Para utilizar una imagen existente de Brand Portal, haga clic en **[!UICONTROL Seleccionar de una existente]**. Elija una imagen con el selector de recursos.
+   * Para usar una imagen existente de Brand Portal, haga clic en **[!UICONTROL Seleccionar de una imagen existente]**. Elija una imagen mediante el selector de recursos.
 
    ![](assets/asset-picker.png)
 
-1. Especifique un texto de encabezado y una descripción para la imagen de fondo. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** desde la barra de herramientas en la parte superior.
+1. Especifique un texto de encabezado y una descripción para la imagen de fondo. Para guardar los cambios, haga clic en **[!UICONTROL Save]** en la barra de herramientas de la parte superior.
 
-1. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Previsualización]** para generar una previsualización de la interfaz de Brand Portal con la imagen.
+1. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Preview]** para generar una previsualización de la interfaz de Brand Portal con la imagen.
 
    ![](assets/chlimage_1.png)
 
@@ -59,7 +60,7 @@ A falta de una imagen personalizada de fondo de pantalla con marca, se muestra u
 
 1. Para activar o desactivar el papel tapiz predeterminado, haga lo siguiente en la página **[!UICONTROL Configurar marca > Papel tapiz]**:
 
-   * Para mostrar la imagen de fondo de pantalla predeterminada en la página de inicio de sesión de Brand Portal, haga clic en **[!UICONTROL Desactivar papel de escritorio]** desde la barra de herramientas en la parte superior. Un mensaje confirma que la imagen personalizada está desactivada.
+   * Para mostrar la imagen de papel tapiz predeterminada en la página de inicio de sesión de Brand Portal, haga clic en **[!UICONTROL Desactivar papel tapiz]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen personalizada está desactivada.
 
    ![](assets/chlimage_1-1.png)
 
@@ -79,32 +80,32 @@ El encabezado aparece en varias páginas de Brand Portal después de iniciar ses
 
    ![](assets/aemlogo.png)
 
-1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Marcas]**.
+1. En el panel de herramientas administrativas, haga clic en **[!UICONTROL Marcas]**.
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Para personalizar el encabezado de página de la interfaz de Brand Portal, en la página **[!UICONTROL Configurar marca]**, seleccione **[!UICONTROL Imagen de encabezado]** en el carril izquierdo. Se muestra la imagen predeterminada del encabezado.
+1. Para personalizar el encabezado de página de la interfaz de Brand Portal, en la página **[!UICONTROL Configurar marca]**, seleccione **[!UICONTROL Imagen de encabezado]** en el carril izquierdo. Se muestra la imagen de encabezado predeterminada.
 
    ![](assets/default-header.png)
 
-1. Para cargar una imagen de encabezado, haga clic en el icono **[!UICONTROL Elegir imagen]** y elija **[!UICONTROL Cargar]**.
+1. Para cargar una imagen de encabezado, haga clic en el icono **[!UICONTROL Elegir imagen]** y seleccione **[!UICONTROL Cargar]**.
 
-   Para utilizar una imagen existente de Brand Portal, elija **[!UICONTROL Seleccionar de una existente]**.
+   Para usar una imagen existente de Brand Portal, elija **[!UICONTROL Seleccionar de una]** existente.
 
    ![](assets/choose_wallpaperimage-1.png)
 
-   Elija una imagen con el selector de recursos.
+   Elija una imagen mediante el selector de recursos.
 
    ![](assets/asset-picker-header.png)
 
-1. Para incluir una dirección URL en la imagen del encabezado, especifíquela en el cuadro **[!UICONTROL Dirección URL de la imagen]**. Puede especificar direcciones URL externas o internas. Los vínculos internos también pueden ser vínculos relativos, por ejemplo:
+1. Para incluir una dirección URL en la imagen del encabezado, especifíquelo en el cuadro **[!UICONTROL Image URL]**. Puede especificar direcciones URL externas o internas. Los vínculos internos también pueden ser vínculos relativos, por ejemplo
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
 Este vínculo dirige a los usuarios a la carpeta de etiquetas.
-Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** desde la barra de herramientas en la parte superior.
+Para guardar los cambios, haga clic en **[!UICONTROL Save]** en la barra de herramientas de la parte superior.
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Previsualización]** para generar una previsualización de la interfaz de Brand Portal con la imagen del encabezado.
+1. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Preview]** para generar una vista previa de la interfaz de Brand Portal con la imagen del encabezado.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
@@ -115,7 +116,7 @@ Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** desde la barra d
 
    ![](assets/chlimage_1-4.png)
 
-   * Para que la imagen del encabezado vuelva a aparecer en las páginas de Brand Portal, haga clic en **[!UICONTROL Activar encabezado]** desde la barra de herramientas en la parte superior. Un mensaje confirma que la imagen está activada.
+   * Para que la imagen de encabezado vuelva a aparecer en las páginas de Brand Portal, haga clic en **[!UICONTROL Activar encabezado]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen está activada.
 
    ![](assets/chlimage_1-5.png)
 
@@ -123,7 +124,7 @@ Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** desde la barra d
 
 
 
-## Personalizar los mensajes de correo electrónico {#customize-the-email-messaging}
+## Personalización de la mensajería de correo electrónico {#customize-the-email-messaging}
 
 Cuando los recursos se comparten como vínculo, los usuarios reciben un correo electrónico que contiene el vínculo. Los administradores pueden personalizar los mensajes, es decir, el logotipo, la descripción y el pie de página, de estos correos electrónicos.
 
@@ -131,7 +132,7 @@ Cuando los recursos se comparten como vínculo, los usuarios reciben un correo e
 
    ![](assets/aemlogo.png)
 
-1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL Marcas]**.
+1. En el panel de herramientas administrativas, haga clic en **[!UICONTROL Marcas]**.
 
    ![](assets/admin-tools-panel-12.png)
 
@@ -139,10 +140,10 @@ Cuando los recursos se comparten como vínculo, los usuarios reciben un correo e
 
    ![](assets/configure-branding-page-email.png)
 
-1. Para agregar un logotipo a los correos electrónicos salientes, haga clic en **[!UICONTROL Cargar]** desde la barra de herramientas en la parte superior.
+1. Para añadir un logotipo a los correos electrónicos salientes, haga clic en **[!UICONTROL Upload]** en la barra de herramientas de la parte superior.
 
-1. En la sección **[!UICONTROL Descripción]**, especifique el texto del encabezado y pie de página del correo electrónico. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** desde la barra de herramientas en la parte superior.
+1. En la sección **[!UICONTROL Description]** , especifique el texto del encabezado y pie de página del correo electrónico. Para guardar los cambios, haga clic en **[!UICONTROL Save]** en la barra de herramientas de la parte superior.
 
    >[!NOTE]
    >
-   >Si no utiliza el tamaño recomendado para el logotipo o si el texto del encabezado y el pie de página excede el número de palabras recomendado, el contenido del mensaje de correo electrónico puede aparecer confuso.
+   >Si no utiliza el tamaño recomendado para el logotipo o si el texto del encabezado y del pie de página supera el recuento recomendado de palabras, el contenido del mensaje de correo electrónico puede aparecer confuso.
