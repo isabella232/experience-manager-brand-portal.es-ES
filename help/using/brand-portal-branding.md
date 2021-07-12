@@ -8,15 +8,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
-
 
 # Personalización del papel tapiz, el encabezado y los mensajes de correo electrónico {#customize-wallpaper-header-and-email-message}
 
@@ -46,7 +45,7 @@ En ausencia de una imagen personalizada de papel tapiz con marca, se muestra un 
    Realice una de las acciones siguientes:
 
    * Para cargar una imagen desde el equipo, haga clic en **[!UICONTROL Cargar]**. Vaya a la imagen requerida y cárguela.
-   * Para usar una imagen existente de Brand Portal, haga clic en **[!UICONTROL Seleccionar de una imagen existente]**. Elija una imagen mediante el selector de recursos.
+   * Para usar una imagen de Brand Portal existente, haga clic en **[!UICONTROL Seleccionar de la imagen existente]**. Elija una imagen mediante el selector de recursos.
 
    ![](assets/asset-picker.png)
 
@@ -60,7 +59,7 @@ En ausencia de una imagen personalizada de papel tapiz con marca, se muestra un 
 
 1. Para activar o desactivar el papel tapiz predeterminado, haga lo siguiente en la página **[!UICONTROL Configurar marca > Papel tapiz]**:
 
-   * Para mostrar la imagen de papel tapiz predeterminada en la página de inicio de sesión de Brand Portal, haga clic en **[!UICONTROL Desactivar papel tapiz]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen personalizada está desactivada.
+   * Para mostrar la imagen de fondo de pantalla predeterminada en la página de inicio de sesión de Brand Portal, haga clic en **[!UICONTROL Desactivar papel de escritorio]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen personalizada está desactivada.
 
    ![](assets/chlimage_1-1.png)
 
@@ -72,7 +71,7 @@ En ausencia de una imagen personalizada de papel tapiz con marca, se muestra un 
 
 
 
-## Personalizar el encabezado {#customize-the-header}
+## Personalización del encabezado {#customize-the-header}
 
 El encabezado aparece en varias páginas de Brand Portal después de iniciar sesión en Brand Portal.
 
@@ -90,7 +89,7 @@ El encabezado aparece en varias páginas de Brand Portal después de iniciar ses
 
 1. Para cargar una imagen de encabezado, haga clic en el icono **[!UICONTROL Elegir imagen]** y seleccione **[!UICONTROL Cargar]**.
 
-   Para usar una imagen existente de Brand Portal, elija **[!UICONTROL Seleccionar de una]** existente.
+   Para usar una imagen de Brand Portal existente, elija **[!UICONTROL Seleccionar de la]** existente.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -105,18 +104,18 @@ Para guardar los cambios, haga clic en **[!UICONTROL Save]** en la barra de herr
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Preview]** para generar una vista previa de la interfaz de Brand Portal con la imagen del encabezado.
+1. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Preview]** para generar una previsualización de la interfaz de Brand Portal con la imagen del encabezado.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. Para activar o desactivar la imagen del encabezado, haga lo siguiente en la página **[!UICONTROL Configurar marca > Imagen del encabezado]**:
 
-   * Para evitar que aparezca una imagen de encabezado en las páginas de Brand Portal, haga clic en **[!UICONTROL Desactivar encabezado]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen está desactivada.
+   * Para evitar que aparezca una imagen de encabezado en páginas de Brand Portal, haga clic en **[!UICONTROL Desactivar encabezado]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen está desactivada.
 
    ![](assets/chlimage_1-4.png)
 
-   * Para que la imagen de encabezado vuelva a aparecer en las páginas de Brand Portal, haga clic en **[!UICONTROL Activar encabezado]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen está activada.
+   * Para que la imagen de encabezado vuelva a aparecer en páginas de Brand Portal, haga clic en **[!UICONTROL Activar encabezado]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen está activada.
 
    ![](assets/chlimage_1-5.png)
 
