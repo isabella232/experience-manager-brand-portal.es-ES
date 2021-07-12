@@ -8,21 +8,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1756'
 ht-degree: 11%
 
 ---
-
 
 # Utilizar el formulario de esquema de metadatos {#use-the-metadata-schema-form}
 
 Un esquema de metadatos describe el diseño de la página Propiedades y las propiedades de metadatos que se muestran para los recursos que utilizan el esquema en cuestión. El esquema que aplique a un recurso determina los campos de metadatos que aparecen en su página Propiedades.
 
-La página **[!UICONTROL Propiedades]** de cada recurso incluye propiedades de metadatos predeterminadas según el tipo MIME del recurso. Los administradores pueden utilizar el Editor de esquemas de metadatos para modificar esquemas existentes o agregar esquemas de metadatos personalizados. AEM Assets Brand Portal proporciona formularios predeterminados para recursos de varios tipos de MIME. Sin embargo, también puede agregar formularios personalizados para estos recursos.
+La página **[!UICONTROL Propiedades]** de cada recurso incluye propiedades de metadatos predeterminadas según el tipo MIME del recurso. Los administradores pueden utilizar el Editor de esquemas de metadatos para modificar esquemas existentes o agregar esquemas de metadatos personalizados. AEM Assets Brand Portal proporciona formularios predeterminados para los recursos de varios tipos de MIME. Sin embargo, también puede agregar formularios personalizados para estos recursos.
 
 ## Agregar un formulario de esquema de metadatos {#add-a-metadata-schema-form}
 
@@ -44,7 +43,7 @@ Para crear un nuevo formulario de esquema de metadatos, haga lo siguiente:
 
    ![](assets/create-schema-form.png)
 
-## Editar un formulario de esquema de metadatos {#edit-a-metadata-schema-form}
+## Edición de un formulario de esquema de metadatos {#edit-a-metadata-schema-form}
 
 Puede editar un formulario de esquema de metadatos nuevo o existente. El formulario de esquema de metadatos contiene contenido derivado de su elemento principal, incluidas fichas y elementos de formulario dentro de fichas. Puede asignar o configurar estos elementos de formulario a un campo dentro de un nodo de metadatos.
 
@@ -126,7 +125,7 @@ Los siguientes son los valores válidos para esta propiedad:
 >
 >Todos los campos de metadatos son de solo lectura en el formulario del editor de metadatos de un recurso. Dado que los metadatos del recurso deben editarse en AEM Assets antes de publicar un recurso en Brand Portal.
 
-#### Agregar o eliminar una ficha en el formulario de esquema {#add-or-delete-a-tab-in-the-schema-form}
+#### Agregar o eliminar una ficha del formulario de esquema {#add-or-delete-a-tab-in-the-schema-form}
 
 El formulario de esquema predeterminado incluye las pestañas **[!UICONTROL Basic]** y **[!UICONTROL Advanced]**. El editor de esquemas permite agregar o eliminar una pestaña.
 
@@ -172,7 +171,7 @@ Para aplicar un formulario de esquema de metadatos a una carpeta, haga lo siguie
 
 ## Eliminación de un formulario de esquema de metadatos {#delete-a-metadata-schema-form}
 
-Brand Portal solo permite eliminar formularios de esquema personalizados. No permite eliminar los formularios o plantillas de esquema predeterminados. Sin embargo, puede eliminar cualquier cambio personalizado en estos formularios.
+Brand Portal permite eliminar solo los formularios de esquema personalizados. No permite eliminar los formularios o plantillas de esquema predeterminados. Sin embargo, puede eliminar cualquier cambio personalizado en estos formularios.
 
 Para eliminar un formulario, seleccione un formulario y haga clic en el icono **[!UICONTROL Delete]**.
 
