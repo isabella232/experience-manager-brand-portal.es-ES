@@ -9,19 +9,18 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
 
-
 # Administración de los derechos digitales de recursos {#manage-digital-rights-of-assets}
 
-Garantizar la distribución y el uso seguros de los recursos creativos y del material de marca es vital para proteger su marca. Esto se puede hacer cumplir en toda la organización y fuera de ella asociando una fecha (y hora) de caducidad con los recursos aprobados publicados desde AEM a Brand Portal, o otorgando licencias a estos recursos para su uso condicional. Además, Brand Portal le permite especificar una fecha de caducidad para los vínculos a los recursos compartidos desde Brand Portal.
+Garantizar la distribución y el uso seguros de los recursos creativos y del material de marca es vital para proteger su marca. Esto se puede hacer cumplir en toda la organización y fuera de ella asociando una fecha (y hora) de caducidad con los recursos aprobados publicados de AEM a Brand Portal o otorgando licencias a estos recursos para su uso condicional. Además, Brand Portal le permite especificar una fecha de caducidad para los vínculos a los recursos compartidos desde Brand Portal.
 
 Continúe leyendo para saber cómo se protegen los recursos en Brand Portal y comprenda los permisos de uso asociados.
 
@@ -33,7 +32,7 @@ La caducidad de los recursos es una forma eficaz de controlar el uso de los recu
 
 En Brand Portal, los administradores pueden ver, descargar y agregar recursos caducados a las colecciones. Por su parte, los editores y los visualizadores solo pueden ver y añadir recursos caducados a las colecciones.
 
-Los administradores pueden publicar recursos caducados de AEM Assets en Brand Portal. Sin embargo, los recursos caducados no se pueden compartir mediante vínculos desde Brand Portal. Si selecciona cualquier recurso caducado de una carpeta que contenga tanto activos caducados como no caducados, la acción **[!UICONTROL Compartir vínculo]** no estará disponible. Sin embargo, si selecciona una carpeta que contiene activos caducados y no caducados, estarán disponibles las acciones [!UICONTROL Compartir] y **[!UICONTROL Compartir vínculo]**.
+Los administradores pueden publicar recursos caducados de AEM Assets en Brand Portal. Sin embargo, los recursos caducados no se pueden compartir mediante vínculo desde Brand Portal. Si selecciona cualquier recurso caducado de una carpeta que contenga tanto activos caducados como no caducados, la acción **[!UICONTROL Compartir vínculo]** no estará disponible. Sin embargo, si selecciona una carpeta que contiene activos caducados y no caducados, estarán disponibles las acciones [!UICONTROL Compartir] y **[!UICONTROL Compartir vínculo]**.
 
 >[!NOTE]
 >
@@ -52,7 +51,7 @@ La tabla siguiente muestra los permisos de uso de los recursos caducados:
 >
 >Si Visualizadores y editores descargan una carpeta que contenga recursos caducados y no caducados, solo se descargarán los recursos que no hayan caducado. Si una carpeta contiene solo recursos caducados, se descarga una carpeta vacía.
 
-### Estado de caducidad de los recursos {#expiration-status-of-assets}
+### Estado de caducidad de los activos {#expiration-status-of-assets}
 
 Puede ver el estado de caducidad de los recursos en su **[!UICONTROL Vista de tarjeta]**. Un indicador rojo en la tarjeta indica que el recurso ha caducado.
 
@@ -62,7 +61,7 @@ Puede ver el estado de caducidad de los recursos en su **[!UICONTROL Vista de ta
 >
 >Las vistas Lista y Columna no muestran el estado de caducidad de los recursos.
 
-## Caducidad de Asset Link {#asset-link-expiration}
+## Caducidad del vínculo de recursos {#asset-link-expiration}
 
 Al compartir recursos mediante vínculos, los administradores y editores pueden establecer una fecha y hora de caducidad mediante el campo **[!UICONTROL Expiration]** del cuadro de diálogo **[!UICONTROL Link Sharing]**. La caducidad predeterminada del vínculo es de siete días a partir de la fecha en que se comparte.
 
@@ -74,7 +73,7 @@ Para obtener más información sobre el uso compartido de vínculos, consulte [C
 
 ## Recursos con licencia {#licensed-assets}
 
-Los recursos con licencia están sujetos a la aceptación de un contrato de licencia antes de su descarga desde Brand Portal. Este acuerdo para los recursos con licencia se produce cuando se descarga directamente el recurso desde Brand Portal o a través de un vínculo compartido. Ya sea que haya caducado o no, todos los usuarios pueden ver los recursos protegidos por licencias. Sin embargo, la descarga y el uso de recursos con licencia caducados son limitados. Para obtener información sobre el comportamiento de los recursos con licencia caducados y las actividades permisibles basadas en las funciones de usuario, consulte [permisos de uso de los recursos caducados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Los recursos con licencia están sujetos a la aceptación de un acuerdo de licencia antes de su descarga desde Brand Portal. Este acuerdo para los recursos con licencia se produce cuando se descarga directamente el recurso desde Brand Portal o a través de un vínculo compartido. Ya sea que haya caducado o no, todos los usuarios pueden ver los recursos protegidos por licencias. Sin embargo, la descarga y el uso de recursos con licencia caducados son limitados. Para obtener información sobre el comportamiento de los recursos con licencia caducados y las actividades permisibles basadas en las funciones de usuario, consulte [permisos de uso de los recursos caducados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
 Los recursos protegidos por licencias tienen [contrato de licencia adjunto](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets), lo que se hace estableciendo la [propiedad de metadatos](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) del recurso en AEM Assets.
 
