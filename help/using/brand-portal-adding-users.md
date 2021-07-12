@@ -8,15 +8,14 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2209'
 ht-degree: 0%
 
 ---
-
 
 # Administrar usuarios, grupos y funciones de usuario {#manage-users-groups-and-user-roles}
 
@@ -176,7 +175,7 @@ Para agregar usuarios a un grupo de Brand Portal, agréguelos al perfil de produ
 
 ## Proporcionar privilegios de administrador a los usuarios {#provide-administrator-privileges-to-users}
 
-Puede proporcionar el privilegio de administrador del sistema o administrador del producto a un usuario de Brand Portal. No proporcione otros derechos administrativos disponibles en [!UICONTROL Admin Console], como administrador de perfiles de producto, administrador de grupos de usuarios y administrador de asistencia. Para obtener más información sobre estas funciones, consulte [Funciones administrativas](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+Puede proporcionar el privilegio de administrador del sistema o administrador de productos a un usuario de Brand Portal. No proporcione otros derechos administrativos disponibles en [!UICONTROL Admin Console], como administrador de perfiles de producto, administrador de grupos de usuarios y administrador de asistencia. Para obtener más información sobre estas funciones, consulte [Funciones administrativas](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >
@@ -208,9 +207,9 @@ Puede proporcionar el privilegio de administrador del sistema o administrador de
 
    >[!NOTE]
    >
-   >Brand Portal solo admite las funciones de administrador del sistema y administrador de productos.
+   >Brand Portal solo admite las funciones de administrador del sistema y administrador del producto.
    >
-   >Adobe recomienda evitar el uso de la función de administrador del sistema porque otorga privilegios de administrador en toda la organización para todos los productos de una organización. Por ejemplo, un administrador del sistema de una organización que incluya tres productos de marketing cloud tiene todo el conjunto de privilegios para los tres productos. Solo los administradores del sistema pueden configurar AEM Assets para que los recursos se puedan publicar desde AEM Assets en Brand Portal. Para obtener más información, consulte [Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe recomienda evitar el uso de la función de administrador del sistema porque otorga privilegios de administrador en toda la organización para todos los productos de una organización. Por ejemplo, un administrador del sistema de una organización que incluya tres productos de marketing cloud tiene todo el conjunto de privilegios para los tres productos. Solo los administradores del sistema pueden configurar AEM Assets para que los recursos se puedan publicar de AEM Assets en Brand Portal. Para obtener más información, consulte [Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >Por el contrario, la función Administrador de productos concede privilegios de administrador para un producto específico. Si desea aplicar un control de acceso más granular en Brand Portal, utilice la función de administrador de productos y seleccione el producto como Brand Portal.
 
@@ -264,7 +263,7 @@ Además de la función de administrador, Brand Portal admite las siguientes func
    >
    >Los cambios en los permisos de usuario se reflejan en la página **[!UICONTROL Funciones de usuario]** solo después de que los usuarios vuelvan a iniciar sesión en Brand Portal.
 
-## Administrar roles y privilegios de grupo {#manage-group-roles-and-privileges}
+## Administrar funciones y privilegios de grupo {#manage-group-roles-and-privileges}
 
 Un administrador puede asociar privilegios específicos con un [grupo](../using/brand-portal-adding-users.md#main-pars-title-278567577) de usuarios en Brand Portal. La pestaña **[!UICONTROL Grupos]** de la página **[!UICONTROL Funciones de usuario]** permite a los administradores:
 
@@ -297,4 +296,3 @@ Para modificar la función y el derecho de acceso a las representaciones origina
    >[!NOTE]
    >
    >La asociación de usuario a grupo, o la pertenencia a grupo de un usuario, se sincroniza con Brand Portal cada 8 horas. Los cambios en las funciones de usuario o grupo se aplican después de ejecutar el siguiente trabajo de sincronización.
-
