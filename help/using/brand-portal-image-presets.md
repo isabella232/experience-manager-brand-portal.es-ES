@@ -1,30 +1,29 @@
 ---
 title: Aplicar ajustes preestablecidos de imagen o representaciones dinámicas
 seo-title: Aplicar ajustes preestablecidos de imagen o representaciones dinámicas
-description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten que AEM Assets Brand Portal distribuya de forma dinámica imágenes de diferentes tamaños, formatos y propiedades. '
-seo-description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten que AEM Assets Brand Portal distribuya de forma dinámica imágenes de diferentes tamaños, formatos y propiedades. '
+description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a AEM Assets Brand Portal entregar de forma dinámica imágenes de diferentes tamaños, formatos y propiedades. '
+seo-description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a AEM Assets Brand Portal entregar de forma dinámica imágenes de diferentes tamaños, formatos y propiedades. '
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 212a1b3a-686f-4250-be06-b679b6039887
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 4%
+source-wordcount: '871'
+ht-degree: 3%
 
 ---
 
-
 # Aplicar ajustes preestablecidos de imagen o representaciones dinámicas {#apply-image-presets-or-dynamic-renditions}
 
-Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten que AEM Assets Brand Portal distribuya de forma dinámica imágenes de diferentes tamaños, formatos y propiedades.
+Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a AEM Assets Brand Portal entregar de forma dinámica imágenes de diferentes tamaños, formatos y propiedades.
 
 Un ajuste preestablecido de imagen se utiliza para generar representaciones dinámicas de imágenes que se pueden previsualizar y descargar. Al obtener una vista previa de las imágenes y sus representaciones, puede elegir un ajuste preestablecido para cambiar el formato de las imágenes a las especificaciones establecidas por su administrador.
 
-(*Si AEM instancia de autor se está ejecutando en **Modo híbrido de Dynamic Media***) Para ver las representaciones dinámicas de un recurso en Brand Portal, asegúrese de que su representación de tiff piramidal existe en la instancia de autor de AEM desde donde publica en Brand Portal. Cuando publica el recurso, su representación PTIFF también se publica en Brand Portal.
+(*Si AEM instancia de autor se está ejecutando en **Modo híbrido de Dynamic Media***) Para ver las representaciones dinámicas de un recurso en Brand Portal, asegúrese de que existe su representación de tiff piramidal en la instancia de autor de AEM desde donde publica en Brand Portal. Al publicar el recurso, su representación PTIFF también se publica en Brand Portal.
 
 >[!NOTE]
 >
@@ -69,7 +68,7 @@ Los administradores de AEM pueden crear ajustes preestablecidos de imagen que ap
 1. Haga clic en **[!UICONTROL Guardar]**. El ajuste preestablecido de imagen se crea y se muestra en la página de ajustes preestablecidos de imagen.
 1. Para eliminar un ajuste preestablecido de imagen, selecciónelo en la página Ajustes preestablecidos de imagen y haga clic en **[!UICONTROL Eliminar]**. En la página de confirmación, haga clic en **[!UICONTROL Delete]** para confirmar la eliminación. El ajuste preestablecido de imagen se elimina de la página de ajustes preestablecidos de imagen.
 
-## Aplicar ajustes preestablecidos de imagen al previsualizar imágenes {#apply-image-presets-when-previewing-images}
+## Aplicar ajustes preestablecidos de imagen al previsualizar imágenes  {#apply-image-presets-when-previewing-images}
 
 Al obtener una vista previa de las imágenes y sus representaciones, elija entre los ajustes preestablecidos existentes para cambiar el formato de las imágenes con las especificaciones establecidas por su administrador.
 
