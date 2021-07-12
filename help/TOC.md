@@ -7,9 +7,8 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Guía de Brand Portal
 user-guide-description: Utilice AEM Assets Brand Portal para satisfacer las necesidades de marketing mediante la distribución segura de activos de productos y marcas aprobados a agencias externas, socios, equipos internos y distribuidores para que puedan descargarlos.
 feature: Brand Portal
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
+role: User
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 80%
@@ -25,9 +24,9 @@ ht-degree: 80%
    + [Novedades de AEM Assets Brand Portal](using/whats-new.md)
    + [Notas de la versión](using/brand-portal-release-notes.md)
    + [Preguntas frecuentes](using/brand-portal-faqs.md)
-   + [Formatos de archivo admitidos](using/brand-portal-supported-formats.md)
+   + [Formatos de archivo compatibles](using/brand-portal-supported-formats.md)
    + [Acceso de invitado a Brand Portal](using/guest-access.md)
-   + [Información sobre Brand Portal con AEM Assets](https://docs.adobe.com/content/help/es-ES/experience-manager-brand-portal/using/home.html)
+   + [Explicación de Brand Portal con AEM Assets](https://docs.adobe.com/content/help/es-ES/experience-manager-brand-portal/using/home.html)
    + [Examinar los recursos en Brand Portal](using/browse-assets-brand-portal.md)
 + Publicado desde AEM Assets en Brand Portal{#publish}
    + [Configurar AEM Assets con Brand Portal](using/configure-aem-assets-with-brand-portal.md)
@@ -47,7 +46,7 @@ ht-degree: 80%
    + [Compartir recursos como un vínculo](using/brand-portal-link-share.md)
 + Uso de las capacidades de búsqueda{#search-capabilities}
    + [Buscar recursos en Brand Portal](using/brand-portal-searching.md)
-   + [Uso de facetas de búsqueda personalizadas](using/brand-portal-search-facets.md)
+   + [Utilizar facetas de búsqueda personalizadas](using/brand-portal-search-facets.md)
 + Uso de las funciones de descarga {#download}
    + [Descargar recursos](using/brand-portal-download-assets.md)
    + [Compatibilidad con vídeos dinámicos en Brand Portal](using/dynamic-video-brand-portal.md)
