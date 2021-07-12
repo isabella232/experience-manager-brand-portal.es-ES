@@ -9,15 +9,14 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 4%
 
 ---
-
 
 # Administrar configuraciones de inquilino generales {#administer-general-tenant-configurations}
 
@@ -40,7 +39,7 @@ Estas configuraciones se han proporcionado como configuraciones **[!UICONTROL Ge
 
 ****  Configuración para mostrar la jerarquía de carpetas (desde la raíz) de las carpetas compartidas a los usuarios no administradores (editores, visualizadores, usuarios invitados). (El valor predeterminado está desactivado)
 
-## Habilitar/deshabilitar las configuraciones generales {#enable-disable-general-configurations}
+## Habilitar/deshabilitar configuraciones generales {#enable-disable-general-configurations}
 
 Para habilitar/deshabilitar cada una de estas configuraciones:
 
@@ -51,7 +50,7 @@ Para habilitar/deshabilitar cada una de estas configuraciones:
 1. **[!UICONTROL Guarde los cambios.]**
 1. Cierre la sesión para que los cambios surtan efecto.
 
-## Permitir que los usuarios administradores eliminen activos de Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Permitir que los usuarios administradores eliminen recursos de Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 **[!UICONTROL Permitir que los usuarios]** eliminen la configuración permite que las organizaciones permitan (o restrinjan) a los usuarios con privilegios de administrador eliminar recursos y carpetas de Brand Portal.
 
