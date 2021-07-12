@@ -1,26 +1,25 @@
 ---
 title: Trabajar con informes
 seo-title: Trabajar con informes
-description: Los administradores de AEM Assets Brand Portal pueden ver informes sobre el uso de Brand Portal y crear, administrar y ver informes sobre los recursos descargados, caducados, publicados y compartidos a través de Brand Portal.
-seo-description: Los administradores de AEM Assets Brand Portal pueden ver informes sobre el uso de Brand Portal y crear, administrar y ver informes sobre los recursos descargados, caducados, publicados y compartidos a través de Brand Portal.
+description: Los administradores de AEM Assets Brand Portal pueden ver informes sobre el uso de Brand Portal y crear, administrar y ver informes sobre los recursos descargados, caducados, publicados y compartidos mediante Brand Portal.
+seo-description: Los administradores de AEM Assets Brand Portal pueden ver informes sobre el uso de Brand Portal y crear, administrar y ver informes sobre los recursos descargados, caducados, publicados y compartidos mediante Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 2%
 
 ---
 
-
 # Trabajar con informes {#work-with-reports}
 
-La capacidad de generación de informes es fundamental para evaluar el uso de Brand Portal y saber cómo interactúan los usuarios internos y externos con los recursos aprobados. Los administradores pueden ver el informe Uso de Brand Portal, que siempre está disponible en la página Informes de recursos . Sin embargo, los informes de inicios de sesión de usuarios y recursos descargados, caducados, publicados y compartidos a través de vínculos se pueden generar y ver desde la página Informes de recursos . Estos informes son útiles para analizar la implementación de recursos, que le permiten derivar métricas de éxito clave para medir la adopción de recursos aprobados dentro y fuera de la organización.
+La capacidad de generación de informes es fundamental para evaluar el uso de Brand Portal y saber cómo interactúan los usuarios internos y externos con los recursos aprobados. Los administradores pueden ver el informe Uso de Brand Portal , que siempre está disponible en la página Informes de recursos . Sin embargo, los informes de inicios de sesión de usuarios y recursos descargados, caducados, publicados y compartidos a través de vínculos se pueden generar y ver desde la página Informes de recursos . Estos informes son útiles para analizar la implementación de recursos, que le permiten derivar métricas de éxito clave para medir la adopción de recursos aprobados dentro y fuera de la organización.
 
 La interfaz de administración de informes es intuitiva e incluye opciones y controles detallados para acceder a los informes guardados. Puede ver, descargar o eliminar informes desde la página Informes de recursos , donde se muestran todos los informes generados anteriormente.
 
@@ -49,7 +48,7 @@ El informe también muestra la capacidad permitida para cada una de estas métri
 
    ![](assets/usage-report.png)
 
-   **[!UICONTROL El informe]** de inicios de sesión del usuario proporciona información sobre los usuarios que iniciaron sesión en Brand Portal. El informe muestra los nombres para mostrar, los ID de correo electrónico, las personas (administrador, visor, editor, invitado), los grupos, el último inicio de sesión, el estado de la actividad y el recuento de inicios de sesión de cada usuario desde la implementación de Brand Portal 6.4.2 hasta el momento de la generación del informe.
+   **[!UICONTROL El informe]** Registros de usuario proporciona información sobre los usuarios que iniciaron sesión en Brand Portal. El informe muestra los nombres de visualización, los ID de correo electrónico, las personas (administrador, visor, editor, invitado), los grupos, el último inicio de sesión, el estado de la actividad y el recuento de inicio de sesión de cada usuario desde la implementación de Brand Portal 6.4.2 hasta el momento de la generación del informe.
 
    ![](assets/user-logins.png)
 
@@ -59,13 +58,13 @@ El informe también muestra la capacidad permitida para cada una de estas métri
 
    >[!NOTE]
    >
-   >El informe de recursos **[!UICONTROL Descargar]** solo muestra los recursos seleccionados y descargados de forma individual desde Brand Portal. Si un usuario ha descargado una carpeta que contiene recursos, el informe no muestra la carpeta ni los recursos de la carpeta.
+   >El informe **[!UICONTROL Download]** de recursos muestra solo los recursos seleccionados y descargados de Brand Portal de forma individual. Si un usuario ha descargado una carpeta que contiene recursos, el informe no muestra la carpeta ni los recursos de la carpeta.
 
    **** Expirationreport enumera y detalla todos los recursos que caducaron en un intervalo de tiempo específico.
 
    ![](assets/expiration-report.png)
 
-   **** Publicar informe enumera y proporciona información sobre todos los recursos que se publican desde AEM a Brand Portal en un lapso de tiempo especificado.
+   **** Publicar informe enumera y proporciona información sobre todos los recursos que se publican de AEM a Brand Portal en un lapso de tiempo especificado.
 
    ![](assets/publish-report.png)
 
@@ -73,7 +72,7 @@ El informe también muestra la capacidad permitida para cada una de estas métri
    >
    >Publicar informe no muestra información sobre fragmentos de contenido, ya que los fragmentos de contenido no se pueden publicar en Brand Portal.
 
-   **[!UICONTROL Los]** informes Compartir vínculos muestran todos los recursos compartidos a través de los vínculos de la interfaz de Brand Portal en un intervalo de tiempo específico. El informe también indica cuándo se compartió el recurso mediante un vínculo, qué usuario, cuándo caduca el vínculo y la cantidad de vínculos compartidos para el inquilino (y los usuarios con los que se compartió el vínculo del recurso). Las columnas del informe Compartir vínculos no se pueden personalizar.
+   **[!UICONTROL Los]** informes Compartir vínculos muestran todos los recursos compartidos a través de vínculos de la interfaz de Brand Portal en un intervalo de tiempo específico. El informe también indica cuándo se compartió el recurso mediante un vínculo, qué usuario, cuándo caduca el vínculo y la cantidad de vínculos compartidos para el inquilino (y los usuarios con los que se compartió el vínculo del recurso). Las columnas del informe Compartir vínculos no se pueden personalizar.
 
    ![](assets/link-share-report.png)
 
