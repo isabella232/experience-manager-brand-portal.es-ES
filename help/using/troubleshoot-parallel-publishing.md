@@ -8,15 +8,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '892'
 ht-degree: 3%
 
 ---
-
 
 # Solución de problemas en la publicación paralela de Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
@@ -24,9 +23,9 @@ Brand Portal está configurado con AEM Assets para que los recursos de marca apr
 
 >[!NOTE]
 >
->Adobe recomienda actualizar a AEM 6.4.1.0 para garantizar que AEM Assets Brand Portal se configure correctamente con AEM Assets. Una limitación en AEM 6.4 da un error al configurar AEM Assets con Brand Portal y la replicación falla.
+>Adobe recomienda actualizar a AEM 6.4.1.0 para garantizar que AEM Assets Brand Portal se configure correctamente con AEM Assets. Una limitación en AEM 6.4 da un error mientras se configura AEM Assets con Brand Portal y la replicación falla.
 
-Al configurar el servicio en la nube para Brand Portal en **[!UICONTROL /etc/cloudservice]**, todos los usuarios y token necesarios se generan automáticamente y se guardan en el repositorio. Se crea la configuración del servicio en la nube, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Esto crea cuatro agentes de replicación. Por lo tanto, cuando publica numerosos recursos desde AEM hasta Brand Portal, estos se ponen en cola y se distribuyen entre estos agentes de replicación a través de Round Robin.
+Al configurar el servicio en la nube para Brand Portal en **[!UICONTROL /etc/cloudservice]**, todos los usuarios y token necesarios se generan automáticamente y se guardan en el repositorio. Se crea la configuración del servicio en la nube, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Esto crea cuatro agentes de replicación. Por lo tanto, cuando publica numerosos activos de AEM a Brand Portal, estos se ponen en cola y se distribuyen entre estos agentes de replicación a través de Round Robin.
 
 Sin embargo, la publicación puede fallar de forma intermitente debido a grandes trabajos de Sling, a una mayor red y a la **[!UICONTROL E/S de disco]** en la instancia de AEM Author o a una ralentización del rendimiento de la instancia de AEM Author. Por lo tanto, se recomienda probar la conexión con los agentes de replicación antes de comenzar la publicación.
 
@@ -62,7 +61,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Limpiar las configuraciones de publicación existentes de Brand Portal {#clean-up-existing-config}
+### Limpiar las configuraciones de publicación de Brand Portal existentes {#clean-up-existing-config}
 
 La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que lo está publicando (por ejemplo: `mac-<tenantid>-replication` no tiene la última clave privada y, por lo tanto, la publicación falla con el error &quot;401 no autorizado&quot; y no se notifica ningún otro error en los registros del agente de replicación. Puede que desee evitar la resolución de problemas y crear una nueva configuración. Para que la nueva configuración funcione correctamente, limpie lo siguiente de AEM configuración del autor:
 
@@ -116,10 +115,10 @@ Si un agente de replicación (que estaba publicando en brand portal correctament
 
 Si hay errores de publicación continuos y la cola está bloqueada, debe marcar **[!UICONTROL test connection]** e intentar resolver los errores que se están notificando.
 
-En función de los errores, se le aconseja que registre un ticket de asistencia, de modo que el equipo de ingeniería de Brand Portal pueda ayudarle a resolver los problemas.
+En función de los errores, se le recomienda que registre un ticket de asistencia para que el equipo de ingeniería de Brand Portal pueda ayudarle a resolver los problemas.
 
 
-## Configure los agentes de replicación para evitar el error de tiempo de espera de conexión {#connection-timeout}
+## Configurar los agentes de replicación para evitar el error de tiempo de espera de conexión {#connection-timeout}
 
 Normalmente, el trabajo de publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver este problema, asegúrese de que los agentes de replicación estén configurados para evitar el tiempo de espera.
 
