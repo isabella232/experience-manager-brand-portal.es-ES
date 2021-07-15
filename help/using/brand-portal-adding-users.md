@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 785be735a11277ea16e269bfc00368ced88ed510
+source-git-commit: 1e6da0b6576d0314bf3b4fc3929662359f003399
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Si es administrador de productos, utilice el Adobe [[!UICONTROL Admin Console]](
    ![Agregar usuario a Brand Portal](assets/add_user_to_aem_bp.png)
 
 1. Asigne el usuario al menos a un perfil de producto (anteriormente conocido como configuración de producto) para que el usuario pueda acceder a Brand Portal. Seleccione el perfil de producto adecuado en el campo **[!UICONTROL Seleccione un perfil para este producto]**.
-1. Haga clic en **[!UICONTROL Guardar]**. Se envía un correo electrónico de bienvenida al usuario recién agregado. El usuario invitado puede hacer clic en el vínculo del correo electrónico de bienvenida para acceder a Brand Portal. El usuario puede iniciar sesión utilizando el id de correo electrónico ([!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] o [!UICONTROL Federated ID]) configurado en el Admin Console. Para obtener más información, consulte [Experiencia de inicio de sesión por primera vez](../using/brand-portal-onboarding.md).
+1. Haga clic en **[!UICONTROL Guardar]**. Se envía un correo electrónico de bienvenida al usuario recién agregado. El usuario invitado puede hacer clic en el vínculo del correo electrónico de bienvenida para acceder a Brand Portal. El usuario puede iniciar sesión con el id de correo electrónico ([!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] o [!UICONTROL Federated ID]) configurado en el Admin Console. Para obtener más información, consulte [Experiencia de inicio de sesión por primera vez](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
