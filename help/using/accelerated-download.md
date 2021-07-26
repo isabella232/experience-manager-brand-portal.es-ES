@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1043'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Para descargar los archivos más rápido, asegúrese de lo siguiente:
 
 * Vaya a **[!UICONTROL Tools]** > **[!UICONTROL Download]** y verifique que la configuración de **[!UICONTROL Fast Download]** esté habilitada en **[!UICONTROL Download Settings]**.
 * Asegúrese de que el puerto 33001 (TCP y UDP) esté abierto en el firewall. Para obtener más información sobre los requisitos previos, consulte [Documentación del cliente IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
-* [Instale IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)  en la extensión de su explorador con privilegios de administrador.
+* [Instale IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9)  en la extensión de su explorador con privilegios de administrador.
 * Para obtener compatibilidad con la plataforma del cliente de transferencia Aspera, consulte [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Descargar dominios {#download-domains}
@@ -49,7 +49,7 @@ A continuación se muestran los dominios de descarga de diferentes regiones geog
 | EMEA LON5 | downloads-emea1.brand-portal.adobe.com |
 | APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
 
-## Ejemplo de rendimiento de descarga utilizando el acelerador de archivos {#expected-download-performance-using-file-accelerator}
+## Ejemplo de rendimiento de descarga mediante el acelerador de archivos {#expected-download-performance-using-file-accelerator}
 
 En la tabla siguiente se muestra el rendimiento de descarga de archivos de 2 GB con el acelerador de descargas de archivos Aspera Connect:
 
@@ -92,7 +92,7 @@ Para descargar recursos más rápido desde Brand Portal:
 
 1. De forma predeterminada, la configuración **[!UICONTROL Fast Download]** está habilitada en **[!UICONTROL Download Settings]**. Por lo tanto, aparece un cuadro de confirmación para descargar recursos mediante IBM Aspera Connect.
 
-   Si descarga los recursos por primera vez y no tiene IBM Aspera Connect instalado en su explorador o la versión existente está obsoleta, se le pedirá que [instale el acelerador de descargas de Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+   Si descarga los recursos por primera vez y no tiene IBM Aspera Connect instalado en su explorador o la versión existente está obsoleta, se le pedirá que [instale el acelerador de descargas de Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
    ![](assets/aspera-not-launched.png)
 
@@ -200,7 +200,7 @@ Además, el cliente de Aspera Connect se puede marcar para que se inicie automá
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Solución de problemas con la aceleración de descarga {#troubleshoot-issues-with-download-acceleration}
+## Solución de problemas con la aceleración de descargas {#troubleshoot-issues-with-download-acceleration}
 
 Si la aceleración de la descarga no funciona, siga estos pasos para solucionar el problema:
 
