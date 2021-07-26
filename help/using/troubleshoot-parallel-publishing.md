@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 3%
+source-wordcount: '884'
+ht-degree: 2%
 
 ---
 
@@ -74,11 +74,11 @@ ii. delete
    i. buscar usuario `mac-<tenantid>replication`
 ii. eliminar este usuario
 
-Ahora todo el sistema está limpio. Ahora puede intentar crear una nueva configuración de cloudservice y seguir utilizando la aplicación JWT existente en [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). No es necesario crear una nueva aplicación, ya que solo la clave pública debe actualizarse desde la configuración de nube recién creada.
+Ahora todo el sistema está limpio. Ahora puede intentar crear una nueva configuración de cloudservice y seguir utilizando la aplicación JWT existente en `https://legacy-oauth.cloud.adobe.io/`. No es necesario crear una nueva aplicación, ya que solo la clave pública debe actualizarse desde la configuración de nube recién creada.
 
 ## Problema de visibilidad del inquilino de la aplicación JWT de Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Si está en [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), se enumeran todas las organizaciones (inquilinos) para las que los usuarios actuales tienen administrador del sistema. Si no encuentra el nombre de organización aquí o no puede crear una aplicación para un inquilino requerido aquí, compruebe si tiene suficientes derechos (administrador del sistema) para hacerlo.
+Si está en `https://legacy-oauth.cloud.adobe.io/`, se enumeran todas las organizaciones (inquilinos) para las que los usuarios actuales tienen administrador del sistema. Si no encuentra el nombre de organización aquí o no puede crear una aplicación para un inquilino requerido aquí, compruebe si tiene suficientes derechos (administrador del sistema) para hacerlo.
 
 Hay un problema conocido en esta interfaz de usuario que para cualquier inquilino solo son visibles las 10 aplicaciones principales. Cuando cree la aplicación, permanezca en esa página y añada un marcador a la dirección URL. No es necesario que vaya a la página de lista de la aplicación y busque la aplicación que ha creado. Puede pulsar esta URL con marcador directamente y actualizar/eliminar la aplicación cuando sea necesario.
 
