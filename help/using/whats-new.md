@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 11ceff7818760ea8c5ad39de93f792bfb5a96e5b
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '6154'
+source-wordcount: '6148'
 ht-degree: 3%
 
 ---
@@ -138,7 +138,7 @@ El nuevo cuadro de diálogo **[!UICONTROL Download]** generaliza el proceso de s
 
 >[!NOTE]
 >
->Ahora todos los usuarios tendrán **[!UICONTROL Fast Download]** habilitado de forma predeterminada y requiere [IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) instalado en la extensión de su explorador antes de descargar los recursos de Brand Portal.
+>Ahora todos los usuarios tendrán **[!UICONTROL Fast Download]** habilitado de forma predeterminada y requiere [IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) instalado en la extensión de su explorador antes de descargar los recursos de Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -585,7 +585,7 @@ Las configuraciones anteriores están disponibles en Acceso y Configuración gen
 
 ### IU de Adobe I/O para configurar integraciones de oAuth
 
-A partir de Brand Portal 6.4.2, utiliza la interfaz Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) para crear la aplicación JWT, que permite configurar integraciones oAuth para permitir la integración de AEM Assets con Brand Portal. Anteriormente, la interfaz de usuario para configurar integraciones de OAuth estaba alojada en `https://marketing.adobe.com/developer/`. Para obtener más información sobre la integración de AEM Assets con Brand Portal para la publicación de recursos y colecciones en Brand Portal, consulte [Configuración de la integración de AEM Assets con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+A partir de Brand Portal 6.4.2, se utiliza la interfaz heredada de OAuth (`https://legacy-oauth.cloud.adobe.io/`) para crear la aplicación JWT, que permite configurar integraciones de oAuth para permitir la integración de AEM Assets con Brand Portal. Anteriormente, la interfaz de usuario para configurar integraciones de OAuth estaba alojada en `https://marketing.adobe.com/developer/`. Para obtener más información sobre la integración de AEM Assets con Brand Portal para la publicación de recursos y colecciones en Brand Portal, consulte [Configuración de la integración de AEM Assets con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Mejoras de búsqueda
 
