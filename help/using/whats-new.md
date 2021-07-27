@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '6148'
+source-wordcount: '6143'
 ht-degree: 3%
 
 ---
@@ -138,7 +138,7 @@ El nuevo cuadro de diálogo **[!UICONTROL Download]** generaliza el proceso de s
 
 >[!NOTE]
 >
->Ahora todos los usuarios tendrán **[!UICONTROL Fast Download]** habilitado de forma predeterminada y requiere [IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) instalado en la extensión de su explorador antes de descargar los recursos de Brand Portal.
+>Ahora todos los usuarios tendrán **[!UICONTROL Fast Download]** habilitado de forma predeterminada y requiere IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) instalado en la extensión de su explorador antes de descargar los recursos de Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
