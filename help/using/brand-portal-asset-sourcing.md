@@ -17,14 +17,14 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
+source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 5%
+source-wordcount: '651'
+ht-degree: 3%
 
 ---
 
-# Información general sobre el abastecimiento de recursos {#overview-asset-sourcing-in-bp}
+# Información general de Asset Sourcing {#overview-asset-sourcing-in-bp}
 
 **La** fuente de recursos permite a los usuarios AEM (administradores/usuarios no administradores) crear nuevas carpetas con una propiedad de  **contribución de** recursos adicional, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por los usuarios de Brand Portal. Esto déclencheur automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas **SHARED** y **NEW**, dentro de la carpeta **Contribution** recién creada. A continuación, el administrador de AEM define el requisito cargando un resumen sobre los tipos de recursos que deben agregarse a la carpeta de contribución, así como un conjunto de recursos de línea de base, a la carpeta **SHARED** para garantizar que los usuarios de BP tengan la información de referencia que necesitan. A continuación, el administrador puede otorgar a los usuarios activos de Brand Portal acceso a la carpeta de contribución antes de publicar la carpeta **Contribution** recién creada en Brand Portal. Una vez que el usuario ha terminado de añadir contenido en la carpeta **NEW** , puede volver a publicar la carpeta de contribución en el entorno de creación de AEM. Tenga en cuenta que puede tardar unos minutos en completar la importación y reflejar el contenido recién publicado en AEM Assets.
 
@@ -54,8 +54,11 @@ Además, todas las funcionalidades existentes permanecen inalteradas. Los usuari
 >Hay un problema conocido en AEM Assets 6.5.4. Los usuarios de Brand Portal no pueden publicar los recursos de las carpetas de contribución en AEM Assets al actualizar a Adobe Developer Console.
 >
 >El problema se ha solucionado en AEM 6.5.5. Puede actualizar la instancia de AEM Assets al último Service Pack AEM 6.5.5 y [actualizar sus configuraciones](https://docs.adobe.com/content/help/es-ES/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) en Adobe Developer Console.
->
->Para correcciones inmediatas en AEM 6.5.4, se recomienda [descargar la corrección](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalarla en la instancia de autor.
+
+<!--
+
+>For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
+-->
 
 <!--
 ## Configure Asset Sourcing {#configure-asset-sourcing}
