@@ -1,8 +1,8 @@
 ---
 title: Solución de problemas en la publicación paralela de Brand Portal
-seo-title: Solución de problemas en la publicación paralela de Brand Portal
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: Solucionar problemas de publicación paralela.
-seo-description: Solucionar problemas de publicación paralela.
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
+source-wordcount: '873'
+ht-degree: 1%
 
 ---
 
@@ -123,6 +123,7 @@ En función de los errores, se le recomienda que registre un ticket de asistenci
 Normalmente, el trabajo de publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver este problema, asegúrese de que los agentes de replicación estén configurados para evitar el tiempo de espera.
 
 Realice los siguientes pasos para configurar los agentes de replicación:
+
 1. Inicie sesión en la instancia de autor de AEM Assets.
 1. En el panel **Herramientas**, vaya a **[!UICONTROL Implementación]** > **[!UICONTROL Replicación]**.
 1. En la página Replicación, haga clic en **[!UICONTROL Agentes del autor]**. Puede ver los cuatro agentes de replicación del inquilino de Brand Portal.
