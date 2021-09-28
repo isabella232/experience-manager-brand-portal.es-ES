@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 1%
+source-wordcount: '1026'
+ht-degree: 0%
 
 ---
 
@@ -50,6 +50,10 @@ Por ejemplo, un usuario invitado inicia sesión en Brand Portal a las 15.00 hora
 ## Se permiten sesiones de invitados simultáneos {#concurrent-guest-sessions-allowed}
 
 El número de sesiones de invitados simultáneos está limitado al 10% de la cuota de usuario total por organización. Esto significa que para una organización con una cuota de usuario de 200, un máximo de 20 usuarios invitados pueden trabajar al mismo tiempo. Al usuario 21 se le deniega el acceso y solo puede acceder como invitado si finaliza la sesión de cualquiera de los 20 usuarios invitados activos.
+
+>[!NOTE]
+>
+>Brand Portal no envía notificaciones si el número de usuarios con licencia supera el valor contratado (cuota). Además, no restringe ninguna actividad de los usuarios con licencia.
 
 ## Interacción del usuario invitado con Brand Portal {#guest-user-interaction-with-brand-portal}
 
