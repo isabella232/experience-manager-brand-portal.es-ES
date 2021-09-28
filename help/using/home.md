@@ -1,20 +1,19 @@
 ---
 title: Guía de Adobe Experience Manager Assets Brand Portal
-seo-title: Guía de Adobe Experience Manager Assets Brand Portal
+seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Guía de Adobe Experience Manager Assets Brand Portal
-seo-description: Describe cómo utilizar Brand Portal
-translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+seo-description: Describes how to use Brand Portal
+exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 74%
+source-wordcount: '345'
+ht-degree: 75%
 
 ---
 
+# Guía de Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-# Guía del portal de marca de Adobe Experience Manager Assets {#aem-brand-portal}
-
-**Adobe Experience Manager Assets Brand** Portal ayuda a las organizaciones a satisfacer sus necesidades de mercadotecnia mediante la distribución segura de los activos de marca y producto aprobados a agencias externas, socios, equipos internos y distribuidores para su descarga.
+**Adobe Experience Manager Assets Brand** Portal ayuda a las organizaciones a satisfacer sus necesidades de marketing mediante la distribución segura de recursos de productos y marcas aprobados a agencias externas, socios, equipos internos y distribuidores para su descarga.
 
 Si no hay una solución segura para compartir recursos puede conllevar lo siguiente:
 
@@ -46,8 +45,8 @@ En esta guía se muestran los detalles de las ofertas y los flujos de trabajo cl
 | [Solucionar problemas en una publicación paralela](troubleshoot-parallel-publishing.md) | Solucionar la replicación entre Brand Portal y AEM Assets. |
 | [Formatos de archivo admitidos](brand-portal-supported-formats.md) | Formatos de archivo admitidos en Brand Portal para su previsualización y descarga. |
 | [Publicar recursos en Brand Portal](brand-portal-sharing-folders.md) | Cómo publicar carpetas, colecciones, vínculos, ajustes preestablecidos, esquemas, facetas y etiquetas en Brand Portal. |
-| [Origen de recursos en Brand Portal](brand-portal-asset-sourcing.md) | Cómo configurar la fuente de recursos en AEM Assets, cargar recursos en Brand Portal y publicar la carpeta de contribución en AEM Assets. |
+| [Abastecimiento de recursos en Brand Portal](brand-portal-asset-sourcing.md) | Cómo configurar el abastecimiento de recursos en AEM Assets, cargarlos en Brand Portal y publicar la carpeta de contribución en AEM Assets. |
 
 ### Recursos útiles
 
-* [Explicación de Brand Portal con AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
+* [Explicación de Brand Portal con AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

@@ -1,15 +1,15 @@
 ---
 title: Abastecimiento de recursos en Brand Portal
-seo-title: Abastecimiento de recursos en Brand Portal
+seo-title: Asset Sourcing in Brand Portal
 description: Obtenga información sobre la función de abastecimiento de recursos lanzada en Adobe Experience Manager Assets Brand Portal.
-seo-description: Obtenga información sobre la función de abastecimiento de recursos lanzada en Adobe Experience Manager Assets Brand Portal.
+seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-sub-product: activos
+sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Además, todas las funcionalidades existentes permanecen inalteradas. Los usuari
 >
 >Hay un problema conocido en AEM Assets 6.5.4. Los usuarios de Brand Portal no pueden publicar los recursos de las carpetas de contribución en AEM Assets al actualizar a Adobe Developer Console.
 >
->El problema se ha solucionado en AEM 6.5.5. Puede actualizar la instancia de AEM Assets al último Service Pack AEM 6.5.5 y [actualizar sus configuraciones](https://docs.adobe.com/content/help/es-ES/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) en Adobe Developer Console.
+>El problema se ha solucionado en AEM 6.5.5. Puede actualizar la instancia de AEM Assets al último Service Pack AEM 6.5.5 y [actualizar sus configuraciones](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) en Adobe Developer Console.
 
 <!--
 
@@ -117,6 +117,7 @@ Una carpeta de contribución solo se puede compartir con los usuarios activos de
 Los administradores pueden agregar nuevos usuarios en AEM Admin Console; consulte [Administrar usuarios](brand-portal-adding-users.md) para obtener información detallada. Después de agregar usuarios en el Admin Console, estos usuarios se pueden agregar al archivo de configuración de usuario de Brand Portal y se les puede asignar permisos para acceder a la carpeta de contribución.
 
 **Para cargar la lista de usuarios de Brand Portal:**
+
 1. Inicie sesión en la instancia de AEM Assets.
 1. En el panel **Herramientas**, vaya a **[!UICONTROL Recursos]** > **[!UICONTROL Usuarios de Brand Portal]**.
 

@@ -8,10 +8,10 @@ breadcrumb-title: Guía de Brand Portal
 user-guide-description: Utilice AEM Assets Brand Portal para satisfacer las necesidades de marketing mediante la distribución segura de activos de productos y marcas aprobados a agencias externas, socios, equipos internos y distribuidores para que puedan descargarlos.
 feature: Brand Portal
 role: User
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 80%
+source-wordcount: '267'
+ht-degree: 79%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 80%
    + [Información general](using/brand-portal.md)
    + [Novedades de AEM Assets Brand Portal](using/whats-new.md)
    + [Notas de la versión](using/brand-portal-release-notes.md)
-   + [Preguntas frecuentes](using/brand-portal-faqs.md)
+   + [Preguntas frecuentes ](using/brand-portal-faqs.md)
    + [Formatos de archivo compatibles](using/brand-portal-supported-formats.md)
    + [Acceso de invitado a Brand Portal](using/guest-access.md)
-   + [Explicación de Brand Portal con AEM Assets](https://docs.adobe.com/content/help/es-ES/experience-manager-brand-portal/using/home.html)
+   + [Explicación de Brand Portal con AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Examinar los recursos en Brand Portal](using/browse-assets-brand-portal.md)
 + Publicado desde AEM Assets en Brand Portal{#publish}
    + [Configurar AEM Assets con Brand Portal](using/configure-aem-assets-with-brand-portal.md)
-   + [Publicar recursos en Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [Publicar carpetas en Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [Publicar colecciones en Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [Publicar recursos en Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [Publicar carpetas en Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [Publicar colecciones en Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Solución de problemas en la publicación paralela de Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Publicar etiquetas en Brand Portal](using/brand-portal-publish-tags.md)
    + [Publicar ajustes preestablecidos, esquemas y facetas en Brand Portal](using/publish-schema-search-facets-presets.md)

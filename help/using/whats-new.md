@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '6331'
-ht-degree: 2%
+source-wordcount: '6317'
+ht-degree: 1%
 
 ---
 
@@ -245,7 +245,7 @@ La pestaña **[!UICONTROL Grupos]** de la página **[!UICONTROL Funciones de usu
 * Si solo está activada la opción **[!UICONTROL Descargar original]** , los usuarios pueden ver y descargar solo los recursos originales desde la página de detalles del recurso.
 * Si solo está activada la configuración **[!UICONTROL Download Renditions]** , los usuarios pueden ver el recurso original, pero no pueden descargarlo. Sin embargo, el usuario puede ver y descargar las representaciones de recursos.
 
-Consulte [configurar descarga de recursos](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+Consulte [configurar descarga de recursos](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -291,6 +291,7 @@ El proceso de descarga de recursos se ha rediseñado, lo que proporciona una exp
 El flujo de trabajo existente de descarga de recursos de Brand Portal está seguido inevitablemente por la aparición de un cuadro de diálogo **[!UICONTROL Download]** con varias opciones de descarga entre las que elegir.
 
 En Brand Portal 6.4.7, los administradores de Brand Portal pueden configurar la configuración **[!UICONTROL Descargar]** del recurso. Las configuraciones disponibles son:
+
 * **[!UICONTROL Descarga rápida]**
 * **[!UICONTROL Representaciones personalizadas]**
 * **[!UICONTROL Representaciones del sistema]**
@@ -342,9 +343,9 @@ Los pasos para configurar AEM Assets con Brand Portal son diferentes en función
 
 | **Versión de AEM** | **Nueva configuración** | **Configuración de actualización** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Crear configuración](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 y posterior)** | [Crear configuración](https://docs.adobe.com/content/help/es-ES/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Actualización de la configuración](https://docs.adobe.com/content/help/es-ES/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 y posterior)** | [Crear configuración](https://docs.adobe.com/content/help/es-ES/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Actualización de la configuración](https://docs.adobe.com/content/help/es-ES/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM Assets as a Cloud Service** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5 (6.5.4.0 y posterior)** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Actualización de la configuración](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 y posterior)** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Actualización de la configuración](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 y posterior)** | [Crear configuración](https://helpx.adobe.com/es/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Actualización de la configuración](https://helpx.adobe.com/es/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Contacto con el servicio de asistencia | Contacto con el servicio de asistencia |
 
@@ -626,7 +627,7 @@ Las configuraciones anteriores están disponibles en Acceso y Configuración gen
 
 ### IU de Adobe I/O para configurar integraciones de oAuth
 
-A partir de Brand Portal 6.4.2, se utiliza la interfaz heredada de OAuth (`https://legacy-oauth.cloud.adobe.io/`) para crear la aplicación JWT, que permite configurar integraciones de oAuth para permitir la integración de AEM Assets con Brand Portal. Anteriormente, la interfaz de usuario para configurar integraciones de OAuth estaba alojada en `https://marketing.adobe.com/developer/`. Para obtener más información sobre la integración de AEM Assets con Brand Portal para la publicación de recursos y colecciones en Brand Portal, consulte [Configuración de la integración de AEM Assets con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+A partir de Brand Portal 6.4.2, se utiliza la interfaz heredada de OAuth (`https://legacy-oauth.cloud.adobe.io/`) para crear la aplicación JWT, que permite configurar integraciones de oAuth para permitir la integración de AEM Assets con Brand Portal. Anteriormente, la interfaz de usuario para configurar integraciones de OAuth estaba alojada en `https://marketing.adobe.com/developer/`. Para obtener más información sobre la integración de AEM Assets con Brand Portal para la publicación de recursos y colecciones en Brand Portal, consulte [Configuración de la integración de AEM Assets con Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Mejoras de búsqueda
 
