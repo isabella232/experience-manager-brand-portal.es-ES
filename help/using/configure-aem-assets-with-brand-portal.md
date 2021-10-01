@@ -1,8 +1,8 @@
 ---
-title: Configurar AEM Assets con Brand Portal
-seo-title: Configure AEM Assets with Brand Portal
-description: Obtenga información sobre la configuración de AEM Assets con Brand Portal.
-seo-description: Get an insight into configuring AEM Assets with Brand Portal.
+title: Configuración de Experience Manager Assets con Brand Portal
+seo-title: Configure Experience Manager Assets with Brand Portal
+description: Obtenga información sobre la configuración de Recursos de Experience Manager con Brand Portal.
+seo-description: Get an insight into configuring Experience Manager Assets with Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,29 +11,29 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 11%
 
 ---
 
-# Configurar AEM Assets con Brand Portal {#configure-integration}
+# Configuración de Experience Manager Assets con Brand Portal {#configure-integration}
 
-La configuración de Adobe Experience Manager Assets con Brand Portal habilita la publicación de recursos, la distribución de recursos y las funciones de contribución de recursos para los usuarios de Brand Portal. Permite a los usuarios de AEM Assets publicar y distribuir recursos con los usuarios de Brand Portal. Los usuarios de Brand Portal pueden acceder a los recursos compartidos y contribuir cargando nuevos recursos en las carpetas de contribución de recursos y publicándolos de nuevo en AEM Assets.
+La configuración de Adobe Experience Manager Assets con Brand Portal habilita la publicación de recursos, la distribución de recursos y las funciones de contribución de recursos para los usuarios de Brand Portal. Permite a los usuarios de Recursos de Experience Manager publicar y distribuir recursos con los usuarios de Brand Portal. Los usuarios de Brand Portal pueden acceder a los recursos compartidos y contribuir cargando nuevos recursos en las carpetas de contribución de recursos y publicándolos de nuevo en Recursos de Experience Manager.
 
-La configuración de AEM Assets con Brand Portal es compatible con:
+La configuración de recursos Experience Manager con Brand Portal es compatible con:
 
-* AEM Assets as a Cloud Service
-* AEM Assets (servicio local y administrado) 6.3 y superior
+* Experience Manager Assets as a Cloud Service
+* Experience Manager Assets (local y servicio administrado) 6.3 y superior
 
-AEM Assets as a Cloud Service se configura automáticamente con Brand Portal activando Brand Portal desde Cloud Manager. El flujo de trabajo de activación crea las configuraciones necesarias en el servidor y activa Brand Portal en la misma organización de IMS que la de AEM Assets como instancia de Cloud Service.
+Recursos de Experience Manager como Cloud Service se configura automáticamente con Brand Portal activando Brand Portal desde Cloud Manager. El flujo de trabajo de activación crea las configuraciones necesarias en el back-end y activa Brand Portal en la misma organización de IMS que en la instancia de Experience Manager Assets como Cloud Service.
 
-Por su parte, AEM Assets (servicio local y administrado) se configura manualmente con Brand Portal mediante Adobe Developer Console, que obtiene un token de Identity Management Services (IMS) de Adobe para la autorización del inquilino de Brand Portal.
+Por su parte, Recursos de Experience Manager (servicio local y administrado) se configura manualmente con Brand Portal mediante Adobe Developer Console, que obtiene un token de Identity Management Services (IMS) de Adobe para la autorización del inquilino de Brand Portal.
 
 >[!NOTE]
 >
->***Para AEM Assets 6.3 y versiones posteriores***
+>***Para Experience Manager Assets 6.3 y superior***
 >
 >Anteriormente, Brand Portal se configuraba en la interfaz clásica a través de la puerta de enlace OAuth heredada, que utiliza el intercambio de token web JSON (JWT) para obtener un testigo IMS para la autorización.
 >

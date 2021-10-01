@@ -1,8 +1,8 @@
 ---
 title: Trabajar con informes
-seo-title: Trabajar con informes
-description: Los administradores de AEM Assets Brand Portal pueden ver informes sobre el uso de Brand Portal y crear, administrar y ver informes sobre los recursos descargados, caducados, publicados y compartidos mediante Brand Portal.
-seo-description: Los administradores de AEM Assets Brand Portal pueden ver informes sobre el uso de Brand Portal y crear, administrar y ver informes sobre los recursos descargados, caducados, publicados y compartidos mediante Brand Portal.
+seo-title: Work with reports
+description: Los administradores de Assets Brand Portal de Experience Manager pueden ver informes sobre el uso de Brand Portal y crear, administrar y ver informes sobre los recursos descargados, caducados, publicados y compartidos a través de Brand Portal.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '996'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ La interfaz de administración de informes es intuitiva e incluye opciones y con
 
 Para ver un informe, siga estos pasos:
 
-1. En la barra de herramientas de la parte superior, pulse o haga clic en el logotipo de AEM para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, pulse o haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ El informe también muestra la capacidad permitida para cada una de estas métri
 
    ![](assets/expiration-report.png)
 
-   **** Publicar informe enumera y proporciona información sobre todos los recursos que se publican de AEM a Brand Portal en un lapso de tiempo especificado.
+   **** Publicar informe enumera y proporciona información sobre todos los recursos que se publican desde Recursos Experience Manager a Brand Portal en un lapso de tiempo especificado.
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ Los administradores pueden generar y administrar los siguientes informes estánd
 
 Las columnas del informe Descargar, Caducidad y Publicar se pueden personalizar para su visualización. Para generar un informe, siga estos pasos:
 
-1. En la barra de herramientas de la parte superior, pulse o haga clic en el logotipo de AEM para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, pulse o haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
 1. En el panel de herramientas administrativas, pulse o haga clic en **[!UICONTROL Crear/administrar informes]** para abrir la página **[!UICONTROL Informes de recursos]**.
 

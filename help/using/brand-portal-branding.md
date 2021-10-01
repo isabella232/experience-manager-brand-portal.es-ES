@@ -1,8 +1,8 @@
 ---
 title: Personalización del papel tapiz, el encabezado y los mensajes de correo electrónico
-seo-title: Personalización del papel tapiz, el encabezado y los mensajes de correo electrónico
+seo-title: Customize wallpaper, header, and email message
 description: Los administradores de Brand Portal pueden realizar personalizaciones limitadas de la interfaz que se muestra a los usuarios. Puede elegir una imagen de fondo específica (fondo de pantalla) para la página de inicio de sesión de Brand Portal. También puede añadir una imagen de encabezado y personalizar los correos electrónicos de uso compartido de recursos para que coincidan con la marca del cliente.
-seo-description: Los administradores de Brand Portal pueden realizar personalizaciones limitadas de la interfaz que se muestra a los usuarios. Puede elegir una imagen de fondo específica (fondo de pantalla) para la página de inicio de sesión de Brand Portal. También puede añadir una imagen de encabezado y personalizar los correos electrónicos de uso compartido de recursos para que coincidan con la marca del cliente.
+seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '762'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Los administradores de Brand Portal pueden realizar personalizaciones limitadas 
 
 En ausencia de una imagen personalizada de papel tapiz con marca, se muestra un papel tapiz predeterminado en la página de inicio de sesión.
 
-1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ En ausencia de una imagen personalizada de papel tapiz con marca, se muestra un 
 
 El encabezado aparece en varias páginas de Brand Portal después de iniciar sesión en Brand Portal.
 
-1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -127,7 +127,7 @@ Para guardar los cambios, haga clic en **[!UICONTROL Save]** en la barra de herr
 
 Cuando los recursos se comparten como vínculo, los usuarios reciben un correo electrónico que contiene el vínculo. Los administradores pueden personalizar los mensajes, es decir, el logotipo, la descripción y el pie de página, de estos correos electrónicos.
 
-1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 

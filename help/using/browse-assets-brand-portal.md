@@ -1,27 +1,26 @@
 ---
-title: Explorar recursos en Brand Portal
-seo-title: Explorar recursos en Brand Portal
-description: Navegue por los recursos, las jerarquías de recursos y los recursos de búsqueda con diferentes opciones de vista y elementos de la interfaz de usuario en Brand Portal.
-seo-description: Navegue por los recursos, las jerarquías de recursos y los recursos de búsqueda con diferentes opciones de vista y elementos de la interfaz de usuario en Brand Portal.
+title: Examinar recursos en Brand Portal
+seo-title: Browse assets on Brand Portal
+description: Busque recursos, atraviese jerarquías de recursos y busque recursos, utilizando distintas opciones de vista y elementos de interfaz de usuario en Brand Portal.
+seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
-source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
+exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
 
-
 # Examinar recursos en Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal ofrece varias funciones y elementos de interfaz de usuario que facilitan la navegación por los recursos, la navegación por las jerarquías de recursos y la búsqueda de recursos mientras se utilizan distintas opciones de vista.
+Experience Manager Assets Brand Portal proporciona varias funciones y elementos de la interfaz de usuario que facilitan la navegación por los recursos, atravesando jerarquías de recursos y buscando recursos, mientras utiliza diferentes opciones de vista.
 
-AEM logotipo de la barra de herramientas AEM en la parte superior facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
+Logotipo de Experience Manager en la barra de herramientas de la parte superior facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
 
 ![](assets/aemlogo.png)
 
@@ -29,19 +28,19 @@ AEM logotipo de la barra de herramientas AEM en la parte superior facilita a los
 
 ![](assets/bp_subheader.png)<br />
 
-El selector de raíles situado en la esquina superior izquierda de Brand Portal se despliega para mostrar las opciones de exploración en jerarquías de recursos, optimizar la búsqueda y mostrar los recursos.
+El selector de carril en la esquina superior izquierda de Brand Portal se muestra en el menú desplegable para mostrar las opciones y navegar en jerarquías de recursos, optimizar la búsqueda y mostrar recursos.
 
 ![](assets/siderail-1.png)
 
-Puede realizar la vista, el desplazamiento y la selección de recursos mediante cualquiera de las vistas disponibles (Tarjeta, Columna y Lista) en el selector de vistas situado en la parte superior derecha de Brand Portal.
+Puede ver, navegar y seleccionar recursos mediante cualquiera de las vistas disponibles (Tarjeta, Columna y Lista) en el selector de vista situado en la parte superior derecha de Brand Portal.
 
 ![](assets/viewselector.png)
 
 ## Visualización y selección de los recursos {#viewing-and-selecting-resources}
 
-Conceptualmente, la visualización, la navegación y la selección de cada una de ellas son iguales en todas las vistas, pero tienen pequeñas variaciones en la gestión, según la vista que utilice.
+Conceptualmente, la visualización, la navegación y la selección de cada una son iguales en todas las vistas, pero tienen pequeñas variaciones en el manejo, dependiendo de la vista que esté utilizando.
 
-Puede vista, navegar y seleccionar (para realizar más acciones) los recursos con cualquiera de las vistas disponibles:
+Puede ver, navegar y seleccionar sus recursos (para realizar más acciones) con cualquiera de las vistas disponibles:
 
 * Vista de columna
 * Vista de tarjeta
@@ -61,35 +60,35 @@ La vista de tarjeta muestra tarjetas de información para cada elemento del nive
 * Tamaño
 * Dimensiones
 
-Puede bajar por la jerarquía tocando o haciendo clic en las tarjetas (teniendo cuidado de evitar las acciones rápidas) o hacia arriba de nuevo utilizando las [rutas de exploración en el encabezado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Puede bajar por la jerarquía tocando o haciendo clic en las tarjetas (con cuidado de evitar las acciones rápidas) o hacia arriba de nuevo mediante las [rutas de exploración del encabezado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ![](assets/cardquickactions.png)
 
-#### Vista de tarjetas para usuarios no administradores
+#### Vista de tarjeta para usuarios no administradores
 
-Las tarjetas de carpetas, en Vista de tarjetas, muestran información sobre la jerarquía de carpetas a los usuarios no administradores (Editor, Visor y Usuario invitado). Esta funcionalidad permite a los usuarios conocer la ubicación de las carpetas a las que acceden, con respecto a la jerarquía principal.
-La información sobre la jerarquía de carpetas resulta especialmente útil para diferenciar las carpetas que tienen nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios que no son administradores no conocen la estructura de carpetas de los recursos compartidos con ellos, los recursos o carpetas con nombres similares parecen confusos.
+Las tarjetas de carpetas, en la vista de tarjeta, muestran información sobre la jerarquía de carpetas a los usuarios no administradores (Editor, Visualizador y Usuario invitado). Esta funcionalidad permite a los usuarios conocer la ubicación de las carpetas a las que acceden, con respecto a la jerarquía principal.
+La información sobre la jerarquía de carpetas es especialmente útil para diferenciar las carpetas que tienen nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios que no son administradores no conocen la estructura de carpetas de los recursos compartidos con ellos, los recursos o carpetas con nombres similares parecen confusos.
 
-* Las rutas que se muestran en las tarjetas respectivas se truncan para adaptarse a los tamaños de las tarjetas. Sin embargo, los usuarios pueden ver la ruta completa como información sobre herramientas al pasar el ratón por encima de la ruta truncada.
+* Las rutas mostradas en las tarjetas respectivas se truncan para adaptarse a los tamaños de las tarjetas. Sin embargo, los usuarios pueden ver la ruta completa como información del objeto al pasar el ratón por encima de la ruta truncada.
 
 ![](assets/folder-hierarchy1.png)
 
-**Opción Información general para propiedades de recursos de vista**
+**Opción Información general para ver las propiedades de los recursos**
 
-La opción Información general está disponible para los usuarios no administradores (editores, visores, usuarios invitados) para la vista de las propiedades de recursos de los recursos o carpetas seleccionados. La opción Información general está visible:
+La opción Información general está disponible para los usuarios no administradores (editores, visualizadores, usuarios invitados) para ver las propiedades de los recursos o carpetas seleccionados. La opción Información general está visible:
 
-* en la barra de herramientas de la parte superior, al seleccionar un recurso o una carpeta.
-* en la lista desplegable al seleccionar el Selector de carril.
+* en la barra de herramientas situada en la parte superior, al seleccionar un recurso o una carpeta.
+* en la lista desplegable al seleccionar el selector de raíl.
 
-Al seleccionar la opción **[!UICONTROL Información general]** mientras se selecciona un recurso o carpeta, los usuarios pueden ver el título, la ruta y la hora de creación de recursos. Mientras que, en la página de detalles del recurso, si selecciona la opción Información general, los usuarios podrán ver los metadatos del recurso.
+Al seleccionar la opción **[!UICONTROL Información general]** mientras está seleccionado un recurso/carpeta, los usuarios pueden ver el título, la ruta y la hora de creación de los recursos. Por su parte, en la página de detalles del recurso, seleccionar la opción Información general permite que los usuarios vean los metadatos del recurso.
 
 ![](assets/overview-option.png)
 
 ![](assets/overview-rail-selector.png)
 
-#### Configuración de vista en la vista de tarjetas
+#### Ver configuración en la vista de tarjeta
 
-**[!UICONTROL El cuadro de diálogo]** Configuración de vistas se abre al seleccionar  **[!UICONTROL Configuración de]** Vistas en el selector de vistas. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjetas. De este modo, puede personalizar su vista y controlar el número de miniaturas que se muestran.
+**[!UICONTROL Ver]** configuración se abre al seleccionar  **[!UICONTROL Ver]** configuración en el selector de vistas. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjeta. De este modo, puede personalizar la vista y controlar el número de miniaturas que se muestran.
 
 ![](assets/cardviewsettings.png)
 
@@ -97,7 +96,7 @@ Al seleccionar la opción **[!UICONTROL Información general]** mientras se sele
 
 ![](assets/list-view.png)
 
-La vista de lista muestra información para cada recurso en el nivel actual. La vista de lista proporciona los siguientes detalles:
+La vista de lista muestra información de cada recurso en el nivel actual. La vista de lista proporciona los siguientes detalles:
 
 * Imagen en miniatura de los recursos
 * Nombre
@@ -107,18 +106,18 @@ La vista de lista muestra información para cada recurso en el nivel actual. La 
 * Dimension
 * Tamaño
 * Clasificación
-* Ruta de acceso de la carpeta que muestra la jerarquía de recursos<sup>*</sup>
+* La ruta de la carpeta muestra la jerarquía de recursos<sup>*</sup>
 * Fecha de publicación del recurso en Brand Portal
 
-La columna Ruta permite identificar fácilmente la ubicación del recurso en la jerarquía de carpetas. Para desplazarse hacia abajo por la jerarquía, toque o haga clic en el nombre del recurso y haga una copia de seguridad utilizando las [rutas de exploración del encabezado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+La columna Ruta permite identificar fácilmente la ubicación del recurso en la jerarquía de carpetas. Puede bajar por la jerarquía tocando o haciendo clic en el nombre del recurso y hacia arriba utilizando las [rutas de exploración del encabezado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
  -->
 
-### Configuración de vista en vista de lista
+### Ver configuración en la vista de lista
 
-La vista de lista muestra el recurso **[!UICONTROL Name]** como la primera columna de forma predeterminada. También se muestra información adicional, como recursos **[!UICONTROL Título]**, **[!UICONTROL Configuración regional]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamaño]**, **[!UICONTROL Clasificación]**, estado de publicación. Sin embargo, puede seleccionar las columnas que se mostrarán mediante **[!UICONTROL Configuración de Vista]**.
+La vista de lista muestra el recurso **[!UICONTROL Name]** como la primera columna de forma predeterminada. También se muestra información adicional, como **[!UICONTROL Título]**, **[!UICONTROL Configuración regional]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamaño]**, **[!UICONTROL Clasificación]**, estado de publicación. Sin embargo, puede seleccionar las columnas que desea mostrar mediante **[!UICONTROL Configuración de vista]**.
 
 ![](assets/list-view-setting.png)
 
@@ -130,14 +129,14 @@ Utilice la vista de columna para navegar por un árbol de contenido a través de
 
 Al seleccionar un recurso en la primera columna (situada más a la izquierda), se muestran los recursos secundarios en la segunda columna a la derecha. Al seleccionar un recurso en la segunda columna, se muestran los recursos secundarios en la tercera columna a la derecha, etc.
 
-Puede desplazarse hacia arriba y hacia abajo en el árbol tocando o haciendo clic en el nombre del recurso o en el elemento adicional a la derecha del nombre del recurso.
+Puede desplazarse hacia arriba o hacia abajo en el árbol tocando o haciendo clic en el nombre del recurso o en las comillas angulares a la derecha del nombre del recurso.
 
-* El nombre del recurso y el elemento secundario se resaltan al tocar o hacer clic en ellos.
+* El nombre del recurso y las comillas angulares se resaltan al tocar o hacer clic en ellos.
 * Al tocar o hacer clic en la miniatura, se selecciona el recurso.
-* Cuando se selecciona, se superpone una marca de verificación en la miniatura y se resalta el nombre del recurso.
+* Cuando se selecciona, se superpone una marca de verificación en la miniatura y el nombre del recurso se resalta.
 * Los detalles del recurso seleccionado se muestran en la última columna.
 
-Cuando se selecciona un recurso en la vista de columnas, la representación visual del recurso se muestra en la última columna junto con los siguientes detalles:
+Cuando se selecciona un recurso en la vista de columna, la representación visual del recurso se muestra en la última columna junto con los siguientes detalles:
 
 * Título
 * Nombre
@@ -145,7 +144,7 @@ Cuando se selecciona un recurso en la vista de columnas, la representación visu
 * Fecha y hora en que se publicó el recurso en Brand Portal desde AEM
 * Tamaño
 * Tipo
-* Más detalles, para ir a la página de detalles del recurso
+* Opción Más detalles , para acceder a la página de detalles del recurso
 
 <!--
 Comment Type: draft
@@ -233,27 +232,27 @@ Comment Type: draft
 
 ## Árbol de contenido {#content-tree}
 
-Además de estas vistas, utilice la vista de árbol para explorar en profundidad la jerarquía de recursos mientras realiza la vista y selecciona los recursos o las carpetas que desee.
+Además de estas vistas, utilice la vista de árbol para explorar en profundidad la jerarquía de recursos mientras ve y selecciona los recursos o carpetas que desee.
 
-Para abrir la vista de árbol, toque o haga clic en el selector de carril en la esquina superior izquierda y seleccione el **[!UICONTROL árbol de contenido]** en el menú.
+Para abrir la vista de árbol, toque o haga clic en el selector de raíl en la esquina superior izquierda y seleccione el **[!UICONTROL árbol de contenido]** en el menú.
 
 ![](assets/contenttree.png)
 
-Desde la jerarquía de contenido, desplácese hasta el recurso deseado.
+Desde la jerarquía de contenido, vaya al recurso deseado.
 
 ![](assets/content-tree.png)
 
 ## Detalles del recurso {#asset-details}
 
-La página de detalles del recurso le permite realizar la vista de un recurso, descargar, compartir el vínculo del recurso, moverlo a una colección o vista de su página de propiedades. También le permite navegar por la página de detalles de otros recursos de la misma carpeta sucesivamente.
+La página de detalles del recurso permite ver un recurso, descargar, compartir el vínculo del recurso, moverlo a una colección o ver su página de propiedades. También le permite navegar por la página de detalles de otros recursos de la misma carpeta una tras otra.
 
 ![](assets/asset-detail.png)
 
-Para vista de los metadatos del recurso o vista de sus distintas representaciones, utilice el selector de carril en la página de detalles del recurso.
+Para ver los metadatos del recurso o ver sus distintas representaciones, utilice el selector de raíl en la página de detalles del recurso.
 
 ![](assets/asset-overview.png)
 
-Puede realizar la vista de todas las representaciones disponibles del recurso en la página de detalles del recurso y seleccionar una representación para la previsualización.
+Puede ver todas las representaciones disponibles del recurso en la página de detalles del recurso y seleccionar una representación para previsualizarla.
 
 ![](assets/renditions.png)
 
@@ -261,4 +260,4 @@ Para abrir la página de propiedades del recurso, utilice la opción **[!UICONTR
 
 ![](assets/asset-properties.png)
 
-También puede realizar la vista de una lista de todos sus recursos relacionados (recursos de origen o derivados en AEM) en la página de propiedades de un recurso, ya que la relación de recursos también se publica de AEM a Brand Portal.
+También puede ver una lista de todos sus recursos relacionados (recursos de origen o derivados en AEM) en la página de propiedades de un recurso, ya que la relación de recursos también se publica de AEM a Brand Portal.

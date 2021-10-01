@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
@@ -29,19 +29,19 @@ Los usuarios de Brand Portal pueden:
 
 >[!NOTE]
 >
->Para trabajar con vídeos y publicarlos en Brand Portal, asegúrese de que la instancia de autor de AEM esté configurada en el modo híbrido de Dynamic Media o en el modo **[!DNL Scene 7]** de Dynamic Media.
+>Para trabajar con vídeos y publicarlos en Brand Portal, asegúrese de que la instancia de Autor Experience Manager esté configurada en el modo Híbrido de Dynamic Media o en el modo **[!DNL Scene 7]** de Dynamic Media.
 
 Para obtener una vista previa, reproducir y descargar vídeos, Brand Portal expone las dos configuraciones siguientes a los administradores:
 
 * [Configuración híbrida de Dynamic Media](#configure-dm-hybrid-settings)
-Si la instancia de AEM Author se está ejecutando en el modo híbrido de Dynamic Media.
+Si la instancia de Autor de Experience Manager se está ejecutando en el modo híbrido de Dynamic Media.
 * [Dynamic  [!DNL Scene 7] ](#configure-dm-scene7-settings)
-MediaconfigurationSi la instancia de AEM Author se está ejecutando en **[!DNL Scene 7]** modo de Dynamic Media.
-Establezca cualquiera de estas configuraciones en función de las configuraciones establecidas en la instancia de autor de AEM con la que se replica el inquilino de Brand Portal.
+MediaconfigurationSi la instancia de Autor de Experience Manager se está ejecutando en **[!DNL Scene 7]** modo de Dynamic Media.
+Establezca cualquiera de estas configuraciones en función de las configuraciones establecidas en la instancia de Autor de Experience Manager con la que se replica el inquilino de Brand Portal.
 
 >[!NOTE]
 >
->Los vídeos dinámicos no son compatibles con los inquilinos de Brand Portal configurados con AEM Author que se ejecutan en el modo de ejecución **[!UICONTROL Scene7Connect]**.
+>Los vídeos dinámicos no son compatibles con los inquilinos de Brand Portal configurados con el Autor de Experience Manager que se ejecuta en el modo de ejecución **[!UICONTROL Scene7Connect]**.
 
 ## ¿Cómo se reproducen los vídeos dinámicos? {#how-are-dynamic-videos-played}
 

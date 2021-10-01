@@ -1,8 +1,8 @@
 ---
 title: Aplicar ajustes preestablecidos de imagen o representaciones dinámicas
 seo-title: Apply image presets or dynamic renditions
-description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a AEM Assets Brand Portal entregar de forma dinámica imágenes de diferentes tamaños, formatos y propiedades. '
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+description: 'Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a Experience Manager Assets Brand Portal entregar de forma dinámica imágenes de diferentes tamaños, formatos y propiedades. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,20 +10,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # Aplicar ajustes preestablecidos de imagen o representaciones dinámicas {#apply-image-presets-or-dynamic-renditions}
 
-Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a AEM Assets Brand Portal entregar de forma dinámica imágenes de diferentes tamaños, formatos y propiedades.
+Al igual que una macro, un ajuste preestablecido de imagen es una colección predefinida de comandos de tamaño y formato guardados con un nombre. Los ajustes preestablecidos de imagen permiten a Experience Manager Assets Brand Portal entregar de forma dinámica imágenes de diferentes tamaños, formatos y propiedades.
 
 Un ajuste preestablecido de imagen se utiliza para generar representaciones dinámicas de imágenes que se pueden previsualizar y descargar. Al obtener una vista previa de las imágenes y sus representaciones, puede elegir un ajuste preestablecido para cambiar el formato de las imágenes a las especificaciones establecidas por su administrador.
 
-(*Si AEM instancia de autor se está ejecutando en **Modo híbrido de Dynamic Media***) Para ver las representaciones dinámicas de un recurso en Brand Portal, asegúrese de que existe su representación de tiff piramidal en la instancia de autor de AEM desde donde publica en Brand Portal. Al publicar el recurso, su representación PTIFF también se publica en Brand Portal.
+(*Si la instancia de creación de Recursos de Experience Manager se está ejecutando en **Modo híbrido de Dynamic Media***) Para ver las representaciones dinámicas de un recurso en Brand Portal, asegúrese de que existe su representación de tiff piramidal en la instancia de creación de Recursos de Experience Manager desde donde publica en Brand Portal. Al publicar el recurso, su representación PTIFF también se publica en Brand Portal.
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ Para obtener más información sobre los parámetros necesarios al crear ajustes
 
 ## Crear un ajuste preestablecido de imagen {#create-an-image-preset}
 
-Los administradores de AEM pueden crear ajustes preestablecidos de imagen que aparecen como representaciones dinámicas en la página de detalles del recurso. Puede crear un ajuste preestablecido de imagen desde cero o guardar uno existente con un nuevo nombre. Al crear un ajuste preestablecido de imagen, elija un tamaño para la entrega de imágenes y los comandos de formato. Cuando se entrega una imagen para su visualización, su aspecto se optimiza según los comandos seleccionados.
+Los administradores de Recursos de Experience Manager pueden crear ajustes preestablecidos de imagen que aparecen como representaciones dinámicas en la página de detalles del recurso. Puede crear un ajuste preestablecido de imagen desde cero o guardar uno existente con un nuevo nombre. Al crear un ajuste preestablecido de imagen, elija un tamaño para la entrega de imágenes y los comandos de formato. Cuando se entrega una imagen para su visualización, su aspecto se optimiza según los comandos seleccionados.
 
 >[!NOTE]
 >
 >Las representaciones dinámicas de una imagen se crean mediante su TIFF piramidal. Si el TIFF piramidal no está disponible para ningún recurso, las representaciones dinámicas para ese recurso no se pueden recuperar en Brand Portal.
 >
->Si AEM instancia de autor se está ejecutando en **Dynamic Media Hybrid mode**, las representaciones TIFF piramidales de los recursos de imagen se crean y guardan en AEM repositorio.
+>Si la instancia de creación de Recursos de Experience Manager se está ejecutando en **Dynamic Media Hybrid mode**, las representaciones TIFF piramidales de recursos de imagen se crean y guardan en el repositorio de Recursos de Experience Manager.
 >
->Por su parte, si AEM instancia de autor se ejecuta en **modo Dynamic Media Scene 7**, entonces existen representaciones TIFF piramidales de recursos de imagen en el servidor Scene7.
+>Por su parte, si la instancia de autor de Recursos de Experience Manager se ejecuta en **modo Dynamic Media Scene 7**, entonces existen representaciones TIFF piramidales de recursos de imagen en el servidor Scene7.
 >
 >Cuando estos recursos se publican en brand portal, se aplican ajustes preestablecidos de imagen y se muestran representaciones dinámicas.
 
 
-1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
 1. En el panel de herramientas administrativas, haga clic en **[!UICONTROL Ajustes preestablecidos de imagen]**.
 

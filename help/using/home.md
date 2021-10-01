@@ -4,10 +4,10 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Guía de Adobe Experience Manager Assets Brand Portal
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 75%
+source-wordcount: '348'
+ht-degree: 69%
 
 ---
 
@@ -41,8 +41,8 @@ En esta guía se muestran los detalles de las ofertas y los flujos de trabajo cl
 |--- |---|
 | [Novedades](whats-new.md) | Qué ha cambiado y cuáles son las últimas ofertas que se pueden encontrar en las versiones anteriores de Brand Portal. |
 | [Notas de la versión](brand-portal-release-notes.md) | En la versión actual encontrará mejoras y soluciones a problemas graves y conocidos. |
-| [Configurar AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Cómo duplicar Brand Portal con AEM Assets para publicar recursos. |
-| [Solucionar problemas en una publicación paralela](troubleshoot-parallel-publishing.md) | Solucionar la replicación entre Brand Portal y AEM Assets. |
+| [Configuración de Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Cómo duplicar Brand Portal con recursos de Experience Manager para publicar recursos. |
+| [Solucionar problemas en una publicación paralela](troubleshoot-parallel-publishing.md) | Solucionar problemas de replicación entre Brand Portal y Experience Manager Assets. |
 | [Formatos de archivo admitidos](brand-portal-supported-formats.md) | Formatos de archivo admitidos en Brand Portal para su previsualización y descarga. |
 | [Publicar recursos en Brand Portal](brand-portal-sharing-folders.md) | Cómo publicar carpetas, colecciones, vínculos, ajustes preestablecidos, esquemas, facetas y etiquetas en Brand Portal. |
 | [Abastecimiento de recursos en Brand Portal](brand-portal-asset-sourcing.md) | Cómo configurar el abastecimiento de recursos en AEM Assets, cargarlos en Brand Portal y publicar la carpeta de contribución en AEM Assets. |

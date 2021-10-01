@@ -1,8 +1,8 @@
 ---
 title: Utilizar el formulario de esquema de metadatos
-seo-title: Utilizar el formulario de esquema de metadatos
+seo-title: Use the metadata schema form
 description: Un esquema de metadatos describe el diseño de la página Propiedades y las propiedades de metadatos que se muestran para los recursos que utilizan el esquema en cuestión. El esquema que aplique a un recurso determina los campos de metadatos que aparecen en su página Propiedades.
-seo-description: Un esquema de metadatos describe el diseño de la página Propiedades y las propiedades de metadatos que se muestran para los recursos que utilizan el esquema en cuestión. El esquema que aplique a un recurso determina los campos de metadatos que aparecen en su página Propiedades.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1718'
 ht-degree: 11%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 11%
 
 Un esquema de metadatos describe el diseño de la página Propiedades y las propiedades de metadatos que se muestran para los recursos que utilizan el esquema en cuestión. El esquema que aplique a un recurso determina los campos de metadatos que aparecen en su página Propiedades.
 
-La página **[!UICONTROL Propiedades]** de cada recurso incluye propiedades de metadatos predeterminadas según el tipo MIME del recurso. Los administradores pueden utilizar el Editor de esquemas de metadatos para modificar esquemas existentes o agregar esquemas de metadatos personalizados. AEM Assets Brand Portal proporciona formularios predeterminados para los recursos de varios tipos de MIME. Sin embargo, también puede agregar formularios personalizados para estos recursos.
+La página **[!UICONTROL Propiedades]** de cada recurso incluye propiedades de metadatos predeterminadas según el tipo MIME del recurso. Los administradores pueden utilizar el Editor de esquemas de metadatos para modificar esquemas existentes o agregar esquemas de metadatos personalizados. Experience Manager Assets Brand Portal proporciona formularios predeterminados para los recursos de varios tipos de MIME. Sin embargo, también puede agregar formularios personalizados para estos recursos.
 
 ## Agregar un formulario de esquema de metadatos {#add-a-metadata-schema-form}
 
 Para crear un nuevo formulario de esquema de metadatos, haga lo siguiente:
 
-1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ Puede agregar nuevas fichas o elementos de formulario al formulario de esquema d
 
 Para editar un formulario de esquema de metadatos, haga lo siguiente:
 
-1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ La ficha **[!UICONTROL Generar formulario]** enumera los elementos que puede uti
 | **[!UICONTROL Número]** | Añada un componente numérico. |
 | **[!UICONTROL Fecha]** | Añada un componente de fecha. |
 | **[!UICONTROL Lista desplegable]** | Añada una lista desplegable. |
-| **[!UICONTROL Etiquetas estándar]** | Añadir una etiqueta. **Nota:** Los administradores pueden tener que cambiar el valor de la ruta, por ejemplo,  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, si publican el formulario de esquema de metadatos desde AEM, donde la ruta no incluye información del inquilino, por ejemplo,  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Etiquetas inteligentes]** | Etiquetas detectadas automáticamente si ha comprado y configurado el complemento AEM etiquetas inteligentes. |
+| **[!UICONTROL Etiquetas estándar]** | Añadir una etiqueta. **Nota:** Los administradores pueden tener que cambiar el valor de la ruta, por ejemplo,  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, si publican el formulario de esquema de metadatos desde Recursos de Experience Manager, donde la ruta no incluye información de inquilino, por ejemplo,  `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Etiquetas inteligentes]** | Etiquetas detectadas automáticamente si ha comprado y configurado el complemento de etiquetas inteligentes de Recursos de Experience Manager. |
 | **[!UICONTROL Campo oculto]** | Añada un campo oculto. Se envía como parámetro de POST cuando se guarda el recurso. |
 | **[!UICONTROL Recurso al que se hace referencia en]** | Añada este componente para ver la lista de recursos a los que hace referencia el recurso. |
 | **[!UICONTROL Referencia de recursos]** | Agregar para mostrar una lista de recursos que hacen referencia al recurso. |
-| **[!UICONTROL Clasificación del recurso]** | Clasificación promedio de un recurso agregado desde AEM Assets antes de publicarse en Brand Portal. |
+| **[!UICONTROL Clasificación del recurso]** | Clasificación promedio de un recurso agregado desde Recursos de Experience Manager antes de publicarse en Brand Portal. |
 | **[!UICONTROL Metadatos de contexto]** | Añadir para controlar la visualización de otras pestañas de metadatos en la página Propiedades de los recursos. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Los siguientes son los valores válidos para esta propiedad:
 
 >[!NOTE]
 >
->Todos los campos de metadatos son de solo lectura en el formulario del editor de metadatos de un recurso. Dado que los metadatos del recurso deben editarse en AEM Assets antes de publicar un recurso en Brand Portal.
+>Todos los campos de metadatos son de solo lectura en el formulario del editor de metadatos de un recurso. Dado que los metadatos del recurso deben editarse en Recursos de Experience Manager antes de publicar un recurso en Brand Portal.
 
 #### Agregar o eliminar una ficha del formulario de esquema {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal le permite personalizar y controlar el esquema de metadatos, de mod
 
 Para aplicar un formulario de esquema de metadatos a una carpeta, haga lo siguiente:
 
-1. En la barra de herramientas AEM de la parte superior, haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -195,8 +195,8 @@ En este caso, cree un nuevo nodo en [!UICONTROL `/etc/dam/metadataeditor/mimetyp
 
 | **Nombre** | **Tipo** | **Value** |
 |---|---|---|
-| exponsedmimetype | Cadena | image/jpeg |
-| mimetypes | Cadena[] | image/png |
+| exponsedmimetype | String | image/jpeg |
+| mimetypes | String[] | image/png |
 
 * **exsedmimetype**: Nombre del formulario existente a asignar
 * **mimetypes**: Lista de tipos MIME que utilizan el formulario definido en el atributo  **** exponsedmimetypeattribute

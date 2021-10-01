@@ -1,8 +1,8 @@
 ---
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 # Directrices para contribuir a la documentación de Adobe Experience Manager
@@ -39,7 +39,7 @@ Cualquier idea que tenga para mejorar la documentación de AEM es bienvenida com
 
 Cualquier pregunta sobre el uso de AEM o errores técnicos que pueda tener debe notificarse a través del proceso de asistencia normal mediante el [Portal de asistencia empresarial de Experience Cloud](https://helpx.adobe.com/es/contact/enterprise-support.ec.html) o analizarse en la [Comunidad de Experience Manager](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***Las contribuciones a la documentación de AEM no sustituyen al equipo de asistencia de Adobe*** y se rechazará cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia.
+***Las contribuciones de documentación de AEM no sustituyen a la*** asistencia al cliente de Adobe y cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia será rechazada.
 
 ### Las contribuciones deben hacer referencia claramente a las páginas de documentación afectadas.
 
