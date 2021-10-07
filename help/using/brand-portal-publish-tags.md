@@ -1,7 +1,7 @@
 ---
 title: Publicar etiquetas en Brand Portal
 seo-title: Publish tags to Brand Portal
-description: Obtenga información sobre cómo publicar etiquetas de Recursos de Experience Manager en Brand Portal.
+description: Obtenga información sobre cómo publicar etiquetas de Experience Manager Assets en Brand Portal.
 seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 4%
@@ -18,9 +18,9 @@ ht-degree: 4%
 
 # Publicar etiquetas en Brand Portal {#publish-tags-to-brand-portal}
 
-Obtenga información sobre cómo publicar etiquetas de Recursos de Experience Manager en Brand Portal.
+Obtenga información sobre cómo publicar etiquetas de Experience Manager Assets en Brand Portal.
 
-Las etiquetas son útiles para organizar los recursos y mejorar la capacidad de búsqueda de los recursos a los que están asociados. Las etiquetas pueden considerarse como palabras clave o etiquetas (metadatos) que están adjuntas a los recursos, y permiten que los recursos se encuentren rápidamente como resultado de una búsqueda. Para saber cómo asignar etiquetas a recursos en Recursos de Experience Manager, consulte [usar etiquetas para organizar recursos](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+Las etiquetas son útiles para organizar los recursos y mejorar la capacidad de búsqueda de los recursos a los que están asociados. Las etiquetas pueden considerarse como palabras clave o etiquetas (metadatos) que están adjuntas a los recursos, y permiten que los recursos se encuentren rápidamente como resultado de una búsqueda. Para saber cómo asignar etiquetas a recursos en Experience Manager Assets, consulte [usar etiquetas para organizar recursos](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 Las etiquetas (asociadas con recursos y colecciones en AEM) se publican automáticamente en Brand Portal cuando los recursos (y colecciones) con etiquetas asociadas se publican en Brand Portal. Las etiquetas publicadas son útiles para permitir que las búsquedas encuentren los recursos asociados.
 
@@ -50,7 +50,7 @@ EtiquetasInicie sesión en la instancia de AEM Author con privilegios administra
 
       *(obligatorio)* Un título que se muestra para la etiqueta.
    * **[!UICONTROL Nombre]**
-      *(obligatorio)* Un nombre para la etiqueta. Si no se especifica, se crea un nombre de nodo válido desde el Título. Consulte [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(obligatorio)* Un nombre para la etiqueta. Si no se especifica, se crea un nombre de nodo válido desde el Título. Consulte [TagID](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/tagging/framework.html).
    * **Descripción**
 
       *(opcional)* Una descripción de la etiqueta.
@@ -67,7 +67,7 @@ PathJCR path de la etiqueta .
 
 1. **Adjunte la etiqueta a un recurso (o colección)**.
 
-   Seleccione un recurso (o colección) y adjunte la etiqueta deseada mediante la sección Propiedades o la sección Administrar etiquetas de ese recurso. Para obtener más información sobre cómo asignar etiquetas a recursos en AEM Assets, consulte [usar etiquetas para organizar recursos](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Seleccione un recurso (o colección) y adjunte la etiqueta deseada mediante la sección Propiedades o la sección Administrar etiquetas de ese recurso. Para obtener más información sobre cómo asignar etiquetas a recursos en AEM Assets, consulte [usar etiquetas para organizar recursos](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 1. **Publicar recursos (o colecciones) en Brand Portal**.\
    Cuando publica un recurso (o colección) en Brand Portal, la etiqueta adjunta también está disponible en Brand Portal.

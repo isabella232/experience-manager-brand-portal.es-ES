@@ -1,8 +1,8 @@
 ---
 title: Administración de los derechos digitales de recursos
-seo-title: Administración de los derechos digitales de recursos
+seo-title: Manage digital rights of assets
 description: La licencia de recursos y la configuración de la caducidad para los recursos y los vínculos compartidos garantizan el uso controlado de estos recursos y los protegen.
-seo-description: La licencia de recursos y la configuración de la caducidad para los recursos y los vínculos compartidos garantizan el uso controlado de estos recursos y los protegen.
+seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 2%
+source-wordcount: '805'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ Para obtener más información sobre el uso compartido de vínculos, consulte [C
 
 Los recursos con licencia están sujetos a la aceptación de un acuerdo de licencia antes de su descarga desde Brand Portal. Este acuerdo para los recursos con licencia se produce cuando se descarga directamente el recurso desde Brand Portal o a través de un vínculo compartido. Ya sea que haya caducado o no, todos los usuarios pueden ver los recursos protegidos por licencias. Sin embargo, la descarga y el uso de recursos con licencia caducados son limitados. Para obtener información sobre el comportamiento de los recursos con licencia caducados y las actividades permisibles basadas en las funciones de usuario, consulte [permisos de uso de los recursos caducados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Los recursos protegidos por licencias tienen [contrato de licencia adjunto](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets), lo que se hace estableciendo la [propiedad de metadatos](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) del recurso en AEM Assets.
+Los recursos protegidos por licencias tienen [contrato de licencia adjunto](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html), lo que se hace estableciendo la [propiedad de metadatos](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) del recurso en AEM Assets.
 
 Si decide descargar recursos protegidos por licencias, se le redirigirá a la página **[!UICONTROL Administración de derechos de autor]**.
 

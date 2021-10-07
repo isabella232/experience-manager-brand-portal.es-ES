@@ -1,7 +1,7 @@
 ---
 title: Compartir carpetas
 seo-title: Share folders
-description: Brand Portal no admite la ingesta de recursos, por lo que los recursos deben publicarse en Brand Portal desde una instancia de autor de recursos de Experience Manager preconfigurada. Los recursos publicados no son accesibles para los usuarios no administradores de Brand Portal, a menos que se configuren al configurar la replicación con la instancia de Experience Manager, y deben compartirse con ellos.
+description: Brand Portal no admite la ingesta de recursos, por lo que los recursos deben publicarse en Brand Portal desde una instancia preconfigurada de Experience Manager Assets Author. Los recursos publicados no son accesibles para los usuarios no administradores de Brand Portal, a menos que se configuren al configurar la replicación con la instancia de Experience Manager, y deben compartirse con ellos.
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -9,9 +9,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Los recursos deben publicarse en Brand Portal desde una instancia de Autor de Ex
 
 A continuación se describe el flujo de trabajo de uso compartido de carpetas y el acceso de usuario:
 
-* De forma predeterminada, todas las carpetas publicadas desde Recursos de Experience Manager a Brand Portal solo son visibles para el administrador de Brand Portal, a menos que estén marcadas como públicas al configurar la replicación.
+* De forma predeterminada, todas las carpetas publicadas de Experience Manager Assets a Brand Portal solo son visibles para el administrador de Brand Portal, a menos que estén marcadas como públicas al configurar la replicación.
 * El administrador utiliza la consola **[!UICONTROL Propiedades de carpeta]** para compartir una carpeta con usuarios o grupos selectivos. Solo los usuarios o grupos con los que se comparte la carpeta pueden verla después de iniciar sesión en Brand Portal. La carpeta no es visible para otros usuarios.
 * El administrador también puede optar por hacer pública una carpeta a través de la casilla de verificación **[!UICONTROL Carpeta pública]** en la consola **[!UICONTROL Propiedades de la carpeta]**. Todos los usuarios pueden ver una carpeta pública.
 
@@ -32,7 +32,7 @@ A continuación se describe el flujo de trabajo de uso compartido de carpetas y 
 
 ### Compartir carpetas con grupos de usuarios en Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Los derechos de acceso a los recursos de una carpeta dependen de los derechos de acceso de su carpeta principal, independientemente de la configuración de las carpetas secundarias. Este comportamiento se rige por [ACLs](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) en AEM, ya que las carpetas secundarias heredan ACL de sus carpetas principales. Por ejemplo, si una carpeta A contiene la carpeta B que contiene la carpeta C, un grupo de usuarios (o usuarios) que tengan derechos de acceso en la carpeta A también tiene los mismos derechos de acceso en la carpeta B y C. Si la carpeta B es la carpeta secundaria de A hereda sus ACL y si la carpeta C es la carpeta secundaria de B hereda sus ACL.
+Los derechos de acceso a los recursos de una carpeta dependen de los derechos de acceso de su carpeta principal, independientemente de la configuración de las carpetas secundarias. Este comportamiento se rige por [ACLs](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) en AEM, ya que las carpetas secundarias heredan ACL de sus carpetas principales. Por ejemplo, si una carpeta A contiene la carpeta B que contiene la carpeta C, un grupo de usuarios (o usuarios) que tengan derechos de acceso en la carpeta A también tiene los mismos derechos de acceso en la carpeta B y C. Si la carpeta B es la carpeta secundaria de A hereda sus ACL y si la carpeta C es la carpeta secundaria de B hereda sus ACL.
 
 Del mismo modo, los grupos de usuarios (o usuarios) que tienen permisos para acceder solo a la carpeta B tienen los mismos permisos de acceso a la carpeta C pero no a la carpeta A. Por lo tanto, se recomienda que las organizaciones organicen su contenido de tal modo que la mayoría de los recursos expuestos se coloquen en la carpeta secundaria y que el acceso a la carpeta raíz se pueda restringir desde los elementos secundarios hasta la carpeta raíz.
 
@@ -79,7 +79,7 @@ Los usuarios no administradores ven el árbol de carpetas (a partir de la carpet
 
 Estas carpetas principales son las carpetas virtuales y no se puede realizar ninguna acción en ellas. Puede reconocer estas carpetas virtuales con un icono de bloqueo.
 
-No hay tareas de acción visibles al pasar el ratón o seleccionarlas en **[!UICONTROL Vista de tarjeta]**, a diferencia de las carpetas compartidas. **** El botón Información general se muestra al seleccionar una carpeta virtual en la vista  **[!UICONTROL de]** columna y la vista de  **[!UICONTROL lista]**.
+No hay tareas de acción visibles al pasar el ratón o seleccionarlas en **[!UICONTROL Vista de tarjeta]**, a diferencia de las carpetas compartidas. **** El botón Información general se muestra al seleccionar una carpeta virtual en la Vista de  **[!UICONTROL columna]** y la Vista de  **[!UICONTROL lista]**.
 
 >[!NOTE]
 >

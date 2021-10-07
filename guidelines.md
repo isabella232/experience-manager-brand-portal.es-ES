@@ -1,7 +1,7 @@
 ---
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -37,7 +37,7 @@ Las excepciones a esta regla se aplican a las notas de la versión, donde los pr
 
 Cualquier idea que tenga para mejorar la documentación de AEM es bienvenida como contribución. Sin embargo, los comentarios, las incidencias y las solicitudes de extracción están destinados únicamente a *contribuciones*. No están pensados para utilizarse para responder a sus preguntas sobre cómo utilizar AEM, implementar su proyecto de AEM o resolver problemas técnicos.
 
-Cualquier pregunta sobre el uso de AEM o errores técnicos que pueda tener debe notificarse a través del proceso de asistencia normal mediante el [Portal de asistencia empresarial de Experience Cloud](https://helpx.adobe.com/es/contact/enterprise-support.ec.html) o analizarse en la [Comunidad de Experience Manager](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Cualquier pregunta sobre el uso de AEM o errores técnicos que pueda tener debe notificarse a través del proceso de asistencia normal mediante el [Portal de asistencia empresarial de Experience Cloud](https://experienceleague.adobe.com/?support-solution=General#support) o analizarse en la [Comunidad de Experience Manager](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
 ***Las contribuciones de documentación de AEM no sustituyen a la*** asistencia al cliente de Adobe y cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia será rechazada.
 

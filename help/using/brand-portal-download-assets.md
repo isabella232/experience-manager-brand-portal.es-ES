@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 4%
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal mejora la experiencia de descarga a
 
 >[!NOTE]
 >
->En Brand Portal 2020.10.0 (y versiones posteriores), el ajuste **[!UICONTROL Fast Download]** está habilitado de forma predeterminada, que utiliza IBM Aspera Connect para la descarga acelerada de los recursos. Instale IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) en la extensión de su explorador antes de descargar los recursos de Brand Portal. Para obtener más información, consulte la [guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
+>En Brand Portal 2020.10.0 (y versiones posteriores), el ajuste **[!UICONTROL Fast Download]** está habilitado de forma predeterminada, que utiliza IBM Aspera Connect para la descarga acelerada de los recursos. Instale IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) en la extensión del explorador antes de descargar los recursos de Brand Portal. Para obtener más información, consulte la [guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
 >
 >Si no desea utilizar IBM Aspera Connect y continuar con el proceso de descarga normal, póngase en contacto con el administrador de Brand Portal para desactivar la configuración **[!UICONTROL Fast Download]**.
 
@@ -53,7 +53,7 @@ La configuración disponible es:
 
 * **[!UICONTROL Descarga rápida]**
 
-   Proporciona una descarga acelerada de los recursos utilizando IBM Aspera Connect. De forma predeterminada, la configuración **[!UICONTROL Fast Download]** está habilitada en **[!UICONTROL Download Settings]**.
+   Proporciona una descarga acelerada de los recursos mediante IBM Aspera Connect. De forma predeterminada, la configuración **[!UICONTROL Fast Download]** está habilitada en **[!UICONTROL Download Settings]**.
 
 * **[!UICONTROL Representaciones personalizadas]**
 
@@ -65,7 +65,7 @@ La configuración disponible es:
 
    Permite descargar representaciones de los recursos generadas por el sistema.
 
-   Estas son las miniaturas que se generan automáticamente en Recursos de Experience Manager en función del flujo de trabajo &quot;Recurso de actualización DAM&quot;.
+   Estas son las miniaturas que se generan automáticamente en Experience Manager Assets según el flujo de trabajo &quot;Recurso de actualización DAM&quot;.
 
 * **[!UICONTROL Descarga de recurso]**
 
@@ -156,14 +156,14 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
       >[!NOTE]
       >
-      >Si descarga los recursos por primera vez y no tiene IBM Aspera Connect instalado en su navegador, se le pedirá que instale el acelerador de descargas de Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+      >Si descarga los recursos por primera vez y no tiene instalado IBM Aspera Connect en su navegador, se le pedirá que instale el acelerador de descargas de Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
       >[!NOTE]
       >
       >Si los recursos que descarga también incluyen recursos con licencia, se los redirigirá a la página **[!UICONTROL Administración de derechos de autor]**. En esta página, seleccione los recursos, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si no está de acuerdo, los recursos con licencia no se descargan.
       > 
-      >Los recursos protegidos por licencias tienen [contrato de licencia adjunto](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets), lo que se hace estableciendo la [propiedad de metadatos](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) del recurso en Recursos de Experience Manager.
+      >Los recursos protegidos por licencias tienen [contrato de licencia adjunto](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html), lo que se hace estableciendo la [propiedad de metadatos](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) del recurso en Experience Manager Assets.
 
 
       ![license-asset](assets/licensed-asset-new.png)
@@ -188,13 +188,13 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
 1. De forma predeterminada, la configuración **[!UICONTROL Fast Download]** está habilitada en **[!UICONTROL Download Settings]**. Por lo tanto, aparece un cuadro de confirmación que permite la descarga acelerada mediante IBM Aspera Connect.
 
-   Para seguir utilizando **[!UICONTROL Fast Download]**, haga clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip utilizando IBM Aspera Connect.
+   Para seguir utilizando **[!UICONTROL Fast Download]**, haga clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip mediante IBM Aspera Connect.
 
    Si no desea utilizar IBM Aspera Connect, haga clic en **[!UICONTROL Denegar]**. Si **[!UICONTROL Fast Download]** es denegado o falla, el sistema rellena un mensaje de error. Haga clic en el botón **[!UICONTROL Normal Download]** para continuar descargando los recursos.
 
 >[!NOTE]
 >
->Si el administrador desactiva la configuración **[!UICONTROL Fast Download]** , las representaciones seleccionadas se descargan directamente en una carpeta zip sin utilizar IBM Aspera Connect.
+>Si el administrador desactiva la configuración **[!UICONTROL Fast Download]** , las representaciones seleccionadas se descargan directamente en una carpeta zip sin usar IBM Aspera Connect.
 
 >[!NOTE]
 >
@@ -208,9 +208,9 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 >
 >Brand Portal admite la configuración de Dynamic Media en los modos Híbrido y Scene7.
 >
->(*Si la instancia de autor de Recursos de Experience Manager se está ejecutando en **Modo híbrido de Dynamic Media***)
+>(*Si la instancia de autor de Experience Manager Assets se está ejecutando en **Modo híbrido de Dynamic Media***)
 >
->Para obtener una vista previa o descargar representaciones dinámicas de un recurso, asegúrese de que el Dynamic Media esté activado y de que la representación de tiff piramidal del recurso exista en la instancia de creación de Recursos de Experience Manager desde la que se publicaron los recursos. Cuando un recurso se publica de Recursos de Experience Manager en Brand Portal, también se publica su representación de tiff piramidal.
+>Para obtener una vista previa o descargar representaciones dinámicas de un recurso, asegúrese de que el Dynamic Media esté activado y de que la representación de tiff piramidal del recurso exista en la instancia de autor de Experience Manager Assets desde la que se publicaron los recursos. Cuando se publica un recurso de Experience Manager Assets en Brand Portal, también se publica su representación de tiff piramidal.
 
 
 
@@ -246,13 +246,13 @@ A continuación se indican los pasos para descargar representaciones de recursos
 
 1. De forma predeterminada, la configuración **[!UICONTROL Fast Download]** está habilitada en **[!UICONTROL Download Settings]**. Por lo tanto, aparece un cuadro de confirmación que permite la descarga acelerada mediante IBM Aspera Connect.
 
-   Para seguir utilizando **[!UICONTROL Fast Download]**, haga clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip utilizando IBM Aspera Connect.
+   Para seguir utilizando **[!UICONTROL Fast Download]**, haga clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip mediante IBM Aspera Connect.
 
    Si niega utilizar **[!UICONTROL Fast Download]**, el sistema rellena un mensaje de error. Haga clic en el botón **[!UICONTROL Normal Download]** para continuar descargando los recursos.
 
 >[!NOTE]
 >
->Si el administrador desactiva la configuración **[!UICONTROL Fast Download]** , las representaciones seleccionadas se descargan directamente en una carpeta zip sin utilizar IBM Aspera Connect.
+>Si el administrador desactiva la configuración **[!UICONTROL Fast Download]** , las representaciones seleccionadas se descargan directamente en una carpeta zip sin usar IBM Aspera Connect.
 
 
 >[!NOTE]
@@ -328,7 +328,7 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
-     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+     >License-protected assets have [license agreement attached]() to them, which is done by setting asset's [metadata property]() in Experience Manager Assets.
 
 
      ![](assets/licensed-asset-download-1.png)

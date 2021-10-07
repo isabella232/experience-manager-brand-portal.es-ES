@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1124'
 ht-degree: 7%
 
 ---
@@ -43,13 +43,13 @@ Para buscar recursos en Brand Portal:
 
    *Búsqueda de recursos mediante omnisearch*
 
-Para obtener más información sobre el comportamiento de búsqueda con recursos etiquetados inteligentes, consulte [comprensión de los resultados de búsqueda y del comportamiento](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Para obtener más información sobre el comportamiento de búsqueda con recursos etiquetados inteligentes, consulte [comprensión de los resultados de búsqueda y del comportamiento](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
 ## Búsqueda mediante facetas en el panel Filtros {#search-using-facets-in-filters-panel}
 
 Las facetas de búsqueda del panel Filtros agregan granularidad a la experiencia de búsqueda y hacen que la funcionalidad de búsqueda sea eficiente. Las facetas de búsqueda utilizan varias dimensiones (predicados) que permiten realizar búsquedas intrincadas. Puede explorar en profundidad hasta el nivel de detalle deseado para realizar una búsqueda más centrada.
 
-Por ejemplo, si busca una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el ámbito de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo . Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, PDF o MS Word.
+Por ejemplo, si busca una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el ámbito de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo . Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, PDF o formato MS Word.
 
 ![Panel Filtros del panel Filtros de Brand ](assets/file-type-search.png "Portal en Brand Portal")
 
@@ -72,7 +72,7 @@ Por ejemplo, utilice los siguientes filtros estándar:
 
    * **[!UICONTROL Tipo de archivo]** para especificar el tipo (imagen, documento, multimedia, archivo) del archivo de recurso que está buscando. Además, puede reducir el ámbito de la búsqueda, por ejemplo, especificar el tipo MIME (Tiff, Bitmap, GIMP Images) para la imagen o el formato (PDF o MS Word) de los documentos.
    * **[!UICONTROL File]** Sizpara buscar recursos en función de su tamaño. Puede especificar los límites inferior y superior del intervalo de tamaño para reducir la búsqueda y especificar la unidad de medida que desea buscar.
-   * **** El estado permite buscar recursos en función de los estados de los recursos, como Aprobación (Aprobada, Cambios solicitados, Rechazado, Pendiente) y Caducidad.
+   * **** Busque recursos en función de estados de recursos, como Aprobación (Aprobado, Cambios solicitados, Rechazado, Pendiente) y Caducidad.
    * **[!UICONTROL Clasificación promedio]** para buscar recursos en función de la clasificación de los recursos.
    * **** Orientación para buscar recursos en función de la orientación (horizontal, vertical, cuadrada) de los recursos.
    * **** Estiloso para buscar recursos en función del estilo (de color, monocromo) de los recursos.

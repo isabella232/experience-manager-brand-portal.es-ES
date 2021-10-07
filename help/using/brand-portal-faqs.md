@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 1%
@@ -19,14 +19,14 @@ ht-degree: 1%
 
 # Preguntas frecuentes  {#frequently-asked-questions}
 
-Las preguntas frecuentes de Brand Portal se centran en las consultas y los problemas que los usuarios finales pueden encontrar al trabajar con la versión más reciente del Experience Manager Assets Brand Portal 6.4.6 o versiones anteriores.
+Las preguntas frecuentes de Brand Portal se centran en las consultas y los problemas que los usuarios finales pueden encontrar al trabajar con la última versión de Experience Manager Assets Brand Portal 6.4.6 o versiones anteriores.
 
 
 ## Preguntas más frecuentes sobre Brand Portal 6.4.6  {#faqs-bp646}
 
 **Ques. El extremo OAuth heredado existente (`https://legacy-oauth.cloud.adobe.io/login`) no funciona. ¿Cuál podría ser la posible razón?**
 
-**Ans.** La configuración OAuth heredada está en desuso. Debe actualizar las instancias de creación de recursos de Experience Manager al Service Pack más reciente y configurarlas mediante Adobe Developer Console. Consulte [Configuración de recursos de Experience Manager con Brand Portal](configure-aem-assets-with-brand-portal.md) para obtener más información. Sin embargo, para que la configuración heredada de OAuth funcione hasta que actualice, actualice el extremo heredado de OAuth a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** La configuración OAuth heredada está en desuso. Debe actualizar las instancias de autor de Experience Manager Assets al Service Pack más reciente y configurarlas mediante Adobe Developer Console. Consulte [Configurar Experience Manager Assets con Brand Portal](configure-aem-assets-with-brand-portal.md) para obtener más información. Sin embargo, para que la configuración heredada de OAuth funcione hasta que actualice, actualice el extremo heredado de OAuth a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -34,11 +34,11 @@ Las preguntas frecuentes de Brand Portal se centran en las consultas y los probl
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Ques. No puedo publicar los recursos de la carpeta de contribución de Brand Portal a Recursos de Experience Manager después de actualizar a Adobe Developer Console. Mi instancia de autor está en Experience Manager Assets 6.5.4. ¿Cuál podría ser el motivo?**
+**Ques. No puedo publicar los recursos de la carpeta de contribución de Brand Portal a Experience Manager Assets después de actualizar a Adobe Developer Console. Mi instancia de autor está en Experience Manager Assets 6.5.4. ¿Cuál podría ser la razón posible?**
 
 **Ans.** Sí, hay un problema conocido al publicar los recursos de la carpeta de contribución en Experience Manager Assets 6.5.4 a través de Adobe Developer Console.
 
-El problema se ha solucionado en Recursos de Experience Manager 6.5.5. Puede actualizar la instancia de Recursos de Experience Manager al Service Pack más reciente y [actualizar las configuraciones](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) en Adobe Developer Console.
+El problema se ha solucionado en Experience Manager Assets 6.5.5. Puede actualizar la instancia de Experience Manager Assets al último Service Pack y [actualizar las configuraciones](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) en Adobe Developer Console.
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -48,18 +48,18 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **Ques. No veo el contenido de la carpeta de contribución publicado desde Brand Portal en Experience Manager Assets. ¿Cuál podría ser la posible razón?**
 
-**Ans.** Póngase en contacto con el administrador de recursos de Experience Manager para comprobar las configuraciones y asegurarse de que el inquilino de Brand Portal esté configurado con una sola instancia de autor de recursos de Experience Manager.
+**Ans.** Póngase en contacto con el administrador de Experience Manager Assets para comprobar las configuraciones y asegurarse de que el inquilino de Brand Portal esté configurado con una sola instancia de autor de Experience Manager Assets.
 
-Este problema se produce posiblemente cuando se ha configurado un inquilino de Brand Portal en varias instancias de autor de recursos de Experience Manager. Por ejemplo, el administrador configura el mismo inquilino de Brand Portal en la instancia de autor de recursos de Experience Manager del entorno de ensayo y producción. En este caso, los déclencheur de publicación de recursos en Brand Portal, pero la instancia de autor de Experience Manager Assets no pudo importar el recurso porque el agente de replicación no recibe el token de solicitud.
+Este problema posiblemente se produzca cuando haya configurado un inquilino de Brand Portal en varias instancias de autor de Experience Manager Assets. Por ejemplo, el administrador configura el mismo inquilino de Brand Portal en la instancia de autor de Experience Manager Assets del entorno de ensayo y producción. En este caso, los déclencheur de publicación de recursos en Brand Portal, pero la instancia de autor de Experience Manager Assets no pudo importar el recurso porque el agente de replicación no recibe el token de solicitud.
 
 
-**Ques. No puedo publicar recursos de Recursos de Experience Manager en Brand Portal. El registro de replicación indica que se agotó el tiempo de espera de la conexión. ¿Hay alguna solución rápida?**
+**Ques. No puedo publicar recursos de Experience Manager Assets en Brand Portal. El registro de replicación indica que se agotó el tiempo de espera de la conexión. ¿Hay alguna solución rápida?**
 
 **Ans.** Normalmente, la publicación falla con un error de tiempo de espera si hay varias solicitudes pendientes en la cola de replicación. Para resolver este problema, asegúrese de que los agentes de replicación estén configurados para evitar el tiempo de espera.
 
 Realice los siguientes pasos para configurar el agente de replicación:
 
-1. Inicie sesión en la instancia de creación de Recursos de Experience Manager.
+1. Inicie sesión en la instancia de autor de Experience Manager Assets.
 1. En el panel **Herramientas**, vaya a **[!UICONTROL Implementación]** > **[!UICONTROL Replicación]**.
 1. En la página Replicación, haga clic en **[!UICONTROL Agentes del autor]**. Puede ver los cuatro agentes de replicación para su inquilino de Brand Portal.
 1. Haga clic en la URL del agente de replicación para abrir los detalles del agente.
@@ -74,7 +74,7 @@ Realice los siguientes pasos para configurar el agente de replicación:
 
 **Ques. ¿Cuál es el cambio más importante en la versión 6.4.5 de Brand Portal?**
 
-**Ans.** Experience Manager Assets Brand Portal 6.4.5 es una versión de funciones que permite a los usuarios de Brand Portal cargar contenido desde la instancia de Brand Portal y volver a publicar la carpeta Contribution en Recursos Experience Manager sin necesidad de derechos de administrador.
+**Ans.** Experience Manager Assets Brand Portal 6.4.5 es una versión de funciones que permite a los usuarios de Brand Portal cargar contenido desde la instancia de Brand Portal y volver a publicar la carpeta Contribution en Experience Manager Assets sin necesidad de derechos de administrador.
 Para obtener más información, consulte [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
 
@@ -100,20 +100,20 @@ Para actualizaciones y cambios de versión, se recomienda realizar el seguimient
 
 **Ques. ¿Se requiere alguna acción por mi parte como usuario de Brand Portal?**
 
-**Ans.** La versión 6.4.5 de Brand Portal incorpora una nueva función denominada Asset Sourcing. El administrador debe configurar la función de abastecimiento de recursos en Recursos de Experience Manager para que los usuarios de Brand Portal puedan habilitarla. Para obtener más información, consulte [Habilitar abastecimiento de recursos](brand-portal-asset-sourcing.md).
+**Ans.** La versión 6.4.5 de Brand Portal incorpora una nueva función denominada Asset Sourcing. El administrador debe configurar la función de abastecimiento de recursos en Experience Manager Assets para que los usuarios de Brand Portal puedan habilitarla. Para obtener más información, consulte [Habilitar abastecimiento de recursos](brand-portal-asset-sourcing.md).
 
 
 
 **Ques. ¿Quién puede crear una carpeta de contribución?**
 
-**Ans.** Cualquier usuario de Recursos de Experience Manager que tenga permisos para crear una carpeta nueva en Recursos de Experience Manager, puede crear una carpeta de  **** contribución. Para crear una carpeta **Contribution**, cree una nueva carpeta de tipo **Asset Contribution**.
+**Ans.** Cualquier usuario de Experience Manager Assets que tenga permisos para crear una carpeta nueva en Experience Manager Assets puede crear una carpeta de  **** contribución. Para crear una carpeta **Contribution**, cree una nueva carpeta de tipo **Asset Contribution**.
 Esta carpeta se comparte con los usuarios activos de Brand Portal para obtener contribución.
 
 
 
 **Ques. ¿Qué contiene una carpeta de contribución?**
 
-**Ans.** **** La carpeta Contributionfolder contiene dos subcarpetas  **** NEW **y SHARED**. Inicialmente, la carpeta NEW está en blanco y la carpeta SHARED contiene el contenido de referencia (recursos reutilizables) para los usuarios de Brand Portal.
+**Ans.** **** La carpeta Contributionfolder contiene dos subcarpetas  **** NEWy  **SHARED**. Inicialmente, la carpeta NEW está en blanco y la carpeta SHARED contiene el contenido de referencia (recursos reutilizables) para los usuarios de Brand Portal.
 Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan contenido en la carpeta **NEW**.
 
 
@@ -152,25 +152,25 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 
 **Ques. ¿Qué rellena la lista de usuarios (colaboradores de Brand Portal) en la lista desplegable de usuarios de Asset Contribution?**
 
-**Ans.** Los usuarios de la lista desplegable se rellenan desde el archivo de configuración de usuario de Brand Portal (.csv) cargado en Recursos de Experience Manager.
+**Ans.** Los usuarios de la lista desplegable se rellenan desde el archivo de configuración de usuario de Brand Portal (.csv) cargado en Experience Manager Assets.
 
 
 
 **Ques. ¿Dónde puedo ver el estado de los trabajos de importación y publicación?**
 
-**Ans.** En Recursos de Experience Manager, puede ver el estado de una importación en la página  **** de asyncjob. En Brand Portal, puede ver el estado de un trabajo de publicación en **[!UICONTROL Tools > Asset Contribution status]**.
+**Ans.** En Experience Manager Assets, puede ver el estado de una importación en la página  **** asyncjob. En Brand Portal, puede ver el estado de un trabajo de publicación en **[!UICONTROL Tools > Asset Contribution status]**.
 
 
 
 **Ques. ¿Cuál es la frecuencia de un trabajo de importación que se ejecuta periódicamente en el Experience Manager?**
 
-**Ans.** En Recursos Experience Manager, las encuestas se ejecutan cada 5 minutos.
+**Ans.** En Experience Manager Assets, las encuestas se ejecutan cada 5 minutos.
 
 
 
-**Ques. ¿Hay algún umbral en el número de veces que se puede publicar una carpeta desde Brand Portal en Experience Manager Assets?**
+**Ques. ¿Hay algún umbral en la cantidad de veces que se puede publicar una carpeta de Brand Portal a Experience Manager Assets?**
 
-**Ans.** No, todos los recursos de la  **** carpeta NEW se publican en Recursos Experience Manager independientemente de que se hayan publicado anteriormente. Cada vez que una carpeta **Contribution** se publica desde Brand Portal en Experience Manager Assets, anula el contenido de la carpeta **NEW**.
+**Ans.** No, todos los recursos de la  **** carpeta NEW se publican en Experience Manager Assets independientemente de que se hayan publicado anteriormente. Cada vez que se publica una carpeta **Contribution** de Brand Portal en Experience Manager Assets, anula el contenido de la carpeta **NEW**.
 
 
 
@@ -186,10 +186,10 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 
 
 
-**Ques. ¿Qué sucede si una carpeta se publica de Recursos del Experience Manager a Brand Portal que está en flujo?**
+**Ques. ¿Qué sucede si una carpeta se publica de Experience Manager Assets en Brand Portal que está en flujo?**
 
-**Ans.** En Recursos de Experience Manager, los registros se mantienen para cada vez que se publica una carpeta en Brand Portal. En el momento de la publicación, todos los recursos que no se publican en Brand Portal se colocan en una cola de replicación. Cualquier recurso añadido a la carpeta después de activar el trabajo de publicación no se publica en Brand Portal. Cuando el usuario de Recursos de Experience Manager vuelve a publicar la carpeta, solo los recursos que no se publicaron anteriormente (que ya existían en la cola de replicación) se publican en Brand Portal.
-Esto se aplica a todas las carpetas publicadas desde Recursos de Experience Manager a Brand Portal y carpetas COMPARTIDAS dentro de una carpeta de Contribución.
+**Ans.** En Experience Manager Assets, los registros se mantienen para cada vez que se publica una carpeta en Brand Portal. En el momento de la publicación, todos los recursos que no se publican en Brand Portal se colocan en una cola de replicación. Cualquier recurso añadido a la carpeta después de activar el trabajo de publicación no se publica en Brand Portal. Cuando el usuario de Experience Manager Assets vuelve a publicar la carpeta, solo los recursos que no se publicaron anteriormente (que ya existían en la cola de replicación) se publican en Brand Portal.
+Esto se aplica a todas las carpetas publicadas desde Experience Manager Assets en Brand Portal y a las carpetas COMPARTIDAS en una carpeta de Contribución.
 
 **Ques. ¿Con quién puedo contactar?**
 
@@ -207,5 +207,5 @@ Estos sitios solo están disponibles para los clientes. Si es cliente de y requi
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support]()
 -->
