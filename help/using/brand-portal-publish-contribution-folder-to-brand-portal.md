@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Para crear una carpeta de contribución, cree una nueva carpeta de tipo Contribu
 
 >[!NOTE]
 >
->Puede crear varias carpetas de contribución dentro de una carpeta.
+>Los administradores pueden crear varias carpetas de contribución de recursos dentro de una carpeta.
 >
->Una carpeta de contribución de recursos contiene carpetas NUEVAS y COMPARTIDAS para la distribución y contribución de los recursos. No cree ninguna carpeta de recursos, carpetas o contribuciones dentro de una carpeta de contribución de recursos.
+>Una carpeta de contribución de recursos contiene carpetas NUEVAS y COMPARTIDAS para la distribución y contribución de los recursos. No cree ninguna carpeta de recursos, carpetas o contribuciones dentro de una carpeta de contribución.
 
 
 Puede configurar las propiedades de la carpeta de contribución por separado, así como al crear la carpeta de contribución. En este ejemplo, configuramos las propiedades por separado.

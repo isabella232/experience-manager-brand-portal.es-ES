@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Logotipo de Experience Manager en la barra de herramientas de la parte superior 
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 El selector de carril en la esquina superior izquierda de Brand Portal se muestra en el menú desplegable para mostrar las opciones y navegar en jerarquías de recursos, optimizar la búsqueda y mostrar recursos.
 
@@ -106,7 +106,7 @@ La vista de lista muestra información de cada recurso en el nivel actual. La vi
 * Dimension
 * Tamaño
 * Clasificación
-* La ruta de la carpeta muestra la jerarquía de recursos<sup>*</sup>
+* Ruta de acceso de carpeta que muestra la jerarquía de recursos
 * Fecha de publicación del recurso en Brand Portal
 
 La columna Ruta permite identificar fácilmente la ubicación del recurso en la jerarquía de carpetas. Puede bajar por la jerarquía tocando o haciendo clic en el nombre del recurso y hacia arriba utilizando las [rutas de exploración del encabezado](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
