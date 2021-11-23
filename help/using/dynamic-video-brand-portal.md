@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 7128c71576ae938a49f9bff0b95b98b7fc480f69
+source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1250'
 ht-degree: 3%
 
 ---
@@ -60,11 +60,11 @@ Como las codificaciones de vídeo no se almacenan en el repositorio de Brand Por
 Para trabajar con vídeos dinámicos en Brand Portal, asegúrese de:
 
 * **Iniciar Experience Manager Author en el modo Dynamic Media**
-Inicie la instancia de Autor del Experience Manager (con la que está configurado Brand Portal) en [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) o [Dynamic Media: modo híbrido](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) o
+Inicie la instancia de Autor del Experience Manager (con la que está configurado Brand Portal) en [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) o [Dynamic Media: modo híbrido](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) o
 * **Configuración de Cloud Services de Dynamic Media en el autor del Experience Manager**
-En función del modo Dynamic Media (modo Scene7 o modo híbrido), el autor del Experience Manager se está ejecutando en, establezca una de las opciones siguientes: [Cloud Services de Dynamic Media ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) o [Cloud Services de Dynamic Media (modo híbrido)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) en el autor Experience Manager de **Herramientas** | **Cloud Services** | **Dynamic Media**.
+En función del modo Dynamic Media (modo Scene7 o modo híbrido), el autor del Experience Manager se está ejecutando en, establezca una de las opciones siguientes: [Cloud Services de Dynamic Media ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) o [Cloud Services de Dynamic Media (modo híbrido)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) en el autor Experience Manager de **Herramientas** | **Cloud Services** | **Dynamic Media**.
 * **Configuración de Dynamic Media en Brand Portal**
-En función de las configuraciones de nube de Dynamic Media en Autor Experience Manager, configure [Configuración de Dynamic Media](#configure-dm-hybrid-settings) o [[!DNL Scene7] configuración](#configure-dm-scene7-settings)  desde las herramientas administrativas de Brand Portal.
+En función de las configuraciones de nube de Dynamic Media en Autor Experience Manager, configure [Configuración de Dynamic Media](#configure-dm-hybrid-settings) o [[!DNL Scene7] configuración](#configure-dm-scene7-settings) desde las herramientas administrativas de Brand Portal.
 Asegúrese de que [inquilinos separados de Brand Portal](#separate-tenants) se utilizan para instancias de Autor de Experience Manager configuradas en Dynamic Media - **[!UICONTROL Scene7]** y Dynamic Media: modo híbrido. Especialmente si utiliza funcionalidades de Dynamic Media **[!UICONTROL S7]** y Dynamic Media Hybrid.
 * **Publicar carpetas con codificaciones de vídeo aplicadas a Brand Portal**
 Aplicar [codificaciones de vídeo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) y publique la carpeta que contiene recursos de medios enriquecidos desde la instancia de autor de Experience Manager a Brand Portal.
@@ -122,7 +122,7 @@ Si la instancia de Experience Manager Author se está ejecutando en el modo híb
 
 >[!NOTE]
 >
->La variable [perfiles de codificación de vídeo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) no se publican en Brand Portal, sino que se recuperan del **[!UICONTROL Scene7]** servidor. Por lo tanto, para que las codificaciones de vídeo se reproduzcan correctamente en Brand Portal, asegúrese de que los detalles de configuración sean los mismos que los del [Cloud Services de Dynamic Media ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) en la instancia de Autor del Experience Manager.
+>La variable [perfiles de codificación de vídeo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) no se publican en Brand Portal, sino que se recuperan del **[!UICONTROL Scene7]** servidor. Por lo tanto, para que las codificaciones de vídeo se reproduzcan correctamente en Brand Portal, asegúrese de que los detalles de configuración sean los mismos que los del [Cloud Services de Dynamic Media ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) en la instancia de Autor del Experience Manager.
 
 Para configurar configuraciones de Dynamic Media en inquilinos de Brand Portal:
 
