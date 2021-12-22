@@ -10,18 +10,18 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 533b2a637700770ff08c88da92892af863265902
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
 # Configurar la carpeta de contribución en Experience Manager Assets {#configure-contribution-folder}
 
-Para la colaboración de fuentes de recursos, los usuarios de Experience Manager Assets (administradores y usuarios no administradores con permiso) pueden crear nuevas carpetas de tipo **Contribución de recursos**, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal.  Esto déclencheur automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas **SHARED** y **NEW**, dentro de la carpeta **Contribution** recién creada.
+Para la colaboración de fuentes de recursos, los usuarios de Experience Manager Assets (administradores y usuarios no administradores con permiso) pueden crear nuevas carpetas de tipo **Contribución de recursos**, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal.  Esto déclencheur automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas **COMPARTIDO** y **NUEVO**, dentro del **Contribución** carpeta.
 
-A continuación, el usuario de Experience Manager Assets define los requisitos de los recursos cargando un resumen sobre los tipos de recursos que deben agregarse a la carpeta de contribución, así como un conjunto de recursos de línea base, a la carpeta **SHARED** para garantizar que los usuarios de Brand Portal tengan la información que necesitan. A continuación, el administrador puede conceder a los usuarios activos de Brand Portal acceso a la carpeta de contribución antes de publicar la carpeta de contribución recién creada en Brand Portal.
+A continuación, el usuario de Experience Manager Assets define los requisitos de los recursos cargando un resumen sobre los tipos de recursos que se deben añadir a la carpeta de contribución, así como un conjunto de recursos de línea base, en la variable **COMPARTIDO** para garantizar que los usuarios de Brand Portal tengan la información que necesitan. A continuación, el administrador puede conceder a los usuarios activos de Brand Portal acceso a la carpeta de contribución antes de publicar la carpeta de contribución recién creada en Brand Portal.
 
 En el siguiente vídeo se muestra cómo configurar una carpeta de contribución en Experience Manager Assets:
 
@@ -54,11 +54,11 @@ Puede configurar las propiedades de la carpeta de contribución por separado, as
 
 1. Inicie sesión en la instancia de Experience Manager Assets.
 
-1. Vaya a **[!UICONTROL Assets]** > **[!UICONTROL Files]**. Enumera todas las carpetas existentes en el repositorio de Experience Manager Assets.
+1. Vaya a **[!UICONTROL Recursos]** > **[!UICONTROL Archivos]**. Enumera todas las carpetas existentes en el repositorio de Experience Manager Assets.
 
-1. Haga clic en **[!UICONTROL Create]** para crear una carpeta nueva. **[!UICONTROL Se abre el cuadro de]** diálogo Crear carpeta .
+1. Haga clic en **[!UICONTROL Crear]** para crear una carpeta nueva. **[!UICONTROL Crear carpeta]** se abre.
 
-1. Introduzca **[!UICONTROL Title]** y **[!UICONTROL Name]** de la carpeta y seleccione la casilla de verificación **[!UICONTROL Asset Contribution]**.
+1. Entrar **[!UICONTROL Título]** y **[!UICONTROL Nombre]** de la carpeta y seleccione la **[!UICONTROL Contribución de recursos]** en el Navegador.
 Se recomienda utilizar letras minúsculas sin ningún espacio para asignar un nombre a la carpeta.
 
 1. Haga clic en **[!UICONTROL Crear]**. Puede ver la carpeta de contribución en el repositorio de Experience Manager Assets.
@@ -70,7 +70,7 @@ Se recomienda utilizar letras minúsculas sin ningún espacio para asignar un no
 
    ![](assets/create-contribution-folder.png)
 
-1. Haga clic en para abrir la carpeta de contribución. Verá dos subcarpetas:**[!UICONTROL SHARED]** y **[!UICONTROL NEW]** se crean automáticamente dentro de la carpeta de contribución.
+1. Haga clic para abrir la carpeta de contribución. Verá dos subcarpetas:**[!UICONTROL COMPARTIDO]** y **[!UICONTROL NUEVO]** se crean automáticamente dentro de la carpeta de contribución.
 
    ![](assets/contribution-folder.png)
 
@@ -89,20 +89,20 @@ El requisito de recursos se refiere a los detalles proporcionados por los admini
 
 1. Inicie sesión en la instancia de Experience Manager Assets.
 
-1. Vaya a **[!UICONTROL Assets > Files]** y busque la carpeta de contribución.
-1. Seleccione la carpeta de contribución y haga clic en **[!UICONTROL Properties]** para abrir la ventana Propiedades de la carpeta.
+1. Vaya a **[!UICONTROL Assets > Archivos]** y busque la carpeta de contribución.
+1. Seleccione la carpeta de contribución y haga clic en **[!UICONTROL Propiedades]** para abrir la ventana Propiedades de la carpeta.
 
    ![](assets/properties.png)
 
    ![](assets/contribution-folder-property1.png)
 
-1. Vaya a la pestaña **[!UICONTROL Contribución de recursos]**.
-1. Introduzca **[!UICONTROL Description]** de alto nivel de la carpeta de contribución.
-1. Haga clic en **[!UICONTROL Cargar resumen]** para buscar desde el equipo local y cargar un **documento de requisitos de recursos**.
+1. Vaya a **[!UICONTROL Contribución de recursos]** pestaña .
+1. Introducir de alto nivel **[!UICONTROL Descripción]** de la carpeta de contribución.
+1. Haga clic en **[!UICONTROL Cargar resumen]** para navegar desde el equipo local y cargar un **Documento de requisitos de recursos**.
 
    ![](assets/upload.png)
 
-1. En el campo **[!UICONTROL Agregar usuario]**, agregue usuarios de Brand Portal con los que desee compartir la carpeta de contribución. Estos usuarios pueden acceder y cargar contenido en la carpeta de contribución a través de la interfaz de Brand Portal.
+1. En el **[!UICONTROL Agregar usuario]** , agregue los usuarios de Brand Portal con los que desee compartir la carpeta de contribución. Estos usuarios pueden acceder y cargar contenido en la carpeta de contribución a través de la interfaz de Brand Portal.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/contribution-folder-property3.png)
@@ -111,51 +111,33 @@ El requisito de recursos se refiere a los detalles proporcionados por los admini
 >
 >Los resultados de la búsqueda se basan en la lista de usuarios de Brand Portal configurada en Experience Manager Assets. Asegúrese de tener la lista de usuarios de Brand Portal actualizada.
 
-Los administradores pueden descargar el archivo `user.csv` desde [!DNL Admin Console] y utilizarlo como plantilla base para agregar usuarios de Brand Portal. Vaya a [!UICONTROL Users] y haga clic en la opción [!UICONTROL Export users list to csv] para descargar el archivo `users.csv`. La siguiente lista de usuarios de ejemplo detalla los atributos necesarios para agregar los usuarios. El único atributo obligatorio para una entrada de usuario es `Email` y todos los demás atributos son opcionales.
+Los administradores pueden descargar la `user.csv` del archivo [!DNL Admin Console] y utilícelo como plantilla base para añadir usuarios de Brand Portal. Vaya a [!UICONTROL Usuarios] y haga clic en el botón [!UICONTROL Exportar lista de usuarios a csv] para descargar la `users.csv` archivo. La siguiente lista de usuarios de ejemplo detalla los atributos necesarios para agregar los usuarios. El único atributo obligatorio para una entrada de usuario es el `Email` y todos los demás atributos son opcionales.
 
 [Obtener archivo](assets/users.csv)
 
 ## Cargar recursos a la carpeta de contribución {#uplad-new-assets-to-contribution-folder}
 
-Los usuarios de Brand Portal pueden descargar los requisitos de recursos para comprender la necesidad de la contribución.
-A continuación, pueden crear nuevos recursos para la contribución y cargarlos en la carpeta NEW dentro de la carpeta de contribución.
+El usuario de Experience Manager Assets carga un conjunto de recursos de línea de base en la variable **COMPARTIDO** para garantizar que los usuarios de Brand Portal tengan la información que necesitan.
 
->[!NOTE]
->
->Los usuarios de Brand Portal solo pueden cargar recursos en la carpeta NEW .
->
->El límite máximo de carga para cualquier inquilino de Brand Portal es **10** GB que se aplica de forma acumulativa a todas las carpetas de contribución.
+**Para cargar recursos de línea de base:**
 
+1. Inicie sesión en la instancia de Experience Manager Assets.
 
-Después de publicar los recursos recién creados en Experience Manager Assets, los usuarios de Brand Portal pueden eliminarlos de la carpeta NEW . En cambio, el administrador de Brand Portal puede eliminar los recursos de las carpetas NUEVO y COMPARTIDO.
+1. Vaya a **[!UICONTROL Assets > Archivos]** y busque la carpeta de contribución.
 
-Una vez alcanzado el objetivo de crear la carpeta de contribución, el administrador de Brand Portal puede eliminar la carpeta de contribución para liberar el espacio de carga para otros usuarios.
+1. Seleccione la carpeta de contribución y haga clic en para abrirla.
 
->[!NOTE]
->
->Se recomienda liberar el espacio de carga después de publicar la carpeta de contribución en Experience Manager Assets, de modo que esté disponible para los demás usuarios de Brand Portal para que contribuyan.
->
->Si es necesario ampliar el límite de carga de su inquilino de Brand Portal más allá de **10** GB, póngase en contacto con el Servicio de atención al cliente para especificar el requisito.
-
-
-**Para cargar nuevos recursos:**
-
-1. Inicie sesión en la instancia de Brand Portal.
-El panel de Brand Portal refleja todas las carpetas existentes permitidas al usuario de Brand Portal junto con la carpeta de contribución recientemente compartida.
-
-1. Seleccione la carpeta de contribución y haga clic en para abrirla. La carpeta de contribución contiene dos subcarpetas: **[!UICONTROL SHARED]** y **[!UICONTROL NEW]**.
-
-1. Haga clic en la carpeta **[!UICONTROL NEW]**.
+1. Haga clic en el **[!UICONTROL NUEVO]** carpeta.
 
    ![](assets/upload-new-assets1.png)
 
-1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Archivos]** para cargar archivos o carpetas individuales (.zip) que contengan varios recursos.
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Archivos]** para cargar archivos individuales o carpetas (.zip) que contengan varios recursos.
 
    ![](assets/upload-new-assets2.png)
 
-1. Examine y cargue los recursos (archivos o carpetas) en la carpeta **[!UICONTROL NEW]**.
+1. Examine y cargue recursos (archivos o carpetas) en el **[!UICONTROL NUEVO]** carpeta.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-asset4.png)
 
 Después de cargar todos los recursos o carpetas en la carpeta NEW , publique la carpeta de contribución en Experience Manager Assets.
 
