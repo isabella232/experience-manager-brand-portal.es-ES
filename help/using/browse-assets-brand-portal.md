@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1080'
 ht-degree: 4%
 
 ---
@@ -60,7 +60,7 @@ La vista de tarjeta muestra tarjetas de información para cada elemento del nive
 * Tamaño
 * Dimensiones
 
-Puede bajar por la jerarquía tocando o haciendo clic en las tarjetas (con cuidado de evitar las acciones rápidas) o hacia arriba de nuevo mediante las [rutas de exploración del encabezado](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Puede bajar por la jerarquía tocando o haciendo clic en las tarjetas (con cuidado de evitar las acciones rápidas) o hacia arriba de nuevo mediante la función [rutas de exploración en el encabezado](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 ![](assets/cardquickactions.png)
 
@@ -80,7 +80,7 @@ La opción Información general está disponible para los usuarios no administra
 * en la barra de herramientas situada en la parte superior, al seleccionar un recurso o una carpeta.
 * en la lista desplegable al seleccionar el selector de raíl.
 
-Al seleccionar la opción **[!UICONTROL Información general]** mientras está seleccionado un recurso/carpeta, los usuarios pueden ver el título, la ruta y la hora de creación de los recursos. Por su parte, en la página de detalles del recurso, seleccionar la opción Información general permite que los usuarios vean los metadatos del recurso.
+Al seleccionar la variable **[!UICONTROL Información general]** mientras está seleccionada una carpeta o recurso, los usuarios pueden ver el título, la ruta y la hora de creación de los recursos. Por su parte, en la página de detalles del recurso, seleccionar la opción Información general permite que los usuarios vean los metadatos del recurso.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +88,7 @@ Al seleccionar la opción **[!UICONTROL Información general]** mientras está s
 
 #### Ver configuración en la vista de tarjeta
 
-**[!UICONTROL Ver]** configuración se abre al seleccionar  **[!UICONTROL Ver]** configuración en el selector de vistas. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjeta. De este modo, puede personalizar la vista y controlar el número de miniaturas que se muestran.
+**[!UICONTROL Configuración de vista]** se abre el cuadro de diálogo al seleccionar **[!UICONTROL Configuración de vista]** en el selector de vistas. Permite cambiar el tamaño de las miniaturas de los recursos en la vista de tarjeta. De este modo, puede personalizar la vista y controlar el número de miniaturas que se muestran.
 
 ![](assets/cardviewsettings.png)
 
@@ -109,7 +109,7 @@ La vista de lista muestra información de cada recurso en el nivel actual. La vi
 * Ruta de acceso de carpeta que muestra la jerarquía de recursos
 * Fecha de publicación del recurso en Brand Portal
 
-La columna Ruta permite identificar fácilmente la ubicación del recurso en la jerarquía de carpetas. Puede bajar por la jerarquía tocando o haciendo clic en el nombre del recurso y hacia arriba utilizando las [rutas de exploración del encabezado](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+La columna Ruta permite identificar fácilmente la ubicación del recurso en la jerarquía de carpetas. Puede bajar por la jerarquía tocando o haciendo clic en el nombre del recurso y hacia arriba utilizando la variable [rutas de exploración en el encabezado](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Ver configuración en la vista de lista
 
-La vista de lista muestra el recurso **[!UICONTROL Name]** como la primera columna de forma predeterminada. También se muestra información adicional, como **[!UICONTROL Título]**, **[!UICONTROL Configuración regional]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamaño]**, **[!UICONTROL Clasificación]**, estado de publicación. Sin embargo, puede seleccionar las columnas que desea mostrar mediante **[!UICONTROL Configuración de vista]**.
+La vista de lista muestra el recurso **[!UICONTROL Nombre]** como la primera columna de forma predeterminada. Información adicional, como un recurso **[!UICONTROL Título]**, **[!UICONTROL Configuración regional]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamaño]**, **[!UICONTROL Clasificación]**, también se muestra el estado de publicación. Sin embargo, puede seleccionar las columnas que desea mostrar mediante **[!UICONTROL Configuración de vista]**.
 
 ![](assets/list-view-setting.png)
 
@@ -234,7 +234,7 @@ Comment Type: draft
 
 Además de estas vistas, utilice la vista de árbol para explorar en profundidad la jerarquía de recursos mientras ve y selecciona los recursos o carpetas que desee.
 
-Para abrir la vista de árbol, toque o haga clic en el selector de raíl en la esquina superior izquierda y seleccione el **[!UICONTROL árbol de contenido]** en el menú.
+Para abrir la vista de árbol, toque o haga clic en el selector de raíl en la esquina superior izquierda y seleccione la **[!UICONTROL Árbol de contenido]** del menú .
 
 ![](assets/contenttree.png)
 
@@ -252,11 +252,19 @@ Para ver los metadatos del recurso o ver sus distintas representaciones, utilice
 
 ![](assets/asset-overview.png)
 
-Puede ver todas las representaciones disponibles del recurso en la página de detalles del recurso y seleccionar una representación para previsualizarla.
+Puede ver todas las representaciones disponibles del recurso en la página de detalles del recurso y seleccionar una representación en el **[!UICONTROL Representaciones]** para previsualizarlo.
 
 ![](assets/renditions.png)
 
-Para abrir la página de propiedades del recurso, utilice la opción **[!UICONTROL Propiedades (p)]** de la barra superior.
+>[!CAUTION]
+>
+>(**Experience Manager Assets as a Cloud Service** solo) Los siguientes problemas conocidos se solucionarán en la próxima versión:
+>
+>La variable **[!UICONTROL Representaciones]** no enumera todas las representaciones estáticas de los recursos que se publican en Brand Portal después del 16 de diciembre de 2021.
+>
+>La variable **[!UICONTROL Representaciones]** El panel enumera las representaciones de recorte inteligente del recurso; sin embargo, el usuario no puede obtener una vista previa ni descargar las representaciones de recorte inteligente.
+
+Para abrir la página de propiedades del recurso, utilice **[!UICONTROL Propiedades (p)]** en la barra superior.
 
 ![](assets/asset-properties.png)
 
