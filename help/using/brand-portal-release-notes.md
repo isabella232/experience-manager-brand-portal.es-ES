@@ -1,8 +1,8 @@
 ---
 title: Notas de la versión
 seo-title: Release Notes
-description: Obtenga información sobre las funciones, las mejoras, los problemas críticos corregidos y los problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2021.10.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: Obtenga información sobre las funciones, las mejoras, los problemas críticos corregidos y los problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2022.02.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 12%
+source-wordcount: '537'
+ht-degree: 9%
 
 ---
 
 # Notas de la versión {#release-notes}
 
-Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2021.10.0.
+Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2022.02.0.
 
 ## Información de la versión {#release-information}
 
 | Producto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versión | 2021.10.0 |
-| Fecha | Octubre de 2021 |
+| Versión | 2022.02.0 |
+| Fecha | Febrero de 2022 |
 
 ## Información general {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios examinar, buscar, previsualizar, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
 
-## Novedades de 2021.10.0 {#whats-new-in-2021.10.0}
+## Novedades de 2022.02.0 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 Esta versión incluye correcciones para los siguientes problemas críticos:
 
-* Los recursos de una carpeta de contribución que tengan el mismo tamaño no se publican de Brand Portal a Experience Manager Assets.
-* Cuando se cancela la publicación de una carpeta de contribución de recursos, el tamaño de la carpeta de contribución no se reduce.
-* Los usuarios no pueden quitar el perfil de esquema de metadatos aplicado de una carpeta.
-* El recuento de grupos en la página de permisos de usuario es incorrecto.
-* La página de colecciones tarda demasiado en desplazarse por la lista.
+* Los usuarios no pueden buscar, navegar ni abrir carpetas. La interfaz de usuario refleja el mensaje de error: `Failed to load data`.
+* La variable **[!UICONTROL Representaciones]** no enumera todas las representaciones estáticas de los recursos que se publican en Brand Portal.
+* La variable **[!UICONTROL Representaciones]** El panel enumera las representaciones de recorte inteligente del recurso; sin embargo, el usuario no puede obtener una vista previa ni descargar las representaciones de recorte inteligente.
+* El cuadro de diálogo de descarga muestra las representaciones de recorte inteligente del recurso seleccionado; sin embargo, el usuario no puede descargar las representaciones de recorte inteligente.
+* Un usuario no administrador solo obtiene la representación de recursos original al descargar un recurso. El sistema y las representaciones personalizadas no se descargan.
+* Al aplicar el filtro de búsqueda para descargar un recurso, la variable `Download` está desactivado en el cuadro de diálogo de descarga y no permite al usuario descargar el recurso.
+* If `Smart Tags` y (o) `Color Tags` están activados, el cuadro de diálogo de descarga enumera las `json` los archivos como representaciones y los descarga `json` en la carpeta zip archivada.
+* Los usuarios anónimos no pueden descargar recursos mediante un vínculo compartido porque el vínculo redirige a la página de inicio de sesión de Brand Portal.
+* El sistema no refleja el valor correcto para el número de usuarios simultáneos activos.
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ Esta versión incluye los siguientes problemas conocidos:
    Sin embargo, los usuarios activos que han iniciado sesión en Brand Portal pueden seguir funcionando hasta que su sesión actual caduque.
 
 * Al pasar de Brand Portal a Admin Console, es posible que los administradores vean una pantalla adicional para seleccionar la organización.
+
+* If `Color Tags` están activados y el usuario descarga una carpeta o colección, un `xml` se descarga para cada recurso de la carpeta (o colección) en la carpeta zip archivada.
 
 
 <!--
@@ -204,7 +211,7 @@ La interfaz de usuario de Brand Portal está disponible en los siguientes idioma
 
 ## Plataformas certificadas {#certified-platforms}
 
-Para determinar qué plataformas están certificadas para ejecutarse con esta versión de Brand Portal, consulte la columna **Compatibilidad con la IU táctil** en la tabla de la sección **Exploradores admitidos para la interfaz de usuario de creación** de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Para averiguar qué plataformas están certificadas para ejecutarse con esta versión de Brand Portal, consulte la **Compatibilidad con la IU táctil** en la tabla de la **Exploradores admitidos para la creación de la interfaz de usuario** sección de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Vínculos {#links}
 

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1018'
 ht-degree: 4%
 
 ---
@@ -256,13 +256,15 @@ Puede ver todas las representaciones disponibles del recurso en la página de de
 
 ![](assets/renditions.png)
 
+<!-- removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
->(**Experience Manager Assets as a Cloud Service** solo) Los siguientes problemas conocidos se solucionarán en la próxima versión:
+>(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
 >
->La variable **[!UICONTROL Representaciones]** no enumera todas las representaciones estáticas de los recursos que se publican en Brand Portal después del 16 de diciembre de 2021.
+>The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
 >
->La variable **[!UICONTROL Representaciones]** El panel enumera las representaciones de recorte inteligente del recurso; sin embargo, el usuario no puede obtener una vista previa ni descargar las representaciones de recorte inteligente.
+>The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 Para abrir la página de propiedades del recurso, utilice **[!UICONTROL Propiedades (p)]** en la barra superior.
 
