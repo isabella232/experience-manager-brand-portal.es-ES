@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 7%
+source-wordcount: '1225'
+ht-degree: 6%
 
 ---
 
 # Buscar recursos en Brand Portal {#search-assets-on-brand-portal}
 
-La función de búsqueda de Brand Portal le permite buscar rápidamente recursos relevantes mediante la búsqueda de omnibúsqueda y la búsqueda de facetas que utiliza filtros para ayudarle a reducir aún más la búsqueda. Puede buscar recursos a nivel de archivos o carpetas y guardar los resultados de búsqueda como colecciones inteligentes. Sin embargo, no se pueden buscar recursos de una colección mediante la búsqueda de omnibúsqueda o la búsqueda de facetas.
+La función de búsqueda de Brand Portal le permite buscar rápidamente recursos relevantes mediante la búsqueda de omnibúsqueda y la búsqueda de facetas que utiliza filtros para ayudarle a reducir aún más la búsqueda. Puede buscar recursos a nivel de archivos o carpetas y guardar los resultados de búsqueda como colecciones inteligentes.
+
+>[!NOTE]
+>
+>Brand Portal no admite la búsqueda de colecciones mediante omnisearch.
+>
+>Sin embargo, puede usar [filtros de búsqueda para obtener la lista de colecciones relevantes](#search-collection).
 
 ## Buscar recursos mediante Omnisearch {#search-assets-using-omnisearch}
 
@@ -133,3 +139,12 @@ Para guardar la configuración de búsqueda como una colección inteligente:
 1. En el **[!UICONTROL Editar colecciones inteligentes]** cuadro de diálogo, seleccione **[!UICONTROL Guardar como]** e introduzca un nombre para la colección inteligente. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## Colección de búsqueda {#search-collection}
+
+Omnisearch no es compatible con las colecciones. Sin embargo, puede aplicar filtros de búsqueda para enumerar las colecciones relevantes desde el [!UICONTROL Colecciones] interfaz.
+
+En el [!UICONTROL Colecciones] , haga clic en el icono de superposición para abrir el panel de filtro en el carril izquierdo. Aplicar filtros de búsqueda únicos o múltiples desde los filtros disponibles (`modified date`, `access type`y `tags`). Enumera el conjunto de colecciones más relevante basado en los filtros aplicados.
+
+![](assets/collection-search.png)
