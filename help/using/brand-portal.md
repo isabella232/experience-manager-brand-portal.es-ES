@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
+source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1585'
 ht-degree: 6%
 
 ---
@@ -73,9 +73,9 @@ La tabla siguiente muestra las tareas que pueden realizar los usuarios con estas
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Usuario invitado {#guest-user}
+### Usuario invitado (usuario ligero) {#guest-user}
 
-Cualquier usuario invitado que tenga acceso limitado a los recursos en Brand Portal sin someterse a autenticación. La sesión de invitado permite a los usuarios acceder a carpetas y colecciones públicas. Como usuario invitado, puede navegar por los detalles de los recursos y tener una vista completa de los recursos de los miembros de carpetas públicas y colecciones. Puede buscar, descargar y agregar recursos públicos a [!UICONTROL Lightbox] colección.
+Experience Manager Assets Brand Portal permite [acceso de invitado](#request-access-to-brand-portal) a Brand Portal. Un usuario invitado no necesita credenciales para entrar al portal y tiene acceso a las carpetas y colecciones públicas. Como usuario invitado, puede navegar por los detalles de los recursos y tener una vista completa de los recursos de los miembros de carpetas públicas y colecciones. Puede buscar, descargar y agregar recursos públicos a [!UICONTROL Lightbox] colección.
 
 Sin embargo, la sesión de invitado le impide crear colecciones y guardar búsquedas, y compartirlas aún más. Los usuarios de una sesión de invitado no pueden acceder a la configuración de carpetas y colecciones, y no pueden compartir recursos como vínculos. Esta es una lista de tareas que un usuario invitado puede realizar:
 
@@ -87,9 +87,11 @@ Sin embargo, la sesión de invitado le impide crear colecciones y guardar búsqu
 
 * [Agregar recursos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-### Visor {#viewer}
+Para obtener más información, consulte [acceso de invitado a Brand Portal](../using/guest-access.md).
 
-Un usuario estándar en Brand Portal suele ser un usuario con la función de visor. Un usuario con esta función puede acceder a las carpetas, colecciones y recursos permitidos. El usuario también puede examinar, previsualizar, descargar y exportar recursos (representaciones originales o específicas), configurar la cuenta y buscar recursos. Esta es una lista de tareas que un visor puede realizar:
+### Visor (usuario estándar) {#viewer}
+
+Un usuario estándar es un usuario de Brand Portal definido en [!DNL Admin Console] que tiene acceso a Brand Portal con la función de visor. Un usuario con esta función puede iniciar sesión en Brand Portal y acceder a las carpetas, colecciones y recursos permitidos. El usuario también puede examinar, previsualizar, descargar y exportar recursos (representaciones originales o específicas), configurar la cuenta y buscar recursos. Esta es una lista de tareas que un visor puede realizar:
 
 * [Examinar recursos](browse-assets-brand-portal.md)
 
