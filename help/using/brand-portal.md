@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 7%
+source-wordcount: '1558'
+ht-degree: 6%
 
 ---
 
@@ -95,7 +95,7 @@ Un usuario estándar en Brand Portal suele ser un usuario con la función de vis
 
 * [Buscar recursos](brand-portal-searching.md)
 
-* [Descargar recursos](brand-portal-download-assets.md)
+* [Descarga de recursos](brand-portal-download-assets.md)
 
 ### Editor {#editor}
 
@@ -113,7 +113,11 @@ Además de las tareas que puede realizar un visor, un editor puede realizar las 
 
 Un administrador incluye a un usuario marcado como administrador del sistema o administrador del producto de Brand Portal en [!UICONTROL Admin Console]. Un administrador puede agregar y eliminar administradores y usuarios del sistema, definir ajustes preestablecidos, enviar correos electrónicos a los usuarios y ver informes de almacenamiento y uso del portal.
 
-Un administrador puede realizar todas las tareas que un editor pueda realizar a continuación:
+>[!NOTE]
+>
+>En Brand Portal, un usuario marcado con la función de administrador de asistencia en [!UICONTROL Admin Console] tiene los mismos privilegios que un administrador del sistema.
+
+Un administrador puede realizar todas las tareas que un editor pueda realizar. A continuación se indican las tareas adicionales que puede realizar un administrador:
 
 * [Administrar usuarios, grupos y funciones de usuario](brand-portal-adding-users.md)
 
