@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '6316'
+source-wordcount: '6325'
 ht-degree: 1%
 
 ---
@@ -389,7 +389,10 @@ Además, todas las funcionalidades existentes permanecen inalteradas. Los usuari
 
 ### Cargar recursos a la carpeta de contribución {#upload-assets-in-bp}
 
-Los usuarios de Brand Portal con los permisos adecuados pueden descargar los requisitos de recursos para comprender la necesidad de la contribución y cargar varios recursos o carpetas que contengan varios recursos en la carpeta de contribución. Sin embargo, tenga en cuenta que los usuarios de Brand Portal solo pueden cargar recursos en la variable **NUEVO** subcarpeta. La variable **COMPARTIDO** carpeta está diseñada para la distribución de requisitos y recursos de línea de base.
+Los usuarios de Brand Portal con los permisos adecuados pueden cargar recursos individuales o carpetas (archivo .zip) que contengan varios recursos en la carpeta de contribución. Un usuario puede cargar varios recursos en una carpeta de contribución de recursos. Sin embargo, solo se puede crear una carpeta a la vez.
+
+Los usuarios de Brand Portal solo pueden cargar recursos en la variable **NUEVO** subcarpeta. La variable **COMPARTIDO** carpeta está diseñada para la distribución de requisitos y recursos de línea de base.
+
 
 ![](assets/upload-asset6.png)
 
@@ -426,19 +429,19 @@ Por ejemplo, si el formulario de búsqueda en Brand Portal utiliza Predicado de 
 
 #### Búsqueda comodín {#wildcard-search}
 
-Brand Portal permite utilizar el asterisco (*) en la consulta de búsqueda junto con una parte de la palabra de la frase buscada.
+Brand Portal permite usar el asterisco (&#42;) en la consulta de búsqueda junto con una parte de la palabra en la frase buscada.
 
 **Caso de uso. Si no está seguro de las palabras exactas que aparecen en la frase buscada, puede utilizar una búsqueda comodín para llenar los huecos en la consulta de búsqueda.
 
-Por ejemplo, especificar **escalada*** devuelve todos los recursos que tienen palabras que comienzan por los caracteres **escalar** en su frase de título si el formulario de búsqueda en Brand Portal utiliza el predicado de propiedades para la búsqueda parcial del título de los recursos.
+Por ejemplo, especificar **escalar&#42;** devuelve todos los recursos que tienen palabras que comienzan por los caracteres **escalar** en su frase de título si el formulario de búsqueda en Brand Portal utiliza el predicado de propiedades para la búsqueda parcial del título de los recursos.
 
 ![](assets/wildcard-prop.png)
 
 Del mismo modo, especificando:
 
-* ***escalar** devuelve todos los recursos que tienen palabras que terminan con caracteres **escalar** en su frase de título.
+* **&#42;escalar** devuelve todos los recursos que tienen palabras que terminan con caracteres **escalar** en su frase de título.
 
-* ***escalada*** devuelve todos los recursos que tienen palabras que componen los caracteres **escalar** en su frase de título.
+* **&#42;escalar&#42;** devuelve todos los recursos que tienen palabras que componen los caracteres **escalar** en su frase de título.
 
 >[!NOTE]
 >
