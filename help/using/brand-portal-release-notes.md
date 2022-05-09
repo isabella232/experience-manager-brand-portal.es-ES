@@ -1,38 +1,38 @@
 ---
 title: Notas de la versión
 seo-title: Release Notes
-description: Obtenga información sobre las funciones, las mejoras, los problemas críticos corregidos y los problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2022.02.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
+description: Obtenga información sobre las funciones, las mejoras, los problemas críticos corregidos y los problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2022.05.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Anuj Kapoor
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 9%
+source-wordcount: '445'
+ht-degree: 13%
 
 ---
 
 # Notas de la versión {#release-notes}
 
-Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2022.02.0.
+Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2022.05.0.
 
 ## Información de la versión {#release-information}
 
 | Producto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versión | 2022.02.0 |
-| Fecha | Febrero de 2022 |
+| Versión | 2022.05.0 |
+| Fecha | Mayo de 2022 |
 
 ## Información general {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios examinar, buscar, previsualizar, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
 
-## Novedades de 2022.02.0 {#whats-new-in-2022.02.0}
+## Novedades de 2022.05.0 {#whats-new-in-2022.05.0}
 
 <!--
 ### New Features {#new-features}
@@ -93,22 +93,38 @@ This release includes the following enhancements:
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
 * The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
+
+* The users are unable to search, navigate, or open folders. The user interface reflects the error message: `Failed to load data`. 
+* The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal.
+* The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+* The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions. 
+* A non-admin user is getting only the original asset rendition when downloading an asset. The system and custom renditions are not downloaded.  
+* When applying search filter to download an asset, the `Download` button is disabled in the download dialog and does not allows the user to download the asset.
+* If `Smart Tags` and (or) `Color Tags` are enabled, the download dialog lists the `json` files as renditions and downloads these `json` files in the archived zip folder.
+* The anonymous users are unable to download assets using a shared link because the link redirects to the Brand Portal login page. 
+* The system is not reflecting the correct value for the number of active concurrent users.
 -->
+
+### Nuevas funciones {#new-features}
+
+Brand Portal ahora ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal que se publican en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral. Consulte [Novedades de Experience Manager Assets Brand Portal](whats-new.md).
 
 
 ### Problemas críticos solucionados {#critical-issues-fixed}
 
 Esta versión incluye correcciones para los siguientes problemas críticos:
 
-* Los usuarios no pueden buscar, navegar ni abrir carpetas. La interfaz de usuario refleja el mensaje de error: `Failed to load data`.
-* La variable **[!UICONTROL Representaciones]** no enumera todas las representaciones estáticas de los recursos que se publican en Brand Portal.
-* La variable **[!UICONTROL Representaciones]** El panel enumera las representaciones de recorte inteligente del recurso; sin embargo, el usuario no puede obtener una vista previa ni descargar las representaciones de recorte inteligente.
-* El cuadro de diálogo de descarga muestra las representaciones de recorte inteligente del recurso seleccionado; sin embargo, el usuario no puede descargar las representaciones de recorte inteligente.
-* Un usuario no administrador solo obtiene la representación de recursos original al descargar un recurso. El sistema y las representaciones personalizadas no se descargan.
-* Al aplicar el filtro de búsqueda para descargar un recurso, la variable `Download` está desactivado en el cuadro de diálogo de descarga y no permite al usuario descargar el recurso.
-* If `Smart Tags` y (o) `Color Tags` están activados, el cuadro de diálogo de descarga enumera las `json` los archivos como representaciones y los descarga `json` en la carpeta zip archivada.
-* Los usuarios anónimos no pueden descargar recursos mediante un vínculo compartido porque el vínculo redirige a la página de inicio de sesión de Brand Portal.
-* El sistema no refleja el valor correcto para el número de usuarios simultáneos activos.
+* Cuando descarga una carpeta o una colección que incluye recursos con etiquetas de color, también se descarga un archivo XML.
+
+* Cuando descarga un vídeo que incluye representaciones, Brand Portal crea un archivo .ZIP no válido.
+
+* Cuando crea ajustes preestablecidos y recursos en AEM autor, los publica en Brand Portal y, a continuación, selecciona representaciones dinámicas al descargar los recursos, no se puede extraer el descargado. Archivo ZIP.
+
+* Problemas al descargar recursos de vídeo de ciertas carpetas disponibles en Brand Portal.
+
+* Al compartir la dirección URL de la carpeta Contribution mediante un correo electrónico, las funciones de visor y editor se enfrentan a problemas al acceder a su carpeta principal mediante la ruta de exploración.
+
+* El informe publicado de abastecimiento muestra una hora de inicio de trabajo incorrecta.
 
 
 <!--
@@ -137,15 +153,9 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 ### Problemas conocidos {#known-issues}
 
-Esta versión incluye los siguientes problemas conocidos:
+Esta versión incluye el siguiente problema conocido:
 
-* Los usuarios no pueden iniciar sesión en Brand Portal durante la migración de su organización existente.
-
-   Sin embargo, los usuarios activos que han iniciado sesión en Brand Portal pueden seguir funcionando hasta que su sesión actual caduque.
-
-* Al pasar de Brand Portal a Admin Console, es posible que los administradores vean una pantalla adicional para seleccionar la organización.
-
-* If `Color Tags` están activados y el usuario descarga una carpeta o colección, un `xml` se descarga para cada recurso de la carpeta (o colección) en la carpeta zip archivada.
+* Localización parcial en el contenido de los informes de fuentes de recursos.
 
 
 <!--

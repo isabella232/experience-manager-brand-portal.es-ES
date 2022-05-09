@@ -1,8 +1,8 @@
 ---
 title: Novedades de Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Novedades y mejoras para 2022.02.0
-seo-description: What are the new features and enhancements for 2022.02.0
+description: Novedades y mejoras para 2022.05.0
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6325'
+source-wordcount: '6482'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,25 @@ ht-degree: 1%
 # Novedades de Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Adobe está trabajando para mejorar la experiencia general de Brand Portal. A continuación, le presentamos una vista preliminar de las nuevas funciones y mejoras.
+
+## Qué cambió en 2022.05.0 {#what-changed-in-May-2022}
+
+Brand Portal ahora ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal que se publican en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral. También puede controlar el estado de los trabajos de eliminación ejecutados automáticamente mediante la variable **[!UICONTROL Herramientas]** > **[!UICONTROL Estado de contribución de recursos]** > **[!UICONTROL Informes de eliminación]** en Brand Portal. El informe de un trabajo proporciona los siguientes detalles:
+
+* Hora de inicio del trabajo
+* Hora de finalización del trabajo
+* Estado del trabajo
+* Total de activos incluidos en un trabajo
+* Total de recursos eliminados correctamente en un trabajo.
+
+![Informe de eliminación](assets/deletion-reports.png)
+
+También puede profundizar para ver los detalles de cada recurso incluido en un trabajo de eliminación. En el informe se incluyen detalles como título del recurso, tamaño, autor, estado de eliminación y tiempo de eliminación.
+
+![Informe de eliminación detallado](assets/deletion-reports-detailed.png)
+
+Además, Brand Portal 2022.05.0 incluye correcciones para los problemas críticos. Consulte las últimas [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
+
 
 ## Qué cambió en 2022.02.0 {#what-changed-in-Feb-2022}
 
@@ -317,7 +336,7 @@ En función de la configuración, el flujo de trabajo de descarga permanece cons
 
 ## Qué ha cambiado en la versión 6.4.6 {#what-changed-in-646}
 
-En Brand Portal 6.4.6, se cambia el canal de autorización entre AEM Assets y Brand Portal. Brand Portal ahora es compatible con AEM Assets as a Cloud Service, AEM Assets 6.3 y versiones posteriores. En AEM Assets 6.3 y versiones posteriores, Brand Portal se configuró anteriormente en la IU clásica mediante la puerta de enlace OAuth heredada, que utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización. AEM Assets ahora se configura con Brand Portal a través de Adobe Developer Console, que obtiene un testigo IMS para la autorización del inquilino de Brand Portal.
+En Brand Portal 6.4.6, se cambia el canal de autorización entre AEM Assets y Brand Portal. Brand Portal ahora es compatible con AEM Assets as a Cloud Service, AEM Assets 6.3 y versiones posteriores. En AEM Assets 6.3 y versiones posteriores, Brand Portal se configuró anteriormente en la IU clásica mediante la puerta de enlace OAuth heredada, que utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización. AEM Assets ahora se configura con Brand Portal a través de la consola de Adobe Developer, que obtiene un testigo IMS para la autorización de su inquilino de Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
