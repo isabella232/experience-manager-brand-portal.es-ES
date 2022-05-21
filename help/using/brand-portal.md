@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
+source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1576'
 ht-degree: 6%
 
 ---
@@ -73,7 +73,7 @@ La tabla siguiente muestra las tareas que pueden realizar los usuarios con estas
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Usuario invitado (usuario ligero) {#guest-user}
+### Usuario invitado {#guest-user}
 
 Experience Manager Assets Brand Portal permite [acceso de invitado](#request-access-to-brand-portal) a Brand Portal. Un usuario invitado no necesita credenciales para entrar al portal y tiene acceso a las carpetas y colecciones públicas. Como usuario invitado, puede navegar por los detalles de los recursos y tener una vista completa de los recursos de los miembros de carpetas públicas y colecciones. Puede buscar, descargar y agregar recursos públicos a [!UICONTROL Lightbox] colección.
 
@@ -89,9 +89,9 @@ Sin embargo, la sesión de invitado le impide crear colecciones y guardar búsqu
 
 Para obtener más información, consulte [acceso de invitado a Brand Portal](../using/guest-access.md).
 
-### Visor (usuario estándar) {#viewer}
+### Visor {#viewer}
 
-Un usuario estándar es un usuario de Brand Portal definido en [!DNL Admin Console] que tiene acceso a Brand Portal con la función de visor. Un usuario con esta función puede iniciar sesión en Brand Portal y acceder a las carpetas, colecciones y recursos permitidos. El usuario también puede examinar, previsualizar, descargar y exportar recursos (representaciones originales o específicas), configurar la cuenta y buscar recursos. Esta es una lista de tareas que un visor puede realizar:
+Usuario de Brand Portal definido en [!DNL Admin Console] que tiene acceso a Brand Portal con la función de visor. Un usuario con esta función puede iniciar sesión en Brand Portal y acceder a las carpetas, colecciones y recursos permitidos. El usuario también puede examinar, previsualizar, descargar y exportar recursos (representaciones originales o específicas), configurar la cuenta y buscar recursos. Esta es una lista de tareas que un visor puede realizar:
 
 * [Examinar recursos](browse-assets-brand-portal.md)
 
