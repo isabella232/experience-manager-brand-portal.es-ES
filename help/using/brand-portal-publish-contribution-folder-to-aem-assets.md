@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ O bien, puede abrir el **[!UICONTROL COMPARTIDO]** y haga clic en **Descargar** 
 Consulte el documento breve (documento de requisitos de recursos) y consulte los recursos de línea de base para comprender los requisitos de los recursos. Ahora, puede crear nuevos recursos para la contribución y cargarlos en la carpeta de contribución.
 
 
-## Cargar recursos a la carpeta de contribución {#uplad-new-assets-to-contribution-folder}
+## Cargar recursos a la carpeta de contribución {#upload-new-assets-to-contribution-folder}
 
 Después de pasar por los requisitos de recursos, los usuarios de Brand Portal pueden crear nuevos recursos para contribución y cargarlos en la carpeta NEW de la carpeta de contribución. Un usuario puede cargar varios recursos en una carpeta de contribución de recursos. Sin embargo, solo se puede crear una carpeta a la vez.
 
@@ -138,7 +138,7 @@ Los administradores pueden utilizar dos informes para ver el estado de las carpe
 
 * En Brand Portal, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Estado de contribución de recursos]**. Este informe refleja el estado de todos los trabajos de publicación en diferentes etapas del flujo de trabajo de publicación.
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * En Experience Manager Assets (servicio local o administrado), vaya a **[!UICONTROL Recursos]** > **[!UICONTROL Trabajos]**. Este informe refleja el estado final (éxito o error) de todos los trabajos de publicación.
 
@@ -157,3 +157,58 @@ Los administradores pueden utilizar dos informes para ver el estado de las carpe
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## Eliminación automática de recursos publicados en Experience Manager Assets desde la carpeta Contribution {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portal ahora ejecuta trabajos automáticos cada doce horas para analizar todas las carpetas de Contribución y eliminar todos los recursos publicados en AEM. Como resultado, no es necesario eliminar los recursos de la carpeta Contribution manualmente para mantener el tamaño de la carpeta por debajo del valor [límite de umbral](#upload-new-assets-to-contribution-folder). También puede controlar el estado de los trabajos de eliminación ejecutados automáticamente durante los últimos siete días. El informe de un trabajo proporciona los siguientes detalles:
+
+* Hora de inicio del trabajo
+* Hora de finalización del trabajo
+* Estado del trabajo
+* Total de activos incluidos en un trabajo
+* Total de recursos eliminados correctamente en un trabajo
+* Almacenamiento total disponible como resultado de la ejecución del trabajo
+
+   ![Informe de eliminación](assets/deletion-reports.png)
+
+También puede profundizar para ver los detalles de cada recurso incluido en un trabajo de eliminación. En el informe se incluyen detalles como título del recurso, tamaño, autor, estado de eliminación y tiempo de eliminación.
+
+![Informe de eliminación detallado](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * Los clientes pueden solicitar al Servicio de atención al cliente de Adobe que deshabilite y vuelva a habilitar la función de eliminación automática o que cambie la frecuencia de ejecución.
+> * Esta función está disponible con Experience Manager 6.5.13.0 y versiones posteriores.
+
+
+### Ver y descargar informes de eliminación {#view-delete-jobs}
+
+Para ver y descargar informes de un trabajo de eliminación:
+
+1. En Brand Portal, vaya a **[!UICONTROL Herramientas]**>**[!UICONTROL Estado de contribución de recursos]**>**[!UICONTROL Informes de eliminación]** .
+
+1. Seleccione un trabajo y haga clic en **[!UICONTROL Ver]** para ver el informe.
+
+   Vea los detalles de cada recurso incluido en un trabajo de eliminación. En el informe se incluyen detalles como título del recurso, tamaño, autor, estado de eliminación y tiempo de eliminación. Haga clic en **[!UICONTROL Descargar]** para descargar el informe del trabajo en formato CSV.
+
+   El estado de eliminación de un recurso en el informe puede tener los siguientes valores posibles:
+
+   * **Eliminado** - El recurso se elimina correctamente de la carpeta Contribution .
+
+   * **No encontrado** - Brand Portal no encontró el recurso en la carpeta Contribution . El recurso ya se elimina de la carpeta manualmente.
+
+   * **Omitido** : Brand Portal omitió la eliminación de recursos porque hay una nueva versión disponible para el recurso en la carpeta Contribución, que aún no se ha publicado en Experience Manager.
+
+   * **Error** - Brand Portal no pudo eliminar el recurso. Hay tres intentos de reintento de eliminar un recurso con un `Failed` estado de eliminación. Si el recurso falla en el tercer intento de eliminación de reintentos, debe eliminarlo manualmente.
+
+### Eliminar un informe
+
+Brand Portal también le permite seleccionar uno o varios informes y eliminarlos manualmente.
+
+Para eliminar un informe:
+
+1. Vaya a **[!UICONTROL Herramientas]**>**[!UICONTROL Estado de contribución de recursos]**>**[!UICONTROL Informes de eliminación]** .
+
+1. Seleccione uno o varios informes y haga clic en **[!UICONTROL Eliminar]**.
+
+
