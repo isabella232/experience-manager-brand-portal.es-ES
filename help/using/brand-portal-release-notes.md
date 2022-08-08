@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 13%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
 # Notas de la versión {#release-notes}
 
-Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2022.05.0.
+Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión Adobe Experience Manager Assets Brand Portal 2022.08.0.
 
 ## Información de la versión {#release-information}
 
 | Producto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versión | 2022.05.0 |
-| Fecha | Mayo de 2022 |
+| Versión | 2022.08.0 |
+| Fecha | Agosto de 2022 |
 
 ## Información general {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios examinar, buscar, previsualizar, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
+Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de los activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios examinar, buscar, previsualizar, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y lugar.
 
-## Novedades de 2022.05.0 {#whats-new-in-2022.05.0}
+## Novedades de 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Problemas críticos solucionados {#critical-issues-fixed}
+
+Esta versión incluye correcciones para los siguientes problemas críticos:
+* Cuando la interfaz de usuario no puede procesar un recurso en Experience Manager, Brand Portal muestra un estado de importación de recursos inexacto.
+* Cuando falla la acción de vista previa, no hay ninguna notificación para comunicar el error.
+* La propiedad de cuota de carga de inquilinos se está configurando de forma inexacta para los inquilinos.
+* Al hacer clic en **Descargar todos los elementos** y hay un gran número de representaciones disponibles para un recurso, Brand Portal descarga un archivo .ZIP no válido.
+* La traducción de algunas cadenas se trunca en la interfaz de usuario de Brand Portal.
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### Nuevas funciones {#new-features}
+<!--
+### New features {#new-features}
 
-Brand Portal ahora ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal que se publican en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral. Consulte [Novedades de Experience Manager Assets Brand Portal](whats-new.md).
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### Problemas críticos solucionados {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-Esta versión incluye correcciones para los siguientes problemas críticos:
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* Cuando descarga una carpeta o una colección que incluye recursos con etiquetas de color, también se descarga un archivo XML.
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* Cuando descarga un vídeo que incluye representaciones, Brand Portal crea un archivo .ZIP no válido.
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* Cuando crea ajustes preestablecidos y recursos en AEM autor, los publica en Brand Portal y, a continuación, selecciona representaciones dinámicas al descargar los recursos, no se puede extraer el descargado. Archivo ZIP.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* Problemas al descargar recursos de vídeo de ciertas carpetas disponibles en Brand Portal.
-
-* Al compartir la dirección URL de la carpeta Contribution mediante un correo electrónico, las funciones de visor y editor se enfrentan a problemas al acceder a su carpeta principal mediante la ruta de exploración.
-
-* El informe publicado de abastecimiento muestra una hora de inicio de trabajo incorrecta.
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 Esta versión incluye el siguiente problema conocido:
 
-* Localización parcial en el contenido de los informes de fuentes de recursos.
+* Localización parcial en el contenido de los informes de fuentes de recursos
 
 
 <!--
