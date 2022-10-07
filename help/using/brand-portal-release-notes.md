@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 16%
+source-wordcount: '382'
+ht-degree: 14%
 
 ---
 
@@ -37,18 +37,19 @@ Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controla
 ### Problemas críticos solucionados {#critical-issues-fixed}
 
 Esta versión incluye correcciones para los siguientes problemas críticos:
-* Tiempos de respuesta lentos al copiar archivos grandes de Brand Portal a una herramienta de terceros.
+
+* Lento tiempo de respuesta al copiar archivos grandes de Brand Portal a una herramienta de terceros.
 * Al seleccionar la casilla de verificación Recuento de representaciones , se desactivan las casillas de verificación para seleccionar representaciones individuales.
 * Tiempo de respuesta lento para la búsqueda.
 
 >[!IMPORTANT]
 >
->Las notificaciones de impulso en AEM Assets Brand Portal dejarán de ofrecerse el 1 de diciembre de 2022. En lugar de recibir notificaciones Pulse, seguirá recibiendo notificaciones por correo electrónico para los siguientes eventos:
->* Uso compartido de recursos mediante vínculo
->* Flujo de trabajo de solicitud de acceso
->* Uso compartido de la carpeta de contribución
->* Inicio de la exportación a AEM
->* Exportación finalizada a AEM
+>Las notificaciones de impulso en AEM Assets Brand Portal dejarán de ofrecerse el 1 de diciembre de 2022. Seguirá recibiendo notificaciones por correo electrónico para los siguientes eventos:
+>* Cuando los recursos de Brand Portal se comparten con usted mediante un vínculo compartido
+>* Cuando el administrador aprueba su solicitud de acceso a Brand Portal. El administrador también recibe una notificación cuando solicita el acceso a Brand Portal.
+>* Cuando la carpeta de contribución se comparte con usted
+>* Cuando empiece a publicar recursos de Brand Portal en AEM
+>* Cuando los recursos se publican correctamente de Brand Portal a AEM
 
 
 <!--
@@ -152,7 +153,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
