@@ -1,8 +1,8 @@
 ---
 title: Novedades de Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Novedades y mejoras para 2022.05.0
-seo-description: What are the new features and enhancements for 2022.05.0
+description: Novedades y mejoras para 2022.10.0
+seo-description: What are the new features and enhancements for 2022.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 002647322fe105c5551a89e8fd65a7f7314963a2
+source-git-commit: dd0a61f0b7de156fd69fe9e24006c13468b56dbd
 workflow-type: tm+mt
-source-wordcount: '6498'
-ht-degree: 1%
+source-wordcount: '6515'
+ht-degree: 2%
 
 ---
 
 # Novedades de Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Adobe está trabajando para mejorar la experiencia general de Brand Portal. A continuación, le presentamos una vista preliminar de las nuevas funciones y mejoras.
+
+## Qué cambió en 2022.10.0 {#what-changed-in-October-2022}
+
+Brand Portal 2022.10.0 incluye correcciones para los problemas críticos. Consulte las últimas [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
 
 ## Qué cambió en 2022.08.0 {#what-changed-in-August-2022}
 
