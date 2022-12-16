@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
+source-git-commit: 541f736c8157a7aa98faf11a426f6d2fd93829e2
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 6%
+source-wordcount: '1254'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ Para obtener información sobre el comportamiento de búsqueda con recursos etiq
 
 Las facetas de búsqueda del panel Filtros agregan granularidad a la experiencia de búsqueda y hacen que la funcionalidad de búsqueda sea eficiente. Las facetas de búsqueda utilizan varias dimensiones (predicados) que permiten realizar búsquedas intrincadas. Puede explorar en profundidad hasta el nivel de detalle deseado para realizar una búsqueda más centrada.
 
-Por ejemplo, si busca una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el ámbito de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo . Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, PDF o formato MS Word.
+Por ejemplo, si busca una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el ámbito de la búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo . Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, PDF o formato MS® Word.
 
 ![Panel Filtros en Brand Portal](assets/file-type-search.png "Panel Filtros en Brand Portal")
 
@@ -76,7 +76,7 @@ Por ejemplo, utilice los siguientes filtros estándar:
    >Para usuarios no administradores, [!UICONTROL Navegador de rutas] en [!UICONTROL Filtro] muestra únicamente la estructura de contenido de las carpetas (y sus carpetas antecesoras) compartidas con ellas.\
    >Para administrar usuarios, el explorador de rutas permite navegar a cualquier carpeta en Brand Portal.
 
-   * **[!UICONTROL Tipo de archivo]** para especificar el tipo (imagen, documento, multimedia, archivo) del archivo de recursos que está buscando. Además, puede reducir el ámbito de la búsqueda, por ejemplo, especificar el tipo MIME (Tiff, Bitmap, GIMP Images) para la imagen o el formato (PDF o MS Word) de los documentos.
+   * **[!UICONTROL Tipo de archivo]** para especificar el tipo (imagen, documento, multimedia, archivo) del archivo de recursos que está buscando. Además, puede reducir el ámbito de la búsqueda, por ejemplo, especificar el tipo MIME (Tiff, Bitmap, GIMP Images) para la imagen o el formato (PDF o MS® Word) de los documentos.
    * **[!UICONTROL Tamaño del archivo]** para buscar recursos en función de su tamaño. Puede especificar los límites inferior y superior del intervalo de tamaño para reducir la búsqueda y especificar la unidad de medida que desea buscar.
    * **[!UICONTROL Estado]** para buscar recursos basados en estados de recursos, como Aprobación (Aprobado, Cambios solicitados, Rechazado, Pendiente) y Caducidad.
    * **[!UICONTROL Puntuación media]** para buscar recursos en función de la clasificación de los recursos.
@@ -90,15 +90,24 @@ Por ejemplo, utilice los siguientes filtros estándar:
       Por ejemplo, si el predicado de propiedades está asignado a [!UICONTROL `jcr:content /metadata/dc:title`], puede buscar recursos en función de su título.\
       La variable [!UICONTROL Predicado de propiedades] admite búsquedas de texto para:
 
-      **Frases parciales** Para permitir la búsqueda de recursos utilizando frases parciales en el predicado de propiedad, habilite la casilla **[!UICONTROL Búsqueda parcial]** en el formulario de búsqueda.\
-      Esto le permite buscar los recursos deseados aunque no especifique las palabras o frases exactas utilizadas en los metadatos del recurso.\
+      **Frases parciales** Para permitir la búsqueda de recursos utilizando frases parciales en el predicado de propiedad, habilite la casilla **[!UICONTROL Búsqueda parcial]** en el formulario de búsqueda. Esto le permite buscar los recursos deseados aunque no especifique las palabras o frases exactas utilizadas en los metadatos del recurso.
+
+      >[!NOTE]
+      >
+      > Brand Portal admite los campos siguientes relacionados con la búsqueda parcial:
+      >* jcr:content/metadata/dc:title
+      >* jcr:content/jcr:title
+      >* jcr:content/metadata/dam:search_promote
+      >* jcr:content/metadata/dc:format
+
+
       Puede hacer lo siguiente:
       * Especifique una palabra que aparezca en la frase buscada en el aspecto del panel Filtros . Por ejemplo, si busca el término **escalar** (y el predicado de propiedades está asignado a [!UICONTROL `dc:title`] ), luego todos los recursos con la palabra **escalar** en su frase de título se devuelven.
-      * Especificar una parte de la palabra que aparece en la frase buscada, junto con el carácter comodín (*) para rellenar los huecos.
+      * Especifique una parte de la palabra, que aparece en la frase buscada, junto con el carácter comodín (&#42;) para llenar los huecos.
 Por ejemplo, buscar:
-         * **escalada*** devuelve todos los recursos que tienen palabras que comienzan con los caracteres &quot;escalar&quot; en la frase de título.
-         * ***escalar** devuelve todos los recursos que tienen palabras que terminan con caracteres &quot;escalar&quot; en la frase de título.
-         * ***escalada*** devuelve todos los recursos que tienen palabras que contienen los caracteres &quot;escalar&quot; en la frase de título.
+         * **escalar&#42;** devuelve todos los recursos que tienen palabras que comienzan con los caracteres &quot;escalar&quot; en la frase de título.
+         * **&#42;escalar** devuelve todos los recursos que tienen palabras que terminan con caracteres &quot;escalar&quot; en la frase de título.
+         * **&#42;escalar&#42;** devuelve todos los recursos que tienen palabras que contienen los caracteres &quot;escalar&quot; en la frase de título.
 
 Para permitir la búsqueda que no distingue entre mayúsculas y minúsculas en el predicado de propiedades, habilite la variable       **Texto que distingue entre mayúsculas y minúsculas**
 Para permitir la búsqueda que no distingue entre mayúsculas y minúsculas en el predicado de propiedades, habilite la variable **[!UICONTROL Ignorar mayúsculas y minúsculas]** en Buscar formulario. De forma predeterminada, la búsqueda de texto en el predicado de propiedades distingue entre mayúsculas y minúsculas.
