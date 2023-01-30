@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
+source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1297'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,9 @@ Para buscar recursos en Brand Portal:
 
    >[!NOTE]
    >
-   >Se requieren al menos 3 caracteres en la búsqueda de contenido para que aparezcan las sugerencias de búsqueda.
+   >* Se requieren al menos 3 caracteres en la búsqueda de contenido para que aparezcan las sugerencias de búsqueda.
+   >* Al buscar los términos `mountain` o `biking` omnisearch proporciona los resultados de la búsqueda con el texto `mountain` Y `biking` en sus campos de metadatos. De lo contrario, el comportamiento es O en el caso de las etiquetas inteligentes, lo que significa que los resultados con `mountain` O `biking` en sus etiquetas inteligentes respectivas se recuperan.
+
 
 1. Seleccione entre las sugerencias relacionadas que aparecen en la lista desplegable para acceder rápidamente a los recursos relevantes.
 
