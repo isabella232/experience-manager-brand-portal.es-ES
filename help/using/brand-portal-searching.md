@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1358'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Para buscar recursos en Brand Portal:
    >[!NOTE]
    >
    >* Se requieren al menos 3 caracteres en la búsqueda de contenido para que aparezcan las sugerencias de búsqueda.
-   >* Al buscar los términos `mountain` o `biking` omnisearch proporciona los resultados de la búsqueda con el texto `mountain` Y `biking` en sus campos de metadatos. De lo contrario, el comportamiento es O en el caso de las etiquetas inteligentes, lo que significa que los resultados con `mountain` O `biking` en sus etiquetas inteligentes respectivas se recuperan.
+   >* Al buscar `mountain biking`, omnisearch devuelve todos los recursos de los resultados de búsqueda que tienen ambos `mountain` y `biking` disponible en los campos de metadatos. Por ejemplo, `mountain` en el `Title` campo y `biking` en el `Description` campo . Ambos términos deben estar disponibles en los campos de metadatos para que aparezcan en los resultados de la búsqueda. Sin embargo, omnisearch devuelve el recurso en los resultados de búsqueda, aunque solo uno de los dos términos esté disponible en el campo de metadatos Etiquetas inteligentes . Por ejemplo, si un recurso contiene `mountain` como una de las etiquetas inteligentes y no contiene `biking` en cualquier otro campo de metadatos y busque `mountain biking`, omnisearch aún devuelve el recurso en los resultados de búsqueda.
 
 
 1. Seleccione entre las sugerencias relacionadas que aparecen en la lista desplegable para acceder rápidamente a los recursos relevantes.
