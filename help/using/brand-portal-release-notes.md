@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 13%
@@ -43,7 +43,6 @@ Esta versión incluye correcciones para los siguientes problemas críticos:
 * No se puede cambiar el tamaño del panel del árbol de contenido. Si el nombre del archivo es mayor que el ancho predeterminado del árbol de contenido, no puede arrastrar el árbol de contenido horizontal y verticalmente. Como resultado, los nombres de archivo más largos no son legibles.
 * Los resultados de búsqueda no son coherentes para el mismo predicado de propiedad utilizado dos veces en los formularios de búsqueda.
 * El texto de las páginas de inicio de sesión intermedias no está localizado para todos los idiomas.
-* Algunos campos del perfil de usuario no se pueden editar en `Edit` Página de perfil.
 
 ### Mejoras {#enhancements}
 
@@ -60,7 +59,8 @@ Esta versión incluye las siguientes mejoras:
 
 Esta versión incluye el siguiente problema conocido:
 
-* Localización parcial en el contenido de los informes de fuentes de recursos
+* Localización parcial en el contenido de los informes de fuentes de recursos.
+* Algunos campos del perfil de usuario no se pueden editar en el perfil de usuario.
 
 <!--
 This release include fixes to the following critical issues:
