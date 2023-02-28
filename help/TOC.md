@@ -5,18 +5,18 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: Adobe Experience Manager Assets Brand Portal
 breadcrumb-title: Guía de Brand Portal
-user-guide-description: Utilice Experience Manager Assets Brand Portal para satisfacer las necesidades de marketing mediante la distribución segura de recursos de productos y marcas aprobados a agencias externas, socios, equipos internos y distribuidores para su descarga.
+user-guide-description: Utilice Experience Manager Assets Brand Portal para satisfacer las necesidades de marketing mediante la distribución segura de activos de productos y marcas aprobadas a agencias externas, socios, equipos internos y distribuidores para que puedan descargarlos.
 feature: Brand Portal
 role: User
 source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 61%
+ht-degree: 75%
 
 ---
 
 
-# Guía de Adobe Experience Manager Assets Brand Portal {#using}
+# Adobe Experience Manager Assets Brand Portal Guía  {#using}
 
 + [Guía de Brand Portal](using/home.md)
 + Introducción {#introduction}
@@ -48,7 +48,7 @@ ht-degree: 61%
    + [Buscar recursos en Brand Portal](using/brand-portal-searching.md)
    + [Utilizar facetas de búsqueda personalizadas](using/brand-portal-search-facets.md)
 + Uso de las funciones de descarga {#download}
-   + [Descargar recursos](using/brand-portal-download-assets.md)
+   + [Descarga de recursos](using/brand-portal-download-assets.md)
    + [Compatibilidad con vídeos dinámicos en Brand Portal](using/dynamic-video-brand-portal.md)
    + [Administración de la colección Lightbox](using/brand-portal-light-box.md)
    + [Administración de los derechos digitales de recursos](using/manage-digital-rights-of-assets.md)
