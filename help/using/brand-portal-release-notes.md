@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 13%
+source-wordcount: '1047'
+ht-degree: 7%
 
 ---
 
@@ -62,14 +62,72 @@ Esta versión incluye el siguiente problema conocido:
 * Localización parcial en el contenido de los informes de fuentes de recursos.
 * Algunos campos del perfil de usuario no se pueden editar en el perfil de usuario.
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## Versiones anteriores
+
+### Versión de octubre de 2022 {#oct-2022}
+
+**Problemas críticos solucionados**
+
+Esta versión incluye correcciones para los siguientes problemas críticos:
+* Tiempos de respuesta lentos al copiar archivos grandes de Brand Portal a una herramienta de terceros.
+* Al seleccionar la casilla de verificación Recuento de representaciones , se desactivan las casillas de verificación para seleccionar representaciones individuales.
+* Tiempo de respuesta lento para la búsqueda.
+
+>[!IMPORTANT]
+>
+>Las notificaciones de impulso en AEM Assets Brand Portal dejarán de ofrecerse el 1 de diciembre de 2022. En lugar de recibir notificaciones Pulse, seguirá recibiendo notificaciones por correo electrónico para los siguientes eventos:
+>* Uso compartido de recursos mediante vínculo
+>* Flujo de trabajo de solicitud de acceso
+>* Uso compartido de la carpeta de contribución
+>* Inicio de la exportación a AEM
+>* Exportación finalizada a AEM
+>
+
+
+### Versión de agosto de 2022 {#aug-2022}
+
+**Problemas críticos solucionados**
+
+Esta versión incluye correcciones para los siguientes problemas críticos:
+* Cuando la interfaz de usuario no puede procesar un recurso en Experience Manager, Brand Portal muestra un estado de importación de recursos inexacto.
+* Cuando falla la acción de vista previa, no hay ninguna notificación para comunicar el error.
+* Se ha corregido un valor impreciso de la propiedad totalUploadedSize de cada recurso.
+* Al hacer clic en **Descargar todos los elementos** y hay un gran número de representaciones disponibles para un recurso, Brand Portal descarga un archivo .ZIP no válido.
+* La traducción de algunas cadenas se trunca en la interfaz de usuario de Brand Portal.
+
+### Versión de mayo de 2022 {#may-2022}
+
+**Nuevas funciones**
+
+Brand Portal ahora ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal que se publican en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral.
+
+**Problemas críticos solucionados**
+
+Esta versión incluye correcciones para los siguientes problemas críticos:
+
+* Cuando descarga una carpeta o una colección que incluye recursos con etiquetas de color, también se descarga un archivo XML.
+* Cuando descarga un vídeo que incluye representaciones, Brand Portal crea un archivo .ZIP no válido.
+* Al crear ajustes preestablecidos y recursos en AEM autor, publicarlos en Brand Portal y, a continuación, seleccionar representaciones dinámicas al descargar los recursos, no se puede extraer el archivo .ZIP descargado.
+* Problemas al descargar recursos de vídeo de ciertas carpetas disponibles en Brand Portal.
+* Al compartir la dirección URL de la carpeta Contribution mediante un correo electrónico, las funciones de visor y editor se enfrentan a problemas al acceder a su carpeta principal mediante la ruta de exploración.
+* El informe publicado de abastecimiento muestra una hora de inicio de trabajo incorrecta.
+
+### Versión de febrero de 2022 {#feb-2022}
+
+**Nuevas funciones**
+
+* El umbral de tiempo de espera de sesión para los usuarios invitados se ha reducido de 2 horas a 15 minutos.
+* El **[!UICONTROL Ver páginas]** se ha eliminado para los PDF de varias páginas, ya que el usuario ahora puede ver las páginas de PDF desde el visor de Adobe Document Cloud.
+* Los usuarios no pueden buscar, navegar ni abrir carpetas. La interfaz de usuario refleja el mensaje de error: `Failed to load data`.
+* La variable **[!UICONTROL Representaciones]** no enumera todas las representaciones estáticas de los recursos que se publican en Brand Portal.
+* La variable **[!UICONTROL Representaciones]** El panel enumera las representaciones de recorte inteligente del recurso; sin embargo, el usuario no puede obtener una vista previa ni descargar las representaciones de recorte inteligente.
+* El cuadro de diálogo de descarga muestra las representaciones de recorte inteligente del recurso seleccionado; sin embargo, el usuario no puede descargar las representaciones de recorte inteligente.
+* Un usuario no administrador solo obtiene la representación de recursos original al descargar un recurso. El sistema y las representaciones personalizadas no se descargan.
+* Al aplicar el filtro de búsqueda para descargar un recurso, la variable `Download` está desactivado en el cuadro de diálogo de descarga y no permite al usuario descargar el recurso.
+* If `Smart Tags` y (o) `Color Tags` están activados, el cuadro de diálogo de descarga enumera las `json` los archivos como representaciones y los descarga `json` en la carpeta zip archivada.
+* Los usuarios anónimos no pueden descargar recursos mediante un vínculo compartido porque el vínculo redirige a la página de inicio de sesión de Brand Portal.
+* El sistema no refleja el valor correcto para el número de usuarios simultáneos activos.
+
 <!--
 ### New Features {#new-features}
 
@@ -253,10 +311,10 @@ Para averiguar qué plataformas están certificadas para ejecutarse con esta ver
 
 ## Vínculos {#links}
 
-* [Página del producto Adobe Experience Manager en adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Página de productos de Adobe Experience Manager en adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
 * [Documentación de Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
-## Asistencia y acceso al producto (sitios restringidos) {#product-access-and-support-restricted-sites}
+## Acceso y asistencia al producto (sitios restringidos) {#product-access-and-support-restricted-sites}
 
 Estos sitios solo están disponibles para los clientes. Si es cliente de y requiere acceso, póngase en contacto con su administrador de cuentas de Adobe.
 
