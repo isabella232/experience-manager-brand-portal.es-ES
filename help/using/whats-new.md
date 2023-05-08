@@ -1,8 +1,8 @@
 ---
 title: Novedades de Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Novedades y mejoras para 2032.02.0
-seo-description: What are the new features and enhancements for 2023.02.0
+description: Novedades y mejoras para 2032.05.0
+seo-description: What are the new features and enhancements for 2023.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
+source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6514'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Novedades de Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios empresariales internos entre dispositivos. Ayuda a mejorar la eficiencia del uso compartido de activos, acelera el tiempo de comercialización de los activos y reduce el riesgo de incumplimiento y acceso no autorizado. Adobe está trabajando para mejorar la experiencia general de Brand Portal. A continuación, le presentamos una vista preliminar de las nuevas funciones y mejoras.
+
+## Qué cambió en 2023.05.0 {#what-changed-in-May-2023}
+
+Brand Portal 2023.05.0 es una versión interna que incluye correcciones para los problemas críticos. Consulte las últimas [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
 
 ## Qué cambió en 2023.02.0 {#what-changed-in-February-2023}
 
@@ -385,9 +389,6 @@ Los pasos para configurar AEM Assets con Brand Portal son diferentes en función
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 y posterior)** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Actualización de la configuración](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 y posterior)** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Actualización de la configuración](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3 (6.3.3.8 y posterior)** | [Crear configuración](https://helpx.adobe.com/es/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Actualización de la configuración](https://helpx.adobe.com/es/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | Contactar con el servicio de atención al cliente | Contactar con el servicio de atención al cliente |
 
 >[!NOTE]
 >
@@ -440,7 +441,7 @@ Una vez completada la carga en la variable **NUEVO** , los usuarios de Brand Por
 
 ## Cambios en la versión 6.4.4 {#what-changed-in-644}
 
-La versión 6.4.4 de Brand Portal se centra en las mejoras en la búsqueda de texto y en las principales solicitudes de los clientes. Consulte las últimas [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
+La versión Brand Portal 6.4.4 se centra en las mejoras en la búsqueda de texto y en las principales solicitudes de los clientes. Consulte las últimas [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
 
 ### Mejoras de búsqueda
 
@@ -552,7 +553,7 @@ Las codificaciones de vídeo de Dynamic Media se pueden descargar desde:
 
 ### Publicación programada en Brand Portal
 
-Flujo de trabajo de publicación de recursos (y carpetas) desde [AEM (6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=es) La instancia de autor en Brand Portal se puede programar para una fecha y hora posteriores.
+El flujo de trabajo de publicación de recursos (y carpetas) de AEM 6.4.2.0 La instancia de autor en Brand Portal se puede programar para una fecha y hora posteriores.
 
 Del mismo modo, los recursos publicados se pueden eliminar del portal posteriormente, programando el flujo de trabajo Cancelar publicación de Brand Portal .
 
@@ -670,7 +671,7 @@ Las configuraciones anteriores están disponibles en Acceso y Configuración gen
 
 ### IU de Adobe I/O para configurar integraciones de oAuth
 
-Brand Portal 6.4.2 y posteriores utilizan OAuth heredado (`https://legacy-oauth.cloud.adobe.io/`) para crear una aplicación JWT, que permite configurar integraciones oAuth para permitir la integración de AEM Assets con Brand Portal. Anteriormente, la interfaz de usuario para configurar integraciones de OAuth estaba alojada en `https://marketing.adobe.com/developer/`. Para obtener más información sobre la integración de AEM Assets con Brand Portal para la publicación de recursos y colecciones en Brand Portal, consulte [Configuración de la integración de AEM Assets con Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 y posteriores utilizan OAuth heredado (`https://legacy-oauth.cloud.adobe.io/`) para crear una aplicación JWT, que permite configurar integraciones oAuth para permitir la integración de AEM Assets con Brand Portal. Anteriormente, la interfaz de usuario para configurar integraciones de OAuth estaba alojada en `https://marketing.adobe.com/developer/`. Para obtener más información sobre la integración de AEM Assets con Brand Portal para la publicación de recursos y colecciones en Brand Portal, consulte [Configuración de la integración de AEM Assets con Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Mejoras de búsqueda
 
