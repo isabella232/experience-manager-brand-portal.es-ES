@@ -13,155 +13,155 @@ exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Compatibilidad con vídeos dinámicos en Brand Portal {#dynamic-video-support-on-brand-portal}
 
-Previsualice y reproduzca vídeos de forma adaptable en Brand Portal con compatibilidad con Dynamic Media. Descargue también las representaciones dinámicas desde el portal y los vínculos compartidos.
+Vista previa y reproducción de vídeos de forma adaptativa en Brand Portal compatible con Dynamic Media. Descargue también las representaciones dinámicas desde el portal y los vínculos compartidos.
 Los usuarios de Brand Portal pueden:
 
-* Obtenga una vista previa de los vídeos en la página Detalles del recurso, la vista de tarjeta y la página de vista previa del uso compartido de vínculos.
-* Reproducir las codificaciones de vídeo en la página Detalles del recurso .
-* Vea las representaciones dinámicas en la pestaña Representaciones de la página Detalles del recurso .
-* Descargue codificaciones de vídeo y carpetas que contengan vídeos.
+* Vista previa de vídeos en la página Detalles del recurso, Vista de tarjeta y vista previa del recurso compartido de vínculos.
+* Reproducir codificaciones de vídeo en la página Detalles del recurso.
+* Vea las representaciones dinámicas en la pestaña Representaciones de la página Detalles del recurso.
+* Descargue las codificaciones de vídeo y las carpetas que contengan vídeos.
 
 >[!NOTE]
 >
->Para trabajar con vídeos y publicarlos en Brand Portal, asegúrese de que la instancia de Autor Experience Manager esté configurada en el modo Híbrido de Dynamic Media o en Dynamic Media **[!DNL Scene7]** en el menú contextual.
+>Para trabajar con vídeos y publicarlos en Brand Portal, asegúrese de que la instancia de autor de Experience Manager esté configurada en el modo híbrido de Dynamic Media o en Dynamic Media **[!DNL Scene7]** modo.
 
 Para obtener una vista previa, reproducir y descargar vídeos, Brand Portal expone las dos configuraciones siguientes a los administradores:
 
 * [Configuración híbrida de Dynamic Media](#configure-dm-hybrid-settings)
-Si la instancia de Autor de Experience Manager se está ejecutando en el modo híbrido de Dynamic Media.
+Si la instancia de autor de Experience Manager se está ejecutando en el modo híbrido de medios dinámicos.
 * [Dynamic Media [!DNL Scene7] configuración](#configure-dm-scene7-settings)
-Si la instancia de Experience Manager Author se está ejecutando en Dynamic Media-**[!DNL Scene7]** en el menú contextual.
-Establezca cualquiera de estas configuraciones en función de las configuraciones establecidas en la instancia de Autor de Experience Manager con la que se replica el inquilino de Brand Portal.
+Si la instancia de autor de Experience Manager se está ejecutando en medios dinámicos:**[!DNL Scene7]** modo.
+Establezca cualquiera de estas configuraciones en función de las configuraciones establecidas en la instancia de autor de Experience Manager con la que se replica el inquilino de Brand Portal.
 
 >[!NOTE]
 >
->Los vídeos dinámicos no son compatibles con los inquilinos de Brand Portal configurados con el Autor Experience Manager que se ejecuta en **[!UICONTROL Scene7Connect]** ejecutar modo.
+>Los vídeos dinámicos no son compatibles con los inquilinos de Brand Portal configurados con Experience Manager Author en **[!UICONTROL Scene7Connect]** modo de ejecución.
 
 ## ¿Cómo se reproducen los vídeos dinámicos? {#how-are-dynamic-videos-played}
 
-![Los códigos de vídeo se recuperan de la nube](assets/VideoEncodes.png)
+![Las codificaciones de vídeo se recuperan de la nube](assets/VideoEncodes.png)
 
-Si las configuraciones de Dynamic Media ([Híbrido](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings) o [[!DNL Scene7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings) configuraciones) están configuradas en Brand Portal, las representaciones dinámicas se recuperan de **[!DNL Scene7]** servidor. Por lo tanto, las codificaciones de vídeo se previsualizan y se reproducen sin demora y con distorsión de la calidad.
+Si las configuraciones de Dynamic Media ([Híbrido](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings) o [[!DNL Scene7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings) configuraciones) en Brand Portal, las representaciones dinámicas se recuperan de **[!DNL Scene7]** servidor. Las codificaciones de vídeo se previsualizan y reproducen sin demora y distorsionan la calidad.
 
-Como las codificaciones de vídeo no se almacenan en el repositorio de Brand Portal y se recuperan de **[!DNL Scene7]** , asegúrese de que las configuraciones de Dynamic Media en la instancia de autor de Adobe Experience Manager y Brand Portal son las mismas.
+Como, las codificaciones de vídeo no se almacenan en el repositorio de Brand Portal y se recuperan de **[!DNL Scene7]** Asegúrese de que las configuraciones de Dynamic Media en la instancia de autor de Adobe Experience Manager y en Brand Portal sean las mismas.
 
 >[!NOTE]
 >
->Los visores de vídeo y los ajustes preestablecidos de visor no son compatibles con Brand Portal. Los vídeos se previsualizan y reproducen en los visores predeterminados en Brand Portal.
+>Los visores de vídeo y los ajustes preestablecidos de visualizador no son compatibles con Brand Portal. Los vídeos se previsualizan y reproducen en los visores predeterminados de Brand Portal.
 
 ## Requisitos previos {#prerequisites}
 
-Para trabajar con vídeos dinámicos en Brand Portal, asegúrese de:
+Para trabajar con vídeos dinámicos en Brand Portal, asegúrese de lo siguiente:
 
-* **Iniciar Experience Manager Author en el modo Dynamic Media**
-Inicie la instancia de Autor del Experience Manager (con la que está configurado Brand Portal) en [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) o [Dynamic Media: modo híbrido](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) o
-* **Configuración de Cloud Services de Dynamic Media en el autor del Experience Manager**
-En función del modo Dynamic Media (modo Scene7 o modo híbrido), el autor del Experience Manager se está ejecutando en, establezca una de las opciones siguientes: [Cloud Services de Dynamic Media ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) o [Cloud Services de Dynamic Media (modo híbrido)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) en el autor Experience Manager de **Herramientas** | **Cloud Services** | **Dynamic Media**.
+* **Iniciar Experience Manager Author en modo Dynamic Media**
+Inicie la instancia de autor del Experience Manager (con la que está configurado Brand Portal) en [DYNAMIC MEDIA - [!DNL Scene7] modo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) o en [Dynamic Media: modo híbrido](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) o
+* **Configuración de Cloud Services de Dynamic Media en Autor del Experience Manager**
+En función del modo Dynamic Media (modo Scene7 o híbrido) en el que se ejecuta Experience Manager Author, establezca [Cloud Services de Dynamic Media ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=es#configuring-dynamic-media-cloud-services) o [Cloud Services de Dynamic Media (modo híbrido)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) al Experience Manager Author de **Herramientas** | **Cloud Services** | **Dynamic Media**.
 * **Configuración de Dynamic Media en Brand Portal**
-En función de las configuraciones de nube de Dynamic Media en Autor Experience Manager, configure [Configuración de Dynamic Media](#configure-dm-hybrid-settings) o [[!DNL Scene7] configuración](#configure-dm-scene7-settings) desde las herramientas administrativas de Brand Portal.
-Asegúrese de que [inquilinos separados de Brand Portal](#separate-tenants) se utilizan para instancias de Autor de Experience Manager configuradas en Dynamic Media - **[!UICONTROL Scene7]** y Dynamic Media: modo híbrido. Especialmente si utiliza funcionalidades de Dynamic Media **[!UICONTROL S7]** y Dynamic Media Hybrid.
+En función de las configuraciones en la nube de Dynamic Media de Experience Manager Author, configure lo siguiente [Configuración de Dynamic Media](#configure-dm-hybrid-settings) o [[!DNL Scene7] configuración](#configure-dm-scene7-settings) desde las herramientas administrativas de Brand Portal.
+Asegúrese de que [inquilinos de Brand Portal independientes](#separate-tenants) se utilizan para instancias de autor de Experience Manager configuradas en Dynamic Media: **[!UICONTROL Scene7]** y Dynamic Media: modo híbrido. Especialmente si utiliza las funcionalidades de Dynamic Media **[!UICONTROL S7]** y Dynamic Media Hybrid.
 * **Publicar carpetas con codificaciones de vídeo aplicadas a Brand Portal**
-Aplicar [codificaciones de vídeo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) y publique la carpeta que contiene recursos de medios enriquecidos desde la instancia de autor de Experience Manager a Brand Portal.
+Aplicar [codificaciones de vídeo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) y publique la carpeta que contiene los recursos de medios enriquecidos de la instancia de autor de Experience Manager en Brand Portal.
 * **IP de salida de lista de permitidos en SPS si la previsualización segura está habilitada**
-Si utiliza Dynamic Media-**[!DNL Scene7]** (con [vista previa segura habilitada](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) para una empresa), se recomienda que **[!DNL Scene7]** administrador de empresa [lista de permitidos de las IP de salida públicas](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) para las regiones respectivas que utilicen SPS (**[!UICONTROL Scene7]** Sistema de publicación) interfaz de usuario flash.
-Las direcciones IP de salida son las siguientes:
+Si usa Dynamic Media-**[!DNL Scene7]** (con [vista previa segura habilitada](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) para una empresa), se aconseja que **[!DNL Scene7]** administrador de empresa [lista de permitidos de las IP de salida pública](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) para las regiones respectivas que utilizan SPS (**[!UICONTROL Scene7]** Publishing System).
+Las IP de salida son las siguientes:
 
 | **Región** | **IP de salida** |
 |--- |--- |
-| ND | 130.248.160.68, 20.94.203.130 |
-| EMEA | 185.34.189.3, 51.132.146.75 |
-| APAC | 63 140 44 54 |
+| ND | 130.248.160.68,  20.94.203.130 |
+| EMEA | 185.34.189.3,  51.132.146.75 |
+| APAC | 63.140.44.54 |
 
-Para incluir en la lista de permitidos cualquiera de estas direcciones IP de salida, consulte [prepare su cuenta para el servicio de pruebas seguras](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+Para incluir alguna de estas IP de salida en la lista de permitidos, consulte [prepare su cuenta para el servicio de pruebas seguras](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 
-## Prácticas recomendadas  
+## Prácticas recomendadas
 
 Para asegurarse de que los recursos de vídeo dinámico se previsualizan, reproducen y descargan correctamente desde Brand Portal (y vínculos compartidos), siga estas prácticas:
 
-### Inquilinos separados para Dynamic Media - Scene7 y Dynamic Media - Modos híbridos {#separate-tenants}
+### Inquilinos independientes para Dynamic Media: Scene7 y Dynamic Media: modos híbridos {#separate-tenants}
 
-Si usa ambas Dynamic Media: **[!DNL Scene7]** modo y Dynamic Media: funciones de modo híbrido, utilice diferentes inquilinos de Brand Portal para instancias de Experience Manager Author configuradas con Dynamic Media - **[!DNL Scene7]** y Dynamic Media: modos híbridos.
+Si usa tanto Dynamic Media - **[!DNL Scene7]** y Dynamic Media: funciones del modo híbrido, utilice diferentes inquilinos de Brand Portal para instancias de autor de Experience Manager configuradas con Dynamic Media: **[!DNL Scene7]** y Dynamic Media: modos híbridos.
 
 
-![Autor y BP de una a una asignación](assets/BPDynamicMedia.png)
+![Creación y asignación de AP uno a uno](assets/BPDynamicMedia.png)
 
-### Los mismos detalles de configuración en la instancia de autor del Experience Manager y en Brand Portal
+### Mismos detalles de configuración en la instancia de autor del Experience Manager y en Brand Portal
 
-Asegúrese de que los detalles de configuración son los mismos en Brand Portal y **[!UICONTROL Configuración de Experience Manager Cloud]**. Los mismos detalles de configuración incluyen lo siguiente:
+Asegúrese de que los detalles de configuración sean los mismos en Brand Portal y **[!UICONTROL Configuración de Experience Manager Cloud]**. Los mismos detalles de configuración incluyen lo siguiente:
 
 * **[!UICONTROL Título]**
 * **[!UICONTROL ID de registro]**
-* **[!UICONTROL URL del servicio de vídeo]** en **[!UICONTROL Dynamic Media: modo híbrido]**
+* **[!UICONTROL URL del servicio de vídeo]** in **[!UICONTROL Dynamic Media: modo híbrido]**
 * **[!UICONTROL Título]**
 * Credenciales (**[!UICONTROL Correo electrónico]** y contraseña)
 * **[!UICONTROL Región]**
-* **[!UICONTROL Empresa]** en Dynamic Media - **[!DNL Scene7]** mode
+* **[!UICONTROL Compañía]** en Dynamic Media - **[!DNL Scene7]** modo
 
-### Lista de permitidos de IP de salida pública para el modo Scene7 de Dynamic Media
+### Lista de permitidos de direcciones IP de salida públicas para el modo Scene7 de Dynamic Media
 
-Si Dynamic Media **[!UICONTROL Scene7]**-Having [vista previa segura habilitada](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)-se utiliza para servir recursos de vídeo a Brand Portal y, a continuación, **[!UICONTROL Scene7]** establece un servidor de imagen dedicado para entornos de ensayo o aplicaciones internas. Cualquier solicitud a este servidor comprueba la dirección IP de origen. Si la solicitud entrante no está dentro de la lista aprobada de direcciones IP, se devuelve una respuesta de error.
-La variable **[!UICONTROL Scene7]** Por lo tanto, el administrador de la empresa configura una lista aprobada de direcciones IP para la **[!UICONTROL Pruebas seguras]** entorno, hasta **[!UICONTROL SPS]** Interfaz de usuario flash (Scene7 Publishing System). Asegúrese de que la IP de salida de su región respectiva (de la siguiente) se agrega a esa lista aprobada.
-Para incluir en la lista de permitidos cualquiera de estas direcciones IP de salida, consulte [prepare su cuenta para el servicio de pruebas seguras](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+Si Dynamic Media **[!UICONTROL Scene7]**-teniendo [vista previa segura habilitada](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html): se utiliza para proporcionar recursos de vídeo a Brand Portal y, a continuación, **[!UICONTROL Scene7]** establece un servidor de imágenes dedicado para entornos de ensayo o aplicaciones internas. Cualquier solicitud a este servidor comprueba la dirección IP de origen. Si la solicitud entrante no se encuentra dentro de la lista aprobada de direcciones IP, se devuelve una respuesta de error.
+El **[!UICONTROL Scene7]** Por lo tanto, el administrador de la empresa configura una lista aprobada de direcciones IP para el **[!UICONTROL Prueba de seguridad]** entorno, mediante **[!UICONTROL SPS]** (Scene7 Publishing System) IU de Flash. Asegúrese de que la IP de salida de su región respectiva (de la siguiente lista) se añada a esa lista aprobada.
+Para incluir alguna de estas IP de salida en la lista de permitidos, consulte [prepare su cuenta para el servicio de pruebas seguras](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 Las direcciones IP de salida son las siguientes:
 
 | **Región** | **IP de salida** |
 |--- |--- |
-| ND | 130.248.160.66, 52.151.32.108 |
+| ND | 130.248.160.66,  52.151.32.108 |
 | EMEA | 185.34.189.1 |
-| APAC | 63 140 44 54 |
+| APAC | 63.140.44.54 |
 
-## Configuración de la configuración de Dynamic Media (híbrido) {#configure-dm-hybrid-settings}
+## Configuración de Dynamic Media (híbrido) {#configure-dm-hybrid-settings}
 
-Si la instancia de Experience Manager Author se está ejecutando en el modo híbrido de Dynamic Media, utilice **[!UICONTROL Vídeo]** mosaico del panel de herramientas administrativas para configurar los ajustes de la puerta de enlace de Dynamic Media.
+Si la instancia de autor de Experience Manager se está ejecutando en el modo híbrido de medios dinámicos, utilice **[!UICONTROL Vídeo]** mosaico del panel herramientas administrativas para establecer la configuración de la puerta de enlace de Dynamic Media.
 
 >[!NOTE]
 >
->La variable [perfiles de codificación de vídeo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) no se publican en Brand Portal, sino que se recuperan del **[!UICONTROL Scene7]** servidor. Por lo tanto, para que las codificaciones de vídeo se reproduzcan correctamente en Brand Portal, asegúrese de que los detalles de configuración sean los mismos que los del [Cloud Services de Dynamic Media ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) en la instancia de Autor del Experience Manager.
+>El [perfiles de codificación de vídeo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) no se han publicado en Brand Portal, sino que se recuperan de **[!UICONTROL Scene7]** servidor. Por lo tanto, para que las codificaciones de vídeo se reproduzcan correctamente en Brand Portal, asegúrese de que los detalles de configuración sean los mismos que los de [Cloud Services de Dynamic Media ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=es#configuring-dynamic-media-cloud-services) en la instancia de autor de Experience Manager.
 
-Para configurar configuraciones de Dynamic Media en inquilinos de Brand Portal:
+Para establecer las configuraciones de Dynamic Media en los inquilinos de Brand Portal:
 
-1. Seleccione el logotipo del Experience Manager para acceder a las herramientas administrativas desde la barra de herramientas situada en la parte superior, en Brand Portal.
-1. En el panel de herramientas administrativas, seleccione la **[!UICONTROL Vídeo]** mosaico.
+1. Seleccione el logotipo del Experience Manager para poder acceder a las herramientas administrativas desde la barra de herramientas de la parte superior de Brand Portal.
+1. En el panel de herramientas administrativas, seleccione **[!UICONTROL Vídeo]** mosaico.
 
    ![Configuración híbrida de Dynamic Media en Brand Portal](assets/DMHybrid-Video.png)
 
-   **[!UICONTROL Editar configuración de Dynamic Media]** se abre.
+   **[!UICONTROL Editar configuración de Dynamic Media]** se abre la página.
 
    ![Configuración híbrida de Dynamic Media en Brand Portal](assets/edit-dynamic-media-config.png)
 
-1. Especifique **[!UICONTROL ID de registro]** y **[!UICONTROL URL del servicio de vídeo]** (URL de puerta de enlace DM). Asegúrese de que estos detalles sean los mismos que esos detalles en **[!UICONTROL Herramientas > Cloud Services]** en la instancia de Autor del Experience Manager.
-1. Select **Guardar** para guardar la configuración.
+1. Especificar **[!UICONTROL ID de registro]** y **[!UICONTROL URL del servicio de vídeo]** (URL de puerta de enlace DM). Asegúrese de que estos detalles son los mismos que los de **[!UICONTROL Herramientas > Cloud Services]** en la instancia de autor de Experience Manager.
+1. Seleccionar **Guardar** para guardar la configuración.
 
-## Configuración de la configuración de Dynamic Media Scene7 {#configure-dm-scene7-settings}
+## Configuración de Dynamic Media Scene7 {#configure-dm-scene7-settings}
 
-Si la instancia de Experience Manager Author se está ejecutando en Dynamic Media- **[!UICONTROL Scene7]** y, a continuación, utilice **[!UICONTROL Configuración de Dynamic Media]** mosaico del panel de herramientas administrativas para configurar el **[!UICONTROL Scene7]** configuración del servidor.
+Si la instancia de autor de Experience Manager se ejecuta en Dynamic Media- **[!UICONTROL Scene7]** modo y, a continuación utilice **[!UICONTROL Configuración de Dynamic Media]** mosaico del panel herramientas administrativas para configurar el **[!UICONTROL Scene7]** configuración del servidor.
 
 Para configurar Dynamic Media **[!UICONTROL Scene7]** configuraciones en inquilinos de Brand Portal:
 
-1. Seleccione el logotipo del Experience Manager para acceder a las herramientas administrativas desde la barra de herramientas situada en la parte superior, en Brand Portal.
+1. Seleccione el logotipo del Experience Manager para poder acceder a las herramientas administrativas desde la barra de herramientas de la parte superior de Brand Portal.
 
-2. En el panel de herramientas administrativas, seleccione la **[!UICONTROL Configuración de Dynamic Media]** mosaico.
+2. En el panel de herramientas administrativas, seleccione **[!UICONTROL Configuración de Dynamic Media]** mosaico.
 
-   ![DM [!UICONTROL Escena 7] configuración en Brand Portal](assets/DMS7-Tile.png)
+   ![DM [!UICONTROL Scene7] Configuración de en Brand Portal](assets/DMS7-Tile.png)
 
-   **[!UICONTROL Editar configuración de Dynamic Media]** se abre.
+   **[!UICONTROL Editar configuración de Dynamic Media]** se abre la página.
 
    ![Configuración de Scene7 en Brand Portal](assets/S7Config.png)
 
-3. Proporcione:
+3. Proporcionar:
 
    * **[!UICONTROL Título]**
    * Credenciales (**[!UICONTROL ID de correo electrónico]** y **[!UICONTROL Contraseña]**) para acceder al servidor de Scene7
    * **[!UICONTROL Región]**
 
-   Asegúrese de que estos valores son los mismos que los que se encuentran en la instancia de autor de Experience Manager.
+   Asegúrese de que estos valores sean los mismos que los encontrados en la instancia de autor de Experience Manager.
 
-4. Select **[!UICONTROL Conectarse a Dynamic Media]**.
+4. Seleccionar **[!UICONTROL Conectar con Dynamic Media]**.
 
-5. Proporcione la variable **[!UICONTROL Nombre de la empresa]** y **[!UICONTROL Guardar]** la configuración.
+5. Proporcione el **[!UICONTROL Nombre de empresa]**, y **[!UICONTROL Guardar]** la configuración.

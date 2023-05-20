@@ -1,7 +1,7 @@
 ---
 title: Experiencia del primer inicio de sesión
 seo-title: First-time login experience
-description: La primera vez que se inicia sesión es la misma para todos los usuarios nuevos de Assets Brand Portal de Experience Manager, incluidos los administradores. Una vez que un administrador le agrega a la cuenta de Brand Portal de su organización, no necesita aceptar invitaciones y se le agrega automáticamente. Recibirá un correo electrónico de bienvenida que contiene un vínculo a la cuenta de Brand Portal de su organización.
+description: La experiencia de inicio de sesión por primera vez es la misma para todos los usuarios nuevos de la marca Experience Manager Assets portal, incluidos los administradores. Después de que un administrador le agregue al portal de marca de su organización cuenta, no es necesario que acepte las invitaciones, que se añade automáticamente. Recibe una correo electrónico de bienvenida que contiene una vincular al portal de marca de su organización cuenta.
 seo-description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
 uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
 content-type: reference
@@ -18,26 +18,26 @@ ht-degree: 2%
 
 # Experiencia del primer inicio de sesión {#first-time-login-experience}
 
-La primera vez que se inicia sesión es la misma para todos los usuarios nuevos de Assets Brand Portal de Experience Manager, incluidos los administradores. Una vez que un administrador le agrega a la cuenta de Brand Portal de su organización, no necesita aceptar invitaciones y se le agrega automáticamente. Recibirá un correo electrónico de bienvenida que contiene un vínculo a la cuenta de Brand Portal de su organización.
+La experiencia de inicio de sesión por primera vez es la misma para todos los usuarios nuevos de la marca Experience Manager Assets portal, incluidos los administradores. Después de que un administrador le agregue al portal de marca de su organización cuenta, no es necesario que acepte las invitaciones, que se añade automáticamente. Recibe una correo electrónico de bienvenida que contiene una vincular al portal de marca de su organización cuenta.
 
-A continuación se indican los pasos que se deben seguir para los usuarios que inician sesión en Brand Portal por primera vez:
+A continuación se indican los pasos que se deben realizar para los usuarios registro en Brand portal por primera vez:
 
-1. Abra el correo electrónico de bienvenida y haga clic en **[!UICONTROL Introducción]**.
+1. Abra la correo electrónico de bienvenida y haga clic en **[!UICONTROL Introducción]** .
 
-1. En la página de registro, especifique sus detalles (incluidos el nombre, apellidos, contraseña y país o región).
+1. En el Página de registro, especifique los detalles (incluido el nombre, los apellidos, el contraseña y el país o área geográfica).
    >[!NOTE]
    >
-   >Si ya es usuario de Adobe Marketing Cloud, se muestra una página de inicio de sesión en lugar de la página de inicio de sesión. Para iniciar sesión en Adobe Marketing Cloud, introduzca su Adobe ID y contraseña.
-
-   >[!NOTE]
-   >
-   >Si su organización utiliza Enterprise ID, en lugar de ver esta página de registro, se le redirigirá a la página de inicio de sesión de Enterprise. Para obtener más información, consulte [Enterprise ID, inicio de sesión y ayuda de la cuenta](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
-
-1. Haga clic en **[!UICONTROL Continuar]** para continuar con la página de Brand Portal de su organización.
-1. En la página de inicio de sesión de Brand Portal, haga clic en **[!UICONTROL Iniciar sesión]** para iniciar sesión en Brand Portal.
-
-   ![Página de inicio de sesión de Brand Portal](assets/signin-onboarding.png)
+   >Si es un usuario de Adobe Marketing Cloud existente, se muestra una Página de inicio de sesión en lugar de la Página de registro. Para iniciar sesión en Adobe Marketing Cloud, introduzca su Adobe ID y contraseña.
 
    >[!NOTE]
    >
-   >Para poder iniciar sesión en Brand Portal, debe tener derecho a al menos un perfil de producto de Recursos de Experience Manager.
+   >Si su organización utiliza Enterprise ID, en lugar de ver este Página de registro, se le redirige al Página de inicio de sesión de la empresa. Para obtener más información, consulte [ Enterprise ID, iniciar sesión y cuenta ayuda ](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html) .
+
+1. Haga clic en **[!UICONTROL continuar]** para continuar con el portal de marca de su organización página.
+1. En el Página de inicio de sesión de Brand portal, haga clic **[!UICONTROL en iniciar sesión]** para iniciar sesión en Brand portal.
+
+   ![Iniciar sesión de Brand portal Página](assets/signin-onboarding.png)
+
+   >[!NOTE]
+   >
+   >Para poder iniciar sesión en Brand portal, debe tener derecho al menos a una Experience Manager Assets perfil del producto.

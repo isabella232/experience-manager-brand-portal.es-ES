@@ -1,7 +1,7 @@
 ---
 title: Administrar el acceso de los usuarios en el Brand Portal
 seo-title: Administer user access on Brand Portal
-description: Configure el acceso de los invitados y el acceso de los nuevos usuarios en brand portal.
+description: Configure el acceso de invitados y los nuevos usuarios en marca portal.
 seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
@@ -20,35 +20,35 @@ ht-degree: 9%
 
 # Administrar el acceso de los usuarios en el Brand Portal {#administer-user-access-on-brand-portal}
 
-A partir de Adobe Experience Manager Assets Brand Portal 6.4.2, autoriza a los administradores a configurar el acceso de los invitados y a permitir que los usuarios soliciten acceso a Brand Portal de su organización. Estas configuraciones se han proporcionado como configuraciones de **[!UICONTROL Access Settings]** en el panel administrativo. Ambas configuraciones están deshabilitadas de forma predeterminada.
+Adobe Experience Manager Assets el portal de marca 6.4.2 autoriza a los administradores a configurar el acceso de invitados y permitir a los usuarios solicitud el acceso al portal de marca de su organización. Estas configuraciones se han proporcionado como **[!UICONTROL configuración]** de acceso a las configuraciones en el panel de administración. La configuración está desactivada de forma predeterminada.
 
 ![](assets/access-configs.png)
 
-****   ¿Configuración para permitir el acceso de los invitados a Brand Portal mediante  **[!UICONTROL Acceso de invitado?]** en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está desactivado)
+**Una**   configuración para permitir el acceso de invitados en Brand portal mediante **[!UICONTROL el acceso de invitados?]** vincular en la pantalla de bienvenida del portal de marca. (El valor predeterminado es deshabilitado)
 
-****   Configuración BC para permitir a los usuarios solicitar acceso a Brand Portal mediante  **[!UICONTROL ¿Necesita acceso?]** en la pantalla de bienvenida de Brand Portal. (El valor predeterminado está desactivado)
+**B**   configuración para permitir a los usuarios solicitud el acceso a Brand portal mediante **[!UICONTROL el acceso necesario?]** vincular en la pantalla de bienvenida del portal de marca. (El valor predeterminado es deshabilitado)
 
 ## Permitir el acceso de invitados {#allow-guest-access}
 
-Al permitir el acceso de los invitados, los usuarios pueden acceder a los recursos públicos sin tener que iniciar sesión en Brand Portal.
-Para permitir el acceso de los invitados, el administrador debe realizar los siguientes pasos:
+Al permitir el acceso de invitados, los usuarios pueden acceder a la activos pública sin tener que inicio de sesión en Brand portal.
+Para permitir el acceso de invitados, el administrador debe realizar los siguientes pasos:
 
-1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
-1. En el panel de herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página **[!UICONTROL Configuración de acceso]**.
-1. Habilite la configuración **[!UICONTROL Permitir acceso de invitado]**.
+1. Seleccione el logotipo AEM para acceder a las herramientas administrativas en la barra de herramientas de la parte superior.
+1. En el panel Herramientas administrativas, seleccione **[!UICONTROL Access]** para abrir **[!UICONTROL Access configuración]** página.
+1. Habilite la configuración permitir el acceso ]**de**[!UICONTROL  invitados.
 1. **[!UICONTROL Guarde los cambios.]**
-1. Cierre la sesión para que los cambios surtan efecto.
+1. Cierre de sesión para que los cambios surtan efecto.
 
 ![](assets/bp-welcome-screen.png)
 
 ## Permitir a los usuarios que soliciten acceso {#allow-users-to-request-access}
 
-Los administradores pueden permitir que los usuarios de la organización soliciten acceso a Brand Portal desde la pantalla de bienvenida. Sin embargo, los administradores deben habilitar la configuración **[!UICONTROL Permitir que los usuarios soliciten acceso]** para que el vínculo de acceso de solicitud aparezca en la pantalla de bienvenida.
+Los administradores pueden permitir a los usuarios de la organización solicitud el acceso a Brand portal desde la pantalla de bienvenida. Sin embargo, los administradores deben habilitar la configuración de la **[!UICONTROL solicitud de acceso]** a los usuarios para que solicitud acceso vincular aparezca en la pantalla de bienvenida.
 
-Para permitir que los usuarios de la organización soliciten acceso a Brand Portal, los administradores deben:
+Para permitir que los usuarios de la organización solicitud acceso a Brand portal, los administradores deben:
 
-1. Seleccione el logotipo de AEM para acceder a las herramientas administrativas, en la barra de herramientas de la parte superior.
-1. En el panel de herramientas administrativas, seleccione **[!UICONTROL Acceso]** para abrir la página **[!UICONTROL Configuración de acceso]**.
-1. Active la configuración **[!UICONTROL Permitir que los usuarios soliciten acceso]**.
+1. Seleccione el logotipo AEM para acceder a las herramientas administrativas en la barra de herramientas de la parte superior.
+1. En el panel Herramientas administrativas, seleccione **[!UICONTROL Access]** para abrir **[!UICONTROL Access configuración]** página.
+1. Active la configuración de **[!UICONTROL permitir que los usuarios soliciten acceso]** .
 1. **[!UICONTROL Guarde los cambios.]**
-1. Cierre la sesión para que los cambios surtan efecto.
+1. Cierre de sesión para que los cambios surtan efecto.

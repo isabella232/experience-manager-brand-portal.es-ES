@@ -1,7 +1,7 @@
 ---
 title: Compartir recursos como un vínculo
 seo-title: Share assets as a link
-description: Los administradores de Adobe Experience Manager Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos que se han compartido con ellos.
+description: Adobe Experience Manager Assets los administradores de Brand portal pueden compartir vínculos de varios activos con usuarios internos y entidades externas autorizados, incluidos socios y proveedores. Los editores pueden vista y compartir solo los activos compartidos con ellos.
 seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
@@ -19,91 +19,91 @@ ht-degree: 5%
 
 # Compartir recursos como un vínculo {#share-assets-as-a-link}
 
-Los administradores de Adobe Experience Manager Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos que se han compartido con ellos.
+Adobe Experience Manager Assets los administradores de Brand portal pueden compartir vínculos de varios activos con usuarios internos y entidades externas autorizados, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos que han compartido con ellos.
 
-Compartir recursos a través de un vínculo es una forma cómoda de ponerlos a disposición de terceros externos, ya que los receptores no tienen que iniciar sesión en Brand Portal para acceder a los recursos.
+El uso compartido de activos a través de un vincular es una forma cómoda de hacer que estén disponibles para terceros externos, ya que los receptores no tienen que iniciar sesión en Brand portal para acceder a la activos.
 
 <!-- Link sharing access is restricted to editors and administrators. 
 -->
 
-Para obtener más información, consulte [Administración de usuarios, grupos y funciones de usuario](../using/brand-portal-adding-users.md#manage-user-roles).
+Para obtener más información, consulte [ Administración de usuarios, grupos y funciones ](../using/brand-portal-adding-users.md#manage-user-roles) de usuario.
 
 
-A continuación se indican los pasos para compartir recursos como vínculo:
+A continuación se detallan los pasos para compartir activos como vincular:
 
-1. Inicie sesión en su inquilino de Brand Portal. De forma predeterminada, la variable **[!UICONTROL Archivos]** ver las aperturas que contienen todos los recursos y carpetas publicados.
+1. Inicie sesión en su inquilino de Brand portal. De forma predeterminada, se abre la **[!UICONTROL Archivos]** vista que contiene todos los activos y carpetas publicados.
 
-1. Seleccione los recursos o carpetas que desee compartir o navegue hasta el **[!UICONTROL Colecciones]** para compartir las colecciones que ha creado.
+1. Seleccione las activos o carpetas que desee compartir, o vaya a la **[!UICONTROL vista colecciones]** para compartir las recopilaciones que ha creado.
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
-1. En la barra de herramientas de la parte superior, haga clic en el **[!UICONTROL Compartir vínculo]** icono.
+1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Compartir vínculo]** icono.
 
-   La variable **[!UICONTROL Uso compartido de vínculos]** aparece en el cuadro de diálogo.
+   El **[!UICONTROL Vínculos compartidos]** aparece el cuadro de diálogo.
 
    ![](assets/link-sharing.png)
 
-   * En el cuadro de dirección de correo electrónico, escriba el ID de correo electrónico del usuario con el que desea compartir el vínculo. Puede compartir el vínculo con varios usuarios. Si el usuario es miembro de su organización, seleccione su ID de correo electrónico en las sugerencias que aparecen en la lista desplegable. Si el usuario es externo, escriba el ID de correo electrónico completo y pulse **[!UICONTROL Entrar]**; el ID de correo electrónico se agrega a la lista de usuarios.
+   * En el cuadro Dirección de correo electrónico, escriba el ID de correo electrónico del usuario con el que desea compartir el vínculo. Puede compartir el vínculo con varios usuarios. Si el usuario es miembro de su organización, seleccione su ID de correo electrónico de entre las sugerencias que aparecen en la lista desplegable. Si el usuario es externo, escriba el ID de correo electrónico completo y pulse **[!UICONTROL Entrar]**; el ID de correo electrónico se añade a la lista de usuarios.
 
       ![](assets/link-sharing-text.png)
 
    * En el **[!UICONTROL Asunto]** , escriba un asunto para el recurso que desea compartir.
    * En el **[!UICONTROL Mensaje]** , escriba un mensaje si es necesario.
-   * En el **[!UICONTROL Caducidad]** , utilice el selector de fechas para especificar una fecha y hora de caducidad para el vínculo. De forma predeterminada, la fecha de caducidad se establece en 7 días a partir de la fecha en que se comparte el vínculo.
-   * Active la variable **[!UICONTROL Permitir descarga del archivo original]** para permitir que los destinatarios descarguen la representación original.
+   * En el **[!UICONTROL Caducidad]** , utilice el selector de fechas para especificar una fecha y hora de caducidad para el vínculo. De forma predeterminada, la fecha de caducidad se establece en 7 días a partir de la fecha en que comparta el vínculo.
+   * Habilite la **[!UICONTROL Permitir la descarga del archivo original]** casilla de verificación para permitir que los destinatarios descarguen la representación original.
 
-   Los recursos compartidos mediante el vínculo caducan después de superar la fecha y la hora especificadas en la variable **[!UICONTROL Caducidad]** campo . Para obtener información sobre el comportamiento de los recursos caducados y los cambios en las actividades permisibles basados en las funciones de usuario en Brand Portal, consulte [Administrar derechos digitales de recursos](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Los activos compartidos a través del vínculo caducan después de cruzar la fecha y la hora especificadas en la **[!UICONTROL Caducidad]** field. Para obtener información sobre el comportamiento de los recursos caducados y los cambios en las actividades permitidas en función de las funciones de usuario en Brand Portal, consulte [Administración de los derechos digitales de recursos](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
-   >El tiempo de caducidad predeterminado para el vínculo es de 7 días. El vínculo debe enviarse por correo electrónico a los usuarios que utilicen la variable **[!UICONTROL Uso compartido de vínculos]** , no copie ni comparta el vínculo por separado.
+   >El tiempo de caducidad predeterminado para el vínculo es de 7 días. El vínculo debe enviarse por correo electrónico a los usuarios que utilizan la variable **[!UICONTROL Vínculos compartidos]** , no copie y comparta el vínculo por separado.
 
-1. Haga clic en **[!UICONTROL Compartir]**. Un mensaje confirma que el vínculo se comparte con los usuarios. Los usuarios reciben un correo electrónico que contiene el vínculo compartido.
+1. Clic **[!UICONTROL Compartir]**. Un mensaje confirma que la vincular se comparte con los usuarios. Los usuarios reciben un correo electrónico que contiene los vincular compartidos.
 
    ![](assets/link-share-email.png)
 
    >[!NOTE]
    >
-   >Los administradores pueden personalizar los mensajes de correo electrónico, lo que incluye personalizar el logotipo, la descripción y el pie de página con [Marcas](../using/brand-portal-branding.md) función.
+   >Los administradores pueden personalizar el correo electrónico mensajería, lo que incluye personalizar el logotipo, la descripción y el pie de página con la función de personalización de [ marca ](../using/brand-portal-branding.md) .
 
-## Descargar recursos de vínculos compartidos {#download-assets-from-shared-links}
+## Descarga de recursos desde vínculos compartidos {#download-assets-from-shared-links}
 
-Haga clic en el vínculo del correo electrónico para acceder al recurso compartido. Se abre la página Compartir vínculos de AEM.
+Haga clic en el vínculo del correo electrónico para acceder al recurso compartido. AEM Se abre la página Uso compartido de vínculos.
 
 Para descargar los recursos compartidos:
 
-1. Haga clic en los recursos o carpetas y, a continuación, haga clic en el **[!UICONTROL Descargar]** de la barra de herramientas.
+1. Haga clic en los recursos o carpetas y, a continuación, haga clic en **[!UICONTROL Descargar]** de la barra de herramientas.
 
    ![](assets/download-share-link.png)
 
    >[!NOTE]
    >
-   >Actualmente, puede generar una vista previa y una miniatura solo para determinados recursos, según el formato de archivo. Para obtener más información sobre los formatos de archivo admitidos, consulte [Compatibilidad con vista previa y miniaturas para formatos de recursos](#preview-thumbnail-support).
+   >Actualmente, solo se puede generar una vista previa y una miniatura para determinados recursos, según el formato de archivo. Para obtener más información sobre los formatos de archivo compatibles, consulte [Compatibilidad con vista previa y miniaturas para formatos de recursos](#preview-thumbnail-support).
 
-1. La variable **[!UICONTROL Descargar]** aparece en el cuadro de diálogo.
+1. Se abre el cuadro de **[!UICONTROL diálogo descargar]** .
 
-   ![download-dialog](assets/download-dialog-box-new.png)
+   ![cuadro de diálogo de descargar](assets/download-dialog-box-new.png)
 
-1. De forma predeterminada, la variable **[!UICONTROL Descarga rápida]** está habilitado en la variable **[!UICONTROL Descargar configuración]**. Por lo tanto, aparece un cuadro de confirmación para seguir descargando con IBM Aspera Connect.
+1. De forma predeterminada, la **[!UICONTROL configuración de descarga]** rápida está habilitada en la **[!UICONTROL configuración]** de descarga. Por lo tanto, aparece un cuadro de confirmación para continuar la descarga con IBM aspera Connect.
 
-   Para seguir usando **[!UICONTROL Descarga rápida]**, haga clic en **[!UICONTROL Permitir]**.
+   Para continuar con **[!UICONTROL la descarga]** rápida, haga clic en **[!UICONTROL permitir]** .
 
-   Todas las representaciones seleccionadas se descargan en una carpeta zip que contiene una carpeta independiente para cada recurso.
-
-   >[!NOTE]
-   >
-   >Se crea una carpeta independiente para cada recurso al descargar los recursos de un vínculo compartido.
-   >
-   >Si se selecciona una carpeta, una colección o más de 20 recursos para su descarga, la variable **[!UICONTROL Descargar]** se omite y todas las representaciones de recursos accesibles para el usuario, excluidas las representaciones dinámicas, se descargan en una carpeta zip que contiene una carpeta independiente para cada recurso.
+   Todas las representaciones seleccionadas se descargan en una carpeta ZIP que contiene una carpeta independiente para cada recurso.
 
    >[!NOTE]
    >
-   >Las representaciones originales no se descargan mediante el vínculo compartido si el usuario que compartió los recursos como vínculo no lo hace [autorizado por el administrador para tener acceso a las representaciones originales](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Se crea una carpeta independiente para cada recurso al descargar la activos desde una vincular compartida.
+   >
+   >Si se selecciona una carpeta, colección o más de 20 activos para descargar, el **[!UICONTROL cuadro de diálogo de descarga]** se omite y todas las representaciones de recurso accesibles para el usuario de exclusión de las representaciones dinámicas se descargan en una carpeta ZIP que contiene una carpeta independiente para cada recurso.
+
+   >[!NOTE]
+   >
+   >Las representaciones originales no se descargan mediante el vincular compartido si la usuario que compartía la activos como vincular no [ está autorizada por el administrador para acceder a las representaciones ](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges) originales.
 
 
 >[!NOTE]
 >
->Brand Portal restringe la descarga de carpetas o recursos, cuyo tamaño es superior a 5 GB, mediante el uso compartido de vínculos.
+>Brand portal restringe descargar de carpetas o activos, cuyo tamaño es superior a 5 GB, utilizando vincular compartir.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -126,11 +126,11 @@ Para descargar los recursos compartidos:
 
 -->
 
-## Compatibilidad con vista previa y miniaturas para formatos de recursos {#preview-thumbnail-support}
+## Compatibilidad con Vista previa y vistas en miniatura para formatos recurso {#preview-thumbnail-support}
 
-La siguiente matriz enumera los formatos de recurso para los que Brand Portal admite miniaturas y previsualización:
+La siguiente matriz enumera los formatos de recurso para los que Brand portal admite miniaturas y previsualización:
 
-| Formato del recurso | Compatibilidad con miniaturas | Compatibilidad de vista previa |
+| formato de recursos | Compatibilidad con miniaturas | Compatibilidad con Vista previa |
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
@@ -147,7 +147,7 @@ La siguiente matriz enumera los formatos de recurso para los que Brand Portal ad
 | PICT | ✓ | ✕ |
 | PSB* | ✓ | ✕ |
 | JPG | ✓ | ✓ |
-| AI | ✓ | ✕ |
+| IA | ✓ | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
@@ -164,7 +164,7 @@ La siguiente matriz enumera los formatos de recurso para los que Brand Portal ad
 | INDD | ✓ | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| ePub | ✓ | ✕ |
+| EPUB | ✓ | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -184,36 +184,36 @@ La siguiente matriz enumera los formatos de recurso para los que Brand Portal ad
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | ND | ✕ |
-| JAR | ✓ | ✕ |
+| TARRO | ✓ | ✕ |
 | RAR | ND | ✕ |
 | TAR | ND | ✕ |
 | ZIP | ✓ | ✕ |
 
-La leyenda siguiente explica los símbolos utilizados en la matriz:
+La siguiente leyenda explica los símbolos utilizados en la matriz:
 
 | Símbolo | Significado |
 |---|---|
 | ✓ | Este formato de archivo admite esta función |
-| ✕ | Este formato de archivo no admite esta función |
-| ND | Esta función no es aplicable a este formato de archivo |
-| &#42; | Esta función requiere compatibilidad con complementos para este formato de archivo en AEM instancia de autor, pero no en Brand Portal después de publicar los recursos en Brand Portal |
+| ✕ | El formato de archivo no admite esta función |
+| ND | Esta característica no es aplicable a este archivo formato |
+| &#42; | Esta función requiere compatibilidad con complementos para este archivo formato en AEM autor instancia pero no en Brand portal después de que activos se publique en Brand portal |
 
 ## Dejar de compartir recursos compartidos como vínculo {#unshare-assets-shared-as-a-link}
 
-Para dejar de compartir recursos compartidos previamente como vínculo, haga lo siguiente:
+Para dejar de compartir recursos compartidos anteriormente como vínculo, haga lo siguiente:
 
-1. Al iniciar sesión en Brand Portal, la variable **[!UICONTROL Archivo]** vista se abre de forma predeterminada. Para ver los recursos que ha compartido como vínculos, vaya a la **[!UICONTROL Vínculos compartidos]** vista.
+1. Cuando inicia sesión en Brand Portal, la variable **[!UICONTROL Archivo]** La vista se abre de forma predeterminada. Para ver los recursos que ha compartido como vínculos, vaya a **[!UICONTROL Vínculos compartidos]** vista.
 
 1. Revise los vínculos que ha compartido desde la lista mostrada.
 
    ![](assets/shared-links.png)
 
-1. Para dejar de compartir un vínculo de la lista, selecciónelo y haga clic en el botón **[!UICONTROL Dejar de compartir]** de la barra de herramientas de la parte superior.
+1. Para dejar de compartir un vínculo de la lista, selecciónelo y haga clic en **[!UICONTROL Dejar de compartir]** en la barra de herramientas de la parte superior.
 
    ![](assets/unshare-asset.png)
 
    >[!NOTE]
    >
-   >La visualización de vínculos compartidos es específica del usuario. Esta función no muestra todos los vínculos compartidos por todos los usuarios de un inquilino.
+   >La visualización de vínculos compartidos es específica de usuario. Esta característica no muestra todos los vínculos compartidos por todos los usuarios de un inquilino.
 
-1. En el cuadro de mensaje de advertencia, haga clic en **[!UICONTROL Continuar]** para confirmar que deja de compartir. La entrada del vínculo se elimina de la lista de vínculos compartidos.
+1. En el cuadro mensaje de advertencia, haga clic en **[!UICONTROL continuar]** para confirmar anular uso compartido. La entrada del vincular se elimina del lista de los vínculos compartidos.

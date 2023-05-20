@@ -37,8 +37,8 @@ ht-degree: 75%
    + [Publicar etiquetas en Brand Portal](using/brand-portal-publish-tags.md)
    + [Publicar ajustes preestablecidos, esquemas y facetas en Brand Portal](using/publish-schema-search-facets-presets.md)
 + Abastecimiento de recursos en Brand Portal {#asset-sourcing-in-brand-portal}
-   + [Información general de Asset Sourcing](using/brand-portal-asset-sourcing.md)
-   + [Configurar la carpeta de contribución en Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Resumen de obtención de recursos](using/brand-portal-asset-sourcing.md)
+   + [Configuración de la carpeta Contribution en Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [Publicar carpeta de contribución en Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartir los recursos con los usuarios {#share}
    + [Compartir una colección](using/brand-portal-share-collection.md)
