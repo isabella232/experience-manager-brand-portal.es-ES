@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1312'
 ht-degree: 10%
 
 ---
@@ -68,7 +68,7 @@ Para agregar un predicado de búsqueda a **[!UICONTROL Filtros]** panel:
    >
    >Al seleccionar **[!UICONTROL Búsqueda parcial]** casilla, **[!UICONTROL Ignorar mayúsculas y minúsculas]** está seleccionado de forma predeterminada.
 
-1. En el **[!UICONTROL Nombre de propiedad]** , abra el selector de propiedades y seleccione la propiedad en función de la cual se realiza la búsqueda. También puede introducir un nombre para la propiedad. Por ejemplo, escriba `  jcr :content/metadata/dc:title` o `./jcr:content/metadata/dc:title`.
+1. En el **[!UICONTROL Nombre de propiedad]** , abra el selector de propiedades y seleccione la propiedad en función de la cual se realiza la búsqueda. También puede introducir un nombre para la propiedad. Por ejemplo, escriba `jcr :content/metadata/dc:title` o `./jcr:content/metadata/dc:title`.
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Similar a la forma de agregar un **[!UICONTROL Propiedad]** predicado, puede agr
 
 >[!NOTE]
 >
->No use **[!UICONTROL Predicado de opciones]**, **[!UICONTROL Predicado de estado de publicación]**, y **[!UICONTROL Predicado de clasificación]** ya que estos predicados no funcionan en Brand Portal.
+>* No use **[!UICONTROL Predicado de opciones]**, **[!UICONTROL Predicado de estado de publicación]**, y **[!UICONTROL Predicado de clasificación]** ya que estos predicados no funcionan en Brand Portal.
+>* Predicado de tipo de carpeta `(nt:folder type)` no es compatible con Brand Portal y puede causar problemas de rendimiento. Si está presente en el formulario de búsqueda personalizado publicado, se puede eliminar editando el formulario de búsqueda.
 
 ## Eliminar un predicado de búsqueda {#delete-a-search-predicate}
 
