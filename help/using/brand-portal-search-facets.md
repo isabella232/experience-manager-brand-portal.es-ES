@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 10%
 
 ---
@@ -72,13 +72,13 @@ Para agregar un predicado de búsqueda a **[!UICONTROL Filtros]** panel:
 
    >[!NOTE]
    >
-   >En Brand Portal, todas las propiedades (excepto las que comienzan por ) `xmp`) en `jcrcontent/metadata` de `dam:asset` están indexados de forma predeterminada.
+   >En Brand Portal, todas las propiedades de cadena (excepto las que comienzan por ) `xmp`) en `jcrcontent/metadata` de `dam:asset` están indexados de forma predeterminada.
    >
    >Cualquier propiedad que esté indexada puede utilizarse al crear un predicado de propiedad. Si se configura cualquier propiedad no indizada, es posible que la consulta de búsqueda de una propiedad no indizada no proporcione ningún resultado de búsqueda.
 
    ![](assets/title-prop.png)
 
-1. Clic **[!UICONTROL Listo]** para guardar la configuración.
+1. Haga clic en **[!UICONTROL Listo]** para guardar los cambios.
 1. Desde el [!UICONTROL Assets] , haga clic en el icono de superposición y seleccione **[!UICONTROL Filtrar]** para ir al **[!UICONTROL Filtros]** panel. El **[!UICONTROL Propiedad]** el predicado se agrega al panel.
 
    ![](assets/property-filter-panel.png)
@@ -91,16 +91,16 @@ Similar a la forma de agregar un **[!UICONTROL Propiedad]** predicado, puede agr
 
 | **Nombre de predicado** | **Descripción** | **Propiedades** |
 |-------|-------|----------|
-| **[!UICONTROL Navegador de rutas]** | Predicado de búsqueda para buscar recursos en una ubicación concreta. **Nota:** *Para un usuario que ha iniciado sesión, el explorador de rutas del filtro muestra únicamente la estructura de contenido de las carpetas (y sus antecesores) compartidas con el usuario.* <br> Los usuarios administradores pueden buscar recursos en cualquier carpeta navegando a ella mediante el Explorador de rutas. <br> Por su parte, los usuarios no administradores pueden buscar recursos en una carpeta (a la que pueden acceder) navegando a esa carpeta en el Explorador de rutas. | <ul><li>Etiqueta de campo</li><li>Ruta </li><li>Descripción</li></ul> |
+| **[!UICONTROL Navegador de rutas]** | Predicado de búsqueda para buscar recursos en una ubicación concreta. **Nota:** *Para un usuario que ha iniciado sesión, el explorador de rutas del filtro muestra únicamente la estructura de contenido de las carpetas (y sus antecesores) compartidas con el usuario.* <br> Los usuarios administradores pueden buscar recursos en cualquier carpeta navegando a ella mediante el Explorador de rutas. <br> Por su parte, los usuarios no administradores pueden buscar recursos en una carpeta (a la que pueden acceder) navegando a esa carpeta en el Explorador de rutas. | <ul><li>Etiqueta de campo</li><li>Ruta</li><li>Descripción</li></ul> |
 | **[!UICONTROL Propiedad]** | Busque recursos en función de una propiedad de metadatos determinada. **Nota:** *Al seleccionar Búsqueda parcial, la opción Ignorar mayúsculas y minúsculas está seleccionada de forma predeterminada*. | <ul><li>Etiqueta de campo</li><li>Marcador de posición</li><li>Nombre de la propiedad</li><li>Búsqueda parcial</li><li>Ignorar mayúsculas y minúsculas</li><li> Descripción</li></ul> |
 | **[!UICONTROL Propiedad de varios valores]** | Es similar al predicado de propiedades, pero permite varios valores de entrada, separados por un delimitador (el valor predeterminado es COMA[,]) los recursos que coincidan con cualquiera de los valores de entrada se devolverán en los resultados. | <ul><li>Etiqueta de campo</li><li>Marcador de posición</li><li>Nombre de la propiedad</li><li>Compatibilidad con el delimitador</li><li>Ignorar mayúsculas y minúsculas</li><li>Descripción</li></ul> |
-| **[!UICONTROL Etiquetas]** | Predicado de búsqueda para buscar recursos en función de etiquetas. Puede configurar la propiedad Ruta para rellenar varias etiquetas en la lista Etiquetas. *Nota: Es posible que los administradores tengan que cambiar el valor de la ruta, por ejemplo, [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]AEM , si publican el formulario de búsqueda desde el sitio web, donde la ruta no incluye información sobre el inquilino, por ejemplo, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Ruta </li><li>Descripción</li></ul> |
-| **[!UICONTROL Ruta]** | Predicado de búsqueda para buscar recursos en una ubicación concreta. | <ul><li>Etiqueta de campo</li><li>Ruta </li><li>Descripción</li></ul> |  |
+| **[!UICONTROL Etiquetas]** | Predicado de búsqueda para buscar recursos en función de etiquetas. Puede configurar la propiedad Ruta para rellenar varias etiquetas en la lista Etiquetas. *Nota: Es posible que los administradores tengan que cambiar el valor de la ruta, por ejemplo, [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]AEM , si publican el formulario de búsqueda desde el sitio web, donde la ruta no incluye información sobre el inquilino, por ejemplo, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Ruta</li><li>Descripción</li></ul> |
+| **[!UICONTROL Ruta]** | Predicado de búsqueda para buscar recursos en una ubicación concreta. | <ul><li>Etiqueta de campo</li><li>Ruta</li><li>Descripción</li></ul> |                                                     |
 | **[!UICONTROL Fecha relativa]** | Predicado de búsqueda para buscar recursos en función de la fecha relativa de su creación. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Fecha relativa</li></ul> |
 | **[!UICONTROL Intervalo]** | Predicado de búsqueda para buscar recursos que se encuentren dentro de un rango especificado de valores de propiedad. En el panel Filtros, puede especificar los valores de propiedad mínimos y máximos del rango. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Descripción</li></ul> |
 | **[!UICONTROL Intervalo de fechas]** | Predicado de búsqueda para buscar recursos creados dentro de un intervalo especificado para una propiedad de fecha. En el panel Filtros, puede especificar las fechas de inicio y finalización. | <ul><li>Etiqueta de campo</li><li>Marcador de posición</li><li>Nombre de la propiedad</li><li>Texto de intervalo (desde)</li><li>Texto de intervalo (hasta)</li><li>Descripción</li></ul> |
 | **[!UICONTROL Fecha]** | Predicado de búsqueda para una búsqueda de recursos basada en un control deslizante y basada en una propiedad de fecha. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Descripción</li></ul> |
-| **[!UICONTROL Tamaño del archivo]** | Predicado de búsqueda para buscar recursos en función de su tamaño. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Ruta </li><li>Descripción</li></ul> |
+| **[!UICONTROL Tamaño del archivo]** | Predicado de búsqueda para buscar recursos en función de su tamaño. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Ruta</li><li>Descripción</li></ul> |
 | **[!UICONTROL Última modificación del recurso]** | Predicado de búsqueda para buscar recursos en función de la última fecha de modificación. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Descripción</li></ul> |
 | **[!UICONTROL Estado de aprobación]** | Predicado de búsqueda para buscar recursos en función de la propiedad de metadatos de aprobación. El nombre de propiedad predeterminado es **dam:status**. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Descripción</li></ul> |
 | **[!UICONTROL Estado de extracción]** | Predicado de búsqueda para buscar recursos en función del estado de cierre de compra de un recurso cuando se publicó desde AEM Assets. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Descripción</li></ul> |
