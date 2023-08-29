@@ -1,7 +1,7 @@
 ---
 title: Acceso de invitado a Brand Portal
 seo-title: Guest Access to Brand Portal
-description: Permitir el acceso de invitados y ahorrar el esfuerzo para incorporar varios usuarios sin autenticación.
+description: Permita el acceso de invitados y ahorre el esfuerzo de incorporar numerosos usuarios sin autenticación.
 seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
 uuid: edb4378d-1710-44a2-97a6-594d99f62fff
 contentOwner: VG
@@ -10,19 +10,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
+source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
 
 # Acceso de invitado a Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand portal permite el acceso de invitados al portal. Una usuario de invitado no necesita credenciales para entrar al portal y tiene acceso a los activos públicos (y colecciones) del portal. Los usuarios en la sesión de invitado pueden añadir recursos a lightbox (colección privada) y descargar lo mismo hasta que dure su sesión, que es de 2 horas desde el principio de la sesión a menos que el usuario invitado elija [[!UICONTROL Finalizar sesión]](#exit-guest-session).
+Experience Manager Assets Brand Portal permite el acceso de invitados al portal. Un usuario invitado no necesita credenciales para entrar al portal y tiene acceso a los activos públicos (y colecciones) del portal. Los usuarios en la sesión de invitado pueden añadir recursos a lightbox (colección privada) y descargarlos hasta que la sesión dure o a menos que el usuario invitado elija [[!UICONTROL Finalizar sesión]](#exit-guest-session). Una sesión de usuario invitado permanece activa durante 15 minutos, mientras que el tiempo de espera real del usuario invitado es de 2 horas.
 
-El acceso de invitados funcionalidad permite a las organizaciones [ compartir rápidamente activos ](../using/brand-portal-sharing-folders.md#how-to-share-folders) aprobados con la audiencia prevista a escala, sin necesidad de incorporarlos. Brand portal 6.4.2 está preparado para servir a varios usuarios invitados simultáneos, que es el 10% del total de usuario cuota por organización. Permitir el acceso de invitados ahorra tiempo a administrar y a las puntuaciones de los usuarios tablero con funcionalidades limitadas en Brand portal.\
-Las organizaciones pueden habilitar (o deshabilitar) el acceso de invitados en Brand portal cuenta de la organización mediante **[!UICONTROL la opción Permitir acceso]** de invitado de **[!UICONTROL configuración de acceso]** en el panel Herramientas administrativas.
+La funcionalidad de acceso de invitado permite a las organizaciones [compartir rápidamente los recursos aprobados](../using/brand-portal-sharing-folders.md#how-to-share-folders) con la audiencia a escala sin tener que incorporarla. Brand Portal 6.4.2 y versiones posteriores están equipadas para atender a varios usuarios invitados simultáneos, lo que representa el 10 % de la cuota total de usuarios por organización. Al permitir el acceso de invitados, se ahorra tiempo para administrar e incorporar puntuaciones de usuarios con funcionalidades limitadas en Brand Portal.\
+Las organizaciones pueden habilitar (o deshabilitar) el acceso de invitados en la cuenta de Brand Portal de la organización mediante **[!UICONTROL Permitir el acceso de invitados]** opción de **[!UICONTROL Acceso]** configuración en el panel herramientas administrativas.
 
 <!--
 Comment Type: annotation
@@ -33,14 +33,13 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/enable-guest-access.png)
 
-## Iniciar sesión de invitado {#begin-guest-session}
+## Comenzar sesión de invitado {#begin-guest-session}
 
-Para especificar el portal de marca de forma anónima, seleccione **[!UICONTROL haga clic aquí]** correspondiente al acceso de **[!UICONTROL invitado?]** pantalla de bienvenida del portal de marca. Introduzca la comprobación de seguridad captcha para conceder acceso y utilizar Brand Portal.
+Para introducir Brand Portal de forma anónima, seleccione **[!UICONTROL Haga clic aquí]** correspondiente a **[!UICONTROL ¿Acceso de invitado?]** en la pantalla de bienvenida de Brand Portal. Introduzca la comprobación de seguridad captcha para conceder acceso y utilizar Brand Portal.
 
 ![](assets/bp-login-screen.png)
 
 ## Duración de sesión de invitado {#guest-session-duration}
-
 
 Una sesión de usuario invitado permanece activa durante 15 minutos.
 Esto significa que el estado del **[!UICONTROL Lightbox]** se conserva durante 15 minutos a partir de la hora de inicio de la sesión y, después, la sesión de invitado actual se reinicia para que se pierda el estado de Lightbox.
@@ -57,17 +56,17 @@ El número de sesiones de invitado simultáneas está limitado al 10 % de la cuo
 
 ## Interacción del usuario invitado con Brand Portal {#guest-user-interaction-with-brand-portal}
 
-### Navegación IU de invitados
+### Navegación de IU de invitado
 
-Al introducir el portal de marca como invitado, los usuarios pueden ver todos los [ activos y carpetas compartidos ](../using/brand-portal-sharing-folders.md#sharefolders) públicamente o con usuarios invitados exclusivamente. Esta vista es la contenido solo vista, que muestra activos en cualquiera de las distribuciones de tarjeta, lista o columna.
+Al entrar en Brand Portal como invitado, los usuarios pueden ver todas las [recursos y carpetas compartidos](../using/brand-portal-sharing-folders.md#sharefolders) de manera pública o con usuarios invitados exclusivamente. Esta vista es la vista solo de contenido, que muestra los recursos en cualquiera de los diseños de tarjeta, lista o columna.
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-Sin embargo, los usuarios invitados ven el árbol de carpetas (a partir de la carpeta raíz) y las carpetas compartidas organizadas dentro de sus respectivas carpetas principales en registro en el portal de marca, si los administradores han habilitado [ la configuración de jerarquía ](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) de carpeta.
+Sin embargo, los usuarios invitados ven el árbol de carpetas (a partir de la carpeta raíz) y las carpetas compartidas organizadas dentro de sus respectivas carpetas principales al iniciar sesión en Brand Portal, si los administradores han habilitado [Habilitar la jerarquía de carpetas](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) configuración.
 
 Estas carpetas principales son las carpetas virtuales y no se pueden realizar acciones en ellas. Puede reconocer estas carpetas virtuales con un icono de candado.
 
-No hay tareas de acción visibles al pasar el ratón por encima o seleccionarlas en **[!UICONTROL Vista de tarjeta]**, a diferencia de las carpetas compartidas. **[!UICONTROL Información general]** botón se muestra en la selección de una carpeta virtual en ver ]**de**[!UICONTROL  columna y **[!UICONTROL lista Ver]** .
+No hay tareas de acción visibles al pasar el ratón por encima o seleccionarlas en **[!UICONTROL Vista de tarjeta]**, a diferencia de las carpetas compartidas. **[!UICONTROL Información general]** se muestra al seleccionar una carpeta virtual en **[!UICONTROL Vista de columna]** y **[!UICONTROL Vista de lista]**.
 
 >[!NOTE]
 >
@@ -75,15 +74,15 @@ No hay tareas de acción visibles al pasar el ratón por encima o seleccionarlas
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-**[!UICONTROL Ver opción Configuración]** permite a los usuarios invitados ajustar los tamaños de tarjeta en **[!UICONTROL las columnas ver]** o de la tarjeta para que se muestren en **[!UICONTROL la lista Ver]** .
+**[!UICONTROL Configuración de vista]** permite a los usuarios invitados ajustar el tamaño de las tarjetas en **[!UICONTROL Vista de tarjeta]** o columnas para mostrar en **[!UICONTROL Vista de lista]**.
 
 ![](assets/nav-guest-user.png)
 
-El árbol ]**de**[!UICONTROL  contenido permite desplazarse por activos jerarquía.
+El **[!UICONTROL Árbol de contenido]** permite desplazarse por la jerarquía de recursos.
 
 ![](assets/guest-login-ui.png)
 
-Brand portal ofrece **[!UICONTROL una opción de Resumen]** a los usuarios invitados a vista **[!UICONTROL propiedades]** de recursos de activos/carpetas seleccionadas. La **[!UICONTROL opción Resumen]** es visible:
+Brand Portal proporciona **[!UICONTROL Información general]** opción para que los usuarios invitados la vean **[!UICONTROL Propiedades del recurso]** de recursos o carpetas seleccionados. El **[!UICONTROL Información general]** La opción está visible:
 
 * En la barra de herramientas de la parte superior, al seleccionar un recurso o una carpeta.
 * En la lista desplegable, seleccione el Selector de carril.
@@ -107,7 +106,7 @@ Los usuarios invitados pueden acceder a recursos públicos en Brand Portal y tam
 * Acceda a todas las carpetas públicas y colecciones destinadas a todos los usuarios de Brand Portal.
 * Examine miembros, páginas de detalles y obtenga una vista completa de los recursos de los miembros de todas las carpetas y colecciones públicas.
 * Busque recursos en carpetas y colecciones públicas.
-* Añadir activos en caja de luz colección. Estos cambios en la colección persisten durante la sesión.
+* Añadir recursos a la colección Lightbox. Estos cambios en la colección persisten durante la sesión.
 * Descargue recursos directamente o a través de la colección Lightbox.
 
 **Los usuarios invitados no pueden**:
@@ -137,4 +136,4 @@ Para salir de una sesión de invitado, utilice **[!UICONTROL Finalizar sesión]*
 
 ## Monitorización de actividades de usuarios invitados {#monitoring-guest-user-activities}
 
-Los administradores pueden monitor interacción usuario invitado con el portal de marca. Los informes generados en Brand portal pueden proporcionar información clave sobre las actividades de usuario de huésped. Por ejemplo, **[!UICONTROL se puede utilizar descargar]** Informe para rastrear el recuento de activos descargado por la usuario de invitado. **[!UICONTROL El informe de inicios de sesión]** de usuario puede informar del momento en el que el invitado usuario la última vez que inició sesión en el portal y frecuencia de inicio de sesión en una duración determinada.
+Los administradores pueden monitorizar la interacción de los usuarios invitados con Brand Portal. Los informes generados en Brand Portal pueden proporcionar perspectivas clave sobre las actividades de los usuarios invitados. Por ejemplo, **[!UICONTROL Descargar]** Este informe se puede utilizar para hacer un seguimiento del recuento de recursos descargados por el usuario invitado. **[!UICONTROL Inicios de sesión de usuario]** Este informe puede informar cuándo inició sesión el usuario invitado por última vez en el portal y la frecuencia de inicios de sesión en una duración especificada.
