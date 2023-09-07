@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: b66b8ea6a88dba41380ca94e613e77b3a2c1e253
+source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
 
 # Acceso de invitado a Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal permite el acceso de invitados al portal. Un usuario invitado no necesita credenciales para entrar al portal y tiene acceso a los activos públicos (y colecciones) del portal. Los usuarios en la sesión de invitado pueden añadir recursos a lightbox (colección privada) y descargarlos hasta que la sesión dure o a menos que el usuario invitado elija [[!UICONTROL Finalizar sesión]](#exit-guest-session). Una sesión de usuario invitado permanece activa durante 15 minutos, mientras que el tiempo de espera real del usuario invitado es de 2 horas.
+Experience Manager Assets Brand Portal permite el acceso de invitados al portal. Un usuario invitado no necesita credenciales para entrar al portal y tiene acceso a los activos públicos (y colecciones) del portal. Los usuarios en la sesión de invitado pueden añadir recursos a lightbox (colección privada) y descargarlos hasta que la sesión dure o a menos que el usuario invitado elija [[!UICONTROL Finalizar sesión]](#exit-guest-session). Una sesión de usuario invitado permanece activa durante 15 minutos.
 
 La funcionalidad de acceso de invitado permite a las organizaciones [compartir rápidamente los recursos aprobados](../using/brand-portal-sharing-folders.md#how-to-share-folders) con la audiencia a escala sin tener que incorporarla. Brand Portal 6.4.2 y versiones posteriores están equipadas para atender a varios usuarios invitados simultáneos, lo que representa el 10 % de la cuota total de usuarios por organización. Al permitir el acceso de invitados, se ahorra tiempo para administrar e incorporar puntuaciones de usuarios con funcionalidades limitadas en Brand Portal.\
 Las organizaciones pueden habilitar (o deshabilitar) el acceso de invitados en la cuenta de Brand Portal de la organización mediante **[!UICONTROL Permitir el acceso de invitados]** opción de **[!UICONTROL Acceso]** configuración en el panel herramientas administrativas.
