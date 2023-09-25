@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1325'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ Puede utilizar varios predicados de búsqueda para personalizar la variable **[!
 
 >[!NOTE]
 >
->Experience Manager Assets permite a las organizaciones [publicar los formularios de búsqueda personalizados desde AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) a Brand Portal, en lugar de volver a crear el mismo formulario en Brand Portal.
+>Experience Manager Assets permite a las organizaciones [AEM publicar los formularios de búsqueda personalizados desde el autor de la](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) a Brand Portal, en lugar de volver a crear el mismo formulario en Brand Portal.
 
 ## Añadir un predicado de búsqueda {#add-a-search-predicate}
 
@@ -72,7 +72,7 @@ Para agregar un predicado de búsqueda a **[!UICONTROL Filtros]** panel:
 
    >[!NOTE]
    >
-   >En Brand Portal, todas las propiedades de cadena (excepto las que comienzan por ) `xmp`) en `jcrcontent/metadata` de `dam:asset` están indexados de forma predeterminada.
+   >En Brand Portal, todas las propiedades de cadena (excepto las que comienzan por ) `xmp`) en `jcrcontent/metadata` de `dam:asset` están indexados de forma predeterminada. De forma predeterminada, el resto de propiedades personalizadas de cualquier tipo no están indizadas.
    >
    >Cualquier propiedad que esté indexada puede utilizarse al crear un predicado de propiedad. Si se configura cualquier propiedad no indizada, es posible que la consulta de búsqueda de una propiedad no indizada no proporcione ningún resultado de búsqueda.
 
