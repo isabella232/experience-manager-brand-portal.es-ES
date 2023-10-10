@@ -1,8 +1,8 @@
 ---
 title: Novedades de Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Nuevas funciones y mejoras para la versión 2032.08.0
-seo-description: What are the new features and enhancements for 2023.08.0
+description: Nuevas funciones y mejoras para 2032.10.0
+seo-description: What are the new features and enhancements for 2023.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
+source-git-commit: cdb7b5e3d053dc6181f815cbbd9781e1b271edc4
 workflow-type: tm+mt
-source-wordcount: '6536'
+source-wordcount: '6558'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Novedades de Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios internos de la empresa a través de dispositivos. Ayuda a mejorar la eficacia del uso compartido de recursos, acelera el tiempo de comercialización de los recursos y reduce el riesgo de incumplimiento y acceso no autorizado. El Adobe está trabajando para mejorar la experiencia general de Brand Portal. Aquí tiene un vistazo a las nuevas funciones y mejoras.
+
+## Qué cambió en 2023.10.0 {#what-changed-in-October-2023}
+
+Brand Portal 2023.10.0 es una versión interna que incluye correcciones a problemas críticos. Ver más reciente [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
 
 ## Qué cambió en la versión 2023.08.0 {#what-changed-in-August-2023}
 
@@ -488,7 +492,7 @@ Del mismo modo, se especifica:
 
 ## Cambios en la versión 6.4.3 {#what-changed-in}
 
-La versión 6.4.3 de Brand Portal se centra en: proporciona a las organizaciones un alias alternativo además de su ID de inquilino en la URL de acceso de Brand Portal, la nueva configuración de la jerarquía de carpetas, las mejoras de compatibilidad de vídeo, la publicación programada desde la instancia de autor de AEM a Brand Portal, las mejoras operativas y atiende a las solicitudes de los clientes.
+La versión 6.4.3 de Brand Portal se centra en: proporciona a las organizaciones un alias alternativo además de su ID de inquilino en la URL de acceso de Brand Portal AEM, la nueva configuración de la jerarquía de carpetas, las mejoras de compatibilidad con vídeo, la publicación programada desde la instancia de autor de a Brand Portal, las mejoras operativas y atiende a las solicitudes de los clientes.
 
 ### Navegación de jerarquía de carpetas para no administradores
 
@@ -535,7 +539,7 @@ La búsqueda en estas carpetas devuelve solo los resultados de los recursos que 
 
 ### Compatibilidad con representaciones de vídeo de Dynamic Media
 
-Los usuarios cuya instancia de autor de AEM esté en modo híbrido de Dynamic Media pueden obtener una vista previa de las representaciones de medios dinámicos y descargarlas, además de los archivos de vídeo originales.
+AEM Los usuarios cuya instancia de autor de la esté en el modo híbrido de Dynamic Media pueden obtener una vista previa de las representaciones de medios dinámicos y descargarlas, además de los archivos de vídeo originales.
 
 Para permitir la previsualización y descarga de representaciones de medios dinámicos en cuentas de inquilino específicas, los administradores deben especificar **Configuración de Dynamic Media** (URL del servicio de vídeo (URL de puerta de enlace DM) e ID de registro para recuperar el vídeo dinámico) en **Vídeo** configuración del panel de herramientas de administración.
 
@@ -574,7 +578,7 @@ Las organizaciones pueden personalizar la dirección URL de su portal si tienen 
 Solo se puede personalizar el prefijo de la dirección URL de Brand Portal, y no la dirección URL completa.\
 Por ejemplo, una organización con un dominio existente **geomettrix.brand-portal.adobe.com** puede obtener **geomettrixinc.brand-portal.adobe.com** creado a petición.
 
-Sin embargo, la instancia de autor de AEM puede ser [configurado](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) solo con la URL del id de inquilino y no con la URL del alias de inquilino (alternativa).
+AEM Sin embargo, la instancia de autor de puede ser [configurado](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) solo con la URL del id de inquilino y no con la URL del alias de inquilino (alternativa).
 
 Las organizaciones pueden satisfacer sus necesidades de promoción de la marca personalizando la dirección URL del portal, en lugar de atenerse a la dirección URL proporcionada por el Adobe.
 
@@ -589,7 +593,7 @@ La versión ofrece una experiencia de descarga simplificada con un número reduc
 
 ## Cambios en la versión 6.4.2 {#what-changed-in-1}
 
-La versión 6.4.2 de Brand Portal incorpora una serie de funciones para abordar las necesidades de distribución de recursos de las organizaciones y ayudarlas a llegar a muchos usuarios distribuidos globalmente mediante el acceso de los invitados y una experiencia óptima con descargas aceleradas. Brand Portal también proporciona el bueno control a las organizaciones a través de nuevas configuraciones para los administradores, los informes recién añadidos y las soluciones a las solicitudes de los clientes.
+La versión 6.4.2 de Brand Portal incorpora una serie de funciones para abordar las necesidades de distribución de recursos de las organizaciones y ayudarlas a llegar a muchos usuarios distribuidos globalmente mediante el acceso de los invitados y una experiencia óptima con descargas aceleradas. Brand Portal también proporciona un mayor control a las organizaciones a través de nuevas configuraciones para los administradores, los informes recién añadidos y las soluciones a las solicitudes de los clientes.
 
 ### Acceso de invitado
 
@@ -754,7 +758,7 @@ Los informes de uso ahora se consolidan con otros informes y ahora se pueden ver
 ![](assets/accessassetreport.png)
 
 **Experiencia del usuario mejorada con los informes**
-La interfaz de creación de informes en Brand Portal se ha vuelto más intuitiva y, en buena instancia, proporciona control a las organizaciones. Además de crear varios informes, ahora los administradores pueden volver a acceder a ellos y descargarlos o eliminarlos, ya que se guardan en Brand Portal.
+La interfaz de creación de informes en Brand Portal se ha vuelto más intuitiva y proporciona un mayor control a las organizaciones. Además de crear varios informes, los administradores ahora pueden volver a visitar los informes generados y descargarlos o eliminarlos, ya que estos informes se guardan en Brand Portal.
 
 Cada uno de los informes que se están creando se puede personalizar añadiendo o eliminando columnas predeterminadas. Además, se pueden añadir columnas personalizadas a los informes Descargar, Caducidad y Publicar para controlar su grado de granularidad.
 

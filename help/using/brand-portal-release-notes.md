@@ -1,7 +1,7 @@
 ---
 title: Notas de la versión
 seo-title: Release Notes
-description: Obtenga información sobre las funciones, las mejoras, los problemas críticos, los problemas corregidos y los problemas conocidos de la versión 2023.08.0 de Adobe Experience Manager Assets Brand Portal.
+description: Obtenga información sobre las funciones, las mejoras, los problemas críticos, los problemas corregidos y los problemas conocidos de la versión 2023.10.0 de Adobe Experience Manager Assets Brand Portal.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,34 +10,59 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1312'
 ht-degree: 6%
 
 ---
 
 # Notas de la versión {#release-notes}
 
-Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión 2023.08.0 de Adobe Experience Manager Assets Brand Portal.
+Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión 2023.10.0 de Adobe Experience Manager Assets Brand Portal.
 
 ## Información de la versión {#release-information}
 
 | Producto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versión | 2023.08.0 |
-| Fecha | Agosto de 2023 |
+| Versión | 2023.10.0 |
+| Fecha | Octubre de 2023 |
 
 ## Información general {#overview}
 
 Adobe Experience Manager AEM () Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios internos de la empresa a través de dispositivos. Ayuda a mejorar la eficacia del uso compartido de recursos, acelera el tiempo de salida al mercado de recursos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios examinar, buscar, previsualizar, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y en cualquier lugar.
 
-## Novedades de la versión 2023.08.0 {#whats-new-in-2023.08.0}
+## Novedades de la versión 2023.10.0 {#whats-new-in-2023.10.0}
 
 ### Problemas críticos corregidos {#critical-issues-fixed}
 
-#### Correcciones de errores y mejoras {#bug-fixes-enhancements}
+#### Corrección de errores {#bug-fixes}
 
+Esta versión incluye las siguientes correcciones de errores:
+
+* No se puede guardar [!UICONTROL Fecha] y [!UICONTROL Opciones] predicados a la variable [!UICONTROL Colección inteligente].
+
+* El [!UICONTROL Fecha y hora] El formato no es coherente cuando se trabaja en una configuración regional que no sea el inglés.
+
+* Al realizar la búsqueda de recursos, la variable [!UICONTROL Eliminar] falta el botón.
+
+* Si la variable [!UICONTROL Título] contiene símbolos multibyte en [!UICONTROL Vínculos compartidos]No obstante, el informe no se puede descargar.
+
+* Al ver un documento de tipo PDF, las etiquetas y la información del objeto no están localizadas.
+
+#### Mejoras {#enhancements}
+
+Esta versión incorpora las siguientes mejoras:
+
+* Mejoras de rendimiento al examinar [!UICONTROL Colecciones].
+
+* Cuando realiza una búsqueda parcial utilizando el campo OmniSearch, los resultados no son precisos.
+
+## Versiones anteriores
+
+### Versión de agosto de 2023 {#aug-2023}
+
+**Correcciones de errores y mejoras**
 Esta versión incorpora las siguientes mejoras:
 
 * Mejoras de rendimiento al cargar recursos en [!UICONTROL Descargar] que aparece.
@@ -48,9 +73,6 @@ Esta versión incluye las siguientes correcciones de errores:
 * Las etiquetas largas o las etiquetas no se muestran correctamente en los filtros de búsqueda.
 * No se pueden mostrar los nombres de representación largos en el cuadro de diálogo Descargar.
 * No se pueden previsualizar los recursos de vídeo en la vista de tarjeta.
-
-
-## Versiones anteriores
 
 ### Versión de mayo de 2023 {#may-2023}
 
