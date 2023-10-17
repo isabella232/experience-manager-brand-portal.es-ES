@@ -4,10 +4,10 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Utilice Experience Manager Assets Brand Portal para satisfacer las necesidades de marketing mediante la distribución segura de activos de productos y marcas aprobadas a agencias externas, socios, equipos internos y distribuidores para que puedan descargarlos.
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 08162bdd26983c0362598625e26705addd32975f
+source-git-commit: f8959c00c35ecdb76f94c1f12a81ad7d26cb5724
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 69%
+source-wordcount: '439'
+ht-degree: 65%
 
 ---
 
@@ -25,11 +25,11 @@ Si no hay una solución segura para compartir recursos puede conllevar lo siguie
 * Almacenamiento sin protección de los recursos antes de su lanzamiento
 
 Gracias a Brand Portal, las organizaciones pueden garantizar que la marca cumple la normativa al permitir que los especialistas en marketing colaboren con los partners del canal y los usuarios internos de la empresa para crear, administrar y distribuir rápidamente las instrucciones de diseño, los logotipos, las campañas y los recursos de productos más recientes a los interesados.
-Brand Portal es una oferta de SAAS basada en la nube. Está disponible como complemento del producto Adobe Experience Manager Assets (versión local o servicio administrado).
+Brand Portal es una oferta de SAAS basada en la nube. Está disponible como complemento del producto Adobe Experience Manager Assets (versión local o servicio administrado). Puede utilizar Brand Portal con [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service]. Una [configurado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=es), puede publicar recursos aprobados desde [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] instancia a [!DNL Brand Portal] y distribuirlos a los usuarios de Brand Portal.
 
 En la siguiente imagen, aparece la solución del flujo de trabajo de Brand Portal.
 
-![](assets/BPWorkflow1.png)
+![Flujo de trabajo de Brand Portal](assets/BPWorkflow1.png)
 
 ## Guía del usuario de Adobe Experience Manager Brand Portal
 
