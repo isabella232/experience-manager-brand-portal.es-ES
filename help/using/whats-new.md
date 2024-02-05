@@ -1,8 +1,8 @@
 ---
 title: Novedades de Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Nuevas funciones y mejoras para 2023.10.0
-seo-description: What are the new features and enhancements for 2023.10.0
+description: Nuevas funciones y mejoras para la versión 2024.02.0
+seo-description: What are the new features and enhancements for 2024.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
+source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
 workflow-type: tm+mt
-source-wordcount: '6558'
-ht-degree: 2%
+source-wordcount: '6616'
+ht-degree: 1%
 
 ---
 
 # Novedades de Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios internos de la empresa a través de dispositivos. Ayuda a mejorar la eficacia del uso compartido de recursos, acelera el tiempo de comercialización de los recursos y reduce el riesgo de incumplimiento y acceso no autorizado. El Adobe está trabajando para mejorar la experiencia general de Brand Portal. Aquí tiene un vistazo a las nuevas funciones y mejoras.
+
+## Qué cambió en 2024.02.0 {#what-changed-in-February-2024}
+
+Brand Portal 2024.02.0 es una versión interna que incluye correcciones a problemas críticos. Ver más reciente [Notas de la versión de Brand Portal](brand-portal-release-notes.md).
 
 ## Qué cambió en 2023.10.0 {#what-changed-in-October-2023}
 
@@ -47,7 +51,7 @@ Brand Portal 2022.08.0 es una versión interna que incluye correcciones a proble
 
 ## Qué cambió en 2022.05.0 {#what-changed-in-May-2022}
 
-Brand Portal ahora ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal que se publican en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral. También puede controlar el estado de los trabajos de eliminación ejecutados automáticamente mediante el **[!UICONTROL Herramientas]** > **[!UICONTROL Estado de contribución de recursos]** > **[!UICONTROL Informes de eliminación]** en Brand Portal. El informe de un trabajo proporciona los siguientes detalles:
+Ahora, Brand Portal ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal AEM que se publican en el sitio de trabajo de la aplicación de la aplicación de la aplicación de la manera más sencilla. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral. También puede controlar el estado de los trabajos de eliminación ejecutados automáticamente mediante el **[!UICONTROL Herramientas]** > **[!UICONTROL Estado de contribución de recursos]** > **[!UICONTROL Informes de eliminación]** en Brand Portal. El informe de un trabajo proporciona los siguientes detalles:
 
 * Hora de inicio del trabajo
 * Hora de finalización del trabajo
@@ -244,7 +248,7 @@ Desde el **[!UICONTROL Descargar]** , los usuarios pueden:
 * Excluya las representaciones de los recursos que no sean necesarios para la descarga.
 * Aplique el mismo conjunto de representaciones a todos los tipos de recursos similares con un solo clic.
 * Aplicar diferentes conjuntos de representaciones para diferentes tipos de recursos.
-* Crear una carpeta independiente para cada recurso.
+* Cree una carpeta independiente para cada recurso.
 * Descargar los recursos seleccionados y sus representaciones.
 
 El flujo de trabajo de descarga permanece constante para los recursos independientes, varios recursos, las carpetas que contienen recursos, los recursos con o sin licencia y la descarga de recursos mediante un vínculo compartido. Consulte [pasos para descargar recursos de Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
@@ -393,7 +397,7 @@ Los pasos para configurar AEM Assets con Brand Portal AEM varían en función de
 * AEM 6.4.8.0 and above
 * AEM 6.3.3.8 and above -->
 
-| **Versión de AEM** | **Nueva configuración** | **Actualizar configuración** |
+| **AEM Versión de** | **Nueva configuración** | **Actualizar configuración** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM.5 (6.5.4.0 y superior)** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Actualizar configuración](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |

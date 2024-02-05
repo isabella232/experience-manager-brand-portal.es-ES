@@ -1,8 +1,8 @@
 ---
 title: Notas de la versión
 seo-title: Release Notes
-description: Obtenga información sobre las funciones, las mejoras, los problemas críticos, los problemas corregidos y los problemas conocidos de la versión 2023.10.0 de Adobe Experience Manager Assets Brand Portal.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+description: Obtenga información sobre las funciones, las mejoras, los problemas críticos, los problemas solucionados y los problemas conocidos de la versión 2024.02.0 de Adobe Experience Manager Assets Brand Portal.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
+source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 6%
+source-wordcount: '1475'
+ht-degree: 3%
 
 ---
 
 # Notas de la versión {#release-notes}
 
-Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión 2023.10.0 de Adobe Experience Manager Assets Brand Portal.
+Obtenga información sobre las nuevas funciones, mejoras, problemas críticos corregidos y problemas conocidos de la versión 2024.02.0 de Adobe Experience Manager Assets Brand Portal.
 
 ## Información de la versión {#release-information}
 
 | Producto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versión | 2023.10.0 |
-| Fecha | Octubre de 2023 |
+| Versión | 2024.02.0 |
+| Fecha | Febrero de 2024 |
 
 ## Información general {#overview}
 
 Adobe Experience Manager AEM () Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios internos de la empresa a través de dispositivos. Ayuda a mejorar la eficacia del uso compartido de recursos, acelera el tiempo de salida al mercado de recursos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios examinar, buscar, previsualizar, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y en cualquier lugar.
 
-## Novedades de la versión 2023.10.0 {#whats-new-in-2023.10.0}
+## Novedades de la versión 2024.02.0 {#whats-new-in-2024.02.0}
 
 ### Problemas críticos corregidos {#critical-issues-fixed}
 
 #### Corrección de errores {#bug-fixes}
+
+Esta versión incluye las siguientes correcciones de errores:
+
+* No se pueden descargar recursos digitales protegidos por DRM en la configuración regional turca.
+
+* No se pueden abrir ni descargar los informes existentes que contienen recursos con título multilínea.
+
+* Al descargar recursos mediante [!UICONTROL Descargar] de la barra de acciones, se descargan un máximo de 1000 recursos.
+
+* Nombre incorrecto de los recursos de tipo PSD al verlos en el árbol de contenido.
+
+* [!UICONTROL Eliminar representación] La opción de la página de detalles del recurso no funciona.
+
+* Título y tamaño de recursos desalineados en la ventana emergente de descarga.
+
+* No se pueden cargar carpetas en una vista de tarjeta si se cambia de la vista de árbol.
+
+* Incluso si la variable [!UICONTROL Descarga rápida] está habilitado en la [!UICONTROL Configuración de descarga] tanto para los editores como para los administradores, los inquilinos específicos no pueden descargar los recursos caducados.
+
+* El error de interfaz de usuario no está localizado al crear un informe cuando no están seleccionadas todas las casillas de verificación.
+
+* Al crear un informe, las etiquetas no están localizadas.
+
+* Los administradores de asistencia se denominaban como administradores en Brand Portal.
+
+## Versiones anteriores
+
+### Versión de octubre de 2023 {#oct-2023}
+
+**Correcciones de errores y mejoras**
+Esta versión incorpora las siguientes mejoras:
+
+* Mejoras de rendimiento al examinar [!UICONTROL Colecciones].
+
+* Mejoras en los resultados de búsqueda mientras se realiza una búsqueda parcial utilizando el campo OmniSearch.
 
 Esta versión incluye las siguientes correcciones de errores:
 
@@ -49,16 +84,6 @@ Esta versión incluye las siguientes correcciones de errores:
 * Si la variable [!UICONTROL Título] contiene símbolos multibyte en [!UICONTROL Vínculos compartidos]No obstante, el informe no se puede descargar.
 
 * Al ver un documento de tipo PDF, las etiquetas y la información del objeto no están localizadas.
-
-#### Mejoras {#enhancements}
-
-Esta versión incorpora las siguientes mejoras:
-
-* Mejoras de rendimiento al examinar [!UICONTROL Colecciones].
-
-* Mejoras en los resultados de búsqueda mientras se realiza una búsqueda parcial utilizando el campo OmniSearch.
-
-## Versiones anteriores
 
 ### Versión de agosto de 2023 {#aug-2023}
 
@@ -150,11 +175,11 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 * Al hacer clic en **Descargar todos los elementos** y hay un gran número de representaciones disponibles para un recurso, Brand Portal descarga un archivo .ZIP no válido.
 * La traducción de algunas cadenas se trunca en la interfaz de usuario de Brand Portal.
 
-### Lanzamiento de mayo de 2022 {#may-2022}
+### Versión de mayo de 2022 {#may-2022}
 
 **Nuevas funciones**
 
-Brand Portal ahora ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal que se publican en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral.
+Ahora, Brand Portal ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal AEM que se publican en el sitio de trabajo de la aplicación de la aplicación de la aplicación de la manera más sencilla. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral.
 
 **Problemas críticos corregidos**
 
