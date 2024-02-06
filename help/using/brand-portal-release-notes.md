@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -41,25 +41,12 @@ Adobe Experience Manager AEM () Assets Brand Portal le ayuda a adquirir, control
 Esta versión incluye las siguientes correcciones de errores:
 
 * No se pueden descargar recursos digitales protegidos por DRM en la configuración regional turca.
-
 * No se pueden abrir ni descargar los informes existentes que contienen recursos con título multilínea.
-
 * Al descargar recursos mediante [!UICONTROL Descargar] de la barra de acciones, se descargan un máximo de 1000 recursos.
-
 * Nombre incorrecto de los recursos de tipo PSD al verlos en el árbol de contenido.
-
 * [!UICONTROL Eliminar representación] La opción de la página de detalles del recurso no funciona.
-
 * Título y tamaño de recursos desalineados en la ventana emergente de descarga.
-
-* No se pueden cargar carpetas en una vista de tarjeta si se cambia de la vista de árbol.
-
-* Incluso si la variable [!UICONTROL Descarga rápida] está habilitado en la [!UICONTROL Configuración de descarga] tanto para los editores como para los administradores, los inquilinos específicos no pueden descargar los recursos caducados.
-
-* El error de interfaz de usuario no está localizado al crear un informe cuando no están seleccionadas todas las casillas de verificación.
-
 * Al crear un informe, las etiquetas no están localizadas.
-
 * Los administradores de asistencia se denominaban como administradores en Brand Portal.
 
 ## Versiones anteriores
